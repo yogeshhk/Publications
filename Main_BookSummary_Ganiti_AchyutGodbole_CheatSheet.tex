@@ -1,0 +1,29 @@
+\input{template_cheatsheet_3columns}
+
+\usepackage{beamerarticle} % makes slides into article
+\usepackage{tikz-qtree}
+
+\mode<article>{ % frame number in frametitle
+    \renewcommand{\frametitle}[1]{\subsubsection*{[\insertframenumber] #1 }}
+}
+\begin{document}
+\raggedright
+\footnotesize
+
+
+\begin{center}
+     \Large{\textbf{Ganiti (Mathematicians) by Achyut Godbole}}  % Change Title
+%     \rule{\linewidth}{0.25pt}
+\end{center}
+
+
+\begin{multicols}{3}
+\input{BookSummary_Ganiti_AchyutGodbole_Slides}
+\end{multicols}
+
+\rule{\linewidth}{0.25pt}
+\scriptsize
+Copyleft \textcopyleft\  Send suggestions to 
+\href{http://www.yogeshkulkarni.com}{yogeshkulkarni@yahoo.com}
+
+\end{document}
