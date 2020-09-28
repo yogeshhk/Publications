@@ -1,6 +1,12 @@
 \documentclass[xcolor=dvipsnames,compress,t,pdf]{beamer}
 \input{template_presentation}
 
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+\setotherlanguage{marathi}
+\newfontfamily\marathifontsf[Script=Devanagari]{Nakula}
+
+
 \title[\hspace{4cm} \insertframenumber /\inserttotalframenumber]
 {Gems from Thinkers \ldots}  
 \date[2020]{\today} 
@@ -10,13 +16,10 @@
 \begin{frame}
 \titlepage
 \end{frame}
-
-
-\input{TalksArticlesSummary_ShaneParrish_content}
-\input{TalksArticlesSummary_NassimTaleb_content}
-\input{TalksArticlesSummary_NavalRavikant_content}
+\input{TalksArticlesSummary_content}
 \begin{frame}[c]{}
 Thanks ...
+
 \vspace{5mm}
 yogeshkulkarni@yahoo.com
 \end{frame}
