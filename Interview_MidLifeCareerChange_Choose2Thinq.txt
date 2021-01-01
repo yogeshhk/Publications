@@ -1,0 +1,136 @@
+IKIGAI (what you love to do, want to do, world needs and can get paid for)
+
+The Why of the Switch
+
+		Tell us about the motivation behind the switch?
+		
+			- AIML was unplanned, planned switch, at my 40, for PhD
+			- Multiple reasons: highest degree, Dr behind my name, some method on my name, formally teach later, if not now then when
+
+			- Discovered AIML during the course of the research 
+			- Motivation: pursue up coming field 
+
+		What was your decision-making process like?
+			- Started part-time, for course work, with job in autodesk but then full-time
+			- Joined COEP as research center under Dr Anil Sahasrabudhe and Dr Mukund Kale PhD IITB
+		  - Lit survey in the first year
+			- Unless you do it full time, you wont get it.
+			- Talked with my boss during the first year, 6 months before..that next semester I will be out.
+			- Planned management arrangement. 
+			- Devoted fully, 4 year break
+			- Good international publications, so that even if you do it from Pune, its (somewhat) at par not just domestically but internationally, 5 intl journal papers, 5 local/conf papers.
+			- "One of the best work in my 25 years" is what Defense examiner from IIT bombay said.
+			- Moment to truth, dawned upon me
+			- While studying defeaturing came across a paper
+			- Saw enormous potential, when both inputs and outputs are fed
+			- Thought this has so much potential over traditional methods, decided to switch
+			- cut the umbilical cord
+
+		Family reactions? Reactions from colleagues/peers?
+			- Doing Phd came naturally to friends and family. PhD Material!!
+			- Doing it part-time also
+			- But leaving job for it needed some talking both at home and office
+			- Kids were young, wife supported it fully. Parents were apprehensive at start but later were very supportive.
+			- Dropping everything at the (relative) peak of career is probably, Sanyas
+			- Kids were happy, I was going to be at home for 4 years
+
+		Did you make any plans around finances etc.
+			- Not much, except that basic savings were there
+			- Wife had job, so thought we can easily sail through, and that happened.
+
+		What gave you the confidence to make the switch?
+			- Being technical, still hands-on, no issues getting work anywhere
+			- Good network, even starting on my own was possible
+			- Financially stable.
+			- There was just no downside if by any chance phd does not happen.
+			- I could always join back. All big 4 companies in CAD are in Pune, have friends there.
+
+		How did your mathematical foundations help? Was getting into data sciences a natural progression from the areas you were in?
+			- Not a natural progression.
+			- I was actually away from data, the databases. I was only in geometry.
+			- I had to learn ETL, SQL on the data side
+			- The machine learning part, mathematics/algorithms came a bit naturally, I guess
+			- In NLP, the linguistic part also somehow came naturally to me...as i have flair, for learning languages
+
+The How & What of the Switch
+
+		Did you have an overall plan of how to go about the next 5-7 years after quitting?
+		- Plan was for PhD, not for AI ML
+		- But once decided to go for it, then tasks wise plan, not duration
+		- First learn Data side, then courses, then do freelancing (actually free in money sense also) then land up in job
+
+		Your Ph.D work was in geometric modeling, but later you moved into data sciences. How did you start to collect experience & credentials in that area?
+		- Did courses. Did projects. Kaggle. Wrote blogs for Analytics Vidhya. 
+		- Citizen science projects : Satark, all open source, building Portfolio on Github
+		- Worked for free for friends, real life project experience is a must
+
+		You've done a lot of teaching, in your alma mater, online, and in community groups. How has that helped?
+		- Was teaching at Coep from 2 dacades, but only a few topics, curves, surfaces, and solid modeling.
+		- Wanted to teach : if i understand a thing well I can explain with metaphor-examples. Then folks ask (sometimes irritating) questions, but that gives opportunity to understand better, update material. On guy at coep asked why unsupervised learning is called Machine Learning? Speaker, trainer, TensorFlow Meetup organizer, GDE ML
+			
+		- Teaching is good way of learning
+		- For AIML, opportunity came, which doing my friends place where I was doing freelancing
+		- Actually there, apart from work, I started teaching python and machine learning to two freshers.
+		- My material got built, then corporate training request came
+		- DId quiet a few of that later
+
+		Mindset: what is different about working in data sciences, compared to your earlier domain?
+		- Diametrically opposite
+		- You decide the logic, surface offset, mathematical equations, the algorithm, failure collapses, post processing.
+			approximations are there. Tolerance is key. Two lines are touching, but within tolerance. Floating point.
+		- ML, input and outputs are given, process is sort of a black box, you can change architecture, more of Heuristics. Results are probabilistic.
+		- Vectors, Matrices and Calculus are common themes, not much of statistic in CAD
+
+		Skillset: For someone looking to make a switch, what are the 2-3 timeless skills related to ML/AI they should focus on?
+		- Data: ETL, SQL, Databases
+		- Maths: Linear Algebra, Calculus and Statistic and probability
+		- Programming: Python
+		- Can be domain agnostic or domain specific work 
+
+		Toolset: platforms, tools, prog. languages to take up
+		- Scikit Learn with Python
+		- Tensorflow for Deep Learning
+
+		Let's say someone has 3-5 years of experience in tech and wants to switch to Data Sciences. What would be a good path for someone to take?
+		- Learning paths at AV 2017 1 year, mostly free resources
+
+		...and what about managers?
+		- Visual tools, KNIME, Rapid Miner
+		- AutoML
+		- Domain understanding, AI awareness, Explanbility and Story telling
+
+Being a Learner; using Social Media
+
+		You are a prolific learner. How do you make time?
+		- early riser, 7 to 4 are core hours of working..
+		- evening 1/2 hrs or weekends
+		- Not on facebook, on twitter readonly, on LinkedIn fully
+
+		Top recommended data-science courses for techies and non-techies
+		- Like Taleb said, whats good for you I dont know, but I will reveal my portfolio of stocks
+		- AV article is good
+		- Coursera, Edx, Udacity and Udemy, Data camp
+		- NPTel
+
+		Looking ahead, what are some areas in AI that you are keeping an eye out for?
+		- Text mining for knowledge graphs
+		- AutoML, low/no code platforms, commodity
+		- Healthcare and geonmics
+		- Explanable Responsible Ethical AI
+
+Recommendations
+
+		Books, courses, podcasts you like
+		- Self-help: Zen habits Leo Babauta
+		- Tech: Master Algorithm Pedro Domingos
+		- Non tech: marathi, off-late S L Bhairappa, Narhar Kurundkar, Dasbodh postal course
+		- People I follow: Naval Ravikant, Sam Harris, Sadguru Jaggi vasudeo
+		- Will start with incerto soon
+
+		Communities you recommend
+		- meetup.com
+		- Pune runners
+		- Urban Sketchers
+
+		Where people can find you online
+		- LinkedIn, type yogesh kulkarni cad in google or linkedin
