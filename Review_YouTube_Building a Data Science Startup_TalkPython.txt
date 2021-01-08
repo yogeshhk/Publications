@@ -1,0 +1,16 @@
+Jottings:
+- Theme: Building a Data Science Startup
+- Why startup? Sick of academics (writing proposals!!)
+- Decide Plan B as its Scary/Risky to start company and failure hurts
+- Need to be right most times. Fallout of wrong decision should be bearable.
+- Do only one thing than do consultancy to get cash and build products in parallel
+- Cannot go without making money for long. Profit is best KPI.
+- Side business not making money is Hobby.
+- Open source == Business?:
+   - 50-50 (some open, some commercial)
+	 - 100 open source makes invesor employees nervous.
+	 - Core open source, allied services or support paid.
+- New areas/ideas: 
+	- ML Ops (PoC->Product)
+	- Toy pipelines (Quick full demo)
+	- Service integration (eg. spaCy + Coiled)
