@@ -1,0 +1,54 @@
+krutrim buddimattecha pralay
+
+[800-850 words: Specific to AI boon/bane, not about Internet, Automation, Social Media as such although at some places they overlap to an extent.]
+
+terror outfits from Pakistan have started sending weapons and cash via drones. No need to send terrorists as it is not only risky but very challenging dur to terrain and military presence.
+Even in civilian life, drones are getting used in normal package delivery.
+
+What is AI:
+	If machines/software/computer starts doing same thing what humans consider as intelligent, then that is called as AI. Examples; playing chess, doing transnational, driving a car, detecting faces etc
+	
+	kaay hote aahe?
+	data deluge, AI can handle data well, leverage it, build patterns for predictions.
+
+Applications of AI:
+	kothe vaparale jaat aahe: every day applications.
+
+Need for AI:
+	AI chi garaj: it is humanly impossible to read or consume huge amount of data coming daily. No one cannot be expert. Eg.  can laywer go through thousands of judgments getting delivered everyy day and then reference them in his/her own case? Can a researchers study thousands of papers getting published and check for duplicate and build on top.
+	Can HR person go through thousands of resume/applications coming daily?
+	We have NO choice but to use AI.
+ 
+AI Limitations:
+	sadhyachi limitations: specific vs general AI, but more data more accuracy, widespread applications. can not do creativity, culture, emotions, care etc. recommendation engines are pretty premitive, you can see the choices of videos recommended at youtube, books at amazon or pdocust at flipkart. Sometme it feels that they are getting it wrong or may be they are promoting something.
+
+	AI needs lots of data and correct data. Humans need not. Just by looking at once a child can recognize whether this animal is a dog or a cat, whereas AI program needs to see millions of images.
+	
+Industries/roles getting affected:
+	shodh | karmachari
+	------------------
+	driver-less car | drivers
+	drones delivery | delivery people
+	Automatic assessment | teachers/examiners
+	Chatbot | front desk, customer care
+	Resume assessment| HR
+	Machine Translation| Translators
+	Scan detection | Radiologist/doctors
+
+Social unrest:
+	questions emerged specific to developing countries like India vs a vis Developed America:
+	Ameriket thik asel ho, tethe manasech nahit kamala, pan bharata sarakhya deshanceh kaay, thethe haatala kaam ahi, tar asah shodhanche kaay honar.... shevati dawrin cha utranticha niayamach te tharavel... konachi sarashi honara, ya shodhanchi ki mansanchaya skills chi. sarakar tyat dhodya far pramanat akshep gheun ai che negative feects thambavanaya prayatn karel but ya ai chaya fayadhyanceya pralaya pudhe te kiti ticket mahit nahi...
+	
+	Legal issue: if driver-less car hits someone, who is to be blamed? computer software? or the programmers who wrote them? or places from where the data was gathered?
+	
+	Data can bring bias, racism, in equality and lacks Explanability. Unless quantified and present in data, it can not consider cultural nuances, traditions of the regions, etc.
+	
+	"jashi khaN tashi mati"
+	
+
+Is it controllable? : 
+	meaning is data access controllable, some regulations HIPPA, GDPR, but to get the service, data will be asked. Knowingly or unknowingly, if you are doing online transactions, its likely that your transactions details are getting collected and used for building AI.
+	Can governments or anyone stop or change direction?:If things can be quantified, collected as data, AI can be there, but if not...say creative fields, novel research, care, emotions, its going to be very hard for AI to come close to humans.
+	
+How to adapt?: If you cant fight, join them!! 
+yaa pralayat modun padayache ka tycha vegacaha vaaparkkarun ajun jomane pudhe jayache the apalya haatat aahe
