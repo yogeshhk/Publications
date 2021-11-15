@@ -14,6 +14,17 @@
 
 
 ## Notes
+- Why Complexity is Diﬀerent - Yaneer Bar-Yam
+	- Separation of Scale: Consider the earth viewed from space. The earth is highly complex. Still, we can describe it as a planet orbiting the sun in a predictable fashion. Most of the details of what happens on Earth play no role at the scale of its orbit. We can choose Macro scale here. This is simple system.
+	
+	![Inclined Block](images/inclinedblock.png)
+	
+	-  Consider a ﬂock of birds. Need to study each of they separately if they were flying in different direction, but with average motion if they were flying gin same direction. However, for study of movement as a ﬂock, describing each bird’s motion would be too much information and describing the average would be too little information. We need both as the study needs both aspects.
+	- Calculus assumes that matter is smooth and statistics assumes that averages over large numbers of objects are well defined. These are true in zone
+		away from the critical area, since the microscopic behavior of atoms is well separated from the macroscopic behavior of the material as a whole. Different parts of the material appear essentially the same, making it smooth, and any (local) average over atomic properties has a single well defined number. 
+	- In critical area, renormalization group is performed for determining which parameters describing the interaction are important and which are not.
+“Relevant” parameters are those parameters of the free energy that increase with scale; “irrelevant” parameters are those that decrease with scale.
+	
 - Eli Sopow BDCON Youtube on Organization Development
 	- Start with broad goals
 	- Minimum specifications
