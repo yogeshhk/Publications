@@ -43,17 +43,28 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 
 ## Follow
 - [Doug Neil](https://www.verbaltovisual.com/)
-- [Anuj Magazine](https://www.linkedin.com/in/anujmagazine/)
-- [Tanmay Vora](https://qaspire.com/)
+- [Anuj Magazine](https://www.linkedin.com/in/anujmagazine/) Clean Style
+- [Tanmay Vora](https://qaspire.com/) Clean Style
 - [Kumar Ahir](https://www.kumarahir.com/sketchnotes.html)
 - [Mike Rohde](http://rohdesign.com)
 - [Dan Roam](https://www.danroam.com/)
 
 "I am not looking for success, but, for Wonder!!"
 
-## Sources
-- AI Newsletters/blogs: Google AI
-- AI podcasts: TwiML, Lex Fridman
+## Sources/Topics to work on
+- Newsletters/blogs: 
+	- [Google AI](https://ai.googleblog.com/)
+	- [Derek Sivers Articles](https://sive.rs/blog)
+	- [Paul Graham Essays](http://www.paulgraham.com/articles.html)
+	- [Shane Perish Farnam Street](https://fs.blog/best-articles/)
+- Podcasts: 
+	- [Kapil Gupta](https://www.youtube.com/playlist?app=desktop&list=PLDBZgkgeoMJgbuTJJRcp_zX3ZUXIOVctV)
+	- [Lex Fridman](https://www.youtube.com/c/lexfridman/videos)
+	- [Tim Ferris](https://www.youtube.com/c/timferriss)
+	- [Shane Perish Knowledge Project](https://fs.blog/knowledge-project-podcast/)
+- Books: 
+	- [Almanac Naval Ravikant](https://www.navalmanack.com/)
+	- [Derek Sivers Book Reviews](https://sive.rs/book)
 
 ## References
 - [Doodles-as-A-Service Repo ](https://github.com/girliemac/a-picture-is-worth-a-1000-words) Algorithms, Machine Learning, Git Purr - Git Explained with Cats!, Live Sketchnotes from Conferences and Classes
