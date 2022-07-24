@@ -1,7 +1,8 @@
-# Visual Summary
-Sketchnotes for Podcasts, Books, Talks, etc.
+# Publication
 
-One page summary, effective for audio (podcasts) and linear mediums like videos. At times good for random access mediums like articles or books also. 
+Book summaries in presentation/cheetsheet formats, Newspaper articles, Sketchnotes for Podcasts, Books, Talks, etc.
+
+Latest indulgence: Visual Summaries: Sketchnotes: One page summary, effective for audio (podcasts) and linear mediums like videos. At times good for random access mediums like articles or books also. 
 
 ## Why Sketchnotes?
 
