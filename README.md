@@ -1,4 +1,4 @@
-# Publication
+# Publications
 
 Book summaries in presentation/cheetsheet formats, Newspaper articles, Sketchnotes for Podcasts, Books, Talks, etc.
 
