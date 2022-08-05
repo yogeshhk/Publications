@@ -2,6 +2,8 @@
 
 Latest indulgence: Visual Summaries: Sketchnotes: One page summary, effective for audio (podcasts) and linear mediums like videos. At times good for random access mediums like articles or books also. 
 
+Plausible Role: [Research Communicator](https://www.researchretold.com/research-communication-opportunities/), Explainer, [Distiller -Chirs Olah](https://distill.pub/)
+
 ## Why Sketchnotes?
 
 - Information overload
