@@ -52,6 +52,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 "I am not looking for success, but, for Wonder!!"
 
 ## Sources/Topics to work on
+- My own summaries in github:Publications
 - Newsletters/blogs: 
 	- [Google AI](https://ai.googleblog.com/)
 	- [Derek Sivers Articles](https://sive.rs/blog)
