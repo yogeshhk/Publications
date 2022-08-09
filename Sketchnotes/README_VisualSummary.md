@@ -66,6 +66,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - Books: 
 	- [Almanac Naval Ravikant](https://www.navalmanack.com/)
 	- [Derek Sivers Book Reviews](https://sive.rs/book)
+	- [Visual Doing by Willemien Brand](https://www.youtube.com/watch?v=_kR7Gw0vVLE)
 
 ## References
 - [Doodles-as-A-Service Repo ](https://github.com/girliemac/a-picture-is-worth-a-1000-words) Algorithms, Machine Learning, Git Purr - Git Explained with Cats!, Live Sketchnotes from Conferences and Classes
