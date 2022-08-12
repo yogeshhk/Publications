@@ -1,4 +1,6 @@
-# Visual Summary
+# Visual Summary (Sketchnotes)
+
+Sketchnote is an abstraction, figuring out whats important and then mapping to appropriate symbolism, as a gist in a single page.
 
 Latest indulgence: Visual Summaries: Sketchnotes: One page summary, effective for audio (podcasts) and linear mediums like videos. At times good for random access mediums like articles or books also. 
 
@@ -77,7 +79,17 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Visual ML Notes](https://github.com/visual-ml-notes/visual-machine-learning-notes)
 - [Felizia Bernutz](https://fbernutz.github.io/sketchnotes/)
 - [Script 19 conference sketchnotes](https://wolfgang-ziegler.com/blog/script19-sketchnotes)
-
+- [Sketchnoting 101: Drawing as a Communication Tool, A course by Scriberia, Visual Thinking Agency](https://www.domestika.org/en/courses/1986-sketchnoting-101-drawing-as-a-communication-tool/units/11013-starting-to-think-visually)
+	- Why Make Visual Notes? 
+		- Drawing is decision making, what to keep, modify, remove. Need clarify and understanding of the topic
+		- For students, a structural mapping hierarchies, retention tool
+		- Involves different senses and faculties of brain
+	- Commandments of drawing
+		- Save Money: any paper, any pen, or finger in beach sand!! If $$$, then iPad + Pro-Create. Its not pen, but thinking
+		- Concentrate: listen, understand then you can decide what to keep and symbolize
+		- Embrace your imperfections, they are your signature. "Style is the difference between a circle and the way you draw it. –Pablo Picasso"
+		- Work like an Egyptian: No 3D, no perspective, but just plain flat. Draw less, keep simple.
+		- Commit to the mark: bold, not hairy lines. Clarity and Confidence.
 
 <!-- 
 ## Ideal Role
