@@ -56,19 +56,19 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 ## Sources/Topics to work on
 - My own summaries in github:Publications
 - Newsletters/blogs: 
-	- [Google AI](https://ai.googleblog.com/)
 	- [Derek Sivers Articles](https://sive.rs/blog)
 	- [Paul Graham Essays](http://www.paulgraham.com/articles.html)
 	- [Shane Perish Farnam Street](https://fs.blog/best-articles/)
+	- [Morgan Housel Collaborative Fund](https://www.collaborativefund.com/blog/)
 - Podcasts: 
-	- [Kapil Gupta](https://www.youtube.com/playlist?app=desktop&list=PLDBZgkgeoMJgbuTJJRcp_zX3ZUXIOVctV)
 	- [Lex Fridman](https://www.youtube.com/c/lexfridman/videos)
 	- [Tim Ferris](https://www.youtube.com/c/timferriss)
 	- [Shane Perish Knowledge Project](https://fs.blog/knowledge-project-podcast/)
+	- [Simblified](https://podcasts.google.com/feed/aHR0cHM6Ly9zdGF0aWMuYWRvcmlsYWJzLmNvbS9mZWVkL3NpbWJsaWZpZWQueG1s)
 - Books: 
 	- [Almanac Naval Ravikant](https://www.navalmanack.com/)
 	- [Derek Sivers Book Reviews](https://sive.rs/book)
-	- [Visual Doing by Willemien Brand](https://www.youtube.com/watch?v=_kR7Gw0vVLE)
+	- [My own book summaries](https://github.com/yogeshhk/Publications)
 
 ## References
 - [Doodles-as-A-Service Repo ](https://github.com/girliemac/a-picture-is-worth-a-1000-words) Algorithms, Machine Learning, Git Purr - Git Explained with Cats!, Live Sketchnotes from Conferences and Classes
