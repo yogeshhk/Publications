@@ -1,4 +1,4 @@
-# Visual Summary (Sketchnotes)
+# Visual Summary (Sketchnotes - नवनीत दर्शन)
 
 Sketchnote is an abstraction, figuring out whats important and then mapping to appropriate symbolism, as a gist in a single page.
 
@@ -6,13 +6,18 @@ Latest indulgence: Visual Summaries: Sketchnotes: One page summary, effective fo
 
 Plausible Role: [Research Communicator](https://www.researchretold.com/research-communication-opportunities/), Explainer, [Distiller -Chirs Olah](https://distill.pub/)
 
-## Why Sketchnotes?
+## Why Sketchnotes? 
+
+What problem are you solving? Purpose?
 
 - Information overload
 - Less time & attention
 - Need ready & fun gist
 
 So, 3 Ss: Simplify, Subtract & Summarize
+
+नवनीत: eternally-new/butter(summary-सार, अमृत)
+दर्शन: sight, enlightened visual manifestation
 
 Podcasts (or videos or talks and to an extent even books or blogs) are black-boxes. You don't get anything unless you go through them fully. There is no preview-trailer of what's coming, wasting our time in case the topic is not interesting to you. Even if it is interesting, you many not have time to go through all that story-built-up or flamboyance (all-that-jazz) to get the core idea. One pager Summary gives much desired quick and concise overview. Just a text summary can be boring, so adding fun-pictures helps retention and interest.
 
@@ -86,7 +91,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Felizia Bernutz](https://fbernutz.github.io/sketchnotes/)
 - [Script 19 conference sketchnotes](https://wolfgang-ziegler.com/blog/script19-sketchnotes)
 - [Sketchnoting 101: Drawing as a Communication Tool, A course by Scriberia, Visual Thinking Agency](https://www.domestika.org/en/courses/1986-sketchnoting-101-drawing-as-a-communication-tool/units/11013-starting-to-think-visually)
-	- Why Make Visual Notes? 
+	- Why make Visual Notes? 
 		- Drawing is decision making, what to keep, modify, remove. Need clarify and understanding of the topic
 		- For students, a structural mapping hierarchies, retention tool
 		- Involves different senses and faculties of brain
