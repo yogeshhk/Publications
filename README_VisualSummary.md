@@ -50,6 +50,12 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Kumar Ahir](https://www.kumarahir.com/sketchnotes.html)
 - [Mike Rohde](http://rohdesign.com)
 - [Dan Roam](https://www.danroam.com/)
+- [Sunni Brown](https://www.sunnibrown.com/)
+- [Ink Factory](https://inkfactorystudio.com/blog/defining-graphic-recording-visual-notes/)
+- [Image Think](https://www.imagethink.net/)
+- [RogueMark Studios](https://www.roguemarkstudios.com/graphicrecording)
+- [Drawing Change](https://drawingchange.com/)
+- [The Sketch Effect](http://www.thesketcheffect.com)
 
 "I am not looking for success, but, for Wonder!!"
 
