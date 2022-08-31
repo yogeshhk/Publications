@@ -5,27 +5,32 @@ Blockchain is a shared, immutable ledger that facilitates the process of recordi
 Basically, a distributed network with a shared memory
 
 ## Me? 
-- Why: Quantum jump, any XYA is earning $$$$, a must for medical/secure data
+- Why: Quantum jump, any XYZ is earning $$$$, a must for medical/secure data
 - How: become expert by hands-on, talking with local folks, teaching, doodles series
 - What: Prep EVM (!NFT, no JS/Web3) and/or DAO, prep remote global service/research
 - Doodle: concepts, a bit commercial w target as Polygon tech (Dev Advocate)
 
 ## Skills?
 - Hyperledger: Fabric/INDY/Sawtooth/Aries
-- Ethereum, Solidity, DiFi 
+- Ethereum, Solidity (Remix IDE), DiFi, Ganache - HardHat
 - with "machine learning"?:
 - Crypotography: bulletproofs, IOPs, KZG-based schemes
+- Modes:
+	- Core: C/C++, gloang, Rust
+	- App (DApp): Blockchain->Smart Contract (logic/code)->FrontEnd <-> Wallet (has Private Key): HTML, JS, React
+		- DeFi: Uniswap, Compound
+		- NFT: assests, memberships, OpenSea
 
 ## Follow
-- [Polygon](/)
-- [DApp University]()
-- [Etherium Foundation]()
+- [Polygon](https://polygon.technology/)
+- [DApp University](https://www.youtube.com/c/DappUniversity)
+- [Ethereum Foundation](https://www.youtube.com/c/EthereumFoundation)
 
 
 "I am not looking for success, but, for Wonder!!"
 
 ## References
-- How to become a Web3 Developer (End Goal - Get a Job or start a Web3 Startup) Harpalsinh Jadeja (@harpaljadeja11 on twitter)
+- [How to become a Web3 Developer](https://www.youtube.com/watch?v=q54j35z3fPQ) (End Goal - Get a Job or start a Web3 Startup) Harpalsinh Jadeja (@harpaljadeja11 on twitter)
 	- Skills from Web2 that will help.
 		- Typescript, NextJS, Chakra UI, Material UI, Testing.
 		- Core computer concepts (operating systems, networking) and problem solving skills are fundamental and required no matter web2 or web3.
@@ -43,18 +48,18 @@ Basically, a distributed network with a shared memory
 		- Best place to start [CryptoZombies](https://cryptozombies.io/).
 		- Reading habit is recommended as most of the good tutorials are in text not in video format.
 		- Other Resources:
-			- Beginner Level
-					- [Eattheblocks Youtube](https://www.youtube.com/watch?v=p3C7jljTXaA&list=PLbbtODcOYIoE0D6fschNU4rqtGFRpk3ea)
-					- [Smart Contract Programmer Youtube](https://www.youtube.com/watch?v=hMwdd664_iw&list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz)
-					- [DApp University Youtube](https://www.youtube.com/c/DappUniversity/playlists)
-					- [Solidity by Example (text based tutorial)](https://solidity-by-example.org/)
-			- Intermediate Level
-					- [Solidity Docs](https://docs.soliditylang.org/en/v0.8.10/)
-					- Read other people’s code.
-			- Expert Level
-					- [Ethereum Docs](https://ethereum.org/en/developers/docs/)
-					- [Secureum](https://www.youtube.com/c/SecureumVideos)
-					- Mastering Ethereum - Gavin Wood
+				- Beginner Level
+						- [Eattheblocks Youtube](https://www.youtube.com/watch?v=p3C7jljTXaA&list=PLbbtODcOYIoE0D6fschNU4rqtGFRpk3ea)
+						- [Smart Contract Programmer Youtube](https://www.youtube.com/watch?v=hMwdd664_iw&list=PLO5VPQH6OWdULDcret0S0EYQ7YcKzrigz)
+						- [DApp University Youtube](https://www.youtube.com/c/DappUniversity/playlists)
+						- [Solidity by Example (text based tutorial)](https://solidity-by-example.org/)
+				- Intermediate Level
+						- [Solidity Docs](https://docs.soliditylang.org/en/v0.8.10/)
+						- Read other people’s code.
+				- Expert Level
+						- [Ethereum Docs](https://ethereum.org/en/developers/docs/)
+						- [Secureum](https://www.youtube.com/c/SecureumVideos)
+						- Mastering Ethereum - Gavin Wood
 
 	- [Etherscan](https://etherscan.io/) (Blockchain Explorer)
 		- This is the blockchain explorer. You might think this is basic but there is a lot to learn here. A lot of people don't know how to read the transactions.
