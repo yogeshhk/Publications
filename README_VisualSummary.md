@@ -61,6 +61,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [RogueMark Studios](https://www.roguemarkstudios.com/graphicrecording)
 - [Drawing Change](https://drawingchange.com/)
 - [The Sketch Effect](http://www.thesketcheffect.com)
+- [Graphic Recording by LadyFingers](http://www.ladyfingersco.com/graphic-recording/)
 
 "I am not looking for success, but, for Wonder!!"
 
