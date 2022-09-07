@@ -1,8 +1,6 @@
 # Blockchain
 
-Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network.
-
-Basically, a distributed network with a shared memory
+Block-chain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. Basically, a distributed network with a shared memory
 
 ## Me? 
 - Why: Quantum jump, any XYZ is earning $$$$, a must for medical/secure data
@@ -12,23 +10,16 @@ Basically, a distributed network with a shared memory
 
 ## Skills?
 - Hyperledger: Fabric/INDY/Sawtooth/Aries
-- Ethereum, Solidity (Remix IDE), DiFi, Ganache - HardHat
-- with "machine learning"?:
-- Crypotography: bulletproofs, IOPs, KZG-based schemes
-- Privacy:
+- Stack: Ethereum, Solidity (Remix IDE), DiFi, Ganache - HardHat
+- Security:
 	- Secure Multi-party Computation,
 	- Fully Homomorphic Encryption,
 	- Zero-Knowledge Proofs
-- Scaling technologies: 
-	- rollups, zero knowledge proofs, fraud proofs, data availability, sequencers, etc.
-	- Data availability - offchain data committee, restaking validators (e.g. EigenLayer), modular DA (Celestia)
-	- Sequencer - decentralization through BFT consensus, Raft leader election committee
-	- Fraud proofs - interactive fraud proof, offchain notary	
-- Modes:
-	- Core: C/C++, gloang, Rust
-	- App (DApp): Blockchain->Smart Contract (logic/code)->FrontEnd <-> Wallet (has Private Key): HTML, JS, React
-		- DeFi: Uniswap, Compound
-		- NFT: assests, memberships, OpenSea
+
+## Zero Knowledge Proof (ZKP)
+- Validate data without exposing it.
+- Imp for data security, authentication
+- Maths-New Tech Teach, $$$, Part II
 
 ## Follow
 - [Polygon](https://polygon.technology/)
@@ -39,6 +30,11 @@ Basically, a distributed network with a shared memory
 "I am not looking for success, but, for Wonder!!"
 
 ## References
+- [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- [A General Introduction to Modern Cryptography - Josh Benaloh, Senior Cryptographer, Microsoft](https://www.youtube.com/watch?v=_Rf15nDic24)
+	- Kerckhoffs's Principle (1883): The security of crypto-system should depend on the key. Meaning, even attacher knows all about the system, except the key.
+	
+	
 - [How to become a Web3 Developer](https://www.youtube.com/watch?v=q54j35z3fPQ) (End Goal - Get a Job or start a Web3 Startup) Harpalsinh Jadeja (@harpaljadeja11 on twitter)
 	- Skills from Web2 that will help.
 		- Typescript, NextJS, Chakra UI, Material UI, Testing.
@@ -306,40 +302,3 @@ some computation and receive the resulting output without ever exposing any part
 			- Alice receives Bob’s message '1305'
 			- She decrypts it with the saved private key, d, say 331, so (n = 2173, d = 331). 
 			- So Alice decrypts the message like: 	plaintext = cyphertext^d mod n = 1305^331 mod 2173 = '101'
-		
-		
-		
-	
-	
-<!-- 
-## Ideal Role
-- Role: Explainer, coach, dev adv
-- Scope: Intl, Intellectual, remote
-- Sp Know: Data Sciences (Blockchain/AI) ie latest tech with Art (combo)
-
-## Why me?
-- Yogesh -> Yoga + ish 
-- Yoga -> yuj, join/combo
-- My yuj: Tech/Blockchain AIML + Art 
-- unique, rare & untrainable
-- specific knowledge, ikigai
-- left and right brain, yin yan
-- INFJ Advocate, teacher
-- 50+ Crystal Intelligence
-- Sketch + painting background
-- Teach, synthesize, serve
-- Unique & Rare (B diff & Better)
-- Need fun for understanding ML
-- Strength: Summarization & simplification
-- Freedom, Fame, Fortune? (its ok)
-
-## IKIGAI
-  - Like: ML/Blockchain + Art, individual, remote
-  - Good at : Teaching + Drawing, Tech
-  - World needs: Fun 1 pager Summary for quick consumption
-  - Pays: Range, Clarity, Classes-for-Masses, Wow!! effect
-
-## Principles
-- आपणासी जे जे ठावे ते ते दुसऱ्यासी सांगावे शहाणे करून सोडावे सकळ जन.
-- अभ्यासे प्रगट व्हावे। नाहीतरी झाकोनि असावे। प्रगट होऊनि नासावे। हे बरे नव्हे।। (‘दासबोध’ १७-७-३८)
- -->
