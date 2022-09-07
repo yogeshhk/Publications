@@ -5,7 +5,7 @@ Block-chain is a shared, immutable ledger that facilitates the process of record
 ## Me? 
 - Why: Quantum jump, any XYZ is earning $$$$, a must for medical/secure data
 - How: become expert by hands-on, talking with local folks, teaching, doodles series
-- What: Prep EVM (!NFT, no JS/Web3) and/or DAO, prep remote global service/research
+- What: No Web3/Dao/DeFi/Abit-Altcoin, but blockchain/Crypto-theory), be certified
 - Doodle: concepts, a bit commercial w target as Polygon tech (Dev Advocate)
 
 ## Skills?
@@ -20,21 +20,22 @@ Block-chain is a shared, immutable ledger that facilitates the process of record
 - Validate data without exposing it.
 - Imp for data security, authentication
 - Maths-New Tech Teach, $$$, Part II
+- [Awesome zero knowledge proofs (zkp)](https://github.com/matter-labs/awesome-zero-knowledge-proofs)
 
 ## Follow
 - [Polygon](https://polygon.technology/)
 - [DApp University](https://www.youtube.com/c/DappUniversity)
 - [Ethereum Foundation](https://www.youtube.com/c/EthereumFoundation)
 
-
-"I am not looking for success, but, for Wonder!!"
-
 ## References
 - [But how does bitcoin actually work?](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - [A General Introduction to Modern Cryptography - Josh Benaloh, Senior Cryptographer, Microsoft](https://www.youtube.com/watch?v=_Rf15nDic24)
 	- Kerckhoffs's Principle (1883): The security of crypto-system should depend on the key. Meaning, even attacher knows all about the system, except the key.
-	
-	
+- [But how does bitcoin actually work? - 3Blue1Brown](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
+- [Fundamentals Webinar 2020 - Blockchain at Berkeley](https://www.youtube.com/playlist?list=PLSONl1AVlZNWzsyZfhd9yDJRuGv3WPBck)
+- [Blockchain Fundamentals Fall 2021 - Blockchain at Berkeley](https://www.youtube.com/playlist?list=PLSONl1AVlZNWoeYjazuvIVTeX7rxBtDNh)
+- [MIT 15.S12 Blockchain and Money, Fall 2018 - MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn)
+- [MIT MAS.S62 Cryptocurrency Engineering and Design, Spring 2018 - MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP61KHzhg3JIJdK08JLSlcLId)
 - [How to become a Web3 Developer](https://www.youtube.com/watch?v=q54j35z3fPQ) (End Goal - Get a Job or start a Web3 Startup) Harpalsinh Jadeja (@harpaljadeja11 on twitter)
 	- Skills from Web2 that will help.
 		- Typescript, NextJS, Chakra UI, Material UI, Testing.
