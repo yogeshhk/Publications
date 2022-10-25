@@ -1,6 +1,6 @@
 # Publications
 
-My Newspaper articles, Sketchnotes for Podcasts, Books Summaries, Talks Notes, etc.
+My newspaper articles, sketchnotes, book summaries, talks notes, etc.
 
-These days, expanding on Sketchnotes these days, [here](./README_VisualSummary.md) 
+These days, expanding on Sketchnotes [here](./README_VisualSummary.md) 
 
