@@ -64,6 +64,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Graphic Recording by LadyFingers](http://www.ladyfingersco.com/graphic-recording/)
 - [}getabstract](https://www.getabstract.com/en/) 15-minute summaries [We Believe in Progress Through Knowledge](https://www.youtube.com/watch?v=LE6ysJzBEuY)
 - [Scriberia](https://www.scriberia.com/) Graphic Recording, Visualizing Thinking
+- [Sketchnoting Dev](https://sketchnoting.dev/sketchnotes/)  Lara Martín and Miguel Beltran, the goal of sharing knowledge via visual note-taking.
 
 "I am not looking for success, but, for Wonder!!"
 
