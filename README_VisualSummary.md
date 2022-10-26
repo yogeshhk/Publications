@@ -62,6 +62,8 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Drawing Change](https://drawingchange.com/)
 - [The Sketch Effect](http://www.thesketcheffect.com)
 - [Graphic Recording by LadyFingers](http://www.ladyfingersco.com/graphic-recording/)
+- [}getabstract](https://www.getabstract.com/en/) 15-minute summaries [We Believe in Progress Through Knowledge](https://www.youtube.com/watch?v=LE6ysJzBEuY)
+- [Scriberia](https://www.scriberia.com/) Graphic Recording, Visualizing Thinking
 
 "I am not looking for success, but, for Wonder!!"
 
@@ -77,6 +79,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 	- [Tim Ferris](https://www.youtube.com/c/timferriss)
 	- [Shane Perish Knowledge Project](https://fs.blog/knowledge-project-podcast/)
 	- [Simblified](https://podcasts.google.com/feed/aHR0cHM6Ly9zdGF0aWMuYWRvcmlsYWJzLmNvbS9mZWVkL3NpbWJsaWZpZWQueG1s)
+	- [Think Bank](https://www.youtube.com/c/ThinkBankLive), technical, career, health, etc. H V Sardesai Series, Post in English, article to have English summary notes, sketchnote mostly graphical but rest, Marathi
 - Books: 
 	- [Almanac Naval Ravikant](https://www.navalmanack.com/)
 	- [Derek Sivers Book Reviews](https://sive.rs/book)
