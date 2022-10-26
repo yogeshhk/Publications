@@ -51,7 +51,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 ## Follow
 - [Doug Neil](https://www.verbaltovisual.com/)
 - [Anuj Magazine](https://www.linkedin.com/in/anujmagazine/) Clean Style
-- [Tanmay Vora](https://qaspire.com/) Clean Style
+- [Tanmay Vora](https://qaspire.com/) Clean Style, [QASpire](https://qaspire.com/sketchnotes/)  Graphical Recording and Sketchnotes
 - [Kumar Ahir](https://www.kumarahir.com/sketchnotes.html)
 - [Mike Rohde](http://rohdesign.com)
 - [Dan Roam](https://www.danroam.com/)
