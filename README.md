@@ -4,3 +4,18 @@ My newspaper articles, sketchnotes, book summaries, talks notes, etc.
 
 These days, expanding on Sketchnotes [here](./README_VisualSummary.md) 
 
+## How
+
+Currently its all LinkedIn posts, articles, backed-up here in Github repo.
+
+Later, may plan to go for monetization options. Here is a quick review so far ...
+
+| Platform  | Type       | Writing charges | Promotion | Payment share        | Payment in India    |
+| --------- | ---------- | --------------- | --------- | -------------------- | ------------------- |
+| LinkedIn  | Articles   | None            | Algorithm | None                 | None                |
+| Substack  | Newsletter | None            | None      | 10%                  | stripe not in India |
+| Medium    | Articles   | None            | Yes       | Reading time, ok-ish | stripe not in India |
+| Wordpress | Website    | Hosting charges | None      | Adsense              | Paypal, Debit card  |
+| Patreon		| Newsletter | None					   | None      | ??              			| ??                  |
+
+Conclusion: Wait for Medium Partner Program to be functional via Stripe or anyone-else.
