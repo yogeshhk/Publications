@@ -17,5 +17,5 @@ Later, may plan to go for monetization options. Here is a quick review so far ..
 | Medium    | Articles   | None            | Yes       | Reading time, ok-ish | stripe not in India |
 | Wordpress | Website    | Hosting charges | None      | Adsense              | Paypal, Debit card  |
 | Patreon		| Newsletter | None					   | None      | ??              			| ??                  |
+| Hubpages  | 700 w blogs| None            | Yes, ads  | Views, ok-ish 				| Paypal in India     |
 
-Conclusion: Wait for Medium Partner Program to be functional via Stripe or anyone-else.
