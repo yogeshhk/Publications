@@ -1,4 +1,4 @@
-# Visual Summary (Sketchnotes - नवनीत दर्शन)
+# Visual Summary (Sketchnotes - नवनीत दर्शन, भावार्थ दीपिका )
 
 Sketchnote is an abstraction, figuring out whats important and then mapping to appropriate symbolism, as a gist in a single page.
 
@@ -16,8 +16,8 @@ What problem are you solving? Purpose?
 
 So, 3 Ss: Simplify, Subtract & Summarize
 
-नवनीत: eternally-new/butter(summary-सार, अमृत)
-दर्शन: sight, enlightened visual manifestation
+नवनीत: eternally-new/butter(summary-सार, भावार्थ, अमृत)
+दर्शन: sight, enlightened visual manifestation (दीपिका)
 
 Podcasts (or videos or talks and to an extent even books or blogs) are black-boxes. You don't get anything unless you go through them fully. There is no preview-trailer of what's coming, wasting our time in case the topic is not interesting to you. Even if it is interesting, you many not have time to go through all that story-built-up or flamboyance (all-that-jazz) to get the core idea. One pager Summary gives much desired quick and concise overview. Just a text summary can be boring, so adding fun-pictures helps retention and interest.
 
@@ -30,8 +30,8 @@ One caution though, as always a quote from Einstein: Make things simple but not 
 - Portrait mode like info-graphics, colorful
 - Authors' cartoons at top and my email below
 - Scan, upload to github, get permlink for addition to video comments
-- LinkedIn article w my witty title, nature pixabay, explanations, scan and refs
-- Share it as a LinkedIn post with hashtags, @ handles for refs & source authors
+- Medium article w my witty title, nature pixabay-Unsplash, text-summary as initial content, scan and refs
+- Share the medium article in LinkedIn post with some intro, hashtags, @ handles for refs & source authors
 
 Although extremely convenient for editing, storing and sharing, avoiding digital sketchnotes for now. So no Ipad Pro with an Apple pen. Wish to keep it analog.
 
@@ -49,6 +49,7 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 | 4      | -     | Paper | Cant edit/correct    |
 
 ## Follow
+- [Yalda Shankar](https://yaldashankar.org/index.html)
 - [Doug Neil](https://www.verbaltovisual.com/)
 - [Anuj Magazine](https://www.linkedin.com/in/anujmagazine/) Clean Style
 - [Tanmay Vora](https://qaspire.com/) Clean Style, [QASpire](https://qaspire.com/sketchnotes/)  Graphical Recording and Sketchnotes
@@ -66,10 +67,11 @@ Although extremely convenient for editing, storing and sharing, avoiding digital
 - [Scriberia](https://www.scriberia.com/) Graphic Recording, Visualizing Thinking
 - [Sketchnoting Dev](https://sketchnoting.dev/sketchnotes/)  Lara Martín and Miguel Beltran, the goal of sharing knowledge via visual note-taking.
 
-"I am not looking for success, but, for Wonder!!"
+
+For me: Fame-Freedom, Ikigai, "I am not looking for success, but, for Wonder!!", the WoW!!
 
 ## Sources/Topics to work on
-- My own summaries in github:Publications
+- My own reviews-summaries in github:Publications
 - Newsletters/blogs: 
 	- [Derek Sivers Articles](https://sive.rs/blog)
 	- [Paul Graham Essays](http://www.paulgraham.com/articles.html)
