@@ -1,3 +1,9 @@
+Summary of “Building a Data Science Startup”
+YouTube channel: ‘Talk Python’
+
+Original Source: 
+Talk Python: Building a Data Science Startup (YouTube https://www.youtube.com/watch?v=xV-asqgKaL4, 1 hr 12 minutes )
+
 Jottings:
 - Theme: Building a Data Science Startup
 - Why startup? Sick of academics (writing proposals!!)
@@ -14,3 +20,6 @@ Jottings:
 	- ML Ops (PoC->Product)
 	- Toy pipelines (Quick full demo)
 	- Service integration (eg. spaCy + Coiled)
+	
+	
+The above summary was also posted in the Comments section of the original Youtube video.
