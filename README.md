@@ -2,8 +2,7 @@
 
 My newspaper articles, sketchnotes, book summaries, talks notes, etc.
 
-These days, expanding on Sketchnotes [here](./README_VisualSummary.md) 
-
+<!-- 
 ## How
 
 Currently its all LinkedIn posts, articles, backed-up here in Github repo.
@@ -19,3 +18,4 @@ Later, may plan to go for monetization options. Here is a quick review so far ..
 | Patreon		| Newsletter | None					   | None      | ??              			| ??                  |
 | Hubpages  | 700 w blogs| None            | Yes, ads  | Views, ok-ish 				| Paypal in India     |
 
+ -->
