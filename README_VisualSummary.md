@@ -24,14 +24,15 @@ Podcasts (or videos or talks and to an extent even books or blogs) are black-box
 One caution though, as always a quote from Einstein: Make things simple but not simpler!! Try not to have very art-y, too much colorful, cluttered-spaghetti sketchnote, but clean sparingly arty and a bit colorful with a clear path or structure to read.  Examples: not fan of [a](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-seth-godin-stop-stealing-dreams.jpg), [b](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-7.jpg),[c](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-6.jpg), [d](https://www.flickr.com/photos/makaylalewis/48371566661/in/dateposted/), but fine with [a](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-9.jpg),[b](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-4.jpg),[c](https://www.teachthought.com/wp-content/uploads/2013/05/graphic-notes-2.jpg) and these are better [a](https://www.linkedin.com/posts/kumarahir_cisco-people-learning-activity-6936649710954766336-3iC7?utm_source=linkedin_share&utm_medium=member_desktop_web), [b](https://kumarahir.medium.com/sketchnote-designing-ar-applications-google-i-o-2019-140d75ede700)
 
 ## Process
+- Watch video/podcasts, 1 hrs +
 - Go through source, take text notes
 - Capture ideas, core concepts, quotes
-- Add sketches, containers, arrows, colors.
-- Portrait mode like info-graphics, colorful
-- Authors' cartoons at top and my email below
-- Scan, upload to github, get permlink for addition to video comments
-- Medium article w my witty title, nature pixabay-Unsplash, text-summary as initial content, scan and refs
-- Share the medium article in LinkedIn post with some intro, hashtags, @ handles for refs & source authors
+- Post them in comments Utube, and save in repo
+- Prep Sketchnote w - Authors' cartoons at top and my email below
+- Scan, store in repo, upload in LinkedIn post with @s of authers and #s and intro text, but no text summary and no Medium article link
+- Medium article w my witty title, nature pixabay-Unsplash, text-summary as initial content, sketchnote, add refs links and my interview link at the end, 
+- Add #summary #sketchnote #future #advice as tabs and submit it to ILLUMNICATIN videos and Podcast, save pdf in repo
+- Share the medium article in LinkedIn post as a 2nd comment
 
 Although extremely convenient for editing, storing and sharing, avoiding digital sketchnotes for now. So no Ipad Pro with an Apple pen. Wish to keep it analog.
 
