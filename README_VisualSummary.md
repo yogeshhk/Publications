@@ -33,6 +33,7 @@ One caution though, as always a quote from Einstein: Make things simple but not 
 - Medium article w my witty title, nature pixabay-Unsplash, text-summary as initial content, sketchnote, add refs links and my interview link at the end, 
 - Add #summary #sketchnote #future #advice as tabs and submit it to ILLUMNICATIN videos and Podcast, save pdf in repo
 - Share the medium article in LinkedIn post as a 2nd comment
+- Add LinkedIn post and reader count to advocu if applicable
 
 Although extremely convenient for editing, storing and sharing, avoiding digital sketchnotes for now. So no Ipad Pro with an Apple pen. Wish to keep it analog.
 
