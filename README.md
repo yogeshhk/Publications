@@ -1,6 +1,6 @@
 # Publications
 
-My newspaper articles, sketch-notes, book summaries, talks notes, etc.
+My newspaper articles, [sketch-notes](./README_SketchNotes.md), book summaries, talks notes, etc.
 
 <!-- 
 ## How

@@ -1,4 +1,6 @@
-# Visual Summary (Sketchnotes - नवनीत दर्शन, भावार्थ दीपिका )
+# Sketchnotes
+
+## Visual Summary (नवनीत दर्शन, भावार्थ दीपिका, सारचित्र )
 
 Sketchnote is an abstraction, figuring out whats important and then mapping to appropriate symbolism, as a gist in a single page.
 
