@@ -1,0 +1,18 @@
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+\portraitpage
+%%%
+\setlength{\topmargin}{-0.61in}
+\setlength{\textwidth}{7.0 in}	%was 8 before
+\setlength{\textheight}{10.75 in}
+\linespread{0.4}
+\newfont{\mdvng}{dvng10 at 14.4 pt}%14.6 before
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\begin{document}
+\begin{verse}
+\parskip3pt
+\hrule height 0.4pt
+##
+{\obeyspaceslines
+\parindent=0.7in	%good

@@ -1,0 +1,52 @@
+\documentstyle[11pt,multicol,itrans]{article}
+#include=ijag.inc
+\portraitpage
+%%%
+\setlength{\topmargin}{-0.61in}
+\setlength{\textwidth}{7.0 in}	%was 8 before
+\setlength{\textheight}{10.75 in}
+\linespread{0.4}
+\newfont{\mdvng}{dvng10 at 14.4 pt}%14.6 before
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\begin{document}
+\begin{verse}
+\parskip3pt
+\hrule height 0.4pt
+##
+{\obeyspaceslines
+\parindent=0.7in	%good
+
+.. uThii shriiraamaa ..
+
+
+gaayikaa, aashaa bhosale
+giit, ravi.ndra bhaT
+sa.ngiit, sudhiir phaDake
+chitrapaT, te maajhe ghar
+
+
+uThii shriiraamaa pahaaT jhalii puurv dishaa umalalii.
+ubhii gheunii kalash dudhaachaa kausalyaa maa_uulii .. dR^i{\rm.} ..
+
+homagR^ihii yaa R^ishhimuni.nche saamaved ra.ngale.
+goshaLetun kaalavaDii.nche dugdhapaan sa.npale.
+ma.ndiraatale bhaaT chaalale gaa_un bhuupaaLii .. 1 ..
+
+kaal darpaNii cha.ndra jaa_unii suma.nt gele gR^ihaa.
+tyaach darpaNii aaj raaghavaa suuryoday haa pahaa.
+vasishhTha munivar gheun gele pujaapaatra raa_uuLii .. 2 ..
+
+raajama.ndirii daasii aalyaa ratnadiip vijhaviNyaa.
+uTh raajasaa puurvadishechaa suvarNayadnya paahaNyaa.
+charaacharaalaa ji.nkun gheNyaa aruNaprabhaa ujaLalii .. 3 ..
+}
+##
+\end{verse}
+##
+\vskip3.5in
+\rightline{\LARGEdvng{shatataarakaa}}
+\smallskip
+##
+\hrule height 0.4pt
+\end{document}

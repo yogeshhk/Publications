@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PMML version="4.2.1" xmlns="http://www.dmg.org/PMML-4_2">
+	<Header copyright="Yogesh Kulkarni" description="Input Model for Tensorflow">
+		<Timestamp>2017-05-29 09:33:59.170790</Timestamp>
+	</Header>
+	<MiningBuildTask>
+        <Extension>&lt;?xml version="1.0" encoding="iso-8859-15" ?&gt;
+            <DataMining>
+                <MiningTask>
+                    <MiningData name="training_set" filename="data/iris_training.csv"/>
+                    <MiningData name="test_set" filename="data/iris_test.csv"/>
+                </MiningTask>
+            </DataMining>
+        </Extension>
+	</MiningBuildTask>
+    <NeuralNetwork learning_rate="0.1" num_epochs="10000" regularization_strength ="0.1"  hidden_layer_size="10">
+        <NeuralLayer function="relu"/>
+        <NeuralLayer function="softmax_cross_entropy_with_logits"/>
+    </NeuralNetwork>
+</PMML>

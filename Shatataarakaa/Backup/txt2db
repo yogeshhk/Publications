@@ -1,0 +1,142 @@
+#!/usr/sbin/perl -w
+
+use strict;
+
+#----------------------------------------------------------------
+#	Globals (Customization)
+#----------------------------------------------------------------
+my $oldtxtinputfile = "gani.txt";
+my $newtxtdbfile = "gani.db";
+my $songlistfile = "marathialphabetslists.txt";
+
+
+
+#----------------------------------------------------------------
+sub PrintFileDebug {
+
+	my $filename = shift(@_);
+	my $i=0;
+
+	open (INPUT, $filename) or die "Can't open data file: $!";
+
+	while (<INPUT>) {
+		chomp;                  # remove newline
+		my @fields = split(/\|/, $_);
+		my $len = @fields;
+		print "\n------NumFields = $len ------------------------\n";
+		for ($i=0;$i<@fields;$i++) {
+			 print "\[ $fields[$i] \] \t";
+		}
+		print "\n--------------------------------------------------\n";
+	}
+
+	close INPUT;
+}
+
+#----------------------------------------------------------------
+
+sub ConvertOld2NewDb {
+
+	my $oldfilename = $_[0];
+	my $newfilename = $_[1];
+	my $namelist	 = $_[2];
+	
+	my $key;
+	my $itx_file_location;	# itrans source file
+	my $ps_file_location;
+	my $gif_file_location;
+	my $xdvng_file_location;
+	my $music_file_location;
+	my $song_name;
+	my $singers;
+	my $writers;
+	my $music_director;
+	my $raag;
+	my $category;
+	my $contributer;
+	my $rating;
+	my $dummy1;
+	my $dummy2;
+	my $dummy3;
+	my $dummy4;
+
+	my $keyid = 0;
+
+	my $marathiname;
+	my @songnames = {};
+	open (MAR, "<$namelist") or die "Can't open data file: $!";
+	@songnames = <MAR>;
+	close MAR;
+
+
+	open (IN, "<$oldfilename") or die "Can't open data file: $!";
+	open (OUT, ">$newfilename") or die "Can't open data file: $!";
+
+	while (<IN>) {
+		chomp;                  # remove newline
+		my @fields 	= split(/\|/, $_);
+
+		$marathiname			= $songnames[$keyid];
+		chomp $marathiname;
+
+		$key						= ++$keyid;
+		$itx_file_location 	= "itx/$marathiname.itx";	# itrans source file
+		$ps_file_location 	= "ps/$marathiname.ps";
+		$gif_file_location 	= "gif/$marathiname.gif";
+		$xdvng_file_location = "";
+		$music_file_location = "";
+		$song_name 				= $fields[2];
+		$singers 				= $fields[3];
+		$writers 				= $fields[4];
+		$music_director 		= $fields[5];
+		$raag 					= "Unknown";
+		$category 				= "Film";
+
+		if ($fields[6] ) {
+			$contributer 		= $fields[6];
+		}
+		else {
+			$contributer = "Sachin";
+		}
+
+		$rating 					= "0";
+		$dummy1 					= "";
+		$dummy2 					= "";
+		$dummy3 					= "";
+		$dummy4 					= "";
+
+		print "song_name = $song_name\n";
+		#print "singers = $singers\n";
+		#print "writers = $writers\n";
+		#print "music_director = $music_director\n";
+		#print "contributer = $contributer\n";
+		print "\n--------------------------------------------------\n";
+
+		#print OUT "$key |";
+		print OUT "$marathiname |";
+		print OUT "$itx_file_location |";	# itrans source file
+		print OUT "$ps_file_location |";
+		print OUT "$gif_file_location |";
+		print OUT "$xdvng_file_location |";
+		print OUT "$music_file_location |";
+		print OUT "$song_name |";
+		print OUT "$singers |";
+		print OUT "$writers |";
+		print OUT "$music_director |";
+		print OUT "$raag |";
+		print OUT "$category |";
+		print OUT "$contributer |";
+		print OUT "$rating |";
+		print OUT "$dummy1 |";
+		print OUT "$dummy2 |";
+		print OUT "$dummy3 |";
+		print OUT "$dummy4 \n";
+	}
+	close IN;
+	close OUT;
+}
+
+#----------------------------------------------------------------
+#PrintFileDebug($oldtxtinputfile);
+ConvertOld2NewDb($oldtxtinputfile,$newtxtdbfile,$songlistfile);
+#PrintFileDebug($newtxtdbfile);

@@ -1,0 +1,66 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+
+.. saa.nj ye gokuLii.n ..
+
+
+gaayikaa, aashaa bhosale
+giit, sudhiir moghe
+sa.ngiit, shriidhar phaDake
+
+
+saa.nj ye gokuLii.n{\rm,} saa.nvaLii saa.nvaLii
+saa.nvaLyaachii jaNuu.n saaulii .. dhR^i\. ..
+
+dhuuL uDaviit gaa_ii nighaalyaa
+shyaam ra.ngaa.nt vaaTaa buDaalyaa
+paratatii tyaa.nsave.n
+paakharaa.nche thave
+pail gha.nTaa ghume raauLii.n .. 1 ..
+
+parvataa.nchii dise duur raa.ng
+kaajaLaachii jaNuu.n daaT regh
+hoi Dohaa.ntale.n
+chaa.ndaNe.n saa.nvaLe.n
+bho.nvatii.n saa.nvaLyaa chaahulii .. 2 ..
+
+maaulii saa.nj a.ndhaar paanhaa
+vishva saare.n jaNuu.n hoy kaanhaa
+ma.nd vaaRyaavarii
+vaahate baa.nsarii
+amR^itaachyaa jaNuu.n o.njaLii .. 3 ..
+
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+

@@ -1,0 +1,53 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. piik karapala.n ..
+
+gaayaka, ravi.ndra saaThe
+giit, naa dho mahaanor
+sa.ngiit, hR^idayanaath ma.ngeshakar
+
+
+piik karapala.n{\rm,} pakshii duura deshii gela.n{\rm,}
+gaLaNaaryaa jhaaDaa.nsaaThii{\rm,} mana otha.nbala .. dhR^i\. ..
+
+veDhuun neNaarii rityaa nabhii vaatuuL{\rm,}
+aasama.nta veTaaLuun kaaLajaachii kaLa 
+
+duHkha pelaNyaa yevaDha baLa naahii Dolaa{\rm,}
+kaDuu kaalavaNaavaanii bhaaraavalaa gaLaa
+kovalyaa garbhaalaa jalmaaaadhii vanavaasa 
+ho maalavalaa diis{\rm,} maalavalaa diis
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+

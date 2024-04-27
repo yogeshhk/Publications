@@ -1,0 +1,8563 @@
+From MAILER-DAEMON Thu Oct  5 07:54:20 2000
+Date: 05 Oct 2000 07:54:20 -0400
+From: Mail System Internal Data <MAILER-DAEMON@Glue.umd.edu>
+Subject: DON'T DELETE THIS MESSAGE -- FOLDER INTERNAL DATA
+Message-ID: <970746860@Glue.umd.edu>
+X-IMAP: 0968804815 0000000103
+Status: RO
+
+This text is part of the internal format of your mail folder, and is not
+a real message.  It is created automatically by the mail system software.
+If deleted, important folder data will be lost, and it will be re-created
+with the data reset to initial values.
+
+From statake@Glue.umd.edu Sat Sep 16 10:46:15 2000 -0400
+Date: Sat, 16 Sep 2000 10:46:15 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@downlink.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - shrI
+Message-ID: <Pine.GSO.4.21.0009161043450.1734-100000@downlink.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-ID: <Pine.GSO.4.21.0009161043452.1734@downlink.eng.umd.edu>
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 2
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. shrIrAma jaya rAma jayajaya rAma ..
+
+
+gAyaka, aruN dAte
+
+
+avirata oThI yAvI nAma{\rm,}
+shrIrAma jaya rAma jayajaya rAma .. dhR^i\. ..
+
+rAma nAma he sadA sukhAche{\rm,}
+nidhAna jANA parameshAche .
+patitapAvana avaghe nAma{\rm,}
+shrIrAma jaya rAma jayajaya rAma .. 1 ..
+
+jAnakIchI jaNU jIvana jyotI{\rm,}
+prabhurAmAchi komala mUrti .
+ma.ngala darshana pUrNavirAma{\rm,}
+shrIrAma jaya rAma jayajaya rAma .. 2 ..
+
+p.ncha prANa he pavanasutAche{\rm,}
+rAma jaNU nishvAsa tayA.nche .
+tanu sa.nga jIvana su.ndaradhAma{\rm,}
+shrIrAma jaya rAma jayajaya rAma .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:13:20 2000 -0400
+Date: Sat, 16 Sep 2000 11:13:19 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - AdhAr
+Message-ID: <Pine.GSO.4.21.0009161110290.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 8
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. koN dujaa aadhaar{\rm?} ..
+
+gaayikaa, lataa ma.ngeshakar
+giit, vi\. sa\. khaa.nDekar
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+koN dujaa aadhaar{\rm?}
+tujaviN{\rm,} koN dujaa aadhaar{\rm?} .. dhR^i\. ..
+
+avatiibhavatii pahaa daaTalaa avasechaa a.ndhaar
+kaajaLale.n nabh{\rm,} kaajaLale.n man{\rm,} vyaakuLale mii phaar .. 1 ..
+
+vaadaLavaaraa jho.nbat a.ngaa{\rm,} jhi.nguni haa anivaar
+padaraakhaalii ivalii divalii{\rm,} tharatharate haLuvaar .. 2 ..
+
+kashi saa.nbhaaLuu.n{\rm?} kuThe nivaaraa{\rm?} ghaalu.n kuNaavar bhaar{\rm?}
+patitapaavanaa ek tujhe.n maj{\rm,} ughaDe.n aataa daar .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:15:44 2000 -0400
+Date: Sat, 16 Sep 2000 11:15:43 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - AlA
+Message-ID: <Pine.GSO.4.21.0009161114260.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 9
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. paa_uus aalaa vaaraa aalaa ..
+
+gaayikaa, sushhamaa shreshhTh
+giit, shaa.ntaa sheLake
+sa.ngiit, shriinivaas khaLe
+
+paa_uus aalaa vaaraa aalaa
+paan laagale naachuu
+the.nb Tapore gore gore
+bharabhar gaaraa vechuu .. dhR^i\. ..
+
+garagar girakii ghete jhaaD
+dhaDadhaD vaaje daar kavaaD
+a.ngaNaatahii baghataa baghataa
+paaNii laage saachuu .. 1 ..
+
+a.nge jhaalii olii chi.nb
+jhuluu laagalaa daarii li.nb
+olii nakshii paa_usapakshii
+kuNii paahato vechuu .. 2 ..
+
+osaruunii sar gelii re
+unhe Dhagaatun aalii re
+i.ndradhanushhyaamadhye jhaLakatii
+hire maaNake paachuu .. 3 .. 
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:19:04 2000 -0400
+Date: Sat, 16 Sep 2000 11:19:03 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - R^iturAj
+Message-ID: <Pine.GSO.4.21.0009161117100.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 10
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. R^ituraaj aaj mani.n aalaa ..
+
+gaayikaa, madhuva.ntii daa.nDekar
+giit, vidyaadhar gokhale
+sa.ngiit, prabhaakar bhaalekar
+naaTak, madanaachii ma.njirii
+
+R^ituraaj aaj mani.n aalaa
+R^ituraaj aaj vani.n aalaa .. dhR^i\. ..
+
+navasumanaa.nchaa{\rm,} navakalikaa.nchaa
+bahar gheuni aalaa.
+ku.nj ku.nj ali\-pu.nj gu.njane.n
+bagh jha.nkaarit jhaalaa.
+suras raagiNii nav praNayaachii
+kokiL chheDit aalaa.
+navathar su.ndar shiital nirjhar
+tyaa.nt ra.ngunii gelaa.
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:23:49 2000 -0400
+Date: Sat, 16 Sep 2000 11:23:49 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - TAL
+Message-ID: <Pine.GSO.4.21.0009161120440.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 11
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. TaaL bole chipaLiilaa ..
+
+gaayak, pa.n\. vasa.ntaraav deshapaa.nDe
+giit, jagadiish khebuDakar
+sa.ngiit, raam kadam
+
+TaaL bole chipaLiilaa naacha maajhyaa sa.nga
+devaajIchyaa daarii aaja ra.ngalaa abha.nga .. dhR^i\. ..
+
+darabaarii aale ra.nk aaNi raava
+saare ekarUpa naahii bhedabhaav
+gaau naachu saare hoUni nisa.ng .. 1 ..
+
+janasevepaayii kaaya divya vhaavii
+ghaava sosUniyaa mane rijhavaavii
+taal deuni haa bolato mR^ida.ng .. 2 ..
+
+brahmAna.ndii deha buDuuniyaa jaaii
+eka eka khaa.nb vaarakarii hoii
+kailasaachaa naath aalaa paa.nDura.ng .. 3 .. 
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:26:43 2000 -0400
+Date: Sat, 16 Sep 2000 11:26:43 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ajUn
+Message-ID: <Pine.GSO.4.21.0009161125090.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 12
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. ajuun tyaa jhuDupaa.nchyaa maage.n ..
+
+gaayak, dasharath pujaarii
+giit, vasa.nt baapaT
+sa.ngiit, dasharath pujaarii
+
+ajuun tyaa jhuDupaa.nchyaa maage.n{\rm,} sadaaphulii doghaa.nnaa ha.nsate
+ajuun apulyaa aaThavaNii.nnii{\rm,} sheva.ntii lajava.ntii hote .. dhR^i\. ..
+
+tase.n pahaayaa tulaa malaa ga{\rm,} ajuun da.nvabi.nduu tharatharato
+ardhyaamurdhyaa kaanagujaastav{\rm,} ajuun taaThar cha.npak jhurato .. 1 ..
+
+paaTha aaThavun tujhii bilorii{\rm,} ajuun hiravaL hiramusalelii
+chu.nbaayaalaa tujhii.n paavale.n{\rm,} phuulapaakhare.n aasusalelii.n .. 2 ..
+
+ajuun gu.ngiimadhe.n mogaraa{\rm,} tyaa tasalyaa kesaa.nchyaa vaase.n
+ajuun tyaa paatyaa.nt lavhaaLii{\rm,} hotach asate apule.n haase.n .. 3 ..
+
+ajuun phikkaT cha.ndraakhaalii{\rm,} maajhii aashaa taraLat aahe
+giitaa.nmadhale.n garaL jhokunii{\rm,} ajuun vaaraa baraLat aahe .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:30:27 2000 -0400
+Date: Sat, 16 Sep 2000 11:30:26 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - arthashUnya
+Message-ID: <Pine.GSO.4.21.0009161127480.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 13
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. arthashuunya bhaase maj haa kalah jiivanaachaa ..
+
+gaayikaa, aashaalataa vaabagaa.nvakar
+giit, vasa.nt kaaneTakar
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, matsyaga.ndhaa
+
+arthashuunya bhaase maj haa kalah jiivanaachaa
+dharm nyaay niiti saaraa kheL kalpanechaa .. dhR^i\. ..
+
+dhyaas ekahR^idayii dharunii svapn ra.ngavaave
+viij tyaavarii tii paDunii shilp kosaLaave{\rm?}
+sarvanaash ekach disato niyam yaa jagaachaa .. 1 ..
+
+daiv jyaas laabhe tyaalaa laabh vaibhavaachaa
+daiv kopa yetaa bhaaLii sarvanaash tyaachaa
+vaahaNe pravaahaavarati dharm ek saachaa .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:33:48 2000 -0400
+Date: Sat, 16 Sep 2000 11:33:47 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - baghA
+Message-ID: <Pine.GSO.4.21.0009161133301.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 15
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aalaa aalaa paa_uus aalaa ..
+
+
+gaayak, kshamaa khaLe{\rm,} rachanaa va yogesh khaDiikar
+giit, va.ndanaa viTaNakar
+sa.ngiit, miinaa khaDiikar
+
+
+aalaa aalaa paa_uus aalaa
+baghaa baghaa ho aalaa aalaa{\rm,} paa_uus aalaa .. dhR^i\. ..
+
+kaaLyaa kaaLyaa meghaamadhunii
+shubhra kashaa yaa dhaaraa jharatii
+avatiibhavatii jhuluu laagalyaa jaladhaaraa.nchyaa maaLaa .. 1 ..
+
+hasalii jhaaDe hasalii paane
+phule paakhare gaatii gaaNe
+olyaa olyaa maatiichaahii shvaas suga.ndhii jhaalaa .. 2 ..
+
+dharaNii disate prasann saarii
+paagoLyaa.nchii nakshii nyaarii
+phaa.ndii phaa.ndiivarii thaaTalii the.nbaa.nchii hii shaaLaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:36:03 2000 -0400
+Date: Sat, 16 Sep 2000 11:36:03 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - bhAvabhoLyA
+Message-ID: <Pine.GSO.4.21.0009161134440.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 16
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. bhaavanaa.nchaa tuu bhukelaa re muraarii ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, ma.ngesh paaDagaa.nvakar
+sa.ngiit, shriinivaas khaLe
+
+
+bhaavabhoLyaa bhaktichii hii ekataarii
+bhaavanaa.nchaa tuu bhukelaa re muraarii .. dhR^i\. ..
+
+kaajaLii raatriit hoshii tuucha taaraa
+vaadaLii naukes hoshii tuu kinaaraa
+mii tashii aale tujhyaahii aaj daarii .. 1 ..
+
+bhaabaDii daasii janii gaataacha gaaNii
+daaTunii aale tujhyaa DoLyaat paaNii
+bhaktichaa veDaa asaa tuu chakradhaarii .. 2 ..
+
+shaapilelii tii ahilyaa mukta kelii
+aaNi kubjaa sparsha hotaa divya jhaalii
+vaibhavaachaa saaja naahii mii bhikaarii .. 3 ..
+
+a.ntariichii haaka veDii ghaalate re
+vaaT kaaTya.nchii ashii mii chaalate re
+jaaNishii tu maajhii vyathaa hii{\rm,} tuucha taarii .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:38:00 2000 -0400
+Date: Sat, 16 Sep 2000 11:38:00 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - chA.nd
+Message-ID: <Pine.GSO.4.21.0009161137040.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 17
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. chaa.nd bharalii raat aahe ..
+
+gaayikaa, aashaalataa vaabagaa.nvakar
+giit, kusumaagraj
+sa.ngiit, shriinivaas khaLe
+naaTak, viduushhak
+
+chaa.nd bharalii raat aahe
+priyakaraachii saath aahe
+mogaRyaachyaa paakaLyaa.nchii
+makhamalii barasaat aahe .. dhR^i\. ..
+
+ma.nd vaahe ga.ndh vaaraa
+duur cha.nderii kinaaraa .
+amR^itaachyaa saagaraatun
+jiiv naukaa jaat aahe .. 1 ..
+
+naa tamaa aataa tamaachii
+vaadaLaachii vaa dhukyaachii .
+aajalaa haataat maajhyaa
+saajaNaachaa haat aahe .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:43:05 2000 -0400
+Date: Sat, 16 Sep 2000 11:43:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - chAphekaLI
+Message-ID: <Pine.GSO.4.21.0009161142480.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 20
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. gard sabho.ntii raan saajaNii ..
+
+gaayikaa, aashaalataa vaabagaa.nvakar
+giit, try\. Thomare
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, matsyaga.ndhaa
+
+gard sabho.ntii raan saajaNii tuu tar chaaphekaLii
+kaay haravale saa.ng shodhisii yaa yamunechyaa jaLii{\rm?}
+
+tii vanamaalaa mhaNe{\rm,} {\rm"}nR^ipaaLaa he tar maajhe ghar
+paahat basate mii tar yethe jalalaharii su.ndar
+hariNii maajhii tilaa aavaDe phaarach maajhaa gaLaa
+mainaa maajhii goD bolate tijalaa maajhaa laLaa{\rm"}
+
+tyaavar raajaa kaay mhaNaalaa aahe Thaa_uuk{\rm?} raajaa mhaNaalaa,
+
+{\rm"}raatriichii vanadevi paahunii bhulatil ramaNii tulaa
+tuu vanaraaNii dise na bhuvanii tujhiyaa ruupaa tulaa
+tav adharaavar ma.njuL gaaNii.n Thasalii kasalii tarii{\rm?}
+tav nayanii yaa premadevataa pasare gaalaavarii
+bhulale tujalaa hR^iday saajaNii ye chal maajhyaa gharii {\rm!"}
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:45:44 2000 -0400
+Date: Sat, 16 Sep 2000 11:45:44 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dATatAt
+Message-ID: <Pine.GSO.4.21.0009161144190.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 21
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aaThavaNii daaTataat ..
+
+gaayikaa, sumatii Tikekar
+giit, yogeshvar abhya.nkar
+sa.ngiit, em.h\. jii\. gokhale
+
+je.n ghaDale.n te sagaLe.n{\rm,} saa.ng kase.n visaraave.n
+aaThavaNii daaTataat{\rm,} dhuke.n jase.n pasaraave.n .. dhR^i\. ..
+
+visaraave.n naa.nv gaa.nv
+aaNi tujhe haavabhaav
+muuk bhaav najare.ntil{\rm,} hR^idayaalaa umajaave .. 1 ..
+
+raatra ashii a.ndhaarii
+uralelii sa.nsaarii.n
+sobatiis pahaa.nTes{\rm,} virahaache.n svapn have.n .. 2 ..
+
+svapnaa.ntil jaadu ashii
+maj gamate avinaashii
+prem tujhe satya game{\rm,} tyaas kase.n visaraave.n{\rm?} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:52:05 2000 -0400
+Date: Sat, 16 Sep 2000 11:52:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dayAghanA
+Message-ID: <Pine.GSO.4.21.0009161150560.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 23
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. dayAghanA ..
+
+
+gAyaka, suresha vADakara
+gIta, sudhIra moghe
+sa.ngIta, hR^idayanAth ma.ngeshakara
+
+
+dayAghanA{\rm,}
+kA.n tuTale.n chimaNe gharaTe{\rm?}
+uralo ba.ndI tujhA mI.n .. dhR^i\. ..
+
+are{\rm,} janma ba.ndIvAsa{\rm,}
+sajA ithe pratyekAsa.
+chukenA kuNAsa
+uralo ba.ndI tujhA mI.n .. 1 ..
+
+dahA dishA.nchI koThaDI
+mohamAyA jhAlI beDI.
+prANa mAjhe oDhI
+uralo ba.ndI tujhA mI.n .. 2 ..
+
+bAlapaNa utU.n gele
+ana.n tAruNya nAsale.
+vArdhakya sAchale.n
+uralo ba.ndI tujhA mI.n .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:53:46 2000 -0400
+Date: Sat, 16 Sep 2000 11:53:46 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dAdA
+Message-ID: <Pine.GSO.4.21.0009161153300.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 24
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. AI bagh na ga kasA hA dAdA{\rm!} ..
+
+
+gAyikA, sushhamA shreshhTha
+gIt, shA.ntA sheLake
+sa.ngIt, chi\. rAmacha.ndra
+  
+
+AI bagh na ga kasA hA dAdA{\rm!}
+malA chiDavAyacha.n hAch yAchA dha.ndA .. dhR^i\. ..
+
+lagn bAhulIcha.n lAvatA AmhI
+mhaNato navaradev Ahe mI
+AtA malAch mu.nDAvaLI bA.ndhA{\rm!}
+malA chiDavAyacha.n hAch yAchA dha.ndA{\rm!} .. 1 ..
+
+kadhI moThe moThe karato DoLe
+kadhI ugAch vidUshhakI chALe
+bhArI khaTyAL{\rm,} nAhI muLI sAdhA
+malA chiDavAyacha.n hAch yAchA dha.ndA{\rm!} .. 2 ..
+
+dAdA bhalatAch dvAD Ahe AI
+khoDyA karUn chhaLato bAI
+yAlA ovALAyachI nAhI mI ya.ndA
+malA chiDavAyacha.n hAch yAchA dha.ndA{\rm!} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:56:00 2000 -0400
+Date: Sat, 16 Sep 2000 11:56:00 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - deh
+Message-ID: <Pine.GSO.4.21.0009161154230.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 25
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. deh devaache ma.ndir ..
+
+gaayak, udayarAj goDabole
+abha.ng, sa.nt tukaaraam
+sa.ngIt, vasa.nt desaaii
+naaTak, priitiisa.ngam
+
+deh devaache ma.ndir{\rm,}
+aat aatmaa parameshvar .. dhR^i\. ..
+
+jashii usaat ho saakhar{\rm,}
+tasaa dehaat ho iishvar{\rm,}
+jase dudhaamadhe loNii{\rm,}
+tasaa dehii chakrapaaNii .. 1 ..
+
+dev dehaat{\rm,} dehaat
+kaa ho jaataa devaLaat{\rm?}
+tukaa saa.nge muuDh janaa
+Thevi dehaachyaach maanaa .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 11:59:29 2000 -0400
+Date: Sat, 16 Sep 2000 11:59:29 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dehAvaratI
+Message-ID: <Pine.GSO.4.21.0009161156420.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 26
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. goRyaa dehaavaratii kaa.nti ..
+
+
+gaayikaa, ushhaa ma.ngeshakar
+gaayak, ravi.ndra saaThe
+giit, naa\. dho.n\. mahaanor
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+chitrapaT, jait re jait
+
+
+goRyaa dehaavaratii kaa.nti{\rm,} naagiiNiichii kaata
+yeDe jhaalo aamhii jyaavii{\rm,} eka disa.n raat
+tujhyaa ruupaach.n baashi.nga Dolyaata
+tujhyaavaachuuna sunnaaTa dinaraata .. dhR^i\. ..
+
+asaa bola bolatii jaga pa.nkhaata ghetii
+asa.n ekhaada.n paakharuu.n velhaaLa
+jyaachyaa bhaa.ngaata bi.ndiichaa gulaala .. 1 ..
+
+kaalyaa ekalyaa raatii mana moDuuna jaatii
+asa.n ekhaada.n paakharuu.n velhaaLa
+jyaalaa saamora.n yetayaa aabhaaLa .. 2 ..
+
+yaalaa kaaya levuu leNa motiipavaLyaach.n raana {\rm?}
+raatii chaa.ndaNyaa raanaat shiNagaara
+saarii daulata jariichyaa padaraata .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:04:07 2000 -0400
+Date: Sat, 16 Sep 2000 12:04:07 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dhAgA
+Message-ID: <Pine.GSO.4.21.0009161203561.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 28
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. ek dhaagaa sukhaachaa ..
+
+
+giit, ga\. di\. maaDaguuLakar
+
+
+ek dhaagaa sukhaachaa
+sha.nbhar dhaage duHkhaache
+jarataarii he vastra maanavaa tujhiyaa aayushhyaache .. dhR^i\. ..
+
+paa.ngharasii jarii asalaa kapaDaa
+yesii ughaDaa jaasii ughaDaa
+kapaDyaa.nsaaThii karisii naaTak tiin praveshaa.nche .. 1 ..
+
+mukii a.ngaDii baalapaNaachii
+ra.ngit vasane taaruNyaachii
+jiirNa shaal mag ure shevaTii.n{\rm,} leNe vaardhakyaache .. 2 ..
+
+yaa vastraa.nte viNato koN{\rm?}
+ek saarakhii.n nasatii.n don
+kuNaa na disale trikha.nDaat tyaa haat viNakaRyaache .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:06:16 2000 -0400
+Date: Sat, 16 Sep 2000 12:06:16 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - dnyAnA
+Message-ID: <Pine.GSO.4.21.0009161204460.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 29
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. are are dnyaanaa jhaalaasii paavana ..
+
+
+gaayikaa, lataa ma.ngeshakar
+abha.ng, sa.nt dnyaaneshvar
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+are are dnyaanaa jhaalaasii paavana
+tujhe tulaa dhyaana kaLo aale .. dhR^i\. ..
+
+tujhaa tuuchii deva tujhaa tuuchii bhaava
+phiTalaa sa.ndeha anya kasatii .. 1 ..
+
+muraDuniyaa mana upajalaase chitte
+koThe tuuja riite na dise rayaa .. 2 ..
+
+diipakii diipaka maavaLalyaa jyotii
+bharabharii maatii shuunya jhaalyaa .. 3 ..
+
+vR^ittichii nivR^ittii aapaNaa sakata
+avaghe te vaiku.nTha chaturbhuja .. 4 ..
+
+nivR^ittii parama anubhavaa nemaa
+shaa.ntii puurNa kShamaa dnyaana devo .. 5 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:08:24 2000 -0400
+Date: Sat, 16 Sep 2000 12:08:23 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ekapaNA
+Message-ID: <Pine.GSO.4.21.0009161207200.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 30
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. tujhaa ni maajhaa ekapaNaa ..
+
+
+gaayikaa, maaNik varmaa
+giit, shaa.ntaaraam aaThavale
+sa.ngiit, vasa.nt pavaar
+
+
+tujhaa ni maajhaa ekapaNaa
+kasaa kaLaavaa shabdaa.nnaa {\rm?} .. dhR^i\. ..
+
+don aapulyaa bhinn aakR^itii
+a.ntaraat paN ekach priiti
+kaavy kaLe te nayanaa.nnaa .. 1 ..
+
+jasaa phulaatun ga.ndh daravaLe
+tasaa manaatun sneh jhuLajhuLe
+miLe chetanaa kaNaakaNaa .. 2 ..
+
+cha.ndra ugavataa kamaLe phulatii
+priit umalataa hR^idaye juLatii
+jyaache tyaalaa kaLatii khuNaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:10:32 2000 -0400
+Date: Sat, 16 Sep 2000 12:10:32 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ekatattv
+Message-ID: <Pine.GSO.4.21.0009161209201.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 31
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. ekatattv naam dR^iDh dharii manaa ..
+
+
+gaayak, yashava.nt
+abha.ng, sa.nt dnyaaneshvar
+sa.ngiit, keshavaraav bhoLe
+chitrapaT, sa.nt dnyaaneshvar
+
+
+ekatattv naam dR^iDha dharii manaa
+harisi karuNaa yeiil tujhii .. dhR^i\. ..
+
+te.n naam sope.n re raamakRishhN govi.nd{\rm,}
+vaacheshii sadvad jape aadhii.n .. 1 ..
+
+naamaaparate.n tattv naahii.nre anyathaa{\rm,}
+vaayaa aaNik pa.nthaa jaashii jhaNii.n .. 2 ..
+
+dnyaanadevaa maun japamaaL a.ntarii.n{\rm,}
+dharonii shriiharii jape sadaa.n .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:12:44 2000 -0400
+Date: Sat, 16 Sep 2000 12:12:43 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - gAthA
+Message-ID: <Pine.GSO.4.21.0009161211250.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 32
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kR^ishhNa gaathaa ek gaaNe.n ..
+
+
+gaayikaa, suman kalyaaNapuur
+giit, yashodakumaar gaaLavaNakar
+sa.ngiit, dasharath pujaarii
+
+
+kR^ishhNa gaathaa ek gaaNe.n jaaNate hii vaikharii
+ek taarii suur jaaNe shrii harii jay shrii harii .. dhR^i\. ..
+
+tuu.n sakhaa tuu.n paaThiraakhaa tuu.nch maajhaa iishvar
+raahilaasii vyaapuniiya tuu.nch maajhe a.ntar.
+aaLaviite naam jyaalaa amR^itaachii maadhurii .. 1 ..
+
+paahate mii sarv te te kR^ishhNa rupii bhaasate
+roj svapnii.n maadhavaachyaa sa.ngatii mii naachate.
+dhyaan ra.ngii ra.ngataanaa aikate mii baa.nsarii .. 2 ..
+
+taarilesii tuu.n kanhaiyaa dinavaaNe{\rm,} baapuDe
+hiin miiraa tyaa.nhuuniihii.n{\rm,} bhaav bhoLe bhaabaDe
+de sahaaraa{\rm,} de nivaaraa yaa bhavaachyaa sa.ngarii .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:14:36 2000 -0400
+Date: Sat, 16 Sep 2000 12:14:36 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ga.ngAdharA
+Message-ID: <Pine.GSO.4.21.0009161213510.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 33
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. jay sha.nkaraa {\rm!} ga.ngaadharaa {\rm!} ..
+
+
+gaayak, raam maraaThe
+giit, vidyaadhar gokhale
+sa.ngiit, raam maraaThe
+naaTak, ma.ndaaramaalaa
+
+
+jay sha.nkaraa {\rm!} ga.ngaadharaa {\rm!}
+girijaavaraa{\rm,} gauriiharaa {\rm!} .. dhR^i\. ..
+
+vipadaa haraa{\rm,} shashishekharaa {\rm!}
+vishh praashunii jagataas yaa .
+didhalii sudhaa karuNaakaraa .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:16:40 2000 -0400
+Date: Sat, 16 Sep 2000 12:16:40 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - gagani
+Message-ID: <Pine.GSO.4.21.0009161215170.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 34
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. gagani.n ugavalaa saya.ntaaraa ..
+
+
+gaayak, gajaanan vaaTave
+giit, anil
+sa.ngiit, gajaanan vaaTave
+
+
+gagani.n ugavalaa saya.ntaaraa
+ma.nd sushiital vaahat vaaraa
+haa.nk tujhii maj spashhT aiku.n ye
+ye_i sakhe{\rm,} ye bais javaLi.n{\rm,} ye
+ghaal gaLaa.n mam tav kar komal
+pasaruu.n de shvaasaachaa parimal
+gheii.n mam hR^idayaa.nt nivaaraa
+gagani.n ugavalaa saya.ntaaraa .. 1 ..
+
+bais javaLi.n ye{\rm,} bagh tii pashchim
+komal ra.ngii.n phulalii anupam
+ye netrii.n te.n gheu.n saaThavuni
+gaalaavaratii gaal Thevunii
+udaasiinataa visar jagaachii
+tujhaach mii{\rm,} tuu.n maajhi sadaachii
+virale.n hR^idayaa.ntari.n{\rm,} bagh a.ntar
+tuu.n aNik mii javaL nira.ntar
+sare ekasari bhed pasaaraa
+gagani.n ugavalaa saya.ntaaraa .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:20:46 2000 -0400
+Date: Sat, 16 Sep 2000 12:20:46 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ghanaHshyAmA
+Message-ID: <Pine.GSO.4.21.0009161220290.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 36
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. shrIrAmaa ghanaHshyaamaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, pii\. saavaLaaraam
+sa.ngiit, vasa.nt prabhu
+
+
+shrIrAmaa ghanaHshyaamaa{\rm,} baghashil kadhii tuu re
+tujhii lavaa.nkush baaLe{\rm?} .. dhR^i\. ..
+
+vanavaasaachyaa gharaat maajhyaa aruN\-cha.ndra he save janmataa
+virah priitiche duHkhahii maajhe hasale raghunaathaa.
+vishvaachii mii ma.ngalamaataa tujhii laaDakii siitaa
+tujhyaavinaa re aana.ndaalaa gaalaboT laagale .. 1 ..
+
+ruup manohar tujhii paahilii yauvanaatalii kaa.ntii
+baaLaa.nchyaa yaa ruupe baghate tujhyaach chimaNyaa muurtii.
+puurN paahile tulaa raaghavaa parii hii daivagatii
+tujhe baal paN tujhyaa parii kaa vanavaasii jhaale{\rm?} .. 2 ..
+
+baghaayache jar nasel majalaa ye naa baaLaa.nsaaThii
+chaar karaa.nchaa komal viLakhaa paDuude shyaamal ka.nThii.
+taaTaatuTiichyaa bheTii ghaDataa jharajhare amR^it oThii
+miTunii DoLe mhaNen maajhe raamaayaN sa.npale .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:22:34 2000 -0400
+Date: Sat, 16 Sep 2000 12:22:33 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - hR^idayi
+Message-ID: <Pine.GSO.4.21.0009161221190.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 37
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. hR^idayi.n dharaa haa bodh kharaa ..
+
+
+gaayak, sharad jaa.nbhekar
+giit, govi.nd ballaaL deval
+naaTak, sa.nshayakalloL
+
+
+hR^idayi.n dharaa haa bodh kharaa
+sa.nsaarii.n shaa.ntichaa jharaa .. dhR^i\. ..
+
+sa.nshay khaT jhoTi.ng mahaa .
+de_u nakaa tyaa Thaav jaraa .. 1 ..
+
+nishaacharii kalpanaa khuLii .
+kavaTaaLil hii bhiiti dharaa .. 2 ..
+
+bahuruupaa tii janavaaNii .
+kharii maanitaa.n ghaat puraa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:25:40 2000 -0400
+Date: Sat, 16 Sep 2000 12:25:39 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - harinAm
+Message-ID: <Pine.GSO.4.21.0009161225200.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 39
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. harinaam mukhii ra.ngate ..
+
+
+abha.ng, saadhvii miraabaa_ii
+
+
+harinaam mukhii ra.ngate ekataarii tarii vaajate
+vinavate mii tulaa bhaavaveDii miiraa .. dhR^i\. ..
+
+gharaTyaat majhiyaa aana.ndaachaa Thevaa
+tocha yadunaathaa sadaa asuu dyaavaa.
+itukecha maagaNe tujhyaapaashii maagate
+goDa naamii tujhyaa ra.ngate .. 1 ..
+
+kaam krodh matsara kadhii naa paahile
+lobha moha saare duur mii saarile.
+harichyaacha chi.ntanii jiivanaata mii vaahate
+goDa naamii tujhyaa ra.ngate .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:27:27 2000 -0400
+Date: Sat, 16 Sep 2000 12:27:26 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - jAhalyA
+Message-ID: <Pine.GSO.4.21.0009161226070.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 40
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. jaahalyaa kaa.nhii.n chukaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, ma.ngesh paaDagaa.nvakar
+sa.ngiit, shriinivaas khaLe
+
+
+jaahalyaa kaa.nhii.n chukaa an.h suur kaa.nhii.n raahile
+tU.n dilele.n gIt mAjhe.n AvaDIne.n gAyile .. dhR^i\. ..
+
+chA.ndaNyA.nchyA moharAne.n rAtr kevhA.n dATalI
+kAjaLI kALyA DhagA.nnI hA.nk kevhA.n ghAtalI
+mI svarA.nchyA lochanA.nnI vishv sAre.n pAhile.n .. 1 ..
+
+saukhya mAjhe.n{\rm,} duHkh mAjhe.n{\rm,} sarv mAjhyA bhAvanA
+mor svapnA.nche niLe an.h vi.ndhaNARyA vedanA
+mI ase.n gItA.ntunI sarvasv mAjhe.n vAhile.n .. 2 ..
+
+sa.npatA pUjA svarA.nchI hAt tU.n deshIl kA
+dATunI kALokh yetA.n tU.n gharI.n neshIl kA
+pUrNatesAThI.nch yA mI sarv kA.nhI.n sAhile.n .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:29:46 2000 -0400
+Date: Sat, 16 Sep 2000 12:29:45 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - kA.ntisam
+Message-ID: <Pine.GSO.4.21.0009161228330.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 41
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. tujhyaa kaa.ntisam raktapataakaa ..
+
+
+gaayikaa, suman kalyaaNapuur
+giit, ga\. di\. maaDaguuLakar
+sa.ngiit, snehal bhaaTakar
+chitrapaT, ann aaNi ann
+
+
+tujhyaa kaa.ntisam raktapataakaa puurv dishe phaDakate
+aruN ugavalaa prabhaatakaale uTh mahaagaNapate .. dhR^i\. ..
+
+suuryaa_aadhii darshan ghyaave tujhe muushhakadhvajaa
+shubhad suma.ngal sarvaa.naadhii tujhii paadyapuujaa
+chheDunii viiNaa jaagavite tuj sarasvatii bhagavatii .. 1 ..
+
+aavaDatii tuj mhaNuunii aaNilii raktavarN kamaLe
+paachuu maNyaachyaa kiraNaasam hii hiravii duurvaadaLe
+ubhyaa Thaakalyaa chaudaa vidyaa ghe_uniyaa aaratii .. 2 ..
+
+shuurpakarNakaa uTh gajamukhaa uThii re moreshvaraa
+tinhii jagaachaa tuuch niya.ntaa vishvaa ase aasaraa
+tujhyaa darshanaa adhiir devaa harabrahmaashriipatii .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:31:46 2000 -0400
+Date: Sat, 16 Sep 2000 12:31:45 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - kAnanI
+Message-ID: <Pine.GSO.4.21.0009161230450.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 42
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aparNA tap karite kAnanI ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, shaa.ntaa sheLake
+sa.ngiit, aana.ndaghan
+chitrapaT, tA.nbaDI mAtI
+
+
+bhasmavilepit rUp sAjire ANuniyA chi.ntanI
+aparNA tap karite kAnanI .. dhR^i\. ..
+
+vaibhavabhUshhit vaiku.nTheshvar
+tichyA pityAne yojiyalA var.
+bhoLA sha.nkar parI umechyA
+bharalAse lochanI .. 1 ..
+
+trishUl DamarU pinAkapANI
+cha.ndrakalA shiri sarp gaLyAtunI.
+yugAyugA.nchA bhaNa.ng jogI
+toch AvaDe manI .. 2 ..
+
+komal su.ndar himanagaduhitA
+himAchalAvar tap AcharitA.
+AgImadhunI phUl kovaLe
+phulavI rAtra.ndinI .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:34:08 2000 -0400
+Date: Sat, 16 Sep 2000 12:34:07 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - kAyA
+Message-ID: <Pine.GSO.4.21.0009161232540.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 43
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kaayaa hii pa.nDharii ..
+
+
+gaayak, pa.n\. bhiimasen joshii
+abha.ng, sa.nt ekanaath
+
+
+kaayaa hii pa.nDharii aatmaa haa viTThal
+naa.ndato kevaLa paa.nDura.nga .. dhR^i\. ..
+
+bhaava bhakti bhiimaa udaka te vaahe
+baravaa shobhatahe paa.nDura.nga .. 1 ..
+
+dayaa\-kshamaa\-shaa.nti hechi vaaLuva.nT
+miLaalaase thaaTa vaishhNavaa.nchaa .. 2 ..
+
+dnyaan dhyaan puujaa vivek aana.nd
+haachi veNunaada shobhatase .. 3 ..
+
+dasha i.ndriyaa.nchaa eka meLaa kelaa
+aisaa gopaaL kaalaa hota ase .. 4 ..
+
+dekhilii pa.nDharii dehii janii vanii
+ekaa janaardanii vaarii karii .. 5 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:35:39 2000 -0400
+Date: Sat, 16 Sep 2000 12:35:39 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - khoDI
+Message-ID: <Pine.GSO.4.21.0009161234470.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 44
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. khoDii maajhii kaaDhaal tar ..
+
+
+gAyak, yogesh khaDiikar
+giit, shaa.ntaa sheLake
+sa.ngiit, miinaa khaDiikar
+
+
+khoDii maajhii kaaDhaal tar{\rm,} ashii maariin phaa_iT
+ghaTake madhye.n viruun jaa_il saarii tumachii aiT .. dhR^i\. ..
+
+a.ngaavaratii yaal tar assaa de_in Thosaa
+kopaRyaa.nt jaa_uun tumhii raDat basaa .. 1 ..
+
+bajara.ng maajhaa bhaa_uu{\rm,} bhim maajhaa kaakaa
+saa.nguun Thevato punhaa maajhyaa vaaTe jaa_uu nakaa .. 2 ..
+
+da.nD maajhe pahaa kase{\rm,} roj duudh pito
+a.ngaamadhye taakad aahe mag koN bhito{\rm?} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:49:01 2000 -0400
+Date: Sat, 16 Sep 2000 12:49:00 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - koLyAchI
+Message-ID: <Pine.GSO.4.21.0009161236350.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 45
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aamhii koLyaachii.n pora.n ..
+
+
+aamhii koLyaachii.n pora.n haay ho
+aamhaa daRyaachii bhiitii naay ho .. dhR^i\. ..
+
+var aabhaaL bharalay ho
+jaaLa.n joraat dharalay ho
+koN karil aamhaa kaay ho{\rm?} .. 1 ..
+
+laaT josaat ye_uu dyaa
+jhepaa khushaal ghe_uu dyaa
+maage gheNaar naahii paay ho .. 2 ..
+
+dev malhaarii paavalaa
+maasaa jaaLyaat gaa.nvalaa
+hoDii majet uDe jaay ho .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:51:17 2000 -0400
+Date: Sat, 16 Sep 2000 12:51:17 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - koNa
+Message-ID: <Pine.GSO.4.21.0009161249550.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 46
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. koN asasi tU.n{\rm?} ..
+
+
+gAyak, rAm marAThe
+gIt, vidyAdhar gokhale
+sa.ngIt, rAm marAThe
+nATak, ma.ndAramAlA
+
+
+koN asasi tU.n nakaLe majalA.
+tU.n ga.ngechI athA.ng shuchitA
+kI.n jananIchI mAyAmamatA{\rm?} .. dhR^i\. ..
+
+bhAvikatechI ma.ngalagAthA
+udAr charitA amar devatA
+navA janm tU.n majalA didhalA
+kAy vadU.n tuj{\rm?} nakaLe majalA .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:54:43 2000 -0400
+Date: Sat, 16 Sep 2000 12:54:42 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - kshaNI
+Message-ID: <Pine.GSO.4.21.0009161251590.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 47
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kshaNii yaa dubha.nguniyaa ..
+
+
+gaayikaa, suman kalyaaNapuur
+giit, yashodakumar gaLawaNakar
+sa.ngiit, dasharath pujaarii
+
+
+kshaNii yaa dubha.nguniyaa gheii kushiit maate{\rm,}
+ashraap bhuumikanyaa tuj aaj aaLavite .. dhR^i\. ..
+
+poTii raghukulaa.nkur japaNyaas praaN dharile
+pratiraam karunii tyaa.nnaa kartavyapaar jhaale.
+putraas taat miLatii pari mii anaath urate 
+ashraap bhuumikanyaa tuj aaj aaLavite .. 1 ..
+
+mam agnidivya gaathaa trailokyasaaksh asataa
+sha.nkaa punhaa janii kaa{\rm?} kaa tyaag bhaaLii hotaa{\rm?}
+nusatiich va.nchanaa hii he nyaayadaan khoTe 
+ashraap bhuumikanyaa tuj aaj aaLavite .. 2 ..
+
+vach deh an.h manaane patiniShTataach japalii.
+dhyaanii{\rm,} manii an.h svapnii vaidehii raam smaralii.
+patidharm briid maajhe lavuniyaa paNaa te
+ashraap bhuumikanyaa tuj aaj aaLavite .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:57:05 2000 -0400
+Date: Sat, 16 Sep 2000 12:57:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - lavalav
+Message-ID: <Pine.GSO.4.21.0009161255480.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 48
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. lava lava karii paata.n ..
+
+
+gaayikaa, padmajaa pheNaaNii
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+chitrapaT, nivaDu.ng
+
+
+lava lava karii paata.n
+jiiva naahii thaaRyaalaa .
+ekaTaka paahuu kashii
+lukaluka taaRyaalaa .. dhR^i\. ..
+
+chava chava gelii saarii
+jora naahii vaaRyaalaa .
+suTa.n suTa.n jhaala.n man
+dharu kasa.n paaRyaalaa .. 1 ..
+
+kuNi kuNi naahii aala.n
+phaDaphaDa naa raavyaachii .
+ruNujhuNu havaa kaahii
+gaaya uThe daavyaachii .. 2 ..
+
+taTataTa karii choLii
+tuTatuTuuna gaaThiichii .
+umbaRyaashii jaagii aahe
+paarubaaii saaThiichii .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 12:59:58 2000 -0400
+Date: Sat, 16 Sep 2000 12:59:58 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - mAnasI
+Message-ID: <Pine.GSO.4.21.0009161258070.2025-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 49
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. maanasii raajaha.ns pohato ..
+
+
+gaayikaa, jyotsnaa bhoLe
+giit, bhaargav viTThal varerakar
+naaTak, bhuumikanyaa siitaa
+
+
+maanasii raajaha.nsa pohato
+dal dal
+ughaDit navanavalaane.n kamalavR^i.nd paahato .. dhR^i\. ..
+
+niil jalaavar dhaval vihag to{\rm,}
+jalavalayaa.nsah kheL kheLato.
+shriiraamaa.nchyaa vakshasthaLi.n jaNuu.n{\rm,}
+mauktikamaNi Dolato .. 1 ..
+
+divaasvapn kii.n bhaas mhaNuu.n{\rm,}
+kaa vanavaasaachaa dhyaas jaNuu.n haa.
+manii.n vase te.n nayanaa.npuDhatii.n{\rm,}
+sajivapaNe.n rekhito .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:12:05 2000 -0400
+Date: Sat, 16 Sep 2000 15:12:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - mAtIt
+Message-ID: <Pine.GSO.4.21.0009161510240.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 50
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kaaLyaa maatiita maatiita ..
+
+
+kaaLyaa maatiita maatiita tiphana chaalate
+viija thayathaya naachate Dhaga Dhola vaajavito .. dhR^i\. ..
+
+sadaashiva haakaarito na.ndiibailaachyaa joDiilaa
+sa.nga paarabati chaale oTii ba.ndhuuna poTaalaa.
+sariivara sarii yetii maatii nhaatiidhutii hote
+kastuuriichyaa suvaasaane bhuula jiivaalaa paDate.
+bhuula jiivaalaa paDate vaaTa raaghuuchii paahate
+raaghuu tiphana haanato mainaa vaaTulii paahate .. 1 ..
+
+sarjaa r.n maajhyaa DhavaLyaa r.n maajhyaa pavaLyaa r.n maajhyaa aahaa{\rm!}
+
+jholii jhaaDaalaa Taa.nguuna raaba raabate maaulii
+tith.n jholiitalyaa jiivaavar paarakhii saaulii.
+abhishhekaata ghaamaachyaa aaja devaacha.n puujana
+pika.n haalatii Dolatii januu karatii bhajana.
+gavhaa jo.ndhaLyaata yaa son.n chaa.ndii lakaakatii
+jashii chaa.ndii lakaakate{\rm,} kapaashii phulate .. 2 ..
+
+saal.n uunapaavasaachaa paaThashivaNichaa kheLa
+lonii paayaalaa vaaTatii ma_uu bhijalii DhekaL.n.
+kaaLyaa DhekaLaata DoLaa hirava.n sapaan paahato
+DoLaa sapaan paahato kaaTaa paayaata rutato.
+kaaTaa paayaata rutataa{\rm,} laala ragaata saa.nData.n
+laala ragaata saa.nData.n hirava.n sapaan phulat.n .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:17:58 2000 -0400
+Date: Sat, 16 Sep 2000 15:17:57 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - manamorAchA
+Message-ID: <Pine.GSO.4.21.0009161516310.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 53
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. baaii baaii manamoraachaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+sa.ngiit, aana.ndaghan
+chitrapaT, mohityaa.nchii ma.njuuLaa
+
+
+baaii baaii manamoraachaa
+kasaa pisaaraa phulalaa .. dhR^i\. ..
+
+chimanii mainaa{\rm,} chimanaa raavaa
+chimanyaa a.ngaNi chimanaa chaa.ndavaa.
+chimanii joDii{\rm,} chimanii goDii
+chocha laavite chimanyaa chaaRyaalaa.
+chimana.n chimana.n gharaTa.n baa.ndhala.n chimanyaa mainelaa .. 1 ..
+
+shiledaar gharadhanii maajhaa
+thora mahaaraajaa.nchaa raajaa.
+bhoLaa bhoLaa jiiva maajhaa jaDalaa tyaachyaa paayaalaa .. 2 ..
+
+re manamoraa{\rm,} ra.nga pisaaraa
+a.ngii ra.nguunii jiiva ra.ngalaa.
+gojiravaanii ma.njuuLa gaanii
+vaajavitii baasurii DaaLi.nba oThaalaa.
+yeDa.n yeDa.n mana yeDa.n jhaala.n aikuna gaanaalaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:19:13 2000 -0400
+Date: Sat, 16 Sep 2000 15:19:13 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - mAvaLatyA
+Message-ID: <Pine.GSO.4.21.0009161519020.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 54
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. maavaLatyaa dinakaraa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, bhaa\. raa\. taa.nbe
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+maavaLatyaa dinakaraa{\rm,}
+arghya tuja joDuni donhii karaa.n .. dhR^i\. ..
+
+jo to va.ndana karii ugavatyaa{\rm,}
+jo to paaTha phiravi maavaLatyaa{\rm,}
+riita jagaachii hii re savityaa
+svaarthaparaayaNaparaa .. 1 ..
+
+upakaaraachii kuNaa aaThavaNa{\rm?}
+{\rm"}shite.n to.nvarii bhute.n{\rm"} ashii mhaNa{\rm;}
+jagaa.nta bharale.n to.nDapujepaNa{\rm,}
+dharii paaThivara sharaa .. 2 ..
+
+asakta pari tuu.n kelisa vaNavaNa{\rm,}
+dile.nsa jiivana{\rm,} he naaraayaNa{\rm,}
+manii.n na dharile.n saanathorapaNa{\rm,}
+samadarshii tuu.n kharaa .. 3 ..
+
+prabhu\-sachivaa virahii.n mukhadhuusara
+hoti dayaamR^idu nayanishhThura kara
+kaarabhaara Taakuni cha.ndraavara
+chaalalaasa tuu.n kharaa .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:20:57 2000 -0400
+Date: Sat, 16 Sep 2000 15:20:56 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - marma
+Message-ID: <Pine.GSO.4.21.0009161519530.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 55
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. marmaba.ndhaatalii Thev hii ..
+
+
+gaayak, maa\. diinaanaath ma.ngeshakar
+giit, sha.nkar baaLaajii shaastrii
+naaTak, sanyast khaDg
+
+
+marmaba.ndhaatalii Thev hii premamaya
+Thevi.n japoni sukhaane dukhavii.n jiiv .. dhR^i\. ..
+
+hR^idayaa.nbujii.n liin lobhii atii haa
+makara.ndaThevaa luTaNyaasii aalaa
+baa.ndhii jivaalaa sukhaashaa manii.n .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:29:38 2000 -0400
+Date: Sat, 16 Sep 2000 15:29:38 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - nA.ndAyalA (fwd)
+Message-ID: <Pine.GSO.4.21.0009161528480.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 58
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. yeuu kashii tashii mii naa.ndaayalaa ..
+
+
+gaayikaa, roshan saataarakar
+
+
+nehamiich raayaa tumachii ghaaii
+nakaa laavuu gaThuDe.n baa.ndhaayalaa.
+yeu kashii tashii mii naa.ndaayalaaho{\rm?}
+yeuu kashii tashii mii naa.ndaayalaa .. dhR^i\. ..
+
+saNa varshhaachaa aahe diwaaLii
+aaja raahuu jaau udyaa sakaaLii.
+jevana karate purnaachii poLii
+bhaat mii ghatalaay raa.ndhaayalaa .. 1 ..
+
+gaaw haay apala.n baaraa kosa
+Doka.n tumacha.n asa.n ho kasa.n{\rm?}
+unhaataanhaat chaalanyaachaa traas
+dilyaati chapalaa baa.ndhaayalaa .. 2 ..
+
+baabaa gele ho paragaawaa
+niropa tyaa.nchaa ghyaayaalaa havaa.
+naahii vichaarala.n thoralyaa bhaavaa
+aaii gelii paanii she.ndaayalaa .. 3 ..
+
+tumhaalaa sajanaa saa.ngate aikaa
+chaalaavuu nakaa tumachaa hekaa.
+tumhiich saa.ngaa he bara haay kaa
+raavaNa laagalaay su.ndaayalaa .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Sat Sep 16 15:33:00 2000 -0400
+Date: Sat, 16 Sep 2000 15:33:00 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - nArAyaN
+Message-ID: <Pine.GSO.4.21.0009161532270.3745-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 60
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. naaraayaN naaraayaN ..
+
+
+gaayak, chhoTaa ga.ndharv
+giit, vidyaadhar gokhale
+sa.ngiit, chhoTaa ga.ndharv
+naaTak, suvarNatulaa
+
+
+naaraayaN naaraayaN
+naam tujhe ati paavan .. dhR^i\. ..
+
+kamalapatii kamal nayan
+bhayahaaraN\-\-bhavataaraN\-\-naaraayaN.
+
+tuu.n vasudhaa tuu.nch gagan
+tuu.nch aap tej pavan.
+
+tuu.n sthiti\-\-lay{\rm,} rajanii\-\-din.
+tuuch kaarya tuu kaaraN.
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 08:17:33 2000 -0400
+Date: Fri, 22 Sep 2000 08:17:33 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sA.ngAtI
+Message-ID: <Pine.GSO.4.21.0009220816340.16367-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 62
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. jethe jaato tethe ..
+
+
+gaayikaa, suman kalyaaNapuur
+abha.ng, sa.nt tukaaraam
+sa.ngiit, kamalaakar bhaagavat
+
+
+jethe jaato tethe tuu maajhaa saa.ngaatii
+chaalavishii haatii dharuniyaa.
+chaalo vaaTe aamhii tujhaachii aadhaar
+chaalavishii bhaar save maajhaa .. dhR^i\. ..
+
+boluu jaataa baraL karishii te niiT
+nelii laaj dhiiT kelo devaa .. 1 ..
+
+avaghe jan maj jhaale lokapaaL
+so_ire sakaL praaNasakhe .. 2 ..
+
+tukaa mhaNe aataa kheLato kautuke
+jhaale tujhe sukh antarbaahyaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 08:32:55 2000 -0400
+Date: Fri, 22 Sep 2000 08:32:55 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - a.ntarIchyA
+Message-ID: <Pine.GSO.4.21.0009220820150.16367-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 63
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. a.ntariichyaa guuDh garbhii.n ..
+
+
+gaayak, jii\. en.h\. joshii
+giit, naa\. gha\. deshapaa.nDe
+sa.ngiit, jii\. en.h\. joshii
+
+
+a.ntariichyaa guuDh garbhii.n ekadaa.n je.n vaaTale.n ga
+ekadaa.n je.n vaaTale.n te.n{\rm,} prem aataa.n aaTale.n ga .. 1 ..
+
+duur sonerii sukhaache paahile aabhaas mii.n tuu.n
+ra.ngale.n aabhaaL puurvii.n, te.nch aataa.n phaaTale.n ga .. 2 ..
+
+chaa.ndaNyaa raatrii.nt maage.n hi.nDalo.n ekatra doghe.n
+cha.ndrikene.n thaaTale.n je.n{\rm,} te.n tamaane.n daaTale.n ga .. 3 ..
+
+ekadaa.n jii do thaDiine.n vaahilii hotii{\rm,} sakhe{\rm,} tyaa
+jaanhaviiche.n shuddha paaNii sa.nshayaane.n baaTale.n ga .. 4 ..
+
+ekadaa.n jyaa.ntuun maage.n suur sa.nvadii nighaale
+va.nchanene.n toDale te{\rm,} snehata.ntuu aa.ntale ga .. 5 ..
+
+shevaTii.n ma.ndaavalelyaa vaadaLii vaaRyaapramaaNe.n
+raahaNe.n jhaale.n divaaNe.n{\rm,} giit gaaNe.n koThale.n ga .. 6 ..
+
+yaatanaa duHkhaa.ntalii an.h chetanaa gelii sukhaachii
+jhaa.nkalyaa netraa.nt aataa.n{\rm,} ashrubi.nduu goThale ga .. 7 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 16:54:15 2000 -0400
+Date: Fri, 22 Sep 2000 16:54:14 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - nabh
+Message-ID: <Pine.GSO.4.21.0009221652540.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 64
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. nabha utaruu aala.n ..
+
+
+gaayikaa, aashaa bhosale
+giit, naa\. dho.n\. mahaanor
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+chitrapaT, jait re jait
+
+
+nabha utaruu aala.n chi.nba tharathara vala.n
+a.nga jhimmaaDa jhaala.n hiravyaa baharaat .. dhR^i\. ..
+
+ashaa valas raatii gaLyaa shapathaa yetii
+saataa jalamaa.nchii pritii sarala din raat .. 1 ..
+
+naga.n laagat.n boluu ubha.n aabhaal jheluu
+gaa.nTha baa.ndhalaa shaaluu tujhyaacha padaraat .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 16:56:28 2000 -0400
+Date: Fri, 22 Sep 2000 16:56:27 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - naravar
+Message-ID: <Pine.GSO.4.21.0009221655100.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 65
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. naravar kR^ishhNaa samaan ..
+
+
+gaayak, baal ga.ndharv
+giit, kR^i\. pra\. khaaDilakar
+sa.ngiit, pa.n\. bhaaskarabuvaa bakhale
+naaTak, sa.n\. svaya.nvar
+
+
+naravar kR^ishhNaa samaan ghetase janmaa{\rm,}
+bhaagya udele.n he.n{\rm,} shikavii sukarmaa .. dhR^i\. ..
+
+bahut nR^ipati te aale gele{\rm,}
+pari manaalaa yaduvar jhaalaa ma.ntra mahaan .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 16:58:50 2000 -0400
+Date: Fri, 22 Sep 2000 16:58:49 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - pAvasAt
+Message-ID: <Pine.GSO.4.21.0009221657190.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 66
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aaii malaa paavasaat jaauu de ..
+
+
+gaayak, yogesh khaDiikar
+giit, va.ndanaa viTaNakar
+sa.ngiit, miinaa khaDiikar
+
+
+aaii malaa paavasaat jaauu de
+ekadaach ga bhijunii malaa chi.nb chi.nb houu de .. dhR^i\. ..
+
+megh kase bagh gaDagaD karitii
+vijaa nabhaatun malaa khuNavitii
+tyaa.nchyaasa.nge a.ngaNaat maj khuup khuup naachuu de .. 1 ..
+
+khiDakiikhaalii taLe saachale
+guDaghyaaitake paaNii bharale
+taRhetaRhechyaa hoDyaa.nchii maj sharyat ga laavuu de .. 2 ..
+
+badakaa.nchaa bagh thavaa naachato
+beDukadaadaa haak maarato
+paaNyaamadhunii tyaa.nchaa majalaa paaThalaag karuu de .. 3 ..
+
+dhaarekhaalii ubhaa raahunii
+paayaane mii uDaviin paaNii
+taap khokalaa shi.nkaa sardii vaaTTel te houu de .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:01:07 2000 -0400
+Date: Fri, 22 Sep 2000 17:01:07 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - pail
+Message-ID: <Pine.GSO.4.21.0009221659420.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 67
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. pail to ge kaauu kokataahe ..
+
+
+gaayikaa, lataa ma.ngeshakar
+abha.ng, sa.nt dnyaaneshvar
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+pail to ge kaauu kokataahe
+shakuna ge maaye saa.ngataahe .. dhR^i\. ..
+
+uDa uDa re kaauu tujhe sonenii maDhavina paauu
+paahuNe pa.nDharii raauu gharaat yetii .. 1 ..
+
+dahiibhaataachii u.nDii laavina tujhe to.nDii
+jiivaa paDhii ye tayaachii goDii saa.nga vegii .. 2 ..
+
+duudhe bharalii vaaTii lavina tuze oThii
+satya saa.nge goThii viTho yeiila kaaye{\rm?} .. 3 ..
+
+a.nbe yaa DahaaLii phaLe chu.nbii rasaaLii
+aaji te re aaLe.n shakuna saa.nge .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:04:42 2000 -0400
+Date: Fri, 22 Sep 2000 17:04:42 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - pa.nDharI
+Message-ID: <Pine.GSO.4.21.0009221702080.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 68
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. maajhe maahera pa.nDharii ..
+
+
+gaayak, pa.n\. bhiimasen joshii
+abha.ng, sa.nt ekanaath
+
+
+maajhe maahera pa.nDharii. 
+aahe bhii.nvarechyaa tiirii .. dhR^i\. ..
+
+baapa aaNi aaii. 
+maajhe viThThala rakumaaii .. 1 ..
+
+pu.nDaliika laage ba.ndhu.
+tyaachii khyaati kaay saa.nguu{\rm?} .. 2 ..
+
+maajhii bahiNa cha.ndrabhaagaa.
+karita ase paapa bha.ngaa .. 3 ..
+
+ekaa janaardanii sharaNa. 
+kari maaherachii aaThavaNa .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:07:10 2000 -0400
+Date: Fri, 22 Sep 2000 17:07:09 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - pappA
+Message-ID: <Pine.GSO.4.21.0009221705340.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 69
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. pappaa saa.ngaa kuNaache{\rm?} ..
+
+
+gaayak, pramilaa daataar{\rm,} raaNii varmaa{\rm,} aruN saranaa_iik
+giit, shaa.ntaa sheLake
+sa.ngiit, chi\. raamacha.ndra
+
+
+pappaa saa.ngaa kuNaache{\rm?} pappaa maajhyaa mamiiche
+mammii saa.ngaa kuNaachii{\rm?} mammii maajhyaa papaa.nchii .. dhR^i\. ..
+
+ivalyaa ivalyaa gharaTyaat
+chimaNaachimaNii raahataat.
+chimaNaa{\rm,} chimaNii an.h bhavatii
+chimaNii pilehii chivachivatii .. 1 ..
+
+aabhaaL jhelatii pa.nkhaa.nvarii
+pappaa.nnaa gharaTe priya bhaarii.
+chochiit chochiine ghaas dyaavaa
+pilaa.nchaa haLuuch paapaa ghyaavaa .. 2 ..
+
+pa.nkhaashii pa.nkh he juLataanaa
+chochii.nt chochahii miLataanaa.
+haasate naachate ghar saare
+haasatii chhappar{\rm,} bhi.ntii{\rm,} daare .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:10:59 2000 -0400
+Date: Fri, 22 Sep 2000 17:10:58 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - paravashatA
+Message-ID: <Pine.GSO.4.21.0009221707580.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 70
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. paravashataa paash daive ..
+
+
+gaayak, baapuu pe.nDhaarakar
+giit, vaaman gopaaL joshii
+sa.ngiit, vajhebuvaa
+naaTak, raNadu.ndubhi
+
+
+paravashataa paash daive 
+jyaa.nchaa gaLaa laagalaa ..
+sajivapaNii ghaDatii saare.
+maraN bhog tyaalaa .. dhR^i\. ..
+
+asuni khaas maalak gharachaa.
+mhaNati chor tyaalaa .. 1 ..
+saukhya bhog itaraa saare. 
+kashhT maatra tyaalaa .. 2 ..
+maatR^ibhuumi tyaachii tyaalaa.
+hot ba.ndishaaLaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:14:15 2000 -0400
+Date: Fri, 22 Sep 2000 17:14:14 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - parikathetil
+Message-ID: <Pine.GSO.4.21.0009221712310.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 71
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. parikathetil raajakumaaraa ..
+
+
+gaayikaa, kR^ishhNaa kalle
+giit, vandanaa viTaNakar
+sa.ngiit, anil mohile
+
+
+parikathetil raajakumaaraa svapnii.n maajhyaa ye.nshil kaa{\rm?}
+bhaav daaTale manii anaamik saad tayaa.nnaa deshil kaa{\rm?} .. dhR^i\. ..
+
+yaa DoLyaa.nche guuDh ishhaare
+shabdaavaachun jaaNun saare
+raaNii apulii malaa mhaNonii tujhiyaasa.nge neshil kaa{\rm?} .. 1 ..
+
+muurt manoram manii.n rekhilii
+divasaa raatrii.n nitya dekhilii
+tyaa ruupaachii saaksh jivaalaa pratyakshaa.ntun deshil kaa{\rm?} .. 2 ..
+
+laa.njun DoLe lavavin khaalii
+navakhyaa gaalii ye_il laalii
+phulaaparii hii tanuu kaaparii hR^idayaapaashii gheshil kaa{\rm?} .. 3 ..
+
+laajabaavarii miTun paapaNii
+saa.nThaviin te.n chitra lochanii.n
+navara.ngii tyaa chitraamadhale svapnach maajhe hoshil kaa{\rm?} .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:25:57 2000 -0400
+Date: Fri, 22 Sep 2000 17:25:57 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - porI
+Message-ID: <Pine.GSO.4.21.0009221715190.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 72
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. aga porii{\rm,} sa.nbaal ..
+
+
+gaayikaa, pushhpaa paagadhare
+gaayak, maha.nmad raphii
+giit, va.ndanaa viTaNakar
+sa.ngiit, shriikaa.nt Thaakare
+
+
+to, aga porii{\rm,} sa.nbaal daryaalaa tuphaan aayala.ny.h bhaarii
+tii, laaT pirtiichii{\rm,} bhannaaT houun aabhaali.n gheii bharaarii .. dhR^i\. ..
+
+to, naay bhinaar ga{\rm,} yeuu.n de paanyaalaa bharatii
+tii, maajyaa horiicha.n{\rm,} sukaan tujyaach haatii.n
+to, naav haa.nkiin mii{\rm,} kaapiit paausadhaaraa
+tii, manii Thasalaa ra.n{\rm,} tujaa hyo mardaanii toraa
+to, jaalyaa.nt gaav.hlii sonerii maas.hlii
+tii, nako karuu.n shirjorii .. 1 ..
+
+to, tujyA Dolyaa.nt ga{\rm,} ghumatoy.h vaadalavaaraa
+tii, tujyaa bhavatii.n ra{\rm,} phiratoy.h manaachaa bha.nvaraa
+to, tulaa baguun ga{\rm,} udaan aayala.ny.h manaalaa
+tii, tujyaa pirtiicha.n{\rm,} kaahuur jaalii jivaalaa
+to, suTanaar naay ga tuTanaar naay ga
+tii, tujii ni maajii jorii .. 2 ..
+
+to, mii aanin tulaa{\rm,} jartaarii a.njirii saarii
+tii, malaa paavalii ra{\rm,} pirtiichii daulat nyaarii
+to, mii jhu.njaar {\rm!} saajiiri tuu.n maaji navarii
+tii, tujyaa sa.ngatiina.n{\rm,} chaakhiin sargaachii gorii
+to, thaaTaa.ntamaaTaa.nt gullaabii ba.ngalaa\-\-
+tii, baa.nduu.n yaa daryaakinaarii.n .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:29:09 2000 -0400
+Date: Fri, 22 Sep 2000 17:29:08 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - porake
+Message-ID: <Pine.GSO.4.21.0009221727380.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 73
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. duHkh maajhe he.n muke.n ..
+
+
+gaayikaa, kR^ishhNaa kalle
+giit, vandanaa viTaNakar
+sa.ngiit, anil mohile
+
+
+a.ntara.ngii ra.ngalele giit jhaale porake
+duHkh maajhe he.n muke.n .. dhR^i\. ..
+
+baharalelyaa miilanaache suur hote laagale
+chitra mohak na.ndanaache.n lochanaa.nnii paahile
+ughaDataa.n pari netra kevaL bho.nvatii daaTe dhuke .. 1 ..
+
+ba.ndh saare toDunii mii ghetalii hotii uDii
+amR^itaane naahalii re utsavaachii tii ghaDii
+tyaa smR^itiichaa kaiph levun aaj ha.nsatii hu.ndake .. 2 ..
+
+tav smR^itiichaa koshh basalaa vishva maajhe vyaapunii
+sahaj tuu.n gelaas adayaa sarv dhaage toDunii
+kshaNabharii umaluun virale svapn navathar laaDake .. 3 ..
+
+va.nchanechii yaatanaa re de malaa tuu.n laakhadaa.n
+majavarii keliis priitii saa.ng he pari ekadaa.n
+kshaN sukhaachyaa moharaache phirun hotil bolake .. 4 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:31:53 2000 -0400
+Date: Fri, 22 Sep 2000 17:31:53 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - premA
+Message-ID: <Pine.GSO.4.21.0009221730000.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 74
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. bhaagya dile tuu.n malaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, pii\. saavaLaaraam
+sa.ngiit, vasa.nt prabhuu
+
+
+premaa{\rm,} kaay de_u.n tulaa{\rm?}
+bhaagya dile tuu.n malaa .. dhR^i\. ..
+
+priitiichyaa yaa paa.nkharaache{\rm,} ratnakaa.nchanii pa.nkh deuu kaa.n{\rm?}
+deuu.n tulaa kaa.n harshhaga.ndh haa{\rm,} jiiv\-phulaa.ntun moharalelaa{\rm?} .. 1 ..
+
+yaa hR^idayii.nchyaa jalava.ntiichii{\rm,} niLii oDhaNii tulaa havii kaa.n{\rm?}
+rup\-mohinii laavaNyaachii havii tujhyaa kaa cha.ndrakalaa{\rm?} .. 2 ..
+
+mohak su.ndar je.n je.n disate.n tuu.nch tayaa.nchaa janmadaataa{\rm,}
+gheshiil kaa.n re maajhyaakaritaa.n{\rm,} adharii.nchyaa yaa amR^itaalaa{\rm?} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:34:13 2000 -0400
+Date: Fri, 22 Sep 2000 17:34:13 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - pusato
+Message-ID: <Pine.GSO.4.21.0009221732590.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 75
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. dashadishaa.ns pusato ..
+
+
+gaayak, aravi.nd piLagaavakar
+giit, shaa.ntaa sheLake
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, vaasavadattaa
+
+
+dashadishaa.ns pusato{\rm,} pusato veDyaa nabhaa
+tii kuThe raajasaa maajhii priyavallabhaa{\rm?} .. dhR^i\. ..
+
+kshaN disalii{\rm,} lapalii phirunii mR^igalochanaa
+kaa karisii daivaa kruur ashii va.nchanaa{\rm?}
+te svapn sa.npale{\rm,} stimit ithe mii ubhaa .. 1 ..
+
+maj kshaNaakshaNaalaa ruup tiche bhaasate
+chhaLataat jivaalaa daahak aabhaas te
+timiraa.ndh suurya mii shodhit phirato nabhaa .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:41:14 2000 -0400
+Date: Fri, 22 Sep 2000 17:41:13 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - rAmeshvar
+Message-ID: <Pine.GSO.4.21.0009221740480.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 77
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kuThe.n shodhisii raameshvar ..
+
+
+gaayak, sudhiir phaDake
+giit, ma.ngesh paaDagaa.nvakar
+sa.ngiit, yashava.nt dev
+
+
+kuThe.n shodhisii raameshvar an.h kuThe.n shodhisii kaashii
+hR^idayaa.ntil bhagavant raahilaa hR^idayaa.ntuun upaashii .. dhR^i\. ..
+
+jhaaD phulaa.nnii.n aale.n baharun
+tuu.n na paahile.n DoLe ughaDun .
+varshhaakaaLii.n paausadhaaraa
+tulaa na disalaa tyaa.nt ishhaaraa .
+kaay tulaa upayog aa.ndhaLyaa diip asuun ushaashii.n {\rm?} .. 1 ..
+
+rudraakshaa.nchyaa gaLyaa.nt maaLaa
+laavile.ns an.h bhasm kapaaLaa .
+kadhii.n na gheun naa.ngar haatii.n
+pikavile.ns maatii.ntun motii.n .
+haay abhaagyaa bhagave.n nesun ghar sanyaasun jaashii .. 2 ..
+
+dev bolato baaLamukhaa.ntun
+dev Dolato u.nch pikaa.ntun .
+kadhii.n hounii dev bhikaarii
+annaasaaThii.n aart pukaarii .
+avatii bhavatii asun disenaa shodhitos aakaashii .. 3
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:43:11 2000 -0400
+Date: Fri, 22 Sep 2000 17:43:10 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - rAyA
+Message-ID: <Pine.GSO.4.21.0009221741450.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 78
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. raayaa ashii javaL malaa ghyaal kaa{\rm?} ..
+
+
+gaayikaa, kshamaa baajiikar
+giit, shaa.ntaa sheLake
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, he ba.ndh reshamaache
+
+
+divas aajachaa asaach gelaa
+udyaa tarii yaal kaa{\rm?}
+raayaa ashii javaL malaa ghyaal kaa{\rm?} .. dhR^i\. ..
+
+paiThaNii jaa.nbhaLii jariibu.nd nesunii
+mii vaaT paahate kevhaachii baisunii
+hii ghaDiimaagunii ghaDii chaalalii sunii
+jaagaraNaane jaLatii DoLe. kaajaL ghaalaal kaa{\rm?} .. 1 ..
+
+kitii kitii yojale hote bolaayache
+maj guuj maniiche hote kholaayache
+sa.ngatiit tumachyaa hote umalaayache
+kaLyaa aajachyaa shiLyaa udyaalaa. oThaashii nyaal kaa{\rm?} .. 2 ..
+
+yaa saratyaa raatii taLamaLate mii ashii
+loLate pala.ngii punhaa badalate kushii
+maj rute bichhaanaa{\rm,} nako nako hii ushii
+havaa vaaTato haat ushaalaa. sajaNaa tumhi dyaal kaa{\rm?} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:45:36 2000 -0400
+Date: Fri, 22 Sep 2000 17:45:35 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ra.ngamahAlI
+Message-ID: <Pine.GSO.4.21.0009221743590.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 79
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. raajaachyaa ra.ngamahaalii ..
+
+
+gaayikaa, lataa aaNi ushhaa ma.ngeshakar
+sa.ngiit, aana.ndaghan
+chitrapaT, saadhii maaNasa.n
+
+
+raajaachyaa ra.ngamahaalii sonyaachaa baaii pala.nga
+rupyaacha.n khaa.nba tyelaa motyaachii jhaalara .
+raajaachyaa ra.ngamahaalii paraachii ma_uu gaadii
+jariichaa chaa.ndavaa reshamii shiNagaara
+gaDanii sajaNii gaDanii sajaNii ga.n .. dhR^i\. ..
+
+raajaachyaa ra.ngamahaalii raaNii tii rusalii
+bola.n naa haasa.n naa udaasa najara .
+raajaachyaa ra.ngamahaalii raajaana.n pusila.n
+DoLyaa.nchii kamaLa.n ughaDaa vhaTaachii DaaLi.nba .. 2 ..
+
+raajaachyaa ra.ngamahaalii raaNii vo saa.ngate
+sonaa sonyaahuna.n nhaala.n kashaalaa baDivaara{\rm?}
+maayechyaa puutaapaayii raaNii ga.n raDite
+aasavaa.nchii ga.ngaa vhaate bhijilaa padara .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:48:23 2000 -0400
+Date: Fri, 22 Sep 2000 17:48:23 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - rajanI
+Message-ID: <Pine.GSO.4.21.0009221746210.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 80
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. din taisii rajanii ..
+
+
+gaayikaa, kishorii aamoNakar
+abha.ng, sa.nt dnyaaneshvar
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+din taisii rajanii jhaalii ge maaye .. dhR^i\. ..
+
+paDile.n duuradeshii.n maj aaThave maanasii.n .
+nako nako haa viyog kashhT hotaatii jivaasii .. 1 ..
+
+din taisii rajanii jhaalii ge maaye .
+avasthaa laavonii gelaa ajunii kaa.n na ye .. 2 ..
+
+garuD vaahanaa guNaga.nbhiraa ye_ii.n gaa taadaaraa .
+baaparakhumaadeviivaraa shriiviThThalaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:50:49 2000 -0400
+Date: Fri, 22 Sep 2000 17:50:48 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sAgarI
+Message-ID: <Pine.GSO.4.21.0009221749490.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 81
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. priit saagarii tujhyaa smR^itiiche ..
+
+
+gaayikaa, suman kalyaaNapuur
+giit, pii\. saavaLaaraam
+sa.ngiit, dasharath pujaarii
+
+
+priit saagarii tujhyaa smR^itiiche
+garjat aale vaare vaadaL .. dhR^i\. ..
+
+phiruu laagale jag vaaToLe
+khinn manaane miTale DoLe
+raatra niraashaa otit kaajaL .. 1 ..
+
+tuphaan jhu.njat diip manoraa
+aDhaL ubhaarii kiraN pisaaraa
+pi.njun laaTaa paDe prabhaavaL .. 2 ..
+
+bhagn manorath phuTalaa machavaa
+haat kuNii dyaa malaa vaachavaa
+miLe saagarii ashru oghaL .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:52:55 2000 -0400
+Date: Fri, 22 Sep 2000 17:52:55 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sAra.ngA
+Message-ID: <Pine.GSO.4.21.0009221751450.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 82
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. raajaa saara.ngaa{\rm,} maajyaa saara.ngaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, shaa.ntaa sheLake
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+raajaa saara.ngaa{\rm,} maajyaa saara.ngaa
+Dolakaraa ra.n dhaakalyaa diiraa ra.n
+chal jaa.nvayaa gharaa .. dhR^i\. ..
+
+aaj punavaa suTala.ny damaan
+dariyaachyaa paanyaalaa aayala.ny udaan
+pi_uun tuphaanavaaraa .. 1 ..
+
+shiiD phaaTala.n dhaavata.n paaThii
+tuTala.n sukaanuu moralii kaaThii
+phesaal paanyaachaa gheraa .. 2 ..
+
+koliivaaraa ra.n raahilaa duur
+Dolaa.n loTiilaa paanyaachaa puur
+sa.nbaal sa.nsaar saaraa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:55:05 2000 -0400
+Date: Fri, 22 Sep 2000 17:55:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sahacharI
+Message-ID: <Pine.GSO.4.21.0009221753570.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 83
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. ashii sakhii sahacharii ..
+
+
+gaayak, raamadaas kaamat
+giit, vasa.nt sha.nkar kaaneTakar
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, miiraa madhuraa
+
+
+ashii sakhii sahacharii praNayinii. shivasu.ndar mohinii
+varin mii tiich janmajogiNii .. dhR^i\. ..
+
+viij kaDaaDe nayanii ekaa
+diThit dusaRyaa sharadacha.ndrikaa
+suur jiche maj jaaLit jaatii aaNi phule kamalinii .. 1 ..
+
+bilvapatra raa_uLaat
+raataraaNi kaaLajaat
+giit madir par bhaav madhuratar{\rm,} ashii divya yoginii .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 17:59:09 2000 -0400
+Date: Fri, 22 Sep 2000 17:59:08 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sakaLik
+Message-ID: <Pine.GSO.4.21.0009221758540.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 85
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. uThaa uThaa ho sakaLik ..
+
+
+gaayikaa, lataa ma.ngeshakar
+bhuupaaLii, raamaana.nd
+sa.ngiit, pa.n\. hR^idayanaath ma.ngeshakar
+
+
+uThaa uThaa ho sakaLik. vaache smaraavaa gajamukh.
+R^iddhisiddhii.nchaa naayak. sukhadaayak bhaktaa.nsii .. dhR^i\. ..
+
+a.ngii she.nduraachii uTii. maathaa.n shobhates kiiriTii.
+kesharakastuurii lallaaTii. haar ka.nThii saajiraa .. 1 ..
+
+kaanii.n ku.nDalaachii prabhaa. cha.ndra\-suurya jaise nabhaa.
+maajii.n naagaba.ndii shobhaa . smarataa.n ubhaa javaLii to .. 2 ..
+
+kaa.nse piitaa.nbaraachii dhaTii. haatii modakaa.nchii vaaTii.
+raamaana.nd smarataa.n ka.nThii. to sa.nkaTii paavato .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:01:05 2000 -0400
+Date: Fri, 22 Sep 2000 18:01:05 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - shUrA
+Message-ID: <Pine.GSO.4.21.0009221759400.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 86
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. shuuraa mii va.ndile ..
+
+
+gaayak, maasTar diinaanaath ma.ngeshakar
+giit, kR^i\. pra\. khaaDilakar
+sa.ngiit, govi.ndaraav Te.nbe
+naaTak, maanaapamaan
+
+
+shuuraa mii va.ndile
+dhaaraatiirthii tap te aacharatii
+senaapatiyash yaachi bale.n .. dhR^i\. ..
+
+shirakamalaa samarii.n arpitii
+janahitapuujan viiraa sukhashaa.ntii
+raajya sukhii yaa saadhumuLe.n
+shuuraa mii va.ndile .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:03:38 2000 -0400
+Date: Fri, 22 Sep 2000 18:03:37 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - shodhisI
+Message-ID: <Pine.GSO.4.21.0009221802000.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 87
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. shodhisii maanavaa raa_uuLii ma.ndirii ..
+
+
+gaayak, mahammad raphii
+giit, va.ndanaa viTaNakar
+sa.ngiit, shriikaa.nt Thaakare
+
+
+shodhisii maanavaa raa_uuLii ma.ndirii
+naa.ndato deva haa aapulyaa a.ntarii .. dhR^i\. ..
+
+megh he daaTatii koThunii a.nbarii
+suur yetii kase vaajate baasarii.
+romaromii phule tiirtha he bhuuvarii
+duur i.ndraayaNii duur tii pa.nDharii .. 1 ..
+
+ga.ndh kaa.n haasato paakaLii saarunii
+vaahate nirjharii prem sa.njiivanii.
+bhovataalii tulaa saad ghaalii kuNii
+khuuNa ghe jaaNunii ruup he ishvarii .. 2 ..
+
+bheTato deva kaa.n puujanii archanii
+puNya kaa.n laabhate daanadharmaatunii.
+shodha re divyataa aapulyaa jiivanii
+aa.ndhaLaa kheLa haa kheLashii kuThavarii {\rm?} .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:05:41 2000 -0400
+Date: Fri, 22 Sep 2000 18:05:41 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sukatAtachi
+Message-ID: <Pine.GSO.4.21.0009221804310.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 88
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. sukataatachi jagi yaa ..
+
+
+gaayak, maasTar diinaanaath ma.ngeshakar
+giit, vinaayak daamodar saavarakar
+naaTak, sanyastakhaDg
+
+
+sukatAtachi jagi yaa. jarii kii.n.
+phule.n gaLat paakaLii paakaLii.
+umalati naa tyaahii. kalikaa jyaa .. dhR^i\. ..
+
+para.ntu su.ndar kaLyaa paakaLyaa.
+phulatii jagi yaa.
+visar naa he vaitaagii. tujhiyaa .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:08:01 2000 -0400
+Date: Fri, 22 Sep 2000 18:08:01 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - tujhyAvAchUn
+Message-ID: <Pine.GSO.4.21.0009221806480.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 89
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. re tujhyaavaachuun kaahii ..
+
+
+gaayikaa, kiirti shiledaar
+giit, vidyaadhar gokhale
+sa.ngiit, niilaka.nTh abhya.nkar
+naaTak, svarasamraadnyii
+
+
+re tujhyaavaachuun kaahii yethale aDaNaar naahii
+re tujhyaavaachuun duniyaa diin hii hoNaar naahii .. dhR^i\. ..
+
+garv tav haa vyarth{\rm,} mii kele ase{\rm,} kele tase
+cho.nch de_ii paakharaa.nnii{\rm,} toch chaaraa detase
+ekahii gharaTe tujhyaaviN moDunii paDaNaar naahii .. 1 ..
+
+taanasenaavaachunii{\rm,} ki.nvaa sadaara.ngaaviNaa
+kaay maiphal yaa jagaachii ra.ngalii kevhaach naa{\rm?}
+koN tuu.n{\rm?} tujaviiN viiNaa ba.ndahii hoNaar naahii .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:13:02 2000 -0400
+Date: Fri, 22 Sep 2000 18:13:02 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - ukhANA
+Message-ID: <Pine.GSO.4.21.0009221808520.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 90
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. gheuu kasaa ukhaaNaa ..
+
+
+gaayikaa, lataa ma.ngeshakar
+giit, jagadiish khebuDakar
+sa.ngiit, prabhaakar jog
+
+
+gheuu kasaa ukhaaNaa{\rm,} gheuu kasaa ukhaaNaa{\rm?}
+kaa.n laajale ashii mii{\rm,} maajhe.n malaa kaLenaa .. dhR^i\. ..
+
+maajhyaa manomanii.n mii kamalaaparii phulaave
+yaa kamalalochanaa.nnii kamalaavarii pahaave
+shubh naam yaa prabhuche.n kaa.n Thaauke.n na koNaa{\rm?} .. 1 ..
+
+sparshaatalyaa sudhene he a.ng a.ng nhaale.n
+yaa ramya darshanaane DoLe kR^itaarth jhaale{\rm,}
+shabdaa.nt kaay saa.nguu.n chheDuun bhaavaviiNaa{\rm?} .. 2 ..
+
+maj ruup lakshumiiche.n tuu naath sheshhashaayii
+maajhii ananyapriitii jhaalii viliin paayii.n
+maajhyaapuDhe ubhaa tuu saakshaat devaraaNaa .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:16:08 2000 -0400
+Date: Fri, 22 Sep 2000 18:16:08 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - unhAt
+Message-ID: <Pine.GSO.4.21.0009221814050.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 91
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. daadaach.n ghar baaii unhaat ..
+
+
+gaayikaa, aashaa bhosale
+giit, jaya.nt maraaThe
+sa.ngiit, yashava.nt dev
+
+
+tujhii nii maajhii ga.nmat{\rm,} vahinii
+aik saa.ngate kaanaat
+aapaN doghii baa.ndhuuyaa ga
+daadaach.n ghar baaii unhaat .. dhR^i\. ..
+
+ugaach karato khoDii ga
+malaach mhaNato veDii ga
+tulaa chiDavito{\rm,} malaa raDavito
+aaNik hasato gaalaat .. 1 ..
+
+kheL malaa ga aaNinaa
+saaDii tujalaa deiinaa
+aiT daakhavii bhaarii baaii
+sadaach apulyaa toRyaat .. 2 ..
+
+vahinii{\rm,} kaa ga hiramusalii{\rm?}
+nakoch kaa shikshaa asalii{\rm?}
+phituur hoshiil daadaalaa
+hii sha.nkaa yete manaat .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 22 18:18:05 2000 -0400
+Date: Fri, 22 Sep 2000 18:18:04 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+X-Sender: statake@feedback.eng.umd.edu
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - vikal
+Message-ID: <Pine.GSO.4.21.0009221817100.20088-100000@feedback.eng.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: RO
+X-Status: 
+X-Keywords:                 
+X-UID: 92
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. vikal man aaj jhurat asahaay ..
+
+
+gaayikaa, bakuL pa.nDit
+giit, shaa.ntaa sheLake
+sa.ngiit, pa.n\. jite.ndra abhishhekii
+naaTak, he ba.ndh reshamaache
+
+
+vikal man aaj jhurat asahaay
+naahi maj chain{\rm,} kshaN kshaN jharati nayan
+koNaa saa.nguu{\rm?} .. dhR^i\. ..
+
+hii chaa.ndaraat{\rm,} niij nach tyaat{\rm,}
+virah sakhi mii kuThavar saahuu{\rm?}.. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 29 08:00:04 2000 -0400
+Date: Fri, 29 Sep 2000 08:00:04 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - bhAgyAchA
+Message-ID: <Pine.GSO.4.21.0009290759220.2943-100000@z.glue.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 98
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kshaN aalaa bhaagyaachaa ..
+
+
+gaayikaa, jyotsnaa bhoLe
+giit, mo{\rm.} ga{\rm.} raa.ngaNekar
+sa.ngiit, maa{\rm.} kRRishhNaraav
+naaTak, kulavadhuu
+
+
+kshaN aalaa bhaagyaachaa. aalaa saukhyaachaa.
+haa.nsat mode.n{\rm,} naachat naade.n he man{\rm,} maajhe.n.
+ma.ngal din haa .. dhRRi{\rm.} ..
+
+
+premamayaa jiivanii.n yaa.
+jarii raahile.n ra.nguniyaa.
+aalaa. udayaalaa. baharaalaa.
+ma.ngal din haa .. 1 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From statake@Glue.umd.edu Fri Sep 29 08:04:35 2000 -0400
+Date: Fri, 29 Sep 2000 08:04:35 -0400 (EDT)
+From: Sachin Sunil Tatake <statake@Glue.umd.edu>
+To: Sanskrit Project Team <sanskrit@quite.net>
+Subject: itrans convert - sa.nsArAlA
+Message-ID: <Pine.GSO.4.21.0009290803390.2943-100000@z.glue.umd.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Status: O
+X-Status: 
+X-Keywords:                  
+X-UID: 100
+
+
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. tujyaa maajyaa sa.nsaaraalaa ..
+
+gaayak, aashaa bhosale{\rm,} suresh vaaDakar
+giit, sudhiir moghe
+sa.ngiit, sudhiir phaDake
+chitrapaT, shaapiit
+
+to, tujyaa maajyaa sa.nsaaraalaa aani kaay hava.n{\rm?}
+tii, tujyaa maajyaa lekaraalaa gharakul nava.n.
+to, navyaa gharaama.ndii kaay naviin ghaDala.n{\rm?}
+tii, gharakulaasa.ng sama.hda.n yegaLa hoiil.
+    diis jaatiil diis yetiil
+    bhog saral sukh yeiil .. dhR^i\. ..
+
+tii, avakaLaa sama.hdii jaaiil nigunii
+    taraaral biij tuja.n maajyaa kushiitunii.
+to, miLal kaa tyalaa uun vaaraa paanii{\rm?}
+    raa_iil kaa sukal te tujyaa{\rm--}maajyaavaanii{\rm?}
+tii, rop aapalach par hoiil yegaLa.n
+    daivaasa.ng jhu.njaayaacha.n devuu tyaalaa baLa.n .. 1 ..
+
+tii, Dhagaavaanii barasal tyo vaaRyaavaanii hasaval tyo
+    phulaavaanii sukhavil kaaTyaalaa bii kheLavil
+    sama.hdyaa duniyecha.n man rijavil tyo.
+to, asal tyo kunaavaanii{\rm?} kasaa ga disal{\rm?}
+tii, tujyaa maajyaa jiivaachaa to aarasaa asal .. 2 ..
+
+tii, uDuniyaa jaaiil hii aasavaa.nchii raat
+    aapalyaachasaaThii udyaa uTal.n pahaaT.
+to, pahaaTachyaa davaavaanii taanh tuj.n maaj.n
+    sosal ga kasa.n tyaalaa jiivaapaaD ojha.n{\rm?}
+tii, ivalyaashyaa paNatiichaa ivalaasaa jiiv
+    tyoch gheii parii sama.hdyaa a.ndhaaraachaa Thaava .. 3 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

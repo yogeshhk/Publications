@@ -1,0 +1,24 @@
+To Prepare New Song:
+	cp old.itx to new_song.itx as template.
+	Replace the song.
+	Send new_song.itx to sanskrit.gde.to with subject "Itrans convert"
+	Send new_song.itx to sanskrit.gde.to with subject "Itrans convertgif"
+	Check locally.
+
+To Add New Song:
+	Add lines at marathi alphabetical place in gani.db
+	May add it in gani.txt
+	Also add in marathialphabeticallistings.txt
+	Run 'db2html'
+	It will give gani.html
+	Add Hot.gif at new songs in gani.html and gani.xdvng
+	Send gani.xdvng for Xdvng conversion
+	Get the mail
+	Strip mail-headers,mail-footers,comments and word "3D".
+	See its output locally
+	rename it to gANI.html
+
+
+ftp:
+ftp sanskrit.gde.to   sanskritDocs
+cd marathi/shatataarakaa

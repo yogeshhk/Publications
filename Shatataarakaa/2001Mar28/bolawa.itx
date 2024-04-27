@@ -1,0 +1,52 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. bolaawaa viThThala ..
+
+gaayak{\rm,} gaayikaa, jite.ndra abhishhekii{\rm,} prabhaakar kaarekar{\rm,}kishorii amoNakar
+giit, sa.nt tukaaraam
+
+bolaawaa wiThThala. pahaawaa wiThThala.
+karaawaa wiThThala. jiiwabhaawa..
+
+yeNe sose.n mana. jhaale aawaghaDii
+parat maaghaarii. gheta naahi
+
+ba.ndhanaapaasuunii ukalalii gaThii
+bheTaa.n aalii miiThii. saawakaasha..
+
+tukaa mhaNe deha bhaariilaa wiThThale
+kaama krodhe.n kele ghara riite..
+
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+

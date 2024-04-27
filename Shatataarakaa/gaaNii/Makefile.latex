@@ -1,0 +1,24 @@
+MAINFILE= perl
+
+.SUFFIXES: .fig .tex .dvi .ps .xwd .bib .bbl
+
+.dvi.ps:
+	dvips $*.dvi > $*.ps
+
+.bib.bbl:
+	if [ -r $*.aux ]; then .;else latex $*.tex ; fi
+	bibtex $*
+
+all: $(MAINFILE).ps
+
+preview: $(MAINFILE).ps
+	xpsview $MAINFILE).ps
+
+printout:$(MAINFILE).ps
+	Print $(MAINFILE).ps
+
+$(MAINFILE).dvi : $(MAINFILE).tex
+	latex $(MAINFILE)
+clean:
+	rm -rf $(MAINFILE).ps 
+	rm -rf *.aux *.dvi *.bbl *.blg *.log
