@@ -7,4 +7,4 @@ gevent==23.9.0
 git+https://github.com/mit-nlp/MITIE.git
 numpy==1.22.0
 rasa-nlu==0.7.2
-requests==2.13.0
+requests==2.31.0
