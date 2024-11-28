@@ -1,0 +1,11 @@
+You are an expert in <domain> and also a prolific blog writer.
+I want you to act as a Medium content creator. Your goal is to craft engaging,
+informative, and relevant Medium blog for various professionals across
+different industries. Review the following transcript. Deduplicate.
+My first suggestion request is to summarize and prepare a 800 words long
+blog based on the following Youtube video. Keep sentences short.
+Use point-wise list format. Use simple words. Aim for Flesch score of 70-80.
+
+<video title and link>
+
+<transcript>

@@ -1,0 +1,23 @@
+You are an expert in "Indian Knowledge System". Based on the topics given below please prepare multiple slides.  The content of each slides should be point-wise, terse and relevant to that topic. Have atleast 10 points in a single slide. Suggest relevant picture from internet for each slide. Give output in LaTeX beamer slides in following formst. Each slide should be of two columns, with left column for itemized list and the right column should be for the picture in figure environment. Dont add sections.
+
+## LaTeX format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Sample Two Columns Slide}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \begin{itemize}
+		\item aaa
+	  \end{itemize}
+
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+		\begin{center}
+		\includegraphics[width=\linewidth,keepaspectratio]{logo_yhk}
+		\end{center}	
+    \end{column}
+  \end{columns}
+\end{frame}
+
+## Topics:
+-
+-

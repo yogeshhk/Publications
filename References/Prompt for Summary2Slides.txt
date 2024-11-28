@@ -1,0 +1,14 @@
+You are an expert yoga teacher. You have been asked to prepare a slide as per LaTeX beamer format shown below. The points should be based on summarizing the following content. Keep each point short but self explanatory.
+
+
+## LaTeX format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Sample Slide}
+      \begin{itemize}
+	---
+	  \end{itemize}
+\end{frame}
+
+## Content to summarize
+
+--
