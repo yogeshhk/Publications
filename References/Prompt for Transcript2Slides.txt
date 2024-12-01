@@ -1,0 +1,524 @@
+You are an expert Yoga Teacher. You have been asked to prepare slides as per LaTeX beamer format shown below. Each slide should have points based on summarizing the following content. Keep each point short but self explanatory. Keep sentences short.
+Use point-wise list format. Use simple words. Aim for Flesch score of 70-80.
+
+
+## LaTeX format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Sample Slide}
+      \begin{itemize}
+	---
+	  \end{itemize}
+\end{frame}
+
+## Content to summarize
+but so yoganidra as a
+topic is very fascinating and
+like how each and every process has been brought out of the closet by the great
+adapts whom we call siddhas and great yogis
+these processes are there right from time immemorial
+and many of you would have seen Lord mahavishnu reclining on a serpent
+with half closed and half open eyes and the tradition says he contacts this
+entire operation of sustenance from the state of yoganindra
+so that is how ancient this particular topic is
+the second reference we have is from another great text called Devi Mahatma
+it's all 700 verses on couplets on the
+Divine as mother Durga there too we have a mention of Yoga
+Nidra so this is a very very ancient at least the word is very ancient
+but the technique was hidden from the public for many eons
+and in the 1970s it was released to Common
+public so how this process happens
+is if you notice now particularly from the year 2014-15 there
+is a sudden craze to know more about yoga as a system
+for the last 100 years people were studying yoga mainly as Asana that is
+posture so when someone tells I am studying yoga or I just came back from a yoga class we
+clearly understood they practiced some postures and then gradually now if you see in the
+West the pranayama techniques are being rebranded as breath work and so many
+names are going floating around correct and in 70s
+Swami Rama of the Himalayan tradition and Swami satyananda
+deemed it right to bring this ancient process to the public domain
+in 1948 Swami satyananda's teacher Guru Swami
+shivananda Saraswati realized that there needs to be a systematic study of yoga
+as a system and then in 1948 he started yoga vedanta Forest Academy
+there even today the two-month courses offered free for Indian citizens and
+they are continuing the tradition of offering what was started by Swami
+shivananda and Swami satyananda is a direct disciple of Swami shivananda
+and he started not only yoga teacher training from the 1970s he also brought
+in and initiated lot of women into the sannyasa which was done very rarely till
+that time so Swami shivananda and him based on the need of the time they
+brought in certain Traditions rituals and processes and they said time is right for people
+to do this they perhaps found that world is going through is going to have a crisis during
+transformation like all of us have for example if you most of us have
+worked in corporate if you ever attend a program on emotional resilience Stress Management
+they will say that when you are going through a big change in life it could be
+marriage or divorce it would be loss of job or starting of a job
+any major change brings within stress because it is an unknown competent
+people will learn will need to learn how to manage that and Swami satyananda realized and Swami
+Rama also realized world would go through a lot of uncertainty for example earlier when you book a
+telephone in India when I was a child or a two-wheeler I am sure many of you can
+relate you have to wait sometimes for 10 years to take delivery it was not easy
+to get a landline connection today everyone has multiple phone connections correct so when people were used to a
+very slow paced life stress was something very very unheard of unless they created
+it for themselves today we are bombarded with many things from all possible
+directions eight plus two ten directions we say in Tradition but I also have included one
+more which is your mind which is the eleventh one so from 11 directions we are bombarded with stress and many of
+them are unfound but whom you will go and say many times
+you are left to fend alone correct because in olden days small homes many people live you could catch
+up with anybody to unload you whatever you are thinking today huge homes rarely people live only weekends people are
+there correct so the system is going through a big change so what the great
+ones do generally is they release certain processes which are very very
+needed for the time and age we live in and they also withdraw some processes it
+is not only they keep releasing certain things they will also take back certain things which are not needed it's like
+you're moderating whatever is available so in 1971
+Swami Rama through his disciples was tested for this process
+at the meninger foundation in the U.S using electroencephalogram EEG today we
+know that the wires are you know connected to the brain and they map the brain studies
+wherein we have five types of waves generated in
+the brain and when you are in deep Sleep Delta
+wave is generated and when you are not particularly
+focusing on anything like you are just on the seashore you
+know you are just there if someone tests you you will see alpha
+waves are being generated by your name when nothing particular you are anchoring behind or pounding upon mind
+naturally releases alpha waves and if you notice last 20 years this
+Alpha Waves meditation has become a very big craze in between Alpha and
+Delta is the theta waves they are also fantastic and they are produced when the
+mind is in the meditative State okay now when you are having a day-to-day work
+the beta and gamma waves they are generated a lot gamma waves is as good
+as cacophony like you are in a Bombay local any of you would have experienced
+how noisy it is or you go to the market on a weekend or a Friday Market
+you know something is going on but more only sound is there so gamma is when
+your brain is pounded with lot of things gamma happens
+and in yoga we have used that also like you know life can have can be utilized
+in both the ways correct to protect yourself and also do whatever is not
+required as well like that gamma waves using yoga processes you can turn it to
+your advantage and beta waves is when we are most of us
+are constantly there if we don't check we will be only overthinking in life
+and many of you may be knowing this word alphabet has come from Alpha and beta
+so Alpha Beta Gamma Delta and Theta that is how the sequence there are right the
+so what Swami Rama demonstrated was in deep state which is Delta generally
+there is no rapid eye movement when you and I sleep generally there is movement
+of the eyes so the dreams happen imaginations you don't know whether
+you're half sleep or half awake that's all happening because of rapid eye movement technically we call it REM
+but in Delta that it is called a non REM State
+wherein it signifies you are having a very very deep sleep
+the beauty is yoganidra can take us to Delta which is very deep sleep and all
+of us know a deep sleep gives us relaxation right only that can give relaxation if you
+keep getting up in the night many times there is no relaxation correct
+the beauty is proper Nidra is Delta in Yoga Nidra you
+continue to be in Delta but you are awake this is a technical way through
+Neuroscience you can understand Yoga Nidra is we take the mind systematically
+to the Delta wave in that pattern in the brain after the five waves yet you are not asleep
+so when someone practices Yoga Nidra at this level which actually we take people
+at the level four Yoga Nidra when people are practicing level four Yoga Nidra to
+the letter t the delta waves begin to work why I am
+approaching this topic one of the questions raised for us is can we work
+with subconscious mind using yoganidra when can you work with subconscious mind
+is when you are either in alpha or in this Delta
+okay so there is a possibility of you exploring the subconscious mind and
+habits and patterns change else you may be practicing yoga nindra
+for 20 years nothing will happen as our alumni knows it's not about the
+length of time you practice it is how consistent and with intention and how
+deep your practices so this is the background of Yogananda now what happened is Swami Rama was able
+to recall everything what was being spoken in the lab while his brain was
+emitting Delta that is what astonished the scientists in the year 1971.
+his disciples Swami Veda bharati went one step ahead
+maybe they didn't measure Swami Rama
+his mind was in Delta and Theta he was conversing like how we are
+conversing that means by practice you can manage to
+I you don't want to use the word dictate you manage to regulate the way your
+brain has to function okay so this is very very important
+thing to know now this is the lab side approach of
+Yoga Nidra now what Swami satyananda did was he trained a disciple in multiple
+languages and multiple knowledge while the disciple was not even a teenager the disciple was made to sleep
+in the room where Swami satyananda was taking classes to the disciples
+so here comes the Deep Impact of Yoga Nidra
+so what is the lesson we get here is it's a very subtle lesson is till our
+mind is not developing the I me myself that
+ego identification of an individualization identification our
+mind is always like a sponge open to learnings you can take it
+so what are we trying to do we are trying to come away from all the sheets
+or the coats or the coverings what we put for ourselves so that we become once
+again a child and if you noticed many of you may be living in an
+apartment complexes or your children may be studying in in schools where
+the children speak multiple languages nobody teaches them they pick up the
+language have you observed that so this is how they pick up through the
+sounds okay because their mind is not into too
+much changing the mind of a child lives in the present moment
+so in yoga what we do we gradually train people to take their mind to the present
+moment because in the present there is no future
+what you do in the present creates your future and even you meditate on your past it's
+going to be trouble some in the now okay so this moment of now Yoga Nidra
+practice can create which we read in books and listen in podcasts see we need to understand something
+intellectually today things are available in Google discussions books so many so much
+material is available but how to bring it to life we need to go to the tradition or a
+teacher who can help us to sift through the heaps of information and take only
+what you need correct what everybody knows I need to relax how to relax nobody knows
+because people think they go to vacation they relax they come back more tired from vacation right
+this is what happens generally okay so now I was addressing these these type of
+questions were there before we started the session okay any observations till
+now any questions till now
+okay so can I move to the next okay now I was telling you about
+not just we need to know what has to be done how to do it
+the title of this podcast itself is Inspire someone today right
+what has to what we have to do we have to inspire but what the conceptualizer
+of this entire team srikanth did he said how this is how you do it
+you understand these very basic things success comes when what and how is married
+so what we are going to do using Yoga Nidra technique is we need to get into understanding of how the body relaxes
+and we also practice and experience how it relaxes okay so for this purpose
+we also need to understand One More Concept from our tradition which is called the panchakosha means five sheets
+panchay is she any knowledge or any change in any human
+being is possible only when whatever we are practicing
+touches on these five Shields if you only intellectually satisfy
+someone it's not going to change if you are only going to convince
+somebody it's not going to change if you are only going to emotionally connect it's not going to change if you only do
+physically like Asana nothing is going to change you are getting it you need to integrate
+all these things and work as a system so what we do in Yogananda is we tap
+the little man in the brain so you have a
+you have an area in your brain which is called little man it is like a child
+cuddled inside a mother's womb that is how the blueprint is there in our brain each of us have that
+when you reach that out your physical level relaxation immediately starts
+your understanding then in the next level yogendra we take people to the
+joints and the breath your joints also has a breath is naturally having piranha
+okay so that is handled then through the resolve the mind is handled
+whenever you do a level three onwards Yoga Nidra it gives more benefit and it
+makes sense when you practice with a resolve because each of us have stress because of something which you are
+afraid you will not achieve please correct me if I am wrong
+that is the reason why we have stress right so today we started
+for a second we lost connection so srikan came back and asked right are
+we connected are we doing it you you got it so the entire effort
+till it ends that is going to be stress but how are we going to manage it by
+only giving our best correct so this stress what is the cause
+of anybody's stress is one thought which we know commonly as a desire
+if the desire we understand how to handle you will understand how to handle stress
+why it is important we will die without stress people have
+to understand this people think they are dying due to stress that is secondary
+if you don't have stress you will have boredom in life
+and you will not know what to do you will invite all lifestyle diseases to yourself
+this is a very important point please invite stress
+because you learn how to manage it without stress there is no growth
+with stress the egg breaks right chicken is there it's stress only a child is
+born with stress the pupa becomes a butterfly without stress of deadline sometimes
+things never get achieved today they speak about smart goals no
+smart measurable unless there is a goal and there is a
+basic manageable stress nothing will get done in life
+we have to understand so if you are wanting to have a stress-free life only a dead body or a realize the soul can
+have it because one is unaware and another is completely aware all of us
+are walking towards that both of it but
+definitely death is there whether we realize or not that is we don't know at least this life our next life but we are
+all in between right so we will have our own degrees of stress
+and with this knowledge only you should get into the practice of Yoga Nidra we
+cannot just download a script or an audio or start listening to it without having this background
+and nothing is a foolproof unless you change your lifestyle so when
+you do Yoga Nidra completely as a module you will understand how to adjust and
+change and adapt the lifestyle so that the Yoga Nidra process gives you Amplified benefits okay so we begin with
+the little man in the brain and then with the breath you are countering the mind because when you have anxious
+thoughts there is shallow breathing we cannot directly manage thoughts
+because all our thoughts are waiting to be scratched they are only tip of the iceberg moment you try to counter them
+they will give you one more point which you will be scratching your head or you will be shouting at the top of the voice
+to your spouse or your children they don't know why you are shouting because when you meddle with your mind without
+understanding it's a problem so what happens the breath and the mind
+or the sides of the same coin so when they are arranged in the upanishad the koshas the sheets they have arranged the
+physical first second is The Prana then the mind so what is the understanding we
+have the the breath which is technically called Prana when it deepens it directly
+impacts your brain waves quietening it so this is how we have to study anything
+systematically and then using your intellect you narrow down which desires
+are there there are various methods we share through which they can shortlist and filter the desires
+and then the practice of yoginidra takes a complete shape now
+should someone wait to learn completely to experience relaxation not necessary
+when they Faithfully practice the level one or level two yogan Indra which today
+we would be practicing the level through yoganidra Seated on a chair
+okay because you don't need to have a yoga mat go in search of it if you are
+not having don't worry sit on a chair with back straight and just go through the instructions
+and this is very easy to practice every day why it is very easy
+your best friend is you your worst enemy is you and if your appointment of the
+day with you is good the entire day you can manage anything which comes down
+so we should think of Yoga Nidra as an appointment we have with ourselves before we are going to get into the very
+hectic day we are not talking about people who need Yoga Nidra because they are insomniacs
+that's a different subject altogether we are not going to use Yoga Nidra to achieve Nidra but we are going to use
+Yoga Nidra to achieve awareness and do better and clear in life
+okay so I'm not treating any of you as a patient here we are all here to learn
+something to improve our life and lifestyle Okay so people think meditation is important it
+is extremely important but we should know how to meditate correct and Yoga Nidra is a stepping stone to clear
+meditation so we need to prepare well so what we do when we we share yoga as a
+system Yoga Nidra is kept as the first limb of yoga medication is kept as the
+seventh limb of yoga
+so when you go through three four five six is concentration which naturally
+develops which will lead you to meditation so in short if you dump directly to meditation you will get up more stressed
+so today the key area is stress how to bring it down now
+how many of you have experienced Frozen shoulders or neck pain or low
+back pain correct this is basically stress
+building up and hitting first the weakest part in your body second that's a systematic study which
+says if your Alpha is affected what is the reason psychological reason because
+everything is psychosomatic if your shoulders are heavy what could be the reason
+when you are carrying more than you can you'll have cervical and you have
+shoulder issues sometimes you are imagining you are carrying more that time also you will have probably
+sometimes genuinely it is then you take the entire load of the family sometimes imagination also leads to that
+what happens L why I'm speaking today we are seated on a chair no so I call this
+office chairs are all recipes for disaster they're the moving chairs nobody will
+have a steady mind with moving chairs so this L5 what happens when stress gets
+accumulated you want to prove or continuously or doing something nobody is giving attention or there is a fear
+of failure your L5 will start becoming a problem people think sitting and working
+for long hours in office is creating low back problem that is the physical side the mental side is fear of
+non-acceptance and fear of failure all these things we can iron out using Yogananda
+like every day we get update but brush our teeth have breakfast similarly when
+you do everyday Yoga Nidra it is your mental and physical housekeeping it keeps you fresh in the mind and the body
+does that make sense okay so the little man in the brain
+helps you to consciously relax in the body level working with the breath during yoganidra
+helps as a precursor to calm down your mind so in today we can only do up to
+this level to uh in today's podcast any questions till now
+any area should I address foreign
+but if your routine is not allowing when you come back from your work
+before even engaging with someone because that generally causes eruption for us and others disturbance you can do
+a basic 12 to 15 minute Yoga Nidra calm down have a cup of water or tea then talk with people it's so it depends on
+our need but if you are doing yoginudra for indoor exploration self-discovery deep meditative
+experiences nothing to do with transactional life I would suggest do it in the morning before you even start the
+day but if you are a person who is already having a very high demand job or high
+demanding family we don't know right many of us get into family not knowing how demanding it is office is equally
+demanding so you practice first yoginidra as a first aid before you
+start interacting with the people it is for people at home we work right and there is no fund when we come and be
+erupt and there is another volcano waiting to erupt so we just come home relax
+12 to 15 minutes we practice this consciously then go back to the home which is the world for which we work
+so it depends on that third a third place how you can do this is once you understand this concept you
+can walk into your meeting room five to six minutes before you can sit quiet and
+do the scanning of the body as per whatever you are learning
+something is better than nothing right so you are becoming well prepared to
+even attend a meeting so these are the ways in which based on our need we can
+deploy yoganathram and for people who are having stress without knowing why
+they don't know why they are going towards a goal they have to invest time energy and learn till level four or
+level seven to begin with till level four and then they will stop they'll be taught how to reduce
+prioritize and then take up one desire at a time and Seed it as a result in
+yoginidra to start seeing their desires come true so whoever you uh who are here all of
+them have seen at least one desire come true in their life organically it's not magic it is how yoganidra works and that
+is the reason some of them are attending today after seven years of completing the program so that is
+personal experience in many of them who have undergone this program okay does
+that answer your question yeah okay so now
+um before we proceed further I wanted to give clarification on couple of terms
+which you will be hearing okay one word you will be hearing is
+be aware I am not telling beware be aware
+okay whenever this word aware you hear the word aware
+you don't try to focus don't try to
+concentrate so what is the easiest way try to maintain a smiling five face throughout
+the practice when you have a smiling face your mind tends to automatically stay in the
+present moment okay this is very very important
+so how to differentiate awareness and focus in Awareness it is effortless
+in concentration and focus there is an effort I'll give you one more example
+how many of you are hearing some sounds in your room
+yeah so you can say I am aware of those songs
+so at home when there is a discussion happening one of us tell the word yeah I
+am aware that's happening but I don't want to focus on it now
+particularly when you are dealing with teenage children I'm just telling you a practical thing
+right so what we use the word I am aware of what's going on but I am not going to focus on that thing right now like that
+when you sit in a place a vehicle may pass the fan may give you some sound the air
+condition May once in a while make a heavy sound if you are using a world window air conditioner
+while you are about to prepare for Yoga Nidra somebody will ring the bell or someone will increase the TV volume so
+what is happening you are aware of all that is happening the second key is in a non-reactionary
+mode that is called awareness yeah I am aware of it and you should not
+take off on the person after your yoginudra class you cannot go and tell them do you really have sins I already
+told you I am practicing yoginitra if you ever use these statements you are not ready for yogendra
+because the world will function the way it functions we need to optimize the way
+we live within ourselves when people see the change they will
+change unless that till that time you have to just be aware of whatever is
+happening it helps you to develop a non-reactionary mode which we call it as
+a responsive noun so when you are going to hear the word awareness you are just going to be aware why I am
+saying this I would be saying be aware of the right shoulder so with close guys the tendency is to
+try and beep or look into your right shoulder don't do that let your eyes be very calm
+quiet and still deal your eyes like how you deal with rose petal
+don't crush them don't torture them just internally through the mind your eyes
+are still and then you are directly looking at the right shoulder why when
+you do this you are preparing for a deep delta waves in Delta wave there is no
+rapid eye movement please go back to the first two three minutes of this podcast
+non-rapid eye movement Delta wave is the Neuroscience based scientific goal for
+Yogananda and what that does mean is deep relaxation and awareness in the
+Practical level so when we are not training ourselves to
+keep the eyes still we will not be in a mindset to practice a non-rem that means
+we will never allow our brain to rest only when the brain rests it becomes
+prepared and it goes to a deeper state okay so what I will recap when you hear
+the word awareness please know that it is not focus
+it is hazy but yours you know something is going on you are there and that that
+is also happening then correct second when you are aware deep
+within tell whatever is happening is happening for a reason I am only going to respond
+I am not going to react I'm only going to respond better not to use the word I
+am not going to react you use the word I will only respond to people and situations I am just practicing
+awareness is that okay now once in a while if you slip into
+sleep don't worry it may happen
+it's quite natural the moment you are aware you have dozed off come back and continue listening to
+the instruction and go with the instruction that is the second point is that clear
+now the third point to get the maximum benefit never try to assess
+what the instructor is going to say next
+that is not your job your job is to practice
+instruction is from the instructor it is their headache don't think for somebody
+you'll be more stressed the word session itself is reducing the stress why you
+want to think because our alumni knows in deeper yoga you will skip some body parts
+if you are a finicky with perfection or you have a obsessive compulsive disorder
+you will get up from yoginidra more stressed than before so remember your role is a practitioner
+you are not an examiner there or you are not a magician trying to predict what
+the teacher is going to tell next okay is that all fine
+if if any questions are there it's okay you can ask else we will do a short
+12 to 14 minute yoga instructor yes
+thanks shrika is it fine
+okay how many of you are having a comfortable chair to sit
+when I say comfortable chair both The Souls of the feet should firmly rest on
+the carpet if you are wearing a house Chapel please wear it because we need a non-conductor
+below your soul if you are seated on a carpet so be it yes I know
+even it out absolutely
+sit in a posture where your spine can be erect if you're finding it too much switch off
+the video lie down no problem okay so I'll just give you 15-20 seconds
+to prepare
+I will be opening the eyes because I can practice with open eyes
+and I also have to check whether the internet connection is there so for that purpose I will keep my eyes
+open you don't need to open your eyes and see what's going on because you are in your
+own home it is a safe place mentally tell yourself you are in a safe place
+so that you will not open your eyes okay and if if you want to go off video
+please feel free if you want to be on video also no problem
+now gently close your eyes those of you who are seated
+the instructions are for you open out your chest
+relax your elbows Place The Palms facing the roof on your
+thighs the souls firmly on the ground
+those of you who are seated in meditative posture you know what to do
+the third category of people who wish to lie down and practice
+ensure the heels are facing each other
+and they are at least one and a half to two feet away
+that helps your lower back to relax better
+now allow the hands to be slightly away from the body
+with the Palms facing the roof
+this position helps your neck to relax
+you can adjust your neck shoulders if you are lying down
+and feel rest completely
+remember this is a precursor to meditation and Swami satyananda says Yoga Nidra is
+the first step towards Transcendence so it's a very very important process
+like the Chinese philosopher lord said the journey every step is very important
+and the Journey Begins With the first step so Yoga Nidra you can safely consider as the first step towards
+self-discovery
+let the eyes be gently closed
+have a smile on your face consciously
+when you see a sunrise or a blossoming flag you feel so relaxed and smiling right
+all that smile
+once you are steady in the posture rotate your awareness on all directions
+and just observe the sounds around you
+you are seated in nature if it is daytime for you you could hear
+chirping of birds Vehicles passing by
+The Sounds around you depend on where you are and the time of the day
+with a smiling face just go from one sound to the other
+sound and be aware
+when we practice awareness of sounds it helps us directly to increase silence
+in our mind
+now shift the awareness from the sounds
+to your body
+the body is Comfortably lying down or seated
+and as and when you hear a part of the body keeping your eyes still and smile intact
+let me say once again keep your eyes still and smile intact
+just take your awareness to the body part which would be
+mentioned one after the other
+be aware of the right thumb
+right index finger
+middle finger
+ring finger
+the right little finger
+now be aware of the right palm
+the right hand
+the right wrist
+the right elbow
+right shoulder
+right shoulder blade
+space between the right armpit to the waist
+be aware of the right hip
+right die
+right knee
+right calf
+right angle
+right heel
+soul of the right foot
+the right big toe
+second choke third right toe
+orthod
+and the right little toe
+now gently bring your awareness to the left thumb
+left index finger
+middle finger ring finger
+little finger
+left palm
+left hand
+left wrist
+left forearm
+left elbow
+left upper arm
+left shoulder
+a space between the left armpit to the waist
+left hip
+left thigh
+left knee
+left calf
+left ankle
+left heel
+left soul
+the left big toe second toe
+third toe
+fourth toe and the left little tool
+you're completely aware and awake
+the eyes are still and the smile intact
+now be aware of the toes of your feet the ten toes
+the souls the heels
+ankles
+calf muscles the knees
+thighs but it's
+based the entire back from waist to the
+shoulder blades
+the spinal column
+be aware of both the arms from the shoulders
+to the fingertips
+and from the fingertips back to the shoulders
+be aware of the nape of the neck
+top of your head
+the forehead
+eyebrows
+eyes ears
+nose cheeks
+lips chin
+neck chest
+abdomen and run the awareness from the pelvic
+region to your toes
+now you're completely aware of your body which is still and steady
+with that state of steadiness be aware of the breaths
+just be a witness of the breathing process
+which anyway happens whether we are aware or unaware
+let's not make a conscious effort to breathe deep
+but just with the smiling face observe the breaths
+foreign
+travel elsewhere get the Mind back to the breaths
+continue being aware of the breath with a smiling face and steady posture
+now from the breath bring your awareness to the body
+mentally observe how you are seated or lying down
+still and steady
+now become aware of the sounds around you
+man-made Vehicles music
+Birds it could be anything just with a smiling face be aware
+now those of you who are seated and giving the instructions for closure
+those of you who are lying down be there those of you who are sitting you can rub
+your palms vigorously to generate some heat
+and place the Palms on the eyelids to transfer the warm sensation
+once again calming press the Palms against the ears and the
+cheeks
+the last time palming place it at the nape of the neck
+and the back low back
+and hold the Palms like a book how you would read a book before you
+and with a few blings gaze into the Palms and stay still
+and Silent till further instructions now those of you who are lying down
+get your legs together interlock your fingers
+take the hands above the head in line with the floor
+and as you inhale stretch yourself as if someone is stretching your spine
+and as you exhale relax
+now bend your left leg place the left palm on the abdomen
+turn to the right straighten the legs
+place the left palm before your chest on the ground
+keeping the eyes closed with the help of the hands gently come up to a seated
+position
+and do practice spamming for your eyes alone is enough
+vigorously rub your palms once enough heat is generated place it
+on the eyelids transfer the warm sensation
+hold the hands before you like how you would read a book
+with a few blings look into your palms familiarize your eyes with the light
+around you
+and you feel to come on camera you can
+we request the practitioners generally to keep a Silence of two to five minutes
+depending on the duration of the practice minimum two minutes works
+wonders technically the session is over for today
+shrika has any observations or any areas which we could address you can tell
