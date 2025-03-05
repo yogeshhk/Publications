@@ -64,7 +64,7 @@ As it is extremely convenient for editing, storing and sharing, will be trying d
 
 ## Follow
 - [Yalda Shankar](https://yaldashankar.org/index.html)
-- [Doug Neil](https://www.verbaltovisual.com/)
+- [Doug Neil Website](https://www.verbaltovisual.com/), [YouTube](https://www.youtube.com/@verbaltovisual/videos)
 - [Anuj Magazine](https://www.linkedin.com/in/anujmagazine/) Clean Style
 - [Tanmay Vora](https://qaspire.com/) Clean Style, [QASpire](https://qaspire.com/sketchnotes/)  Graphical Recording and Sketchnotes
 - [Kumar Ahir](https://www.kumarahir.com/sketchnotes.html)
