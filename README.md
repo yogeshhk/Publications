@@ -45,3 +45,6 @@ You are an expert in <domain> and also a prolific blog writer. I want you to act
 
 ## transcript
 ```
+
+## Book Publishing : Self vs Traditional
+- [How I self-published ](http://theroadchoseme.com/how-i-self-published-a-professional-paperback-and-ebook-using-latex-and-pandoc)

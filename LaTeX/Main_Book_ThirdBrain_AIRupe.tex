@@ -5,7 +5,31 @@
 \newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
 \graphicspath{{images/}}
 
+% Remove date from title page
+\date{}
+
+% Book's title and subtitle with colors
+\title{
+    {\Huge \textbf{\color{titlecolor} एआय-रूपे}} \\ 
+    \vspace{0.5em}
+    {\large \color{subtitlecolor} 'कृत्रिम बुद्धिमत्ते'ची 'विविध क्षेत्रातील रूपे}
+}
+
+% Author with color
+\author{\textsc{\color{authorcolor}डॉ. योगेश हरिभाऊ कुलकर्णी}}
+
 \begin{document}
+
+\frontmatter
+\maketitle
+
+\begin{dedication}
+Dedicated to Open-Source movement.
+\end{dedication}
+
+\tableofcontents
+
+\mainmatter
 
 \input{book_thirdbrain_airupe_content}
 
