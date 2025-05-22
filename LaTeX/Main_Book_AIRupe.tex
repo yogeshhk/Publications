@@ -21,7 +21,17 @@
 \begin{document}
 
 \frontmatter
-\maketitle
+
+%\maketitle
+% Custom title page with image instead of \maketitle
+\begin{titlepage}
+   \centering
+    \vfill
+    \thispagestyle{empty}
+    \newgeometry{margin=0pt}
+    \includegraphics[width=8.25in,height=11.67in]{airupe_cover_image}
+    \restoregeometry
+\end{titlepage}
 
 \begin{dedication}
 Dedicated to Open-Source movement.
@@ -31,6 +41,6 @@ Dedicated to Open-Source movement.
 
 \mainmatter
 
-\input{book_thirdbrain_airupe_content}
+\input{book_airupe_content}
 
 \end{document}
