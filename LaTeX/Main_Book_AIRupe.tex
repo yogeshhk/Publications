@@ -1,5 +1,8 @@
 \input{template_book}
 \usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{everypage}
+
 \setmainfont[Script=Devanagari]{Nirmala Text}
 \newfontfamily\devanagarifont[Scale=MatchUppercase]{Nirmala Text}
 \newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
@@ -19,6 +22,14 @@
 \author{\textsc{\color{authorcolor}डॉ. योगेश हरिभाऊ कुलकर्णी}}
 
 \renewcommand{\contentsname}{अनुक्रमणिका}
+
+% Define watermark
+\AddEverypageHook{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[rotate=45, scale=6, text opacity=0.1, font=\sffamily\bfseries] 
+      at (current page.center) {DRAFT};
+  \end{tikzpicture}%
+}
 
 \begin{document}
 
