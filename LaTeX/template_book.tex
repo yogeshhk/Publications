@@ -4,11 +4,13 @@
 %% License: ISC license                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[a4paper,12pt]{book}
+\documentclass[11pt]{book}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
-\usepackage{geometry}
+% \usepackage{geometry}
+
+\usepackage[paperwidth=6in, paperheight=9in, margin=0.75in]{geometry}
 
 % Color package for custom colors
 \usepackage[dvipsnames,table]{xcolor}
@@ -107,3 +109,13 @@
    \itshape}
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
 \makeatother
+
+\renewcommand{\contentsname}{अनुक्रमणिका}
+
+%% Define watermark
+%\AddEverypageHook{%
+%  \begin{tikzpicture}[remember picture,overlay]
+%    \node[rotate=45, scale=6, text opacity=0.1, font=\sffamily\bfseries] 
+%      at (current page.center) {DRAFT};
+%  \end{tikzpicture}%
+%}
