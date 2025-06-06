@@ -1,0 +1,37 @@
+\input{template_book}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{everypage}
+
+% Set up fonts
+\setmainfont[Script=Devanagari] {Tiro Devanagari Marathi}
+\newfontfamily\devanagarifont[Scale=MatchUppercase]{Tiro Devanagari Marathi}
+%\setmainfont[Script=Devanagari]{Nirmala Text}
+%\newfontfamily\devanagarifont[Scale=MatchUppercase]{Nirmala Text}
+% \setmainfont[Script=Devanagari]{Noto Serif Devanagari}
+% \newfontfamily\devanagarifont[Scale=MatchUppercase]{Noto Serif Devanagari}
+\newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
+\graphicspath{{images/}}
+
+
+\date{} % Remove date from title page
+
+
+\title{
+    {\Huge \textbf{मन:प्रारूपे}} \\ 
+    \vspace{0.5em}
+    {\large (विविध क्षेत्रातील `मेंटल मॉडेल्स'ची तोंडओळख)}
+}
+\author{\textsc{डॉ. योगेश हरिभाऊ कुलकर्णी}}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\input{manahprarupe_initialpages}
+\tableofcontents
+
+\mainmatter
+\input{book_manahprarupe_content}
+
+\end{document}
