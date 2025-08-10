@@ -1,0 +1,55 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. dev maajhaa viThuu saa.nvaLaa ..
+
+
+gaayikaa, suman kalyaaNapuur
+giit, sudhaa.nshu
+sa.ngiit, dasharath pujaarii
+
+
+dev maajhaa viThuu saa.nvaLaa
+maaL tyaachii maajhiiyaa gaLaa .. dhR^i{\rm.} ..
+
+viThuu raahe pa.nDharapuurii. vaiku.nThacha he bhuuvarii.
+bhiimechyaa kaaThii Dule bhaktaa.nchaa maLaa .. 1 ..
+
+saajire ruup su.ndar. kaTi dhare piitaa.nbar.
+ka.nThaat tuLashiiche haar. kastuurii TiLaa .. 2 ..
+
+bhajanaat viThuu Dolato. kiirtanii viThuu naachato.
+ra.nguun jaaii bhaktaa.nchaa paahunii maLaa .. 3 ..
+
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+

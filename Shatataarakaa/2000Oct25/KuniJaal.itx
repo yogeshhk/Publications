@@ -1,0 +1,56 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. kuNii jaala kaa ..
+
+
+gaayak, vasa.ntaraav deshapaa.nDe
+sa.ngiit, yashawa.nt dev
+giitakaar, aniil {\rm?}
+
+kuNii jaala kaa{\rm,} saa.ngaala kaa{\rm,} suchawaala kaa{\rm,} tyaa kokiiLaa{\rm,}
+raatriitarii gaauu nako{\rm,} phulawuu nako aapulaa gaLaa  .. dhR^i\. ..
+
+aadhiicha sa.ndhyaakaaLachii{\rm,} barasaata aahe laa.nbalii{\rm,}
+parata jaataa chi.nba chu.nbana deta daarii thaa.nbalii{\rm,}
+haara purwiichaa dilaa{\rm,} to shwaasa saahuun waaLalaa{\rm,}
+aataacha aabhaaLaatalaa{\rm,} kaaLokha mii kurawaaLiilaa .. 1 ..
+
+
+saa.nbhaaLuunii maajhyaa jiiwaalaa{\rm,} mii jaraase ghetale{\rm,}
+itukyaata yetaa waajalii{\rm,} halakii wiijechii paauule{\rm,}
+saa.ngaala kaa tyaa kokiLaa{\rm,} tii raatra hotii waadaLii{\rm,}
+aaNi dyaayaa daada koNii{\rm,} raatra jaaguun kaaDhalii .. 2 ..
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+

@@ -1,0 +1,316 @@
+#!/usr/sbin/perl -w
+
+# This script will read gani.txt and write full database file gani.db
+# Fields that are currently defined are:
+#	key
+#	source (.itx) 	file location
+#	.ps 				file location
+#	.gif 				file location
+#	.dvng 			file location
+#	.music.au		file location
+#	Name of the Song
+#	Singer(s)
+#	Writer(s)
+#	Music Director
+#	Film
+#	Raaga
+#	Actor(s)
+#	Category
+#  Contributor
+#	Dummy1
+#	Dummy2
+#  Dummy3
+#	Dummy4
+
+use strict;
+
+#----------------------------------------------------------------
+#	Globals (Customization)
+#----------------------------------------------------------------
+my $newtxtdbfile 		= "gani.db";
+my $htmlfile 			= "gani.html";
+my $xdvnghtmlfile 	= "ganixdvng.html";
+my $htmlheaderfile 	= "gani.hdr";
+my $htmlfooterfile 	= "gani.trl";
+
+my $ps_gif				="gs.gif";
+my $gif_gif				="gif.gif";
+my $au_gif				="au.gif";
+my $xdvng_gif			="xdvng.gif";
+my $unknown_gif		="unknown.gif";
+
+my $table_border="0"; 
+my $table_cellspacing="0"; 
+my $table_cellpadding="2"; 
+my $table_width="100%";
+
+my $table_row_bgcolor 	= "#6020A0";
+my $table_row_bgcolor1 	= "#C0A0FF";
+my $table_row_bgcolor2 	= "#C0A0FF";
+my $table_th_bgcolor 	= "#C0A0FF";
+
+my $img_size 	="32";
+
+#----------------------------------------------------------------
+sub WriteHtml {
+
+   my $fileheader 		= $_[0];
+   my $filefooter 		= $_[1];
+   my $filedb 				= $_[2];
+   my $fileout 			= $_[3];
+   my $filexdvngout 		= $_[4];
+
+
+	#--------- Header -------------------------
+   open (FIRSTOUT, ">$fileout") or die "Can't open data file: $!";
+   open (FIRSTXDV, ">$filexdvngout") or die "Can't open data file: $!";
+
+	print FIRSTXDV "begin\-document\n"; # for web interface
+   print FIRSTXDV "<HTML>\n"; # for web interface
+   print FIRSTXDV "<HEAD>\n"; # for web interface
+   print FIRSTXDV "<TITLE>Song from Shatataaraka</TITLE>\n"; # for web interface
+   print FIRSTXDV "<LINK REL=\"FONTDEF\" SRC=\"xdvng.pfr\">\n"; 
+   print FIRSTXDV "<LINK REL=\"STYLESHEET\" HREF=\"ssitrans.css\" TYPE=\"text/css\">\n"; 
+   print FIRSTXDV "</HEAD>\n"; # for web interface
+	
+   open (HEAD, "<$fileheader") or die "Can't open data file: $!";
+	while (<HEAD>) {
+		print FIRSTOUT $_;
+		#print FIRSTXDV $_;
+	}
+	close HEAD;
+	close FIRSTOUT;
+	close FIRSTXDV;
+
+	&WriteHtmlTable($filedb,$fileout,$filexdvngout);
+
+	#--------- Footer -------------------------
+   open (FINALOUT, ">>$fileout") or die "Can't open data file: $!";
+   open (FINALXDV, ">>$filexdvngout") or die "Can't open data file: $!";
+
+   open (FOOT, "<$filefooter") or die "Can't open data file: $!";
+	while (<FOOT>) {
+		print FINALOUT $_;
+		#print FINALXDV $_;
+	}
+	print FINALXDV "</BODY>\n"; # for web interface
+	print FINALXDV "</HTML>\n"; # for web interface
+	print FINALXDV "end\-document\n"; # for web interface
+	close FOOT;
+	close FINALOUT;
+	close FINALXDV;
+}
+
+#----------------------------------------------------------------
+sub WriteHtmlTable {
+
+   my $filedb 		= $_[0];
+   my $filehtml 	= $_[1];
+   my $filexdvng 	= $_[2];
+
+	my $i=0;
+	my $j=0;
+	my $row_color="";
+
+	my $key;
+	my $itx_file_location;	# itrans source file
+	my $ps_file_location;
+	my $gif_file_location;
+	my $xdvng_file_location;
+	my $music_file_location;
+	my $song_name;
+	my $singers;
+	my $writers;
+	my $music_director;
+	my $raag;
+	my $category;
+	my $contributer;
+	my $rating;
+	my $dummy1;
+	my $dummy2;
+	my $dummy3;
+	my $dummy4;
+
+	print " Processing ...\n";
+
+   open (IN, "<$filedb") or die "Can't open data file: $!";
+   open (OUT, ">>$filehtml") or die "Can't open data file: $!";
+   open (XDV, ">>$filexdvng") or die "Can't open data file: $!";
+
+   print OUT "<p>\n";
+   print XDV "<p>\n";
+   print OUT "<p>\n";
+   print XDV "<p>\n";
+   print OUT 	"<table 	BORDER=\"$table_border\" ";
+   print XDV 	"<table 	BORDER=\"$table_border\" ";
+	print OUT   "        CELLSPACING=\"$table_cellspacing\" ";
+	print XDV   "        CELLSPACING=\"$table_cellspacing\" ";
+	print OUT   "        bgcolor=\"$table_row_bgcolor\" ";
+	print XDV   "        bgcolor=\"$table_row_bgcolor\" ";
+	print OUT	" 			CELLPADDING=\"$table_cellpadding\" ";
+	print XDV	" 			CELLPADDING=\"$table_cellpadding\" ";
+	print OUT   "        WIDTH=\"$table_width\" >\n";
+	print XDV   "        WIDTH=\"$table_width\" >\n";
+	print OUT "\t<TR >\n";
+	print XDV "\t<TR >\n";
+	print OUT "\t<TD><img SRC=\"$ps_gif\" ALT=\"postscript\" border\=0> </TD>\n";
+	print XDV "\t<TD><img SRC=\"$ps_gif\" ALT=\"postscript\" border\=0> </TD>\n";
+	print OUT "\t<TD><img SRC=\"$gif_gif\" ALT=\"gif\" border\=0></TD>\n";
+	print XDV "\t<TD><img SRC=\"$gif_gif\" ALT=\"gif\" border\=0></TD>\n";
+	print OUT "\t<TD><img SRC=\"$au_gif\" ALT=\"sound\" border\=0></TD>\n";
+	print XDV "\t<TD><img SRC=\"$au_gif\" ALT=\"sound\" border\=0></TD>\n";
+	print OUT "\t<TD><img SRC=\"$xdvng_gif\" ALT=\"xdvng\" border\=0></TD>\n";
+	print XDV "\t<TD><img SRC=\"$xdvng_gif\" ALT=\"xdvng\" border\=0></TD>\n";
+	print OUT "\t<TD width=100><FONT COLOR=\"\#FFFFFF\"><B>giit</B></TD>\n";
+	print XDV "\t<TD width=100><FONT COLOR=\"\#FFFFFF\"><B>\#\#giit\#\#</B></TD>\n";
+	print OUT "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>gaayak-gaayikaa</B></TD>\n";
+	print XDV "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>\#\#gaayak gaayikaa\#\#</B></TD>\n";
+	print OUT "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>giitkar</B></TD>\n";
+	print XDV "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>\#\#giitkar\#\#</B></TD>\n";
+	print OUT "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>sa.ngeet</B></TD>\n";
+	print XDV "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>\#\#sa.ngeet\#\#</B></TD>\n";
+	print OUT "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>preshak</B></TD>\n";
+	print XDV "\t<TD> <FONT COLOR=\"\#FFFFFF\"><B>\#\#preshak\#\#</B></TD>\n";
+	print OUT "\t</TR>\n";
+	print XDV "\t</TR>\n";
+
+   while (<IN>) {
+      chomp;                  # remove newline
+      my @fields  = split(/\|/, $_);
+		$j++;
+		
+		if ( $j % 2) {
+			$row_color = $table_row_bgcolor1;
+		}
+		else {
+			$row_color = $table_row_bgcolor2;
+		}
+
+		print OUT "\t<TR bgcolor=\"$row_color\" >\n";
+		print XDV "\t<TR bgcolor=\"$row_color\" >\n";
+
+		$key 						=	$fields[0];
+		$itx_file_location 	=  $fields[1];
+		$ps_file_location 	=  $fields[2];
+		$gif_file_location 	=  $fields[3];
+		$xdvng_file_location	=  $fields[4];
+		$music_file_location	=  $fields[5];
+		$song_name 				=  $fields[6];
+		$singers 				=  $fields[7];
+		$writers 				=  $fields[8];
+		$music_director 		=  $fields[9];
+		$raag 					=  $fields[10];
+		$category 				=  $fields[11];
+		$contributer 			=  $fields[12];
+		$rating 					=  $fields[13];
+		$dummy1 					=  $fields[14];
+		$dummy2 					=  $fields[15];
+		$dummy3 					=  $fields[16];
+		$dummy4					=  $fields[17];
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "<A HREF=\"$ps_file_location\">";
+		print XDV "<A HREF=\"$ps_file_location\">";
+		print OUT "<img SRC=\"$ps_gif\" ALT=\"postscript\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		print XDV "<img SRC=\"$ps_gif\" ALT=\"postscript\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "<A HREF=\"$gif_file_location\">";
+		print XDV "<A HREF=\"$gif_file_location\">";
+		print OUT "<img SRC=\"$gif_gif\" ALT=\"gif\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		print XDV "<img SRC=\"$gif_gif\" ALT=\"gif\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		if ( $music_file_location eq "") {
+			print OUT "<A HREF=\"$music_file_location\">";
+			print XDV "<A HREF=\"$music_file_location\">";
+			print OUT "<img SRC=\"$au_gif\" ALT=\"sound\" border\=0 width\=$img_size height\=$img_size></A>\n";
+			print XDV "<img SRC=\"$au_gif\" ALT=\"sound\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		}
+		else 	{
+			print OUT "<img SRC=\"$unknown_gif\" ALT=\"Add Here\" border\=0 width\=$img_size height\=$img_size>\n";
+			print XDV "<img SRC=\"$unknown_gif\" ALT=\"Add Here\" border\=0 width\=$img_size height\=$img_size>\n";
+		}
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		if ( $xdvng_file_location eq "") {
+			print OUT "<A HREF=\"$xdvng_file_location\">";
+			print XDV "<A HREF=\"$xdvng_file_location\">";
+			print OUT "<img SRC=\"$xdvng_gif\" ALT=\"xdvng\" border\=0 width\=$img_size height\=$img_size></A>\n";
+			print XDV "<img SRC=\"$xdvng_gif\" ALT=\"xdvng\" border\=0 width\=$img_size height\=$img_size></A>\n";
+		}
+		else 	{
+			print OUT "<img SRC=\"$unknown_gif\" ALT=\"Add Here\" border\=0 width\=$img_size height\=$img_size>\n";
+			print XDV "<img SRC=\"$unknown_gif\" ALT=\"Add Here\" border\=0 width\=$img_size height\=$img_size>\n";
+		}
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD width=100>";
+		print XDV "\t\t<TD width=100>";
+		print OUT "<A HREF=\"$itx_file_location\"><b>$song_name</b></A>\n";
+		print XDV "<A HREF=\"$itx_file_location\"><b>\#\#$song_name\#\#</b></A>\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "$singers\n";
+		print XDV "\#\#$singers\#\#\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "$writers\n";
+		print XDV "\#\#$writers\#\#\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "$music_director\n";
+		print XDV "\#\#$music_director\#\#\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t\t<TD>";
+		print XDV "\t\t<TD>";
+		print OUT "$contributer\n";
+		print XDV "\#\#$contributer\#\#\n";
+		print OUT "</TD>\n";
+		print XDV "</TD>\n";
+
+		print OUT "\t</TR>\n";
+		print XDV "\t</TR>\n";
+	}
+   print OUT "</table>\n";
+   print XDV "</table>\n";
+   print OUT "<p>\n";
+   print XDV "<p>\n";
+   print OUT "<hr>\n";
+   print XDV "<hr>\n";
+   print OUT "<p>\n";
+   print XDV "<p>\n";
+
+	close IN;
+	close OUT;
+	close XDV;
+}
+
+WriteHtml(	$htmlheaderfile,
+				$htmlfooterfile,
+				$newtxtdbfile,
+				$htmlfile,
+				$xdvnghtmlfile);

@@ -1,0 +1,57 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+
+
+.. rajaniiga.ndhaa jiivanii.n yaa ..
+
+
+gaayikaa, anuraadhaa pauDavaal
+giit, shaa.ntaaraam naa.ndagaa.nvakar
+sa.ngiit, anil{\rm-}aruN
+
+
+rajaniiga.ndhaa jiivanii.n yaa baharunii aalii
+manamiit aalaa tichyaa paa_uulii.n .. dhR^i\. ..
+
+phulalyaa manaachyaa mukyaa paakaLyaa
+jhulalyaa lataa aaj priitii.ntalyaa
+ashii aalii{\rm,} priitii lyaalii{\rm,} navii hii kaLii .. 1 ..
+
+rajanii ashii hii niLii saa.nvaLii
+kiraNaa.nt nhaalii dharaa malmalii
+ashaa veLii.n{\rm,} priyaa ye_ii{\rm,} phule.n laajalii.n .. 2 ..
+
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+

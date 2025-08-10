@@ -1,0 +1,54 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+.. paDile dUra deshI ..
+gaayikaa, kishorI AmoNakar
+giit, sa.nt dnyAneshwar
+
+paDile dUr deshI
+maj aaThave mhaNashI
+nako nako hA viyog
+kaShT hotAtI jIvAsI
+
+dinu taisI rajanI
+jAli ge mAye
+awasthA lAUni gelA
+ajunI kA na ye
+
+garuDa wAhanA ga.nbhIrA
+yei gA dAtArA
+bAp rakhumA dewiwarA
+shrI viThThalA
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+

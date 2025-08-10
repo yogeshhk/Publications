@@ -1,0 +1,18 @@
+namaste,
+
+Following is rough log of changes made to the site.
+
+dasaraa : First day. Oct 4,2000
+	- Put up new look.
+	- Perl script to generate html pages
+	- flat text database format fixed with 4 extra-dummy fields other than P-stats
+	- Moved Sachins Index to indexsachin.html
+	- backed up scripts
+
+Oct 21,00:
+	- Made changes to Header and Footer to be table based.
+
+Nov 25,00:
+	- Same format for index.html and gANI.html, earlier backgrounds were different.
+	- Removed "Download Songs" option. No need !!
+

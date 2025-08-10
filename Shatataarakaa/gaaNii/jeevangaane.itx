@@ -1,0 +1,86 @@
+% Devanagari Example (devnac font)
+\renewcommand{\arraystretch}{1.25}
+\newcommand{\rarrow}{\mbox{---\hspace{-8pt}$>$}}
+\newfont{\devnf}{dnh at 22pt}
+\newfont{\devno}{dnho at 22pt}
+\newfont{\devnc}{dnhrc at 22pt}
+\newfont{\devne}{dnh at 15pt}
+\hyphenchar\devnf=-1
+\hyphenchar\devno=-1
+\hyphenchar\devnc=-1
+\hyphenchar\devne=-1
+
+#marathiifm=dvnc.ifm
+
+#marathifont=
+% Not setting any font, since this file changes the font many times, itself.
+
+\setlength{\baselineskip}{30pt}
+\setlength{\textwidth}{6.20in}
+
+\documentstyle[12pt]{article}
+\begin{document}
+
+\pagestyle{empty}
+\bigskip
+{#marathi
+
+\devnf
+|| maajhe jiivan gaaNe ||
+
+\vskip0.2in
+
+\devne
+kavii - ma.ngesh paaDagaa.nvakar
+
+gaayak - pa.nDit jite.ndra abhishhekii
+
+\vskip0.2in
+
+maajhe jiivan gaaNe, maajhe jiivan gaaNe !
+
+\vskip0.3in
+
+vyathaa aso aana.nda asuu de
+
+prakaash ki.nvaa timir asuu de
+
+vaaT diso athavaa n disuu de, gaat puDhe maja jaaNe
+
+maajhe jiivan gaaNe, maajhe jiivan gaaNe !
+
+\vskip0.3in
+
+kadhii aikato giit jharyaatun
+
+va.nshavanaachyaa kadhii manaatun
+
+kadhii vaaryaatun, kadhii taaryaatun jhuLajhuLataat taraaNe
+
+maajhe jiivan gaaNe, maajhe jiivan gaaNe !
+
+\vskip0.3in
+
+to liilaaghan satya chira.ntan
+
+phulaaparii umale giitaatun
+
+svaraasvaraatun aana.ndaache nitya nave najaraaNe
+
+maajhe jiivan gaaNe, maajhe jiivan gaaNe !
+
+\vskip0.3in
+
+yaa vihagaa.nno maajhyaasa.nge
+
+svaraa.nvarii haa jiiv tara.nge
+
+tumachyaapari maajhyaahi svaraa.ntun usaLe prem divaaNe
+
+maajhe jiivan gaaNe, maajhe jiivan gaaNe !
+
+\vskip0.3in
+
+#endmarathi} 
+
+\end{document}

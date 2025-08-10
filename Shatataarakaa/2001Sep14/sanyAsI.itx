@@ -1,0 +1,58 @@
+begin-document
+
+\setlength{\topmargin}{0.1in}
+\setlength{\textwidth}{8.0 in}
+\setlength{\textheight}{10.75 in}
+\begin{verse}
+\linespread{1}
+\newfont{\mdvng}{dvng10 at 14.5pt}
+\let\usedvng=\mdvng
+\baselineskip= 0pt
+\parindent 50pt
+\hrule height 0.4pt
+\bigskip
+
+#marathi
+{\obeylines
+\obeyspaces
+\obeyspaceslines
+
+
+.. ghar thakalele ..
+
+
+gaayaka, hR^idayanaath ma.ngeshakar
+giit, gresa
+sa.ngiit, hR^idayanaath ma.ngeshakar
+chitrapaT, nivadu.ng
+
+ghar thakalele sanyAsI, haLU haLU bhi.ntahI khachate
+AIchyA DoLyAmadhale nakshatra malaa bhAsavate
+
+
+tI navhatI sa.ndhyA madhurA rakharakhate Unach hote
+dhaga oDhUn sa.ndhyewANI AbhAL pasarale hote
+
+paksha.nchI gharaTI hotI, te zaaD toDale koNI
+ek ek o.njaLImAge asatech jharyAche pANI
+
+mI bhiUn a.ndhArAlA aDagaLIt lapUni jAI
+ye halake halake mAge tyA darItalI wanarAI
+
+
+}
+#endmarathi
+\end{verse}
+\vfill
+\newfont{\mdvng}{dvng10 at 12pt}
+\let\usedvng=\mdvng
+#marathi
+{\obeylines
+\hskip 5.8 in shatataarakaa
+\vskip 0.1 in
+}
+#endmarathi
+\hrule height0.4pt
+end-document
+
+
