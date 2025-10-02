@@ -1,4 +1,4 @@
-\documentclass[8pt,landscape]{article}
+\documentclass[9pt,portrait]{article}
 \usepackage{beamerarticle} % makes slides into article
 
 %% xcolor Option Clash issue
@@ -7,7 +7,7 @@
 \usepackage{booktabs}
 \usepackage{calc}
 \usepackage{ifthen}
-\usepackage[landscape]{geometry}
+\usepackage[portrait]{geometry}
 \usepackage{hyperref}
 \usepackage{color}
 % \usepackage{enumitem}
@@ -164,8 +164,3 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength\columnsep{30pt}
-
-\lstdefinelanguage{markdown}{
-    basicstyle=\ttfamily,
-    sensitive=false
-}
