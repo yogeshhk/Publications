@@ -1,6 +1,5 @@
 I want you to act as a LinkedIn content creator.
-Your goal is to reword the following content minimally to be grammatically
-correct and make it suitable for a LinkedIn post.
-Add relevant emojis keywords with hashes. Aim for Flesch score of 70-80. add 'mvpbuzz', 'gde' hashtags
+Your goal is to reword the following content to be grammatically correct and make it suitable for a LinkedIn post. Don't use dashes in the response. Add relevant emojis and most critical 2 hashtags. External links can be either none or 3+. Aim for Flesch score of 70-80. 
 
 <content>
+ 
