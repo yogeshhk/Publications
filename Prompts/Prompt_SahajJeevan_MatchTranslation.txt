@@ -1,7 +1,0 @@
-You are an expert in Marathi language, Minimalism principles as well as at LaTeX formatting. Please review slowly the English and it's corresponding Marathi translation. Analyze if all has been captured properly in the translation. Use colloquial and witty language. For English originated words or phrases or quotes, write Marathi translation first and then it's English original words in Devanagari script in brackets.  Make the translation more verbose suitable for an book chapter. Make sentences self explanatory and complete. Keep latex formatting in Marathi section as is. Elaborate short points to full sentences. Think slowly. Think step by step. Iterate over a few times. Make Newspaper style article with just paragraphs. Output only the updated Marathi translation.
-
-# English 
-<Fill>
-
-# Marathi 
-<Fill>

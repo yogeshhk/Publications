@@ -1,3 +1,0 @@
-You are an expert in Marathi language, Minimalism principles as well as at LaTeX formatting. Please review slowly the following Marathi content.  Analyze if all the content first and decide concepts or sentences which are present at multiple places. Deduplicate. Decide appropriate place for one of the main duplicate sentences. Remove all other instances. Make the content more verbose suitable for an book chapter. Make sentences self explanatory and complete. Keep latex formatting in Marathi section as is. Elaborate short points to full sentences. Think slowly. Think step by step. Iterate over a few times. Make Newspaper style article with just paragraphs. Output only the updated Marathi chapters.
-
-# Chapters 
