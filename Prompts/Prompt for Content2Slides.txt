@@ -1,1 +1,23 @@
-You are an expert in <Autonomous AI Agents>. Summarize and reformat following content into LaTeX beamer slides with point-wise, terse and meaningful content. Have atleast 5 points in a single slide. Dont add sections. If prompt or code examples are given then put lstlisting environments around them. Keep the meaning and important information as is. 
+You are an expert in <Artificial Intelligence>. You have been asked to prepare a slide deck as per LaTeX beamer format shown below. Each slides should have atleast 5 points based on only summarizing the following content. Keep each point short and self explanatory. Don't add sections. Slides having code should be wrapped under 'lstlisting' environment.
+
+
+## LaTeX format
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Sample Two Columns Slide}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \begin{itemize}
+		\item aaa
+	  \end{itemize}
+
+    \end{column}
+    \begin{column}[T]{0.4\linewidth}
+      \begin{itemize}
+		\item bbb
+	  \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+## Content
+
