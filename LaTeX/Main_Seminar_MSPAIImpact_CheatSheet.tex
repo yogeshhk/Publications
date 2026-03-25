@@ -1,0 +1,39 @@
+\documentclass[12pt,landscape]{article}
+\input{template_cheatsheet}
+
+\usepackage{beamerarticle} % makes slides into article
+\usepackage{polyglossia}
+\setdefaultlanguage{sanskrit}
+\setotherlanguage{english}
+
+\usepackage{fontspec}
+\setmainfont{Segoe UI}
+
+% Devanagari Fonts
+% \newfontfamily\devanagarifont[Scale=MatchUppercase]{Nakula}
+\newfontfamily\devanagarifont[Script=Devanagari]{Nakula}
+\newfontfamily\devanagarifontsf[Script=Devanagari]{Nakula}
+\newfontfamily\devanagarifonttt[Script=Devanagari]{Nakula}
+\newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
+
+\graphicspath{{images/}}
+
+\begin{document}
+
+\begin{center}
+     \Large{मराठी भाषा व साहित्य व्यवहारात 'ए.आय.'चा परिणाम आणि भविष्य }  % Change Title
+\end{center}
+\rule{\linewidth}{0.25pt}
+\raggedright
+\footnotesize
+\begin{multicols}{3}
+
+\input{seminar_mspaiimpact_content}
+\rule{0.3\linewidth}{0.25pt}
+
+\scriptsize
+CopyLeft \textcopyleft\ 2014 Yogesh Kulkarni
+\href{http://www.yogeshkulkarni.com}{yogeshkulkarni@yahoo.com}
+
+\end{multicols}
+\end{document}
