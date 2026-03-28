@@ -1,306 +1,344 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% मराठी भाषा आणि साहित्यावर AI चा प्रभाव
 %% Marathi Language & Literature, AI Impact Seminar
-%% Beamer Presentation (frames only, insert into your master .tex)
+%% Beamer Presentation — v3 (9 slides)
+%% Insert into your master .tex file as before.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 1, Opening Hook
+%% SLIDE 1  |  Opening Hook
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{ही कविता कोणाची?}
 
 \begin{block}{कविता A}
 पाऊस पडला झिम झिम झिम  \\
+
 अंगण झाले ओले चिंब  \\
+
 पाऊस पडला मुसळधार  \\
+
 रान झाले हिरवेगार
 \end{block}
 
 \begin{block}{कविता B}
 पाऊस आला, आठवणी जाग्या झाल्या  \\
+
 ओल्या मातीमध्ये बालपण सापडलं  \\
+
 छपरावरच्या थेंबांत गाणं ऐकलं  \\
+
 मन नकळत पुन्हा हरवलं
 \end{block}
 
-% \vspace{0.3cm}
-% {\small एक कविता AI ने तयार केली आहे. एक माणसाने लिहिलेली आहे.}\\
-% \textbf{तुम्ही ओळखू शकता का?}
+\vspace{0.25cm}
+{\small एक कविता AI ने तयार केली आहे. एक माणसाने लिहिलेली आहे.}\\
+\textbf{तुम्ही ओळखू शकता का?}
+
+\note{Reveal after audience guesses: Poem A is AI-generated (GPT-4); Poem B is human-written.
+      The difficulty of telling them apart is the central tension of this seminar.
+      Return to this slide at the end and ask: did anyone change their answer?}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 2, Why This Topic Matters
+%% SLIDE 2  |  हा विषय आज का महत्त्वाचा?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{हा विषय आज का महत्त्वाचा?}
 
 \begin{itemize}
-\item कृत्रिम बुद्धिमत्ता - आर्टिफिशिअल इंटेलिजन्स - ए.आय. - AI
-\item AI वेगाने दैनंदिन जीवनाचा भाग बनत आहे
-\item लेखन, साहित्य, शिक्षण, सर्व क्षेत्रात बदल घडतोय
+\item AI वेगाने दैनंदिन जीवनाचा, लेखनाचा, शिक्षणाचा भाग बनत आहे
+\item \textbf{२०२४:} ChatGPT वापरकर्ते जगभरात $> 18$ कोटी; भारतात $> 2$ कोटी
 \item मराठी भाषेसाठी मोठी संधी \textit{आणि} तितकाच धोका
-\item तरुण पिढी मोठ्या प्रमाणात AI वापरत आहे
-\item साहित्यिक, शिक्षक, धोरणकर्त्यांनी आताच सजग राहणे गरजेचे
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 3, What is AI (Simple)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{AI म्हणजे काय? (सोप्या भाषेत)}
-
-\begin{itemize}
-\item AI = उदाहरणांमधून शिकणारी यंत्रणा
-\item मोबाईलचे predictive typing, हे AI चे छोटे उदाहरण
-\item ChatGPT सारखी साधने = मोठे predictive typing
-\item माणसासारखा मजकूर तयार करते, पण \textbf{विचार करत नाही}
-\item फक्त pattern ओळखतो आणि पुढचा शब्द सुचवतो
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 4, How AI Works
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{AI कसे काम करते?}
-
-\begin{itemize}
-\item लाखो पुस्तके, लेख, वेबसाईट्सवर प्रशिक्षण
-\item शब्द व वाक्यांचे संबंध शिकते
-\item प्रश्न विचारला की संभाव्य उत्तर तयार करते
-\item हे उत्तर ``ज्ञान'' नव्हे, \textit{अंदाज} असतो
-\item म्हणून चुकीची माहितीही येऊ शकते
-\item \textbf{AI वापरताना स्वतःचा विचार अत्यावश्यक}
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 5, What is a Prompt
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Prompt म्हणजे काय?}
-
-\begin{itemize}
-\item AI ला दिलेली सूचना म्हणजे \textbf{Prompt}
-\item Prompt जितका स्पष्ट तितके उत्तर चांगले
+\item साहित्यिक, शिक्षक, विद्यार्थी — प्रत्येकजण आज निर्णयाच्या उंबरठ्यावर
 \end{itemize}
 
 \vspace{0.2cm}
-\begin{block}{उदाहरण, Prompt कसा सुधारावा}
-\begin{enumerate}
-\item ``पावसावर कविता लिहा''
-\item ``कोकणातील पावसावर भावनिक कविता लिहा''
-\item ``कोकणातील पावसावर एका शेतकऱ्याच्या दृष्टिकोनातून कविता लिहा''
-\end{enumerate}
+\begin{alertblock}{मुख्य प्रश्न}
+AI मराठी भाषा आणि साहित्याला \textbf{समृद्ध} करेल की \textbf{दुर्बल}?
+\end{alertblock}
+
+\note{Frame the whole talk around this one central question.
+      Every subsequent slide is evidence for or against one side.}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SLIDE 3  |  AI म्हणजे काय आणि ते कसे शिकते?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{AI म्हणजे काय आणि ते कसे शिकते?}
+
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{AI = मानवी बुद्धिमत्तेचे अनुकरण}
+\begin{itemize}
+\item बुद्धिबळ खेळणे, भाषा समजणे, चित्र ओळखणे
+\item \textbf{परीक्षेची उपमा:} काही जण संकल्पना समजून घेतात; काही जण फक्त जुने प्रश्नपत्रिका सोडवतात
+\item AI हा \textit{दुसऱ्या} प्रकारचा विद्यार्थी — जुन्या data मधून pattern शिकतो
+\item \textbf{जास्त data = अधिक चांगला AI}
+\end{itemize}
 \end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{Generative AI म्हणजे काय?}
+\begin{itemize}
+\item उत्तर \textit{देत नाही} — उत्तर \textbf{तयार करतो}
+\item \textbf{SMS उपमा:} तुमचे मागचे १०० messages वाचून पुढचा शब्द सुचवतो — ``चला जाऊया \ldots'' $\rightarrow$ \textit{coffee} की \textit{सिनेमा}?
+\item ChatGPT हे याच तत्त्वावर, फक्त अब्जावधी वाक्यांवर प्रशिक्षित
+\end{itemize}
+\vspace{0.1cm}
+\textbf{AI = शिष्य \quad|\quad Prompt = गुरु}
+\end{block}
+\end{column}
+\end{columns}
 
 \vspace{0.2cm}
-\textbf{AI = शिष्य \quad|\quad Prompt = गुरु}
+\begin{alertblock}{लक्षात ठेवा}
+AI चे उत्तर ``ज्ञान'' नव्हे, \textit{अंदाज} असतो — म्हणून स्वतःचा विचार अत्यावश्यक.
+\end{alertblock}
+
+\note{Exam analogy works very well with this audience — pause and ask them which type
+      of student they were. Then connect: ML is the rote-learning student who has read
+      every past paper ever written, but has no real understanding.
+      SMS analogy: most people have seen T9 / SwiftKey suggestions — scale that up
+      to the entire internet and you have GPT.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 6, Practical Uses of AI
+%% SLIDE 4  |  AI ला इतका Data कुठून मिळाला?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{AI चा प्रत्यक्ष वापर, उदाहरणे}
+\begin{frame}[fragile]\frametitle{AI ला इतका Data कुठून मिळाला?}
 
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{इंटरनेटने शक्य केले}
 \begin{itemize}
-\item विद्यार्थी निबंध आणि प्रकल्प लिहितात
-\item शिक्षक प्रश्नपत्रिका व नोट्स तयार करतात
-\item पत्रकार बातम्यांचे ड्राफ्ट तयार करतात
-\item YouTube व्हिडिओसाठी स्क्रिप्ट लेखन
-\item सोशल मीडिया पोस्ट काही सेकंदात तयार
-\item लेखक नवीन कल्पना मिळवण्यासाठी AI वापरतात
+\item आपले messages, emails, Facebook posts
+\item डिजिटल वृत्तपत्रे, विकिपीडिया, ब्लॉग्ज
+\item डिजिटायझेशन केलेली पुस्तके व हस्तलिखिते
+\item YouTube चे subtitles, tweets, forums
+\item \textbf{२०२३ पर्यंत:} $> 1$ ट्रिलियन वेबपेजेस उपलब्ध
 \end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 7, AI in Writing
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{लेखनात AI चे उपयोग}
-
+\end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{Data आणि गुणवत्ता}
 \begin{itemize}
-\item व्याकरण तपासणी आणि Proofreading
-\item भाषांतर (मराठी $\leftrightarrow$ इंग्रजी व इतर भाषा)
-\item लेख, भाषण, कथा यांचा मसुदा तयार करणे
-\item मोठ्या मजकुराचा सारांश
-\item विविध शैलीत लेखन, भावनिक, औपचारिक, विनोदी
+\item जास्त data $\Rightarrow$ AI अधिक सक्षम होतो
+\item इंग्रजीत अफाट data $\Rightarrow$ ChatGPT इंग्रजीत उत्कृष्ट
+\item मराठीत data कमी $\Rightarrow$ \textbf{मराठी AI अजून कमकुवत}
+\item आपले मराठी लेखन, आपला मराठी data
 \end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{exampleblock}{आपण काय करू शकतो?}
+मराठी Wikipedia संपादन $\cdot$ मराठीत ब्लॉग लिहिणे $\cdot$ Bhashini साठी voice data देणे
+— \textbf{हे सर्व AI ला मराठी शिकवणे आहे!}
+\end{exampleblock}
+
+\note{This slide makes the audience feel empowered — their Marathi writing is literally
+      training data. Every Marathi Wikipedia article they write improves future AI tools.
+      The data gap between English (~46% of web) and Marathi (~0.07%) is stark and worth
+      mentioning to motivate action.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 8, AI in Education
+%% SLIDE 5  |  AI चा प्रत्यक्ष वापर
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{शिक्षण क्षेत्रात AI}
+\begin{frame}[fragile]\frametitle{AI चा प्रत्यक्ष वापर}
 
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{लेखन व साहित्य}
+\begin{itemize}
+\item व्याकरण तपासणी, Proofreading
+\item मराठी $\leftrightarrow$ इंग्रजी भाषांतर
+\item कथा, भाषण, निबंधाचा मसुदा
+\item मोठ्या मजकुराचा त्वरित सारांश
+\end{itemize}
+\end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{शिक्षण व व्यवसाय}
 \begin{itemize}
 \item विद्यार्थ्यांना वैयक्तिक मार्गदर्शन
-\item नोट्स व सारांश त्वरित उपलब्ध
-\item शिक्षकांचा वेळ वाचवणारे साधन
-\item कठीण संकल्पना सोप्या भाषेत समजावणे
-\item \textbf{धोका:} विद्यार्थ्यांची स्वतंत्र विचारशक्ती कमी होण्याची शक्यता
+\item शिक्षकांसाठी प्रश्नपत्रिका व नोट्स
+\item YouTube स्क्रिप्ट, सोशल मीडिया पोस्ट
+\item पत्रकारांचे बातम्यांचे ड्राफ्ट
 \end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{exampleblock}{२०२५ मधील प्रमुख साधने}
+\textbf{Google Gemini} मराठीत थेट संवाद $\cdot$
+\textbf{AI Anuvaad} (C-DAC) भारतीय भाषांतर $\cdot$
+\textbf{Sarvam-1} भारतीय भाषांसाठी open-source LLM $\cdot$
+\textbf{Bhashini} २२ भारतीय भाषा
+\end{exampleblock}
+
+\note{Sarvam-1 (2024) is India's first open-source LLM trained on Indian languages including
+      Marathi. AI Anuvaad is C-DAC's official translation engine.
+      Demo opportunity: if internet available, show a live Bhashini or Gemini Marathi query.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 9, AI for Indian / Marathi Languages
+%% SLIDE 6  |  धोके, आव्हाने आणि नोकऱ्यांवर परिणाम
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{भारतीय भाषांसाठी AI, मराठीवर लक्ष}
+\begin{frame}[fragile]\frametitle{धोके, आव्हाने आणि नोकऱ्यांवर परिणाम}
 
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{alertblock}{AI चे धोके}
 \begin{itemize}
-\item \textbf{Bhashini}, भारतीय भाषांमधील भाषांतर साधन (केंद्र सरकार)
-\item Modi Script OCR, जुन्या मोडी दस्तऐवजांचे डिजिटायझेशन
-\item मराठी तांत्रिक शब्दसंग्रह निर्मिती प्रकल्प
-\item \textbf{मराठी डेटा कमी}, AI मॉडेल्स प्रशिक्षणासाठी अधिक मजकूर हवा
-\item सरकारी व खाजगी उपक्रमांची गरज
+\item \textbf{Hallucination:} AI आत्मविश्वासाने चुकीची माहिती देतो — काही माणसांसारखेच!
+\item मौलिकता कमी — सर्व लेखन एकसारखे
+\item सांस्कृतिक संदर्भ चुकीचे (मराठी सण, परंपरा)
+\item बोलीभाषांचा व मराठी अस्मितेचा ऱ्हास
 \end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 10, Opportunities for Marathi
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{मराठीसाठी नवीन संधी}
-
+\end{alertblock}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{नोकऱ्यांवर परिणाम (WEF 2025)}
 \begin{itemize}
-\item Marathi datasets तयार करणे, AI ला मराठी शिकवणे
-\item Apps, websites, सरकारी सेवांचे मराठी localization
-\item AI models training मध्ये भाषातज्ज्ञांसाठी रोजगार
-\item मराठी ऑडिओबुक, पॉडकास्ट, व्हिडिओ content वाढवण्याची संधी
-\item डिजिटल मराठी साहित्य जागतिक वाचकांपर्यंत पोहोचवता येणे
+\item \textbf{धोका:} साध्या, पुनरावृत्तीच्या कामांना — data entry, साधे भाषांतर, basic content
+\item \textbf{सध्या सुरक्षित:} शारीरिक कौशल्याची कामे — robot अजून पूर्ण सक्षम नाही
+\item \textbf{नवीन संधी:} AI training, prompt engineering, content review
 \end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{exampleblock}{विद्यार्थ्यांची स्वतंत्र विचारशक्ती}
+AI वर अवलंबून राहिल्यास भाषिक क्षमता क्षीण होते — लेखन हे \textit{विचाराचे} साधन आहे, फक्त उत्पादनाचे नव्हे.
+\end{exampleblock}
+
+\note{Hallucination: AI confidently states false facts — classic example is AI inventing
+      fake court cases (the US lawyer incident, 2023). Relate to Marathi: ask AI about a
+      local saint or historical figure and it may confabulate dates and events.
+      Physical work safety: robots still struggle with unstructured environments —
+      a plumber, carpenter or farmer is safer than a content writer right now.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 11, Impact on Jobs
+%% SLIDE 7  |  कॉपीराइट, नैतिकता आणि खुले प्रश्न
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{नोकऱ्यांवर परिणाम}
+\begin{frame}[fragile]\frametitle{कॉपीराइट, नैतिकता आणि खुले प्रश्न}
 
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{alertblock}{नैतिक प्रश्न}
 \begin{itemize}
-\item काही पारंपरिक भूमिकांमध्ये बदल अटळ
-\item प्रभावित क्षेत्रे: पत्रकारिता, विपणन, शिक्षण, कायदा, content निर्मिती
-\item नवीन संधी: AI training, content review, prompt engineering
-\item \textbf{Skills बदलणे आवश्यक}, AI सोबत काम करणे शिकणे महत्त्वाचे
+\item AI-generated मजकुराचा मालक कोण?
+\item लेखकांच्या संमतीशिवाय AI प्रशिक्षण?
+\item साहित्यचौर्य व बनावट श्रेयाचा धोका
+\item \textbf{AI content उघड करण्याची जबाबदारी}
 \end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 12, Benefits
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{AI चे फायदे}
-
+\end{alertblock}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{विचार करण्यासारखे}
 \begin{itemize}
-\item लेखन जलद आणि सोपे होते
-\item नवीन लेखकांना सुरुवात करणे सोपे
-\item भाषांतरामुळे मराठी साहित्याला जागतिक पोहोच
-\item ज्ञान सहज उपलब्ध, कोणाही माणसाला, कुठेही
-\item दिव्यांग व्यक्तींसाठी भाषा आणि साहित्याचा सहज प्रवेश
+\item भावना नसताना लिहिलेली कविता खरी का?
+\item AI साहित्याला पुरस्कार द्यावेत का?
+\item भविष्यात लेखकाची भूमिका काय?
+\item तंत्रज्ञान आणि संस्कृतीचा समतोल कसा?
 \end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{exampleblock}{जागतिक घडामोडी (२०२४--२५)}
+न्यूयॉर्क टाइम्स वि. OpenAI खटला $\cdot$ EU AI Act लागू $\cdot$ भारत: AI नियामक धोरण प्रतीक्षेत
+\end{exampleblock}
+
+\note{NYT lawsuit (Dec 2023): OpenAI trained on millions of NYT articles without permission
+      — directly analogous to concerns about Marathi literary works being scraped.
+      EU AI Act (Aug 2024) mandates disclosure of AI-generated content.
+      India's Digital India Act is in draft and expected to address AI specifically.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 13, Risks and Challenges
+%% SLIDE 8  |  धोरण, भविष्य आणि आपली भूमिका
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{धोके आणि आव्हाने}
+\begin{frame}[fragile]\frametitle{धोरण, भविष्य आणि आपली भूमिका}
 
+\begin{columns}[T]
+\begin{column}{0.48\textwidth}
+\begin{block}{AI थांबवता येणार नाही — तर काय करावे?}
 \begin{itemize}
-\item मौलिकता कमी होण्याचा धोका, सर्व लेखन एकसारखे वाटू लागणे
-\item सांस्कृतिक संदर्भ चुकीचे येणे (उदा. मराठी सण, परंपरा)
-\item विद्यार्थ्यांची स्वतंत्र विचारशक्ती आणि भाषिक क्षमता क्षीण होणे
-\item AI कडून चुकीची किंवा दिशाभूल करणारी माहिती
-\item मराठी अस्मिता आणि बोलीभाषांचा ऱ्हास होण्याची शक्यता
+\item \textbf{Prompt Engineering} शिका — AI कडून चांगले काम करवून घ्यायचे कौशल्य
+\item ChatGPT, Gemini, Copilot — साधने वापरायला शिका
+\item \textbf{आपल्या क्षेत्रात ChatGPT पेक्षा चांगले व्हा!}
+\item साध्या लेखनात AI जिंकेल; \textit{मराठी तांत्रिक, सांस्कृतिक, भावनिक लेखनात} तुम्ही जिंकू शकता
 \end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 14, Copyright & Ethics
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{कॉपीराइट आणि नैतिकता}
-
+\end{block}
+\end{column}
+\begin{column}{0.48\textwidth}
+\begin{block}{धोरणात्मक गरजा}
 \begin{itemize}
-\item AI ने तयार केलेल्या मजकुराचा मालक कोण?
-\item विद्यमान साहित्यावर AI प्रशिक्षण, लेखकांच्या संमतीशिवाय?
-\item साहित्यचौर्य आणि बनावट श्रेयाचा धोका
-\item AI-generated content उघड करण्याची नैतिक जबाबदारी
-\item \textbf{स्पष्ट कायदे आणि नियम आवश्यक}
+\item मराठी AI साधनांना सरकारी निधी
+\item हस्तलिखिते व ग्रंथालयांचे डिजिटायझेशन
+\item शालेय अभ्यासक्रमात AI साक्षरता
+\item लेखकांच्या बौद्धिक संपदा हक्कांचे कायदे
 \end{itemize}
+\end{block}
+\end{column}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{exampleblock}{तुम्ही आत्ता काय करू शकता?}
+मराठी Wikipedia संपादन $\cdot$ Bhashini app वापरून अभिप्राय द्या $\cdot$
+Prompt Engineering मोफत शिका (YouTube, NPTEL) $\cdot$ AI content वाचताना स्रोत तपासा
+\end{exampleblock}
+
+\note{Key motivational message: for general population writing (social media posts, generic
+      articles) AI will be competitive. But for writing a Marathi technical paper, a poem
+      about a specific village, or a nuanced cultural commentary — a knowledgeable human
+      still wins. The goal is to find that niche and be irreplaceably good at it.
+      Prompt engineering courses: Andrew Ng's free course on Coursera, NPTEL AI modules.}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 15, Thought-Provoking Questions
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{विचार करायला लावणारे प्रश्न}
-
-\begin{itemize}
-\item भावना नसताना लिहिलेली कविता खरी कविता असते का?
-\item AI ने लिहिलेल्या साहित्याला पुरस्कार द्यावेत का?
-\item भविष्यात लेखकाची भूमिका नक्की काय असेल?
-\item AI मराठी भाषा समृद्ध करेल की गरीब करेल?
-\item तंत्रज्ञान आणि संस्कृती यांचा समतोल कसा साधावा?
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 16, Policy Recommendations
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{धोरणात्मक दृष्टीकोन}
-
-\begin{itemize}
-\item मराठी AI साधनांना सरकारी प्रोत्साहन व निधी
-\item जुन्या ग्रंथालयांचे, हस्तलिखितांचे डिजिटायझेशन
-\item शालेय व महाविद्यालयीन अभ्यासक्रमात AI साक्षरता
-\item लेखकांचे बौद्धिक संपदा हक्क संरक्षण करणारे कायदे
-\item जबाबदार व नैतिक AI वापरासाठी मार्गदर्शक तत्त्वे
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 17, Future Direction
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{भविष्यातील दिशा}
-
-\begin{itemize}
-\item \textbf{AI + लेखक = सहकार्य}, स्पर्धा नव्हे
-\item AI कल्पना सुचवेल, अनुभव व भावना लेखकाच्याच राहतील
-\item मराठी साहित्य भाषांतराद्वारे जागतिक स्तरावर
-\item डिजिटल व मल्टीमीडिया मराठी साहित्याचा उदय
-\item \textbf{AI हे साधन आहे, साहित्यिक नव्हे}
-\end{itemize}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% SLIDE 18, Conclusion
+%% SLIDE 9  |  समारोप
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{समारोप}
 
 \begin{itemize}
-\item AI मुळे बदल अटळ आहे, त्यापासून दूर पळणे शक्य नाही
-\item साहित्याचा आत्मा मात्र अजूनही मानवी आहे
-\item योग्य वापर केल्यास मराठी भाषेसाठी मोठी संधी
-\item मराठी भाषा जपणे आणि वाढवणे आपल्या हातात
+\item AI मुळे बदल अटळ आहे — त्यापासून दूर पळणे शक्य नाही
+\item साहित्याचा आत्मा मात्र अजूनही \textbf{मानवी} आहे
+\item \textbf{आपले ध्येय:} ChatGPT जे करू शकत नाही ते करणे शिका
+\item मराठी भाषा जपणे आणि वाढवणे \textbf{आपल्या} हातात
 \end{itemize}
 
-\vspace{0.3cm}
+\vspace{0.35cm}
 \begin{center}
 \textbf{\large तंत्रज्ञान वापरा, पण विचारपूर्वक!}
 \end{center}
 
-\vspace{0.4cm}
+\vspace{0.25cm}
 \begin{center}
-{\large \textbf{प्रश्न?}}
+{\large \textbf{प्रश्न? चर्चा?}}
 \end{center}
 
+\note{Optional closing activity: re-show Slide 1 poems and ask again — did anyone change
+      their answer after the talk? Works well as a bookend that reinforces the key message.
+      Final thought to leave with audience: AI is the new electricity — you don't need to
+      understand how it works, but you must know how to use it safely and wisely.}
+
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% END OF CONTENT FILE (v3, 9 slides)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
