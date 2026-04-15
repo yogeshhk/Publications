@@ -1,5 +1,119 @@
-I want you to act as a LinkedIn content creator.
-Your goal is to reword the following content to be grammatically correct and make it suitable for a LinkedIn post. Don't use dashes in the response. Add relevant emojis and most critical 2 hashtags. External links can be either none or 3+. Aim for Flesch score of 70-80. 
+I want to reword [CONTENT] into a LinkedIn post so that
+[AUDIENCE] feels like I wrote it myself — not an AI, not a
+copywriter, just me thinking out loud with something worth saying.
 
-<content>
- 
+Before writing a single word, ask me these questions via clickable form:
+
+   CONTENT
+   - [ ] Paste content now  |  [ ] I'll paste after setup
+
+   WHO IS THIS FOR?
+   - [ ] AI/ML practitioners (peers, equals)
+   - [ ] Students / learners (I'm teaching)
+   - [ ] Business decision-makers (I'm advising)
+   - [ ] General tech-curious audience (mixed)
+
+   REWRITE INTENSITY
+   - [ ] Minimal touch — fix grammar, keep everything else
+   - [ ] Light polish — improve flow, keep my words
+   - [ ] Restructure if needed — but stay in my voice
+
+   TONE FOR THIS POST
+   - [ ] Teach something (insight-first)
+   - [ ] Share an opinion (take a position)
+   - [ ] Tell a story (experience-led)
+   - [ ] Announce something (event, launch, milestone)
+   - [ ] Reflect / muse (philosophical, open-ended)
+
+   POST LENGTH
+   - [ ] Short — hook + 3-5 lines + CTA (punchy)
+   - [ ] Medium — hook + body + 1 takeaway (standard)
+   - [ ] Long — hook + story + lessons + CTA (essay-style)
+
+   HUMOR & PUNCH
+   - [ ] Keep exactly as in original
+   - [ ] Amplify slightly if it lands better
+   - [ ] Tone down — this audience is more formal
+
+   EMOJIS
+   - [ ] Functional only — bullets, section markers
+   - [ ] Expressive — sprinkle where they add warmth
+   - [ ] Minimal — 1-2 max, only if earned
+   - [ ] None
+
+   HASHTAGS
+   - [ ] Auto-suggest relevant ones (5-8)
+   - [ ] I'll provide them, just place correctly
+   - [ ] None
+
+4. Show me the PLAN before writing:
+   - Proposed hook (first line only)
+   - Structural shape (how the post flows)
+   - Tone fingerprint for this post
+   - Readability target confirmation (Flesch 70–80)
+   - Any content you're flagging as unclear or risky
+
+5. Wait for my GO-AHEAD before producing the post.
+
+---
+
+## HARD RULES (always apply, no exceptions)
+
+### Voice & Authenticity
+- Minimal reword — I wrote the original for a reason; respect it
+- Retain ALL humor, sarcasm, irony — do not sanitize
+- Retain ALL hyperlinks — write them out explicitly, never markdown
+  format: "Link: https://..." not "[click here](https://...)"
+- If I used a specific word deliberately, keep it unless it's wrong
+- Do NOT make me sound warmer, more enthusiastic, or more polished
+  than I actually am
+
+### Anti-AI Writing (always enforce from my style file)
+- BANNED words: utilize, leverage, delve, synergy, robust, seamless,
+  game-changer, thought leader, empower, ecosystem, cutting-edge,
+  actionable insights, exciting, journey (metaphorical)
+- NO corporate cheerfulness — no fake excitement, no exclamation
+  marks as a style choice
+- NO false modesty — "I'm no expert but..." when I clearly am
+- NO summary at the end that restates what was already said
+- NO rhetorical question openers ("Have you ever wondered why...")
+- NO "What do you think? Drop a comment!" fishing for engagement
+- NO bullet-point-everything — prefer prose when ideas connect
+- NO em dashes used decoratively
+
+### Formatting
+- No dashes of any kind in the post body (em dash, en dash, hyphen
+  used as list marker)
+- Hashtags: grouped at the end, not scattered through the body
+- Emojis: never at the start of every line (carousel-style is banned)
+- No ALL CAPS for emphasis — use word choice instead
+- Hyperlinks written in full on their own line, labeled clearly
+
+### Readability
+- Target Flesch Reading Ease: 70–80
+- Short sentences when landing a point
+- Vary sentence length — rhythm matters
+- Active voice default; passive only when deliberate
+- No paragraph longer than 3 lines in LinkedIn format
+
+---
+
+## SELF-CHECK BEFORE SHOWING ME OUTPUT
+
+Run this checklist silently before presenting the post:
+
+- [ ] Does it contain any banned words? → Remove
+- [ ] Does it open with a rhetorical question? → Rewrite hook
+- [ ] Is there a summary at the end restating the body? → Cut it
+- [ ] Does it sound warmer/more enthusiastic than my original? → Cool down
+- [ ] Does it look like a LinkedIn carousel (emoji every line)? → Reformat
+- [ ] Are all hyperlinks written out explicitly, not in markdown? → Verify
+- [ ] Are dashes completely absent from the body? → Check
+- [ ] Could this have been written by anyone? → Make it specific to me
+- [ ] Estimated Flesch score in 70–80 range? → Confirm
+
+---
+
+## CONTENT TO REWORD
+
+[PASTE YOUR CONTENT HERE]

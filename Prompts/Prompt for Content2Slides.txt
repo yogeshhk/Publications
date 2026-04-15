@@ -1,23 +1,106 @@
-You are an expert in <Artificial Intelligence>. You have been asked to prepare a slide deck as per LaTeX beamer format shown below. Each slides should have atleast 5 points based on only summarizing the following content. Keep each point short and self explanatory. Don't add sections. Slides having code should be wrapped under 'lstlisting' environment.
+I want to convert [CONTENT] into a LaTeX Beamer slide deck so that
+[AUDIENCE] can follow the material clearly in a presentation setting.
 
+Before writing a single line of LaTeX:
 
-## LaTeX format
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Sample Two Columns Slide}
-\begin{columns}
+1. Read my ABOUT ME/ to understand my domain defaults and presentation style
+2. Ask me these questions via clickable form:
+
+   CONTENT
+   - [ ] Paste content now  |  [ ] I'll paste after you confirm setup
+
+   AUDIENCE & CONTEXT
+   - [ ] Students / learners (introductory pace)
+   - [ ] Practitioners / engineers (dense, technical)
+   - [ ] Mixed (balance depth and accessibility)
+
+   SLIDE DENSITY
+   - [ ] 5 points per slide (breathing room, big ideas)
+   - [ ] 7 points per slide (balanced)
+   - [ ] 10 points per slide (reference-style, dense)
+
+   CODE SLIDES
+   - [ ] Wrap all code in lstlisting (default)
+   - [ ] Show code inline as text points
+   - [ ] Skip code, explain conceptually
+
+   IMAGES / FIGURES
+   - [ ] Use two-column layout when [pic] tag present (default)
+   - [ ] Always single column, describe image in text
+   - [ ] Ask me per slide
+
+   DOMAIN / EXPERTISE FRAMING
+   - [ ] Generative AI  |  [ ] Agentic AI  |  [ ] NLP  
+   - [ ] Geometric Modeling  |  [ ] Other: ___
+
+   TONE OF SLIDE COPY
+   - [ ] Teaching (explain the why)
+   - [ ] Reference (just the what)
+   - [ ] Workshop (action-oriented, hands-on)
+
+3. Show me the PLAN before generating:
+   - Number of slides proposed
+   - Slide titles in order
+   - Which slides will use two-column (image) layout
+   - Which slides will use lstlisting
+   - Any content gaps or ambiguities flagged
+
+4. Wait for my GO-AHEAD before producing any LaTeX.
+
+---
+
+## HARD RULES (always apply, no exceptions)
+
+- Use ONLY the two LaTeX formats below — no deviations, no additions
+- Each bullet: short phrase, self-contained, no trailing period
+- 5–10 points per slide — never exceed 10, never go below 5
+- [pic] tag in content → always trigger two-column frame layout
+- Code → always wrap in lstlisting environment, never inline prose
+- Summarize content — do NOT copy-paste source text verbatim
+- Frame titles: concise noun phrases, not full sentences
+- Output: pure LaTeX only — no markdown, no commentary between frames
+
+---
+
+## FORMAT TEMPLATES (use exactly as shown)
+
+### Standard slide:
+\begin{frame}[fragile]\frametitle{Title}
+  \begin{itemize}
+    \item Point one
+    \item Point two
+  \end{itemize}
+\end{frame}
+
+### Slide with image [pic]:
+\begin{frame}[fragile]\frametitle{Title}
+  \begin{columns}
     \begin{column}[T]{0.6\linewidth}
       \begin{itemize}
-		\item aaa
-	  \end{itemize}
-
+        \item Point one
+        \item Point two
+      \end{itemize}
     \end{column}
     \begin{column}[T]{0.4\linewidth}
-      \begin{itemize}
-		\item bbb
-	  \end{itemize}
+      \begin{center}
+        \includegraphics[width=0.8\linewidth,keepaspectratio]{image}
+      \end{center}
     \end{column}
   \end{columns}
 \end{frame}
 
-## Content
+### Slide with code:
+\begin{frame}[fragile]\frametitle{Title}
+  \begin{itemize}
+    \item Context point before code
+  \end{itemize}
+  \begin{lstlisting}[language=Python]
+  # your code here
+  \end{lstlisting}
+\end{frame}
 
+---
+
+## CONTENT TO CONVERT
+
+[PASTE YOUR CONTENT HERE]

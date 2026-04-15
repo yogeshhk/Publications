@@ -1,11 +1,115 @@
-You are an expert in <domain> and also a prolific blog writer.
-I want you to act as a Medium content creator. Your goal is to craft engaging,
-informative, and relevant Medium blog for various professionals across
-different industries. Review the following transcript. Deduplicate.
-My first suggestion request is to summarize and prepare a 800 words long
-blog based on the following Youtube video. Keep sentences short.
-Use point-wise list format. Use simple words. Aim for Flesch score of 70-80.
+I want to turn [CONTENT] into a Medium post so that
+[AUDIENCE] — professionals who skim first and read if hooked —
+stop, read the whole thing, and walk away with one idea
+they didn't have before.
 
-<video title and link>
+Before writing anything:
 
-<transcript>
+1. Ask me these questions via clickable form:
+
+   CONTENT
+   - [ ] Paste content now  |  [ ] I'll paste after setup
+
+   DOMAIN / EXPERTISE LENS
+   - [ ] AI / ML / Generative AI
+   - [ ] Software Engineering
+   - [ ] Product / Strategy
+   - [ ] Data Science
+   - [ ] Other: ___
+
+   PRIMARY READER
+   - [ ] Technical practitioners (assume depth)
+   - [ ] Cross-functional professionals (explain concepts)
+   - [ ] General curious readers (accessible entry point)
+
+   WORD COUNT
+   - [ ] ~600 words (tight read)
+   - [ ] ~800 words (standard — default)
+   - [ ] ~1000 words (deeper treatment)
+
+   TONE
+   - [ ] Informative and clear (teach-first)
+   - [ ] Opinionated (take a position, defend it)
+   - [ ] Narrative (story-led, experience-driven)
+   - [ ] Conversational wit (smart and a little dry)
+
+   TITLE STYLE
+   - [ ] Witty and unexpected
+   - [ ] Direct and informative
+   - [ ] Question-as-title (use sparingly)
+   - [ ] Give me 3 options to choose from
+
+2. Show me the PLAN before writing:
+   - 3 title options (always — I'll pick)
+   - Proposed hook (first 2–3 sentences)
+   - Structural arc of the post
+   - Tone fingerprint
+   - Technical terms that need explaining flagged
+
+3. Wait for my GO-AHEAD before producing the post.
+
+---
+
+## HARD RULES (always apply)
+
+### Medium-Specific Structure
+- Hook in the first 2 sentences — earn the scroll
+- No abstract throat-clearing before the actual point
+- Technical terms: explain inline, briefly, naturally
+- One main idea per post — don't try to cover everything
+- End with a thought, not a CTA — Medium is not LinkedIn
+- Suggest subtitle separately from title
+
+### Anti-AI Writing (enforced always)
+BANNED words — never use:
+utilize, leverage, delve, synergy, robust, seamless,
+game-changer, thought leader, empower, ecosystem,
+cutting-edge, actionable, innovative, exciting,
+journey (metaphorical), unleash, unlock, transformative,
+holistic, paradigm shift, deep dive, best-in-class
+
+BANNED structures:
+- "Let's dive in" or any variant
+- Listicle framing ("5 reasons why X will change Y")
+  unless content genuinely is a list
+- Summary that restates — end with a new thought instead
+- Rhetorical question openers
+- Long intros that delay the actual subject
+
+BANNED tones:
+- Hype without substance
+- Corporate warmth (fake, smooth, frictionless)
+- Over-explanation of things the reader already knows
+- Padding to hit word count
+
+### Readability
+- Target Flesch Reading Ease: 70–80
+- Short sentences when landing a point
+- Vary length — rhythm keeps readers moving
+- Active voice as default
+- No paragraph over 4 lines (Medium readers skim)
+- No long dashes of any kind
+
+### Formatting
+- Headers only if the piece is long enough to need navigation
+- Bold sparingly — one or two key phrases max
+- No hashtags (Medium uses tags separately)
+- No bullet-point-everything — prose first, list only if earned
+
+---
+
+## SELF-CHECK BEFORE SHOWING OUTPUT
+
+- [ ] Hook lands in first 2 sentences? → Verify
+- [ ] Any banned words? → Remove
+- [ ] Ends with a thought not a "share this" CTA? → Check
+- [ ] Technical terms explained inline? → Scan
+- [ ] Long dashes anywhere? → Remove
+- [ ] Flesch target approximately met? → Confirm
+- [ ] Title options: witty, terse, accurate? → Present 3
+
+---
+
+## CONTENT
+
+[PASTE YOUR CONTENT HERE]

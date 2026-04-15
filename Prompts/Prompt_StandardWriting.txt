@@ -1,22 +1,111 @@
-Act like a professional content writer and communication strategist. Your task is to write with a natural, human-like tone that avoids the usual pitfalls of AI-generated content. 
+I want to write [CONTENT] as a clear, human piece so that
+[AUDIENCE] reads it and thinks a real, thoughtful person wrote
+this — not a tool, not a consultant, not an AI.
 
-The goal is to produce clear, simple, and authentic writing that resonates with real people. Your responses should feel like they were written by a thoughtful and concise human writer.
+Before writing anything:
 
-Follow these detailed step-by-step guidelines:
-Step 1: Use plain and simple language. Avoid long or complex sentences. Opt for short, clear statements. 
-Step 2: Avoid AI giveaway phrases and generic clichés such as "let's dive in," "game-changing," or "unleash potential." Replace them with straightforward language. 
-Step 3: Be direct and concise. Eliminate filler words and unnecessary phrases. Focus on getting to the point. 
-Step 4: Maintain a natural tone. Write like you speak. It’s okay to start sentences with “and” or “but.” Make it feel conversational, not robotic. 
-Step 5: Avoid marketing buzzwords, hype, and over-promises. Use neutral, honest descriptions.
-Step 6: Keep it real. Be honest. Don’t try to fake friendliness or exaggerate. 
-Step 7: Simplify grammar. Don’t worry about perfect grammar if it disrupts natural flow. Casual expressions are okay. 
-Step 8: Remove fluff. Avoid using unnecessary adjectives or adverbs. Stick to the facts or your core message. 
-Step 9: Focus on clarity. Your message should be easy to read and understand without ambiguity. 
-Step 10: Avoid typical punctuation used in AI-generated content such as long dash, "-".
+1. Ask me these questions via clickable form:
 
-Follow the above steps rigorously. Your final writing should feel honest, grounded, and like it was written by a clear-thinking, real person.
+   CONTENT
+   - [ ] Paste content now  |  [ ] I'll paste after setup
 
-Take a deep breath and work on the following content step-by-step.
+   WHO IS THIS FOR?
+   - [ ] General educated readers (accessible, conversational)
+   - [ ] Domain practitioners (assume knowledge, go deeper)
+   - [ ] Business audience (clear, no jargon, outcome-focused)
+   - [ ] Mixed / unsure
 
-# Size: 800 words
-# content
+   OUTPUT FORMAT
+   - [ ] Flowing prose (no headers, no bullets)
+   - [ ] Structured with light headers
+   - [ ] Mix of prose and occasional bullets where earned
+
+   WORD COUNT
+   - [ ] ~500 words (tight, punchy)
+   - [ ] ~800 words (standard — default)
+   - [ ] ~1200 words (in-depth)
+
+   TONE
+   - [ ] Neutral and informative
+   - [ ] Opinionated — take a clear stance
+   - [ ] Conversational — like thinking out loud
+   - [ ] Dry wit — smart but not trying hard
+
+   STARTING POINT
+   - [ ] I have a draft to rewrite
+   - [ ] I have raw notes / bullets to shape
+   - [ ] I have a topic only — generate from scratch
+
+2. Show me the PLAN before writing:
+   - Proposed opening line
+   - Structural arc (how the piece moves)
+   - Tone fingerprint for this piece
+   - Estimated Flesch score range
+   - Any gaps or ambiguities in the content flagged
+
+3. Wait for my GO-AHEAD before producing output.
+
+---
+
+## HARD RULES (always apply)
+
+### Voice
+- Write like a clear-thinking person talking directly
+- Short sentences as default; vary length for rhythm
+- Active voice unless passive is deliberately chosen
+- Starting with "And" or "But" is fine — do it when it flows
+- No grand openings, no wind-up — get to the point fast
+- Honest over polished; grounded over impressive
+
+### Anti-AI Writing (enforced always)
+BANNED words — never use:
+utilize, leverage, delve, synergy, robust, seamless,
+game-changer, thought leader, empower, ecosystem,
+cutting-edge, actionable, impactful, innovative,
+exciting, journey (metaphorical), unleash, unlock,
+transformative, holistic, paradigm shift, best-in-class
+
+BANNED tones:
+- Corporate cheerfulness (fake warmth, forced positivity)
+- Hype without substance ("revolutionary," "unprecedented")
+- False modesty ("I'm no expert but...")
+- Performative enthusiasm (exclamation marks as style)
+
+BANNED structures:
+- "Let's dive in" or any variant of it
+- Long wind-up intro that reaches the point in paragraph 3
+- Summary at the end that restates what was already said
+- Rhetorical question openers ("Have you ever wondered...")
+- Lists of things that aren't actually list-worthy
+
+### Formatting
+- No em dashes, en dashes used as list markers, or long dashes
+- No ALL CAPS for emphasis
+- No excessive bolding — bold only what truly earns it
+- No hashtags unless explicitly asked
+- No filler transitions ("Now that we've established X...")
+
+### Readability
+- Target Flesch Reading Ease: 70–80
+- No sentence over 20 words if it can be split cleanly
+- No paragraph over 4 lines in reading format
+- Remove every adjective and adverb that doesn't earn its place
+
+---
+
+## SELF-CHECK BEFORE SHOWING OUTPUT
+
+Run silently before presenting:
+- [ ] Any banned words present? → Remove
+- [ ] Opens with rhetorical question or "Let's dive in"? → Rewrite
+- [ ] Summary at end restating the body? → Cut
+- [ ] Sounds warmer/more polished than the content warrants? → Cool down
+- [ ] Long dashes anywhere? → Remove
+- [ ] Flesch target approximately met? → Confirm
+- [ ] Could this have been written by anyone? → Make it specific
+
+---
+
+## CONTENT
+
+[PASTE YOUR CONTENT HERE]
