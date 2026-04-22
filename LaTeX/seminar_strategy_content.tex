@@ -36,7 +36,39 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{What Is Game Theory?, A Brief History}
+\begin{frame}[fragile]\frametitle{What Is Game Theory?}
+  \begin{columns}
+    \begin{column}[T]{0.48\linewidth}
+      \begin{block}{Definition}
+        Game theory is the study of \textbf{strategic interdependence}: situations where your outcome depends not only on what you do, but on what others choose to do.
+      \end{block}
+      \vspace{8pt}
+      \begin{itemize}
+        \item \textbf{Players}: Individuals, firms, nations, algorithms
+        \item \textbf{Strategies}: Plans of action, sometimes contingent
+        \item \textbf{Payoffs}: Outcomes that players value (money, safety, reputation)
+        \item \textbf{Information}: What players know (rarely perfect)
+        \item \textbf{Equilibrium}: Stable state where strategies are mutual best responses
+      \end{itemize}
+    \end{column}
+    \begin{column}[T]{0.48\linewidth}
+      \begin{block}{Core Insight}
+        Success depends on anticipating others' choices and, when possible, shaping them.
+      \end{block}
+      \vspace{8pt}
+      \begin{itemize}
+        \item \textbf{Not} about controlling nature or solving physics
+        \item \textbf{About} responding to decision-makers who respond to you
+        \item Applies wherever outcomes are shaped by interacting choices
+        \item From salary negotiations to nuclear deterrence
+        \item Helps clarify incentives and reveal why outcomes persist
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{A Brief History}
   \begin{columns}
     \begin{column}[T]{0.5\linewidth}
       \begin{block}{Origins}
@@ -119,20 +151,20 @@
   \begin{columns}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{Structure of Each Concept}
-        \begin{enumerate}
+        \begin{itemize}
           \item \textbf{Introduction}, What is it?
           \item \textbf{Situation}, When does it apply?
           \item \textbf{Steps}, How to use it?
           \item \textbf{Examples}, Real-world anchors
           \item \textbf{Takeaway}, The bottom line
-        \end{enumerate}
+        \end{itemize}
       \end{block}
 
 
     \end{column}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{Sections Covered}
-        \begin{enumerate}
+        \begin{itemize}
           \item Foundational Concepts
           \item Game Types \& Structures
           \item Decision-Making Approaches
@@ -144,7 +176,7 @@
           \item Market Design
           \item Collective Challenges
           \item Prospect Theory
-        \end{enumerate}
+        \end{itemize}
       \end{block}
     \end{column}
   \end{columns}
@@ -176,6 +208,140 @@
 {\Large Foundational Strategic Concepts}
 \end{center}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Understanding Payoff Matrices}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{What is a Payoff Matrix?}
+      \begin{itemize}
+        \item A table showing outcomes for all strategy combinations
+        \item Rows represent Player 1's outcomes
+        \item Columns represent Player 2's outcomes
+        \item Helps visualize strategic interactions clearly
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Simple Example: Coffee Pricing}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{High Price} & \textbf{Low Price} \\
+        \hline
+        \textbf{High Price} & (50, 50) & (20, 70) \\
+        \hline
+        \textbf{Low Price} & (70, 20) & (30, 30) \\
+        \hline
+      \end{tabular}
+      \end{center}
+      \small{Payoffs in Rs 1000s of profit}
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{How to Read the Matrix:}
+      \begin{itemize}
+        \item \textbf{Identify Players:} Row player (Ramesh) and Column player (Suresh)
+        \item \textbf{List Strategies:} Each row/column is one strategy option
+        \item \textbf{Find Outcomes:} Intersection shows what happens when both choose those strategies
+        \item \textbf{Read Payoffs:} First number is always row player's payoff, second is column player's
+        % \item \textbf{Compare:} Look across rows and down columns to find best responses
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{What is a Dominant Strategy?}
+      \begin{itemize}
+        \item A strategy that gives you the best payoff \textit{no matter what} the opponent does
+        \item If it exists, it simplifies decision-making dramatically
+        \item You don't need to predict opponent's move
+        \item It's your safest, most robust choice
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Example Matrix:}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{You $\backslash$ Opponent} & \textbf{A} & \textbf{B} \\
+        \hline
+        \textbf{Option 1} & (3, 3) & (1, 4) \\
+        \hline
+        \textbf{\textbf{Option 2}} & \textbf{(4, 2)} & \textbf{(2, 3)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{Steps to Find Dominant Strategy:}
+      \begin{itemize}
+        \item \textbf{Pick one of YOUR strategies} (e.g., Option 1)
+        \item \textbf{Compare across ALL opponent strategies:} 
+        \begin{itemize}
+          \item If opponent plays A: You get 3
+          \item If opponent plays B: You get 1
+        \end{itemize}
+        \item \textbf{Repeat for your other strategy} (Option 2):
+        \begin{itemize}
+          \item If opponent plays A: You get 4
+          \item If opponent plays B: You get 2
+        \end{itemize}
+        \item \textbf{Compare:} Option 2 gives 4 vs 3 and 2 vs 1, Option 2 always wins!
+        \item \textbf{Conclusion:} Option 2 is your dominant strategy (bold in matrix)
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Nash Equilibrium}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{What is Nash Equilibrium?}
+      \begin{itemize}
+        \item A situation where each player's strategy is the best response to the other's strategy
+        \item No player can improve by changing alone
+        \item The outcome "locks in" even if suboptimal
+        \item May not be the best outcome for both!
+      \end{itemize}
+      
+      \vspace{8pt}
+      \textbf{Example Matrix:}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Player 1 $\backslash$ Player 2} & \textbf{Left} & \textbf{Right} \\
+        \hline
+        \textbf{Up} & (5, 5) & (1, 4) \\
+        \hline
+        \textbf{Down} & (4, 1) & \textbf{(2, 2)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{Steps to Find Nash Equilibrium:}
+      \begin{itemize}
+        \item \textbf{For Player 1:} Find best response to each of Player 2's strategies
+        \begin{itemize}
+          \item If P2 plays Left: Up (5) $>$ Down (4)
+          \item If P2 plays Right: Down (2) $>$ Up (1)
+        \end{itemize}
+        \item \textbf{For Player 2:} Find best response to each of Player 1's strategies
+        \begin{itemize}
+          \item If P1 plays Up: Left (5) $>$ Right (4)
+          \item If P1 plays Down: Right (2) $>$ Left (1)
+        \end{itemize}
+        \item \textbf{Find mutual best responses:} (Down, Right) is Nash Equilibrium, both are playing best responses to each other
+        \item \textbf{Note:} Both would prefer (5,5) but can't coordinate!
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -189,8 +355,58 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) List all players and their possible strategies. (2) Map payoffs for each combination. (3) For each player, find the best response to every opponent strategy. (4) Identify where best responses align, that is the equilibrium. (5) Ask: is it efficient? If not, what changes the game?
-        \item \textbf{Examples}: Everyone stands at a cricket match so no one sees better; arms races leaving all nations poorer; airlines locked in price wars destroying profitability.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item List all players and their possible strategies
+          \item Map payoffs for each combination
+          \item For each player, find the best response to every opponent strategy
+          \item Identify where best responses align, that is the equilibrium
+          \item Ask: is it efficient? If not, what changes the game?
+        \end{itemize}\item \textbf{Examples}: Everyone stands at a cricket match so no one sees better; arms races leaving all nations poorer; airlines locked in price wars destroying profitability.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibrium: Ramesh-Suresh Coffee Shop Example}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Two coffee shops across the street from each other
+        \item Originally both charged Rs 100 per cup, profits were stable
+        \item Each can independently choose to charge Rs 100 or Rs 70
+        \item If one cuts price while other maintains, the cutter gains customers
+        \item Both are stuck at Rs 70 now : neither can improve alone
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Daily Profit):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Rs 100} & \textbf{Rs 70} \\
+        \hline
+        \textbf{Rs 100} & (5k, 5k) & (1k, 7k) \\
+        \hline
+        \textbf{Rs 70} & (7k, 1k) & \textbf{(3k, 3k)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Check Best Responses:}
+        \begin{itemize}
+          \item If Suresh charges Rs 100, Ramesh's best = Rs 70 (7k $>$ 5k)
+          \item If Suresh charges Rs 70, Ramesh's best = Rs 70 (3k $>$ 1k)
+          \item Same logic for Suresh
+        \end{itemize}
+        \item \textbf{Nash Equilibrium:} Both charge Rs 70 (bold in matrix)
+        \item \textbf{The Trap:} Each earns only Rs 3000 instead of Rs 5000
+        \item \textbf{Key Insight:} No player can improve by changing alone : the equilibrium is stable but suboptimal
       \end{itemize}
     \end{column}
   \end{columns}
@@ -207,8 +423,57 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Draw a payoff matrix. (2) For each of your strategies, find the payoffs against every opponent move. (3) Check if one row always beats the others. (4) If yes, that is your dominant strategy, play it. (5) If not, identify your opponent's dominant strategy and best-respond to it.
-        \item \textbf{Examples}: Amazon's relentless cost leadership; index fund investing over stock-picking; vaccination during a pandemic regardless of what neighbours do.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Draw a payoff matrix
+          \item For each of your strategies, find the payoffs against every opponent move
+          \item Check if one row always beats the others
+          \item If yes, that is your dominant strategy, play it
+          \item If not, identify your opponent's dominant strategy and best-respond to it
+        \end{itemize}\item \textbf{Examples}: Amazon's relentless cost leadership; index fund investing over stock-picking; vaccination during a pandemic regardless of what neighbours do.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Dominant Strategy: Ramesh-Suresh Wi-Fi Example}
+\begin{columns}
+    \begin{column}[T]{0.55\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Ramesh considers adding high-speed Wi-Fi to his coffee shop
+        \item If Suresh doesn't install Wi-Fi, Ramesh attracts students \& freelancers
+        \item If Suresh does install Wi-Fi, Ramesh needs it to stay competitive
+        \item Either way, installing Wi-Fi makes Ramesh better off
+        \item This is a dominant strategy : works regardless of opponent's choice
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Weekly Additions):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{No Wi-Fi} & \textbf{Install Wi-Fi} \\
+        \hline
+        \textbf{No Wi-Fi} & (50, 50) & (20, 90) \\
+        \hline
+        \textbf{\textbf{Install Wi-Fi}} & \textbf{(100, 30)} & \textbf{(60, 60)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.45\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Test Ramesh's Options:}
+        \begin{itemize}
+          \item If Suresh has no Wi-Fi: Install (100) $>$ Don't (50)
+          \item If Suresh has Wi-Fi: Install (60) $>$ Don't (20)
+        \end{itemize}
+        \item \textbf{Dominant Strategy:} Install Wi-Fi (bold row) : always better regardless of Suresh's choice
+        \item \textbf{Same Logic for Suresh:} Installing Wi-Fi dominates for him too
+        \item \textbf{Key Insight:} No mind-reading required. The strategy is robust : it's insurance, not cleverness
       \end{itemize}
     \end{column}
   \end{columns}
@@ -225,12 +490,61 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Verify the game is truly zero-sum before treating it as one. (2) Identify your relative strengths vs.\ opponents. (3) Use minimax strategy, minimise maximum possible loss. (4) Look for dominant positions to exploit. (5) Consider whether the game can be redesigned as positive-sum.
-        \item \textbf{Examples}: Poker tables; election seat counts; dividing a fixed estate; ranking systems where one rise means another's fall.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Verify the game is truly zero-sum before treating it as one
+          \item Identify your relative strengths vs.\ opponents
+          \item Use minimax strategy, minimise maximum possible loss
+          \item Look for dominant positions to exploit
+          \item Consider whether the game can be redesigned as positive-sum
+        \end{itemize}\item \textbf{Examples}: Poker tables; election seat counts; dividing a fixed estate; ranking systems where one rise means another's fall.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Zero-Sum Games: Ramesh-Suresh Customer War}
+\begin{columns}
+    \begin{column}[T]{0.58\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both locked in war over same 50 factory workers who cross street every morning
+        \item Fixed customer pool, when one gains a customer, other loses one
+        \item Discounts, louder music, bigger signboards
+        \item Every move designed to steal, not to create
+        \item Victory for one = defeat for other
+        \item Classic zero-sum: customer pool is fixed
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Daily Customers):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal} & \textbf{Aggressive} \\
+        \hline
+        \textbf{Normal} & (25, 25) & (15, 35) \\
+        \hline
+        \textbf{Aggressive} & (35, 15) & (25, 25) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.42\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Check Total:} Each cell sums to 50 customers (25+25, 15+35, etc.)
+        \item \textbf{Zero-Sum Property:} One's gain = Other's exact loss
+        \item \textbf{No Win-Win:} Cannot both gain customers simultaneously
+        \item \textbf{Pure Conflict:} Cooperation doesn't expand the pie
+        \item \textbf{Key Insight:} Verify game is truly zero-sum before treating it as one, many situations that seem zero-sum are actually positive-sum
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Positive-Sum Games: Creating Mutual Benefit}
@@ -243,12 +557,66 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Map potential joint gains from cooperation. (2) Identify each party's comparative advantage. (3) Design a split of gains that both prefer over non-cooperation. (4) Build trust mechanisms to prevent defection. (5) Iterate, reputation and repeat interaction sustain positive-sum outcomes.
-        \item \textbf{Examples}: Bangalore's tech ecosystem where new firms benefit incumbents; open-source software; international trade agreements; ridesharing platforms benefiting both drivers and riders.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Map potential joint gains from cooperation
+          \item Identify each party's comparative advantage
+          \item Design a split of gains that both prefer over non-cooperation
+          \item Build trust mechanisms to prevent defection
+          \item Iterate, reputation and repeat interaction sustain positive-sum outcomes
+        \end{itemize}\item \textbf{Examples}: Bangalore's tech ecosystem where new firms benefit incumbents; open-source software; international trade agreements; ridesharing platforms benefiting both drivers and riders.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Positive-Sum: Ramesh-Suresh Grow Together}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both improve coffee, seating, vibe
+        \item Street becomes destination
+        \item Office workers detour on purpose, weekend crowds arrive
+        \item Better beans from suppliers, local bakery partnerships
+        \item Each one's improvements lift expectations for both
+        \item Total customers increase instead of staying fixed
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Payoff Matrix (Daily Customers):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Low Quality} & \textbf{High Quality} \\
+        \hline
+        \textbf{Low Quality} & (25, 25) & (30, 40) \\
+        \hline
+        \textbf{High Quality} & (40, 30) & \textbf{(55, 55)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Check Totals:}
+        \begin{itemize}
+          \item Both Low: 50 total
+          \item Mixed: 70 total
+          \item Both High: 110 total!
+        \end{itemize}
+        \item \textbf{Positive-Sum Property:} Pie grows with cooperation
+        \item \textbf{Best Outcome:} Both High Quality (55, 55)
+        \item \textbf{Key Insight:} Real question isn't how to beat rival, it's how to grow the total market
+        \item \textbf{Biggest wins:} Come from making location a destination
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
@@ -268,8 +636,59 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Recognise the dilemma structure in your situation. (2) Assess the shadow of the future, is there a next interaction? (3) Build communication and trust mechanisms. (4) Introduce contracts or penalties for defection. (5) Use tit-for-tat strategies in repeated play.
-        \item \textbf{Examples}: Two sweet shops undercutting each other to thin margins; competing nations in arms races; athletes using performance-enhancing drugs; public littering.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Recognise the dilemma structure in your situation
+          \item Assess the shadow of the future, is there a next interaction?
+          \item Build communication and trust mechanisms
+          \item Introduce contracts or penalties for defection
+          \item Use tit-for-tat strategies in repeated play
+        \end{itemize}\item \textbf{Examples}: Two sweet shops undercutting each other to thin margins; competing nations in arms races; athletes using performance-enhancing drugs; public littering.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Prisoner's Dilemma: Ramesh-Suresh Price War}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both shops initially charge fair prices and maintain quality
+        \item Each can choose: \textit{Cooperate} (fair pricing) or \textit{Defect} (cut prices aggressively)
+        \item If both cooperate: stable profits, good margins
+        \item If one defects while other cooperates: defector gains market share
+        \item If both defect: price war destroys profitability for both
+        \item Fear of betrayal drives both to defect
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Monthly Profit in Rs):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Cooperate} & \textbf{Defect} \\
+        \hline
+        \textbf{Cooperate} & (50k, 5k0) & (20k, 70k) \\
+        \hline
+        \textbf{Defect} & (70k, 20k) & \textbf{(30k, 30k)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Check Incentives:}
+        \begin{itemize}
+          \item If Suresh cooperates: Defect (70K) $>$ Cooperate (50K)
+          \item If Suresh defects: Defect (30K) $>$ Cooperate (20K)
+        \end{itemize}
+        \item \textbf{Dominant Strategy:} Defect for both players
+        \item \textbf{Nash Equilibrium:} (Defect, Defect) : bold in matrix
+        \item \textbf{The Paradox:} Both earn 30K instead of 50K
+        \item \textbf{Escape Routes:} Repeated interaction, trust-building, contracts, tit-for-tat
       \end{itemize}
     \end{column}
   \end{columns}
@@ -286,8 +705,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Assess the cost of mutual destruction to both sides. (2) Signal commitment credibly, make retreat costly or visible. (3) Look for face-saving offramps for the opponent. (4) Avoid symmetrical escalation. (5) Know your red lines before the confrontation begins.
-        \item \textbf{Examples}: Cuban Missile Crisis; union strikes vs.\ management lockouts; government debt-ceiling standoffs; two buses on a narrow road.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Assess the cost of mutual destruction to both sides
+          \item Signal commitment credibly, make retreat costly or visible
+          \item Look for face-saving offramps for the opponent
+          \item Avoid symmetrical escalation
+          \item Know your red lines before the confrontation begins
+        \end{itemize}\item \textbf{Examples}: Cuban Missile Crisis; union strikes vs.\ management lockouts; government debt-ceiling standoffs; two buses on a narrow road.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -305,12 +730,65 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Communicate the payoff difference between cooperation and going solo. (2) Build pre-commitment mechanisms. (3) Start with a small, credible coalition. (4) Provide insurance against defection. (5) Create repeated-game conditions so defectors can be punished.
-        \item \textbf{Examples}: Nations adopting climate accords; tech industry standardising on USB-C; startups choosing equity over salary; dam-building village cooperatives.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Communicate the payoff difference between cooperation and going solo
+          \item Build pre-commitment mechanisms
+          \item Start with a small, credible coalition
+          \item Provide insurance against defection
+          \item Create repeated-game conditions so defectors can be punished
+        \end{itemize}\item \textbf{Examples}: Nations adopting climate accords; tech industry standardising on USB-C; startups choosing equity over salary; dam-building village cooperatives.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Chicken Game: Ramesh-Suresh 24/7 Standoff}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both decide to stay open 24/7 to outlast each other
+        \item Recklessly spending on electricity and overnight staff  
+        \item Like two trucks heading toward each other
+        \item Winner is whoever has bigger bank account to absorb losses
+        \item But if neither blinks, both go bankrupt
+        \item Worst outcome: mutual destruction
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Payoff Matrix (Monthly Net Profit/Loss in Rs):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal Hours} & \textbf{24/7} \\
+        \hline
+        \textbf{Normal Hours} & (40k, 40k) & (10k, 55k) \\
+        \hline
+        \textbf{24/7} & (55k, 10k) & (-20k, -20k) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Check Outcomes:}
+        \begin{itemize}
+          \item Both normal: Good for both (40K each)
+          \item One blinks: Blinker loses badly (10K vs 55K)
+          \item Neither blinks: Both lose (Rs 20K)
+        \end{itemize}
+        \item \textbf{Two Nash Equilibria:} (Normal, 24/7) and (24/7, Normal)
+        \item \textbf{Key Difference:} Someone MUST yield
+        \item \textbf{Winning Strategy:} Convince opponent you'll never back down
+        \item \textbf{Real Danger:} Both commit and crash
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Battle of the Sexes: Preference Conflicts}
@@ -323,12 +801,64 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Confirm both parties genuinely prefer coordination to no deal. (2) Identify the current default, who benefits from the status quo? (3) Use side-payments or alternating concessions (``I'll watch cricket now, you choose next time''). (4) Make concessions visible and reciprocal. (5) Formalise agreements to avoid renegotiation.
-        \item \textbf{Examples}: Merger CEO selection; choosing a vacation destination; technology standard wars; political coalition ministry allocation.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Confirm both parties genuinely prefer coordination to no deal
+          \item Identify the current default, who benefits from the status quo?
+          \item Use side-payments or alternating concessions (``I'll watch cricket now, you choose next time'')
+          \item Make concessions visible and reciprocal
+          \item Formalise agreements to avoid renegotiation
+        \end{itemize}\item \textbf{Examples}: Merger CEO selection; choosing a vacation destination; technology standard wars; political coalition ministry allocation.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Stag Hunt: Ramesh-Suresh Quality Upgrade}
+\begin{columns}
+    \begin{column}[T]{0.59\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both invest in quality beans, train staff, fair prices: street becomes coffee destination (Stag)
+        \item Or cut prices, save on quality, steal customers today (Hare)
+        \item If one commits to quality while other defects, committed one bears higher costs
+        \item Both hesitate, waiting for signal of trust
+        \item Challenge: assurance, not conflict
+		\item Quality (Stag), Cut Costs (Hare)
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Monthly Profit in Rs):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Stag} & \textbf{Hare} \\
+        \hline
+        \textbf{Stag} & \textbf{(80k, 80k)} & (30k, 55k) \\
+        \hline
+        \textbf{Hare} & (55k, 30k) & \textbf{(45k, 45k)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.41\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Two Nash Equilibria:}
+        \begin{itemize}
+          \item (Quality, Quality): Superior outcome (80K each)
+          \item (Cut Costs, Cut Costs): Safe but inferior (45K each)
+        \end{itemize}
+        \item \textbf{The Problem:} Quality only works if BOTH commit
+        \item \textbf{Risk:} If you choose Quality and other defects, you get only 30K
+        \item \textbf{Solution:} Build trust, pre-commitment, repeated interaction
+        \item \textbf{Key Insight:} About mutual assurance, not defeating opponent
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Ultimatum Game: Fairness Over Profit}
@@ -341,12 +871,110 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Frame offers so they appear fair, not just profitable to you. (2) Use anchoring to set fairness expectations early. (3) Give the other party a sense of agency in the process. (4) Avoid visibly large asymmetries in payoffs. (5) Expect rejection of ``logically reasonable'' offers that feel insulting.
-        \item \textbf{Examples}: Labour strikes rejecting technically positive wage offers; restaurant tipping even when you will never return; brand boycotts over perceived exploitation.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Frame offers so they appear fair, not just profitable to you
+          \item Use anchoring to set fairness expectations early
+          \item Give the other party a sense of agency in the process
+          \item Avoid visibly large asymmetries in payoffs
+          \item Expect rejection of ``logically reasonable'' offers that feel insulting
+        \end{itemize}\item \textbf{Examples}: Labour strikes rejecting technically positive wage offers; restaurant tipping even when you will never return; brand boycotts over perceived exploitation.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Ultimatum Game: Ramesh-Suresh Profit Split}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Joint catering contract worth Rs 100,000
+        \item Ramesh (proposer) must split profit with Suresh (responder)
+        \item Ramesh offers a split
+        \item Suresh can accept (both get their shares) or reject (both get zero)
+        \item Rationally, any positive amount better than zero
+        \item But fairness matters, people reject unfair offers
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Possible Outcomes:}
+      \begin{center}
+      \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Ramesh's Offer} & \textbf{If Accepted} & \textbf{If Rejected} \\
+        \hline
+        90K:10K split & (90k, 10k) & (0, 0) \\
+        \hline
+        70K:30K split & (70k, 30k) & (0, 0) \\
+        \hline
+        50K:50K split & (50k, 50k) & (0, 0) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.4\linewidth}
+      \textbf{Analysis:}
+      \begin{itemize}
+        \item \textbf{Rational Prediction:} Suresh should accept any positive amount (even Rs 1)
+        \item \textbf{Reality:} People reject offers below 20-30\%
+        \item \textbf{Fairness Norm:} Most offers around 40-50\%
+        \item \textbf{Why:} Fairness valued over pure profit
+        \item \textbf{Key Insight:} Humans aren't purely profit-maximizing, social norms and emotions matter
+        \item \textbf{Strategic Lesson:} Leave enough on table for others
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Battle of the Sexes: Ramesh-Suresh Bakery Partnership}
+\begin{columns}
+    \begin{column}[T]{0.55\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both want ``Breakfast \& Coffee'' combo with local bakery
+        \item Ramesh wants bakery to use his premium beans for morning catering
+        \item Suresh wants bakery to provide exclusive ``Suresh-branded'' croissants
+        \item Both want partnership, both want cooperation
+        \item Just can't agree on terms
+        \item Struggle: who blinks first and accepts second-best choice?
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Monthly Additions):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Ramesh's Terms} & \textbf{Suresh's Terms} \\
+        \hline
+        \textbf{Ramesh's Terms} & (0, 0) & (30k, 50k) \\
+        \hline
+        \textbf{Suresh's Terms} & (50k, 30k) & (0, 0) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.45\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Two Nash Equilibria:}
+        \begin{itemize}
+          \item (Suresh's, Ramesh's): Ramesh gets less but agrees
+          \item (Ramesh's, Suresh's): Suresh gets less but agrees
+        \end{itemize}
+        \item \textbf{Key Feature:} Both prefer coordinating on EITHER outcome over no deal (0, 0)
+        \item \textbf{But:} Each prefers different coordination point
+        \item \textbf{Power:} With one who cares less, appears more stubborn, or commits first
+        \item \textbf{Solutions:} Turn-taking, side payments, pre-commitment
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Public Goods Game: The Free-Rider Problem}
@@ -359,12 +987,61 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify whether the good is genuinely non-excludable. (2) Introduce social norms or visibility (people contribute more when observed). (3) Use conditional cooperation mechanisms (``I give if others give''). (4) Create excludability where possible (paywalls, memberships). (5) Regulate via taxation or mandated contribution.
-        \item \textbf{Examples}: Wikipedia donation drives; national vaccination campaigns; office kitchen cleanliness; funding public broadcasting.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify whether the good is genuinely non-excludable
+          \item Introduce social norms or visibility (people contribute more when observed)
+          \item Use conditional cooperation mechanisms (``I give if others give'')
+          \item Create excludability where possible (paywalls, memberships)
+          \item Regulate via taxation or mandated contribution
+        \end{itemize}\item \textbf{Examples}: Wikipedia donation drives; national vaccination campaigns; office kitchen cleanliness; funding public broadcasting.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Public Goods: Ramesh-Suresh Street Lighting}
+\begin{columns}
+    \begin{column}[T]{0.62\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Street needs better lighting, costs Rs 20,000
+        \item Each can contribute Rs 10,000 or nothing
+        \item If installed, BOTH benefit (Rs 15,000 value each)
+        \item If one contributes alone, they pay Rs 10K, get Rs 15K benefit = net Rs 5K
+        \item If both contribute, each pays Rs 10K, gets Rs 15K = net Rs 5K each
+        \item Temptation: let other pay, enjoy benefit for free
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Net Benefit in Rs):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Contribute} & \textbf{Free-Ride} \\
+        \hline
+        \textbf{Contribute} & (5k, 5k) & (-10k, 15k) \\
+        \hline
+        \textbf{Free-Ride} & (15k, -10k) & \textbf{(0, 0)} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.4\linewidth}
+      \textbf{Analysis:}
+      \begin{itemize}
+        \item \textbf{Dominant Strategy:} Free-ride for both
+        \item \textbf{Nash Equilibrium:} (Free-Ride, Free-Ride) = (0, 0)
+        \item \textbf{Best Outcome:} Both contribute = (5K, 5K)
+        \item \textbf{The Problem:} Individual rationality leads to no public good
+        \item \textbf{Solutions:} Mandatory contributions, reputation, repeated interaction, social norms
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Matching Pennies: Pure Unpredictability}
@@ -377,12 +1054,62 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify that you are in a purely competitive, no-equilibrium-in-pure-strategies game. (2) Calculate the optimal mixed strategy probabilities. (3) Introduce genuine randomisation (dice, random number generators). (4) Resist the temptation to use ``gut feel'' patterns. (5) Monitor whether the opponent is exploiting any pattern and adjust.
-        \item \textbf{Examples}: Penalty kick direction; customs inspection selection; submarine evasion routes; Rock-Paper-Scissors.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify that you are in a purely competitive, no-equilibrium-in-pure-strategies game
+          \item Calculate the optimal mixed strategy probabilities
+          \item Introduce genuine randomisation (dice, random number generators)
+          \item Resist the temptation to use ``gut feel'' patterns
+          \item Monitor whether the opponent is exploiting any pattern and adjust
+        \end{itemize}\item \textbf{Examples}: Penalty kick direction; customs inspection selection; submarine evasion routes; Rock-Paper-Scissors.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Matching Pennies: Ramesh-Suresh Timing Game}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Ramesh and Suresh compete for morning rush customers
+        \item Each must choose: Open Early (6 AM) or Normal (8 AM)
+        \item Ramesh wins if choices match (both early or both normal)
+        \item Suresh wins if choices differ (one early, one normal)
+        \item Pure conflict, no cooperation possible
+        \item Predictability is dangerous
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Payoff Matrix (Customer Advantage):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Early} & \textbf{Normal} \\
+        \hline
+        \textbf{Early} & (1, -1) & (-1, 1) \\
+        \hline
+        \textbf{Normal} & (-1, 1) & (1, -1) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis:}
+      \begin{itemize}
+        \item \textbf{No Pure Nash Equilibrium:} Always incentive to deviate
+        \item \textbf{Solution:} Mixed strategy, randomize choices
+        \item \textbf{Optimal:} Each plays Early 50\%, Normal 50\%
+        \item \textbf{Key Insight:} Unpredictability is strategic
+        \item \textbf{Examples:} Penalty kicks, rock-paper-scissors, military tactics
+        \item \textbf{Lesson:} When opponent can exploit patterns, randomize
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Cooperative Game Theory: Sharing the Gains}
@@ -395,12 +1122,72 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify all possible coalitions and their total values. (2) Calculate each player's marginal contribution (Shapley Value). (3) Check if the allocation is in the Core, no sub-coalition wants to break away. (4) Negotiate side-payments if the allocation is outside the core. (5) Build binding agreements and enforcement mechanisms.
-        \item \textbf{Examples}: Law firm profit splits; coalition government ministry allocations; airline revenue-sharing alliances; joint-venture R\&D cost-sharing.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify all possible coalitions and their total values
+          \item Calculate each player's marginal contribution (Shapley Value)
+          \item Check if the allocation is in the Core, no sub-coalition wants to break away
+          \item Negotiate side-payments if the allocation is outside the core
+          \item Build binding agreements and enforcement mechanisms
+        \end{itemize}\item \textbf{Examples}: Law firm profit splits; coalition government ministry allocations; airline revenue-sharing alliances; joint-venture R\&D cost-sharing.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Cooperative Game Theory: Ramesh-Suresh Joint Venture}
+\begin{columns}
+    \begin{column}[T]{0.65\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both can bid jointly for corporate catering contract
+        \item Alone: Ramesh can earn Rs 100K, Suresh Rs 80K
+        \item Together: Combined capacity = Rs 250K total
+        \item Question: How to split fairly?
+        \item Shapley Value: Based on marginal contribution
+        \item The Core: Allocations where no one wants to leave
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Value Analysis:}
+      \begin{center}
+      \small
+      \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Coalition} & \textbf{Total Value} \\
+        \hline
+        Ramesh alone & Rs 100K \\
+        Suresh alone & Rs 80K \\
+        Both together & Rs 250K \\
+        \hline
+        \textbf{Surplus from cooperation} & \textbf{Rs 70K} \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.35\linewidth}
+      \textbf{Fair Split Approaches:}
+      \begin{itemize}
+        \item \textbf{Shapley Value:}
+        \begin{itemize}
+          \item Ramesh: Rs 135K
+          \item Suresh: Rs 115K
+        \end{itemize}
+        \item \textbf{Must be in Core:}
+        \begin{itemize}
+          \item Ramesh gets $\geq$ Rs 100K
+          \item Suresh gets $\geq$ Rs 80K
+          \item Sum = Rs 250K
+        \end{itemize}
+        \item \textbf{Key Insight:} Fair split considers outside options and marginal contributions
+        \item \textbf{Applications:} Startups, coalitions, partnerships
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
@@ -420,12 +1207,63 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Define the final desired outcome clearly. (2) Work backwards: what must be true one step before the end? (3) Continue rolling back, mapping each decision node. (4) Identify the first move that leads to the desired end. (5) Check for credibility, are all intermediate steps actually incentive-compatible?
-        \item \textbf{Examples}: Chess endgame analysis; Indian parents planning children's education backwards from career goal; startup exit strategy mapped from IPO back to MVP.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Define the final desired outcome clearly
+          \item Work backwards: what must be true one step before the end?
+          \item Continue rolling back, mapping each decision node
+          \item Identify the first move that leads to the desired end
+          \item Check for credibility, are all intermediate steps actually incentive-compatible?
+        \end{itemize}\item \textbf{Examples}: Chess endgame analysis; Indian parents planning children's education backwards from career goal; startup exit strategy mapped from IPO back to MVP.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Backward Induction: Ramesh Plans His Exit}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Ramesh plans to sell his shop in 3 years
+        \item Starts by imagining: What will buyer want?
+        \item Answer: Stable brand, loyal customers, healthy margins
+        \item Works backward: Price war today would create discount-chasing customers
+        \item Brand would be worthless at exit
+        \item So today's move: Raise quality, redesign space, position as premium
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Decision Tree (Simplified):}
+      \begin{center}
+      \small
+      \begin{tabular}{|l|l|c|}
+        \hline
+        \textbf{Today} & \textbf{In 3 Years} & \textbf{Sale Value} \\
+        \hline
+        Price War & Discount  & Low (Rs 10L) \\
+        \hline
+        Premium Quality & Loyal high-value  & High (Rs 50L) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Steps:}
+      \begin{itemize}
+        \item \textbf{Define End Goal:} Sell for maximum value
+        \item \textbf{Work Backward:} What creates value at exit? Loyal premium customers
+        \item \textbf{One Step Before:} What builds loyalty? Consistent quality
+        \item \textbf{Earlier Still:} What enables quality? Investment today
+        \item \textbf{First Move:} Raise quality now, even if some customers leave
+        \item \textbf{Key Insight:} Today's "loss" is tomorrow's setup
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Forward Induction: Reading Hidden Intentions}
@@ -438,12 +1276,63 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Observe a costly or unusual action by the other party. (2) Ask: what beliefs would make this action rational? (3) Update your assessment of their type or intention. (4) Adjust your strategy accordingly. (5) Use the same logic to send credible signals about your own type.
-        \item \textbf{Examples}: A founder taking a Rs. 1 salary signals supreme confidence to investors; large Super Bowl ad spend signals financial strength; university degrees signal perseverance.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Observe a costly or unusual action by the other party
+          \item Ask: what beliefs would make this action rational?
+          \item Update your assessment of their type or intention
+          \item Adjust your strategy accordingly
+          \item Use the same logic to send credible signals about your own type
+        \end{itemize}\item \textbf{Examples}: A founder taking a Rs. 1 salary signals supreme confidence to investors; large Super Bowl ad spend signals financial strength; university degrees signal perseverance.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Forward Induction: Ramesh's Price Freeze Signal}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Ramesh announces: Prices unchanged for 3 years, despite rising costs
+        \item Looks reckless to Suresh
+        \item But Ramesh is burning flexibility to signal confidence
+        \item If Ramesh were unsure about footfall, this would box him into losses
+        \item The fact he accepts risk suggests hidden strength
+        \item Maybe superior location, loyal base, or cost advantage
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Suresh's Inference:}
+      \begin{center}
+      \small
+      \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Ramesh's Move} & \textbf{What It Signals} \\
+        \hline
+        Price freeze & Confident in volume \\
+        Accepts margin pressure & Has cost advantage \\
+        Public commitment & Won't back down \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis Steps:}
+      \begin{itemize}
+        \item \textbf{Observe Costly Action:} Price freeze with rising costs
+        \item \textbf{Ask:} What beliefs make this rational?
+        \item \textbf{Answer:} Confidence in strong customer base
+        \item \textbf{Infer Type:} Ramesh likely has advantage
+        \item \textbf{Update Strategy:} Don't compete on price, differentiate elsewhere
+        \item \textbf{Key Insight:} Actions speak louder than words, costly signals are credible
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Sequential Games: Turn-Based Strategy}
@@ -456,12 +1345,62 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Map the game tree with all decision nodes. (2) Apply backward induction. (3) Identify who benefits from moving first vs.\ last. (4) Consider pre-commitment to shape subsequent play. (5) Use observable actions to constrain the opponent's future choices.
-        \item \textbf{Examples}: House purchase negotiation (offer $\rightarrow$ counter $\rightarrow$ walk away $\rightarrow$ call back); Stackelberg leader in output competition; chess opening theory.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Map the game tree with all decision nodes
+          \item Apply backward induction
+          \item Identify who benefits from moving first vs.\ last
+          \item Consider pre-commitment to shape subsequent play
+          \item Use observable actions to constrain the opponent's future choices
+        \end{itemize}\item \textbf{Examples}: House purchase negotiation (offer $\rightarrow$ counter $\rightarrow$ walk away $\rightarrow$ call back); Stackelberg leader in output competition; chess opening theory.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Sequential Games: Ramesh-Suresh Second Floor}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Move 1: Ramesh adds second floor for remote workers
+        \item Move 2: Suresh observes, then introduces quiet zone + faster WiFi
+        \item Move 3: Ramesh notices noise complaints, adds premium pricing
+        \item Move 4: Suresh offers membership passes with unlimited refills
+        \item Move 5: Ramesh pivots to evening networking events
+        \item Move 6: Suresh extends hours, markets as all-day workspace
+      \end{itemize}
+      
+      \vspace{4pt}
+      \textbf{Key Feature: Observable Moves}
+      \begin{center}
+      \small Each player sees previous moves before deciding
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Strategic Advantages:}
+      \begin{itemize}
+        \item \textbf{First Mover:} 
+        \begin{itemize}
+          \item Frames the game
+          \item Signals commitment
+          \item Sets agenda
+        \end{itemize}
+        \item \textbf{Second Mover:}
+        \begin{itemize}
+          \item Gains information
+          \item Can tailor response
+          \item Often controls outcome
+        \end{itemize}
+        \item \textbf{Key Tools:} Backward induction, commitment, timing
+        \item \textbf{Real Examples:} Negotiations, lobbying, chess
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Simultaneous Games: Deciding Under Uncertainty}
@@ -474,12 +1413,67 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Enumerate all strategies and build a payoff matrix. (2) Search for dominant strategies. (3) If none exist, find Nash Equilibrium in pure strategies. (4) If none in pure strategies, compute mixed strategy Nash Equilibrium. (5) Use prior information about opponent types to refine predictions.
-        \item \textbf{Examples}: Sealed government contract bids; buying stocks before earnings announcements; Rock-Paper-Scissors.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Enumerate all strategies and build a payoff matrix
+          \item Search for dominant strategies
+          \item If none exist, find Nash Equilibrium in pure strategies
+          \item If none in pure strategies, compute mixed strategy Nash Equilibrium
+          \item Use prior information about opponent types to refine predictions
+        \end{itemize}\item \textbf{Examples}: Sealed government contract bids; buying stocks before earnings announcements; Rock-Paper-Scissors.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Simultaneous Games: Ramesh-Suresh Menu Launch}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both planning to launch new menu items this month
+        \item Must decide without knowing other's choice
+        \item Options: Italian (pasta/pizza) or Asian (noodles/rice)
+        \item If different: Each captures niche market
+        \item If same: Split market, higher competition
+        \item Cannot observe each other's prep until launch day
+      \end{itemize}
+      
+      \vspace{2pt}
+      \textbf{Payoff Matrix (Additional Revenue/m):}
+      \begin{center}
+      \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Italian} & \textbf{Asian} \\
+        \hline
+        \textbf{Italian} & (20k, 20k) & (40k, 40k) \\
+        \hline
+        \textbf{Asian} & (40k, 40k) & (20k, 20k) \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis:}
+      \begin{itemize}
+        \item \textbf{No Dominant Strategy:} Best choice depends on opponent
+        \item \textbf{Two Nash Equilibria:} (Italian, Asian) and (Asian, Italian)
+        \item \textbf{Challenge:} How to coordinate without communication?
+        \item \textbf{Solutions:}
+        \begin{itemize}
+          \item Past patterns
+          \item Focal points
+          \item Market research
+          \item Mixed strategies
+        \end{itemize}
+        \item \textbf{Key Difference:} Must decide blindly, no info about opponent's move
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Subgame Perfect Equilibrium: Credible Plans}
@@ -492,8 +1486,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Draw the full game tree. (2) Apply backward induction at every node. (3) Remove strategies that are irrational at any sub-game. (4) Ask: if this branch were reached, would I actually follow through? (5) If not, redesign your commitment to make it credible.
-        \item \textbf{Examples}: Parent who always carries through on stated consequences; proportional military response doctrines; poison-pill takeover defences that are actually executable.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Draw the full game tree
+          \item Apply backward induction at every node
+          \item Remove strategies that are irrational at any sub-game
+          \item Ask: if this branch were reached, would I actually follow through?
+          \item If not, redesign your commitment to make it credible
+        \end{itemize}\item \textbf{Examples}: Parent who always carries through on stated consequences; proportional military response doctrines; poison-pill takeover defences that are actually executable.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -510,8 +1510,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) List all your strategies and all opponent strategies. (2) Find the worst payoff for each of your strategies (the ``minimum''). (3) Select the strategy with the highest minimum payoff. (4) Compare minimax cost against expected value analysis. (5) Adjust based on risk tolerance and reversibility of outcomes.
-        \item \textbf{Examples}: Travel insurance; diversified investment portfolios; pre-nuptial agreements; cybersecurity breach response planning.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item List all your strategies and all opponent strategies
+          \item Find the worst payoff for each of your strategies (the ``minimum'')
+          \item Select the strategy with the highest minimum payoff
+          \item Compare minimax cost against expected value analysis
+          \item Adjust based on risk tolerance and reversibility of outcomes
+        \end{itemize}\item \textbf{Examples}: Travel insurance; diversified investment portfolios; pre-nuptial agreements; cybersecurity breach response planning.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -528,8 +1534,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Assign prior probability distributions over opponent types. (2) Identify what signals or actions reveal information. (3) Update beliefs using Bayes' Rule as evidence arrives. (4) Compute expected payoffs across opponent types. (5) Choose strategy maximising expected payoff; recognise your actions also signal your type.
-        \item \textbf{Examples}: Employer updating beliefs about candidate quality through interview; used-car buyer reading seller signals; poker player updating hand estimate from betting patterns.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Assign prior probability distributions over opponent types
+          \item Identify what signals or actions reveal information
+          \item Update beliefs using Bayes' Rule as evidence arrives
+          \item Compute expected payoffs across opponent types
+          \item Choose strategy maximising expected payoff; recognise your actions also signal your type
+        \end{itemize}\item \textbf{Examples}: Employer updating beliefs about candidate quality through interview; used-car buyer reading seller signals; poker player updating hand estimate from betting patterns.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -553,12 +1565,67 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the decision you want the other party to take. (2) Find a way to make your own retreat genuinely costly or impossible. (3) Make the commitment visible and verifiable. (4) Ensure the commitment is specific, not vague. (5) Time the commitment before negotiations begin.
-        \item \textbf{Examples}: Cortés burning his ships; automatic pension deductions; publicly announced deadlines; contracts with heavy penalty clauses; hunger strikes.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the decision you want the other party to take
+          \item Find a way to make your own retreat genuinely costly or impossible
+          \item Make the commitment visible and verifiable
+          \item Ensure the commitment is specific, not vague
+          \item Time the commitment before negotiations begin
+        \end{itemize}\item \textbf{Examples}: Cortés burning his ships; automatic pension deductions; publicly announced deadlines; contracts with heavy penalty clauses; hunger strikes.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Strategic Commitment: Suresh's Organic Contract}
+\begin{columns}
+    \begin{column}[T]{0.6\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Suresh tired of endless price wars draining margins
+        \item Signs 5-year non-breakable contract with organic bean supplier
+        \item Locks into higher input costs
+        \item Frames contract copy near counter where all can see
+        \item Message to Ramesh: Pricing at Rs 50 now impossible
+        \item Removed own escape route to gain leverage
+      \end{itemize}
+      
+      \vspace{6pt}
+      \textbf{Before vs After Commitment:}
+      \begin{center}
+      \small
+      \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Scenario} & \textbf{Before} & \textbf{After} \\
+        \hline
+        Can lower prices? & Yes & No (contract) \\
+        Ramesh's threat & Credible & Not credible \\
+        Price war & Continues & Ends \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.38\linewidth}
+      \textbf{Analysis:}
+      \begin{itemize}
+        \item \textbf{Paradox:} Strength from constraint
+        \item \textbf{By giving up flexibility:} Gains influence
+        \item \textbf{Key Requirements:}
+        \begin{itemize}
+          \item Visible (framed contract)
+          \item Credible (legally binding)
+          \item Costly to reverse
+        \end{itemize}
+        \item \textbf{Outcome:} Ramesh stops price war, focuses on differentiation
+        \item \textbf{Lesson:} Your lack of options becomes their problem
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Pre-Commitment Devices: Binding Your Future Self}
@@ -571,8 +1638,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the specific moment of temptation. (2) Introduce a barrier before that moment (not after). (3) Make the barrier automatic, not dependent on future willpower. (4) Increase the cost of overriding the commitment. (5) Use social accountability to amplify the pre-commitment.
-        \item \textbf{Examples}: Odysseus tying himself to the mast; deleting social media apps; freezing credit cards in ice; gym buddies; automatic savings transfers.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the specific moment of temptation
+          \item Introduce a barrier before that moment (not after)
+          \item Make the barrier automatic, not dependent on future willpower
+          \item Increase the cost of overriding the commitment
+          \item Use social accountability to amplify the pre-commitment
+        \end{itemize}\item \textbf{Examples}: Odysseus tying himself to the mast; deleting social media apps; freezing credit cards in ice; gym buddies; automatic savings transfers.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -589,8 +1662,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Ask honestly: would I actually carry this out? (2) Adjust the threat so it costs you less than compliance costs the opponent. (3) Make the threat automatic (remove discretion). (4) Build a track record of following through. (5) Communicate the threat early and unambiguously.
-        \item \textbf{Examples}: Nuclear deterrence structures; price-match guarantees (credible threat to rivals); central bank inflation targets; unconditional resignation letters.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Ask honestly: would I actually carry this out?
+          \item Adjust the threat so it costs you less than compliance costs the opponent
+          \item Make the threat automatic (remove discretion)
+          \item Build a track record of following through
+          \item Communicate the threat early and unambiguously
+        \end{itemize}\item \textbf{Examples}: Nuclear deterrence structures; price-match guarantees (credible threat to rivals); central bank inflation targets; unconditional resignation letters.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -607,8 +1686,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Assess the cost of mutual disaster, it must be roughly equal or worse for the opponent. (2) Create visible risk of escalation (not just the threat). (3) Maintain plausible deniability, ``I may not be able to stop this.'' (4) Keep an offramp for the opponent to retreat without total humiliation. (5) Know precisely when to de-escalate.
-        \item \textbf{Examples}: Indo-Pak border tensions; union strikes during harvest season; debt-ceiling confrontations; Cold War nuclear postures.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Assess the cost of mutual disaster, it must be roughly equal or worse for the opponent
+          \item Create visible risk of escalation (not just the threat)
+          \item Maintain plausible deniability, ``I may not be able to stop this.''
+          \item Keep an offramp for the opponent to retreat without total humiliation
+          \item Know precisely when to de-escalate
+        \end{itemize}\item \textbf{Examples}: Indo-Pak border tensions; union strikes during harvest season; debt-ceiling confrontations; Cold War nuclear postures.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -625,8 +1710,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify what escape routes the opponent expects you to take. (2) Eliminate those routes publicly and irreversibly. (3) Signal the elimination to your opponent clearly. (4) Ensure the commitment is specific enough to be believed. (5) Carefully weigh: are you certain enough to make retreat impossible?
-        \item \textbf{Examples}: Cortés burning ships in Mexico; no-refund advance-payment policies; publicly announced deadlines; constitutional supermajority requirements; military forces holding indefensible positions.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify what escape routes the opponent expects you to take
+          \item Eliminate those routes publicly and irreversibly
+          \item Signal the elimination to your opponent clearly
+          \item Ensure the commitment is specific enough to be believed
+          \item Carefully weigh: are you certain enough to make retreat impossible?
+        \end{itemize}\item \textbf{Examples}: Cortés burning ships in Mexico; no-refund advance-payment policies; publicly announced deadlines; constitutional supermajority requirements; military forces holding indefensible positions.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -643,8 +1734,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify what reputation you want to build. (2) Make short-term sacrifices to establish credibility. (3) Ensure your actions are observable. (4) Maintain consistency, reputation is destroyed by exceptions. (5) Invest in platforms where reputation is recorded (ratings, testimonials, public records).
-        \item \textbf{Examples}: Tata Group's century-long reputation; credit scores; eBay seller ratings; central bank inflation credibility; Mafia omertà.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify what reputation you want to build
+          \item Make short-term sacrifices to establish credibility
+          \item Ensure your actions are observable
+          \item Maintain consistency, reputation is destroyed by exceptions
+          \item Invest in platforms where reputation is recorded (ratings, testimonials, public records)
+        \end{itemize}\item \textbf{Examples}: Tata Group's century-long reputation; credit scores; eBay seller ratings; central bank inflation credibility; Mafia omertà.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -661,8 +1758,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Separate past costs from future costs and benefits. (2) Ask: if I were starting today, would I make this investment? (3) Establish clear kill-criteria in advance. (4) Assign an independent reviewer not emotionally attached to the project. (5) Reframe exit as strategic intelligence, not failure.
-        \item \textbf{Examples}: The Vietnam War; waiting for a bus already 30 minutes late; gambling to ``win it back''; keeping a failing business unit alive.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Separate past costs from future costs and benefits
+          \item Ask: if I were starting today, would I make this investment?
+          \item Establish clear kill-criteria in advance
+          \item Assign an independent reviewer not emotionally attached to the project
+          \item Reframe exit as strategic intelligence, not failure
+        \end{itemize}\item \textbf{Examples}: The Vietnam War; waiting for a bus already 30 minutes late; gambling to ``win it back''; keeping a failing business unit alive.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -686,12 +1789,69 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Open by cooperating unconditionally. (2) Immediately mirror any defection with one round of defection. (3) Return to cooperation the moment the opponent cooperates. (4) Never defect first. (5) Communicate the strategy so the opponent understands the pattern.
-        \item \textbf{Examples}: Trade tariff reciprocity; reciprocal dinner invitations; ceasefire agreements conditioned on compliance; eye-for-an-eye justice systems.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Open by cooperating unconditionally
+          \item Immediately mirror any defection with one round of defection
+          \item Return to cooperation the moment the opponent cooperates
+          \item Never defect first
+          \item Communicate the strategy so the opponent understands the pattern
+        \end{itemize}\item \textbf{Examples}: Trade tariff reciprocity; reciprocal dinner invitations; ceasefire agreements conditioned on compliance; eye-for-an-eye justice systems.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Tit-for-Tat: Ramesh-Suresh Reciprocity}
+\begin{columns}
+    \begin{column}[T]{0.63\linewidth}
+      \textbf{The Scenario:}
+      \begin{itemize}
+        \item Both trying to undercut with lower prices, aggressive promotions
+        \item Pattern: Aggression met with aggression, both lose margins
+        \item Ramesh tries different: Offers free pastry with morning coffee
+        \item Suresh notices, responds with small gesture
+        \item Respect boundaries, retaliate only when needed, forgive small moves
+        \item Coffee war → cooperation w tit-for-tat
+      \end{itemize}
+      
+      % \vspace{2pt}
+      \textbf{Tit-for-Tat Strategy:}
+      \begin{center}
+      \small
+      \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Step} & \textbf{Action} \\
+        \hline
+        1. First move & Cooperate (be nice first) \\
+        2. If opponent cooperates & Continue cooperating \\
+        3. If opponent defects & Retaliate once (proportional) \\
+        4. If opponent returns & Forgive, resume cooperation \\
+        \hline
+      \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}[T]{0.37\linewidth}
+      \textbf{Why It Works:}
+      \begin{itemize}
+        \item \textbf{Nice:} Never defects first
+        \item \textbf{Retaliatory:} Punishes defection immediately
+        \item \textbf{Forgiving:} Returns to cooperation
+        \item \textbf{Clear:} Opponent understands pattern
+        \item \textbf{Examples:}
+        \begin{itemize}
+          \item Trade tariffs
+          \item Social invitations
+          \item Ceasefire agreements
+        \end{itemize}
+        \item \textbf{Key Insight:} Golden Rule with teeth, cooperation can survive among self-interested agents
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Shadow of the Future: Long-Term Thinking}
@@ -704,8 +1864,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Increase the probability and salience of future interactions. (2) Reduce the discount rate on future payoffs. (3) Establish visible accountability systems. (4) Build reputational stakes into short-term interactions. (5) Create switching costs that make exit from the relationship costly.
-        \item \textbf{Examples}: Not cheating your local vendor because you see them daily; subscription loyalty programs; diplomatic relations sustained by future needs; small-town honesty norms.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Increase the probability and salience of future interactions
+          \item Reduce the discount rate on future payoffs
+          \item Establish visible accountability systems
+          \item Build reputational stakes into short-term interactions
+          \item Create switching costs that make exit from the relationship costly
+        \end{itemize}\item \textbf{Examples}: Not cheating your local vendor because you see them daily; subscription loyalty programs; diplomatic relations sustained by future needs; small-town honesty norms.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -722,8 +1888,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the hidden information you need to convey. (2) Find an action that is cheap for you (high type) but expensive for a low type to mimic. (3) Make the signal observable. (4) Maintain signal consistency over time. (5) Verify that recipients correctly interpret the signal.
-        \item \textbf{Examples}: Wedding rings as availability signals; dividends signalling corporate financial health; peacock tails as evolutionary fitness signals; product warranties signalling quality.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the hidden information you need to convey
+          \item Find an action that is cheap for you (high type) but expensive for a low type to mimic
+          \item Make the signal observable
+          \item Maintain signal consistency over time
+          \item Verify that recipients correctly interpret the signal
+        \end{itemize}\item \textbf{Examples}: Wedding rings as availability signals; dividends signalling corporate financial health; peacock tails as evolutionary fitness signals; product warranties signalling quality.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -740,8 +1912,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify what claim you need others to believe. (2) Find a costly action that only someone with the genuine claim would rationally take. (3) Ensure the cost is observable and verified. (4) Calibrate cost: high enough to deter fakers, not so high it deters honest signalers. (5) Repeat over time to build a track record.
-        \item \textbf{Examples}: Expensive engagement rings; charitable donations by the wealthy; fraternity initiation costs; luxury goods as wealth signals; religious fasting as community commitment.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify what claim you need others to believe
+          \item Find a costly action that only someone with the genuine claim would rationally take
+          \item Ensure the cost is observable and verified
+          \item Calibrate cost: high enough to deter fakers, not so high it deters honest signalers
+          \item Repeat over time to build a track record
+        \end{itemize}\item \textbf{Examples}: Expensive engagement rings; charitable donations by the wealthy; fraternity initiation costs; luxury goods as wealth signals; religious fasting as community commitment.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -758,8 +1936,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify where your predictability is being exploited. (2) Introduce deliberate unpredictability or ``madman'' signals. (3) Ensure the irrationality is credible, genuine emotional investment helps. (4) Have a private off-switch you control even while appearing to lack one. (5) Return to rational behaviour once the leverage has worked.
-        \item \textbf{Examples}: Nixon's ``Madman Theory'' in Vietnam; protester self-immolation as commitment device; doomsday devices in deterrence; road rage escalating beyond rational limits.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify where your predictability is being exploited
+          \item Introduce deliberate unpredictability or ``madman'' signals
+          \item Ensure the irrationality is credible, genuine emotional investment helps
+          \item Have a private off-switch you control even while appearing to lack one
+          \item Return to rational behaviour once the leverage has worked
+        \end{itemize}\item \textbf{Examples}: Nixon's ``Madman Theory'' in Vietnam; protester self-immolation as commitment device; doomsday devices in deterrence; road rage escalating beyond rational limits.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -784,8 +1968,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the untapped market and timing window. (2) Move decisively before the window closes. (3) Use early position to lock in key resources (talent, patents, partners). (4) Set the standard others must comply with. (5) Invest early in switching costs and network effects.
-        \item \textbf{Examples}: Xerox defining ``photocopying''; Amazon in e-commerce; Coca-Cola's global brand position; Bitcoin as first cryptocurrency; squatters' rights laws.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the untapped market and timing window
+          \item Move decisively before the window closes
+          \item Use early position to lock in key resources (talent, patents, partners)
+          \item Set the standard others must comply with
+          \item Invest early in switching costs and network effects
+        \end{itemize}\item \textbf{Examples}: Xerox defining ``photocopying''; Amazon in e-commerce; Coca-Cola's global brand position; Bitcoin as first cryptocurrency; squatters' rights laws.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -802,8 +1992,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Monitor pioneers carefully; let them educate the market. (2) Identify pioneer weaknesses and customer dissatisfactions. (3) Build a superior product on validated demand. (4) Strike at the moment of pioneer fatigue or overextension. (5) Use scale and capital efficiency to leapfrog.
-        \item \textbf{Examples}: Google after Yahoo; Facebook after MySpace; Samsung after Apple; generic drugs after patent expiry; Zara replicating runway fashion rapidly.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Monitor pioneers carefully; let them educate the market
+          \item Identify pioneer weaknesses and customer dissatisfactions
+          \item Build a superior product on validated demand
+          \item Strike at the moment of pioneer fatigue or overextension
+          \item Use scale and capital efficiency to leapfrog
+        \end{itemize}\item \textbf{Examples}: Google after Yahoo; Facebook after MySpace; Samsung after Apple; generic drugs after patent expiry; Zara replicating runway fashion rapidly.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -820,8 +2016,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Signal excess capacity credibly to deter entry. (2) Use loyalty programs and switching costs to lock in customers. (3) Acquire critical input suppliers or distribution channels. (4) Use limit pricing to keep post-entry profits unattractive. (5) File strategic patents around core technology.
-        \item \textbf{Examples}: Jio's free-data launch; frequent-flyer mile programmes; patent thickets in pharmaceuticals; exclusive distributor contracts; Amazon's low-margin saturation strategy.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Signal excess capacity credibly to deter entry
+          \item Use loyalty programs and switching costs to lock in customers
+          \item Acquire critical input suppliers or distribution channels
+          \item Use limit pricing to keep post-entry profits unattractive
+          \item File strategic patents around core technology
+        \end{itemize}\item \textbf{Examples}: Jio's free-data launch; frequent-flyer mile programmes; patent thickets in pharmaceuticals; exclusive distributor contracts; Amazon's low-margin saturation strategy.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -838,8 +2040,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Estimate the entrant's cost structure. (2) Set price just below the level that makes entry profitable for them. (3) Ensure price is above your own average cost. (4) Signal that price will stay low even post-entry. (5) Back the signal with visible cost advantages.
-        \item \textbf{Examples}: OPEC pricing decisions; Microsoft Windows pricing in the 1990s; India's telecom data pricing wars; Amazon Basics undercutting third-party sellers.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Estimate the entrant's cost structure
+          \item Set price just below the level that makes entry profitable for them
+          \item Ensure price is above your own average cost
+          \item Signal that price will stay low even post-entry
+          \item Back the signal with visible cost advantages
+        \end{itemize}\item \textbf{Examples}: OPEC pricing decisions; Microsoft Windows pricing in the 1990s; India's telecom data pricing wars; Amazon Basics undercutting third-party sellers.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -856,8 +2064,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the specific shared objective that justifies cooperation. (2) Bound the alliance scope, cooperate only where interests align. (3) Establish clear governance and exit mechanisms. (4) Protect proprietary information carefully. (5) Plan for the alliance ending when objectives diverge.
-        \item \textbf{Examples}: NATO; airline codeshare agreements; Spotify and Uber; Apple using Samsung screens; pharmaceutical joint ventures for R\&D.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the specific shared objective that justifies cooperation
+          \item Bound the alliance scope, cooperate only where interests align
+          \item Establish clear governance and exit mechanisms
+          \item Protect proprietary information carefully
+          \item Plan for the alliance ending when objectives diverge
+        \end{itemize}\item \textbf{Examples}: NATO; airline codeshare agreements; Spotify and Uber; Apple using Samsung screens; pharmaceutical joint ventures for R\&D.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -874,8 +2088,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Distinguish cheap talk from costly signalling. (2) Ask: does the speaker have incentives to lie? If yes, discount heavily. (3) Look for corroborating actions, not just words. (4) Use cheap talk to coordinate when interests align. (5) Design systems that make lying costly to convert cheap talk to credible talk.
-        \item \textbf{Examples}: Street vendor's ``final offer''; political manifesto promises; CEO shareholder letters; football pre-match trash talk.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Distinguish cheap talk from costly signalling
+          \item Ask: does the speaker have incentives to lie? If yes, discount heavily
+          \item Look for corroborating actions, not just words
+          \item Use cheap talk to coordinate when interests align
+          \item Design systems that make lying costly to convert cheap talk to credible talk
+        \end{itemize}\item \textbf{Examples}: Street vendor's ``final offer''; political manifesto promises; CEO shareholder letters; football pre-match trash talk.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -900,8 +2120,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Determine what information is observable vs.\ hidden. (2) In perfect information games, use backward induction and deep calculation. (3) In imperfect information games, model opponent types and beliefs. (4) Invest in revealing opponent information through screening. (5) Conceal your own information strategically.
-        \item \textbf{Examples}: Chess (perfect) vs.\ Poker (imperfect); transparent vs.\ sealed-bid auctions; open parliamentary debates vs.\ backroom diplomacy.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Determine what information is observable vs.\ hidden
+          \item In perfect information games, use backward induction and deep calculation
+          \item In imperfect information games, model opponent types and beliefs
+          \item Invest in revealing opponent information through screening
+          \item Conceal your own information strategically
+        \end{itemize}\item \textbf{Examples}: Chess (perfect) vs.\ Poker (imperfect); transparent vs.\ sealed-bid auctions; open parliamentary debates vs.\ backroom diplomacy.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -918,8 +2144,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify information that is privately held but widely shared. (2) Find a public event that makes the private knowledge common. (3) Anticipate the coordinated behaviour change that follows. (4) Use or create common knowledge to coordinate allies. (5) Suppress common knowledge formation to prevent unwanted coordination.
-        \item \textbf{Examples}: Arab Spring via social media; bank runs on shared panic; \#MeToo making isolated experiences collective; market bubbles bursting on shared doubt.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify information that is privately held but widely shared
+          \item Find a public event that makes the private knowledge common
+          \item Anticipate the coordinated behaviour change that follows
+          \item Use or create common knowledge to coordinate allies
+          \item Suppress common knowledge formation to prevent unwanted coordination
+        \end{itemize}\item \textbf{Examples}: Arab Spring via social media; bank runs on shared panic; \#MeToo making isolated experiences collective; market bubbles bursting on shared doubt.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -936,8 +2168,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify who holds the information advantage. (2) If uninformed, seek signals, warranties, or third-party verification. (3) If informed, decide whether to disclose (building trust) or withhold (exploiting gap). (4) Design mechanisms that align the informed party's incentives with disclosure. (5) Reduce asymmetry through transparency norms or regulation.
-        \item \textbf{Examples}: Mechanics exploiting car-ignorant customers; insider trading; real estate agents prioritising commission over client interest.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify who holds the information advantage
+          \item If uninformed, seek signals, warranties, or third-party verification
+          \item If informed, decide whether to disclose (building trust) or withhold (exploiting gap)
+          \item Design mechanisms that align the informed party's incentives with disclosure
+          \item Reduce asymmetry through transparency norms or regulation
+        \end{itemize}\item \textbf{Examples}: Mechanics exploiting car-ignorant customers; insider trading; real estate agents prioritising commission over client interest.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -954,8 +2192,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the hidden characteristic causing selection. (2) Design screening mechanisms to sort types. (3) Use signalling to allow high types to distinguish themselves. (4) Price discriminate based on revealed preference. (5) Introduce mandatory pooling (e.g., compulsory insurance) to prevent market unravelling.
-        \item \textbf{Examples}: Akerlof's used-car ``lemons'' market; health insurance death spirals; all-you-can-eat buffets attracting the most voracious eaters.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the hidden characteristic causing selection
+          \item Design screening mechanisms to sort types
+          \item Use signalling to allow high types to distinguish themselves
+          \item Price discriminate based on revealed preference
+          \item Introduce mandatory pooling (e.g., compulsory insurance) to prevent market unravelling
+        \end{itemize}\item \textbf{Examples}: Akerlof's used-car ``lemons'' market; health insurance death spirals; all-you-can-eat buffets attracting the most voracious eaters.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -972,8 +2216,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify who bears the cost of risky behaviour. (2) Introduce co-payments, deductibles, or clawbacks to re-align incentives. (3) Increase monitoring to observe hidden actions. (4) Design contracts with performance-based compensation. (5) Use reputational accountability to supplement formal incentives.
-        \item \textbf{Examples}: Banks gambling with taxpayer-backed deposits; drivers with comprehensive coverage taking more risks; CEOs with severance packages taking reckless bets.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify who bears the cost of risky behaviour
+          \item Introduce co-payments, deductibles, or clawbacks to re-align incentives
+          \item Increase monitoring to observe hidden actions
+          \item Design contracts with performance-based compensation
+          \item Use reputational accountability to supplement formal incentives
+        \end{itemize}\item \textbf{Examples}: Banks gambling with taxpayer-backed deposits; drivers with comprehensive coverage taking more risks; CEOs with severance packages taking reckless bets.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -990,8 +2240,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the hidden type that matters (health, ability, commitment). (2) Design a menu of options where each type prefers the option intended for them. (3) Ensure the ``wrong'' choice is costly enough to deter mimicry. (4) Observe self-selection and update beliefs. (5) Refine the screen as participants learn to game it.
-        \item \textbf{Examples}: Insurance deductibles revealing health risk; Saturday-night stay airline pricing separating business from leisure; coding tests in job interviews.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the hidden type that matters (health, ability, commitment)
+          \item Design a menu of options where each type prefers the option intended for them
+          \item Ensure the ``wrong'' choice is costly enough to deter mimicry
+          \item Observe self-selection and update beliefs
+          \item Refine the screen as participants learn to game it
+        \end{itemize}\item \textbf{Examples}: Insurance deductibles revealing health risk; Saturday-night stay airline pricing separating business from leisure; coding tests in job interviews.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1017,8 +2273,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify and actively improve your BATNA before negotiating. (2) Try to understand and weaken the other party's BATNA. (3) Never reveal a weak BATNA. (4) Signal your BATNA credibly through actions, not just words. (5) Anchor the negotiation range early with your opening offer.
-        \item \textbf{Examples}: Having another job offer in salary negotiations; water vendor in a desert vs.\ one by a river; buyers in a buyer's market; monopolists with no alternatives facing them.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify and actively improve your BATNA before negotiating
+          \item Try to understand and weaken the other party's BATNA
+          \item Never reveal a weak BATNA
+          \item Signal your BATNA credibly through actions, not just words
+          \item Anchor the negotiation range early with your opening offer
+        \end{itemize}\item \textbf{Examples}: Having another job offer in salary negotiations; water vendor in a desert vs.\ one by a river; buyers in a buyer's market; monopolists with no alternatives facing them.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1035,8 +2297,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify each party's outside option (disagreement payoff). (2) Calculate the total surplus from cooperation. (3) Find the split that maximises the product of surplus gains for both parties. (4) Check for symmetry adjustments based on relative patience or risk aversion. (5) Use the solution as a benchmark to evaluate proposed deals.
-        \item \textbf{Examples}: M\&A deal pricing relative to stand-alone values; climate agreement burden-sharing; management-union wage settlements avoiding strikes.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify each party's outside option (disagreement payoff)
+          \item Calculate the total surplus from cooperation
+          \item Find the split that maximises the product of surplus gains for both parties
+          \item Check for symmetry adjustments based on relative patience or risk aversion
+          \item Use the solution as a benchmark to evaluate proposed deals
+        \end{itemize}\item \textbf{Examples}: M\&A deal pricing relative to stand-alone values; climate agreement burden-sharing; management-union wage settlements avoiding strikes.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1053,8 +2321,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Assess your discount rate, how much does delay cost you? (2) Assess the opponent's discount rate, do they have burning runway? (3) Make your first offer close to the equilibrium solution (it should be accepted). (4) Signal patience credibly. (5) Recognise that real delays indicate incomplete information or irrational commitment, adjust accordingly.
-        \item \textbf{Examples}: Car price negotiation as both parties' time costs mount; union strikes where both sides bleed daily; startup acquisition as funding runs out.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Assess your discount rate, how much does delay cost you?
+          \item Assess the opponent's discount rate, do they have burning runway?
+          \item Make your first offer close to the equilibrium solution (it should be accepted)
+          \item Signal patience credibly
+          \item Recognise that real delays indicate incomplete information or irrational commitment, adjust accordingly
+        \end{itemize}\item \textbf{Examples}: Car price negotiation as both parties' time costs mount; union strikes where both sides bleed daily; startup acquisition as funding runs out.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1071,8 +2345,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Distinguish between value-creating and rent-seeking activities in your strategy. (2) Calculate the full social cost of lobbying vs.\ innovating. (3) Identify rent-seeking by competitors and design regulation to block it. (4) Avoid engaging in rent-seeking even when profitable, it invites retaliation and regulatory scrutiny. (5) Advocate for institutional rules that reward production over position.
-        \item \textbf{Examples}: India's ``Licence Raj'' lobbying; patent trolls; occupational licensing cartels; corruption and bribery as market entry barriers.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Distinguish between value-creating and rent-seeking activities in your strategy
+          \item Calculate the full social cost of lobbying vs.\ innovating
+          \item Identify rent-seeking by competitors and design regulation to block it
+          \item Avoid engaging in rent-seeking even when profitable, it invites retaliation and regulatory scrutiny
+          \item Advocate for institutional rules that reward production over position
+        \end{itemize}\item \textbf{Examples}: India's ``Licence Raj'' lobbying; patent trolls; occupational licensing cartels; corruption and bribery as market entry barriers.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1097,8 +2377,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Define the social objective (efficiency, fairness, revenue). (2) Identify the private information players hold. (3) Design a mechanism where revealing true information maximises individual payoffs (incentive-compatibility). (4) Ensure participation is individually rational. (5) Test for manipulation and iterate.
-        \item \textbf{Examples}: NRMP medical residency matching; FCC spectrum auctions; school choice algorithms; kidney exchange programmes; Vickrey second-price auctions.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Define the social objective (efficiency, fairness, revenue)
+          \item Identify the private information players hold
+          \item Design a mechanism where revealing true information maximises individual payoffs (incentive-compatibility)
+          \item Ensure participation is individually rational
+          \item Test for manipulation and iterate
+        \end{itemize}\item \textbf{Examples}: NRMP medical residency matching; FCC spectrum auctions; school choice algorithms; kidney exchange programmes; Vickrey second-price auctions.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1115,8 +2401,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the auction format and its incentive structure. (2) Estimate your true private value, resist the winner's curse by bidding below your estimate in common-value auctions. (3) Observe competitor bidding patterns. (4) Use the Revenue Equivalence Theorem to evaluate format choices. (5) Bid truthfully in second-price (Vickrey) auctions, it is the dominant strategy.
-        \item \textbf{Examples}: IPL team auctions for player talent; Google AdSense second-price mechanism; eBay online bidding; government bond issuance.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the auction format and its incentive structure
+          \item Estimate your true private value, resist the winner's curse by bidding below your estimate in common-value auctions
+          \item Observe competitor bidding patterns
+          \item Use the Revenue Equivalence Theorem to evaluate format choices
+          \item Bid truthfully in second-price (Vickrey) auctions, it is the dominant strategy
+        \end{itemize}\item \textbf{Examples}: IPL team auctions for player talent; Google AdSense second-price mechanism; eBay online bidding; government bond issuance.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1133,8 +2425,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Verify that prices cannot or should not clear the market. (2) Gather complete preference lists from both sides. (3) Apply the Gale-Shapley deferred-acceptance algorithm. (4) Check that the resulting match is stable (no blocking pairs). (5) Design incentives so participants reveal true preferences.
-        \item \textbf{Examples}: NRMP medical residency (Nobel Prize-winning application); school choice in NYC and Boston; kidney exchange chains; entry-level lawyer placement.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Verify that prices cannot or should not clear the market
+          \item Gather complete preference lists from both sides
+          \item Apply the Gale-Shapley deferred-acceptance algorithm
+          \item Check that the resulting match is stable (no blocking pairs)
+          \item Design incentives so participants reveal true preferences
+        \end{itemize}\item \textbf{Examples}: NRMP medical residency (Nobel Prize-winning application); school choice in NYC and Boston; kidney exchange chains; entry-level lawyer placement.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1151,8 +2449,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Measure same-side and cross-side network effects. (2) Subsidise early adoption to reach critical mass. (3) Design for interoperability or, strategically, against it. (4) Use data network effects to reinforce technical advantages. (5) Identify multi-homing costs, high multi-homing weakens lock-in.
-        \item \textbf{Examples}: WhatsApp's dominance despite imperfect product; Visa/Mastercard duopoly; Windows OS market; English as global business language.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Measure same-side and cross-side network effects
+          \item Subsidise early adoption to reach critical mass
+          \item Design for interoperability or, strategically, against it
+          \item Use data network effects to reinforce technical advantages
+          \item Identify multi-homing costs, high multi-homing weakens lock-in
+        \end{itemize}\item \textbf{Examples}: WhatsApp's dominance despite imperfect product; Visa/Mastercard duopoly; Windows OS market; English as global business language.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1169,8 +2473,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify which side is the ``hard side'' to attract. (2) Subsidise the hard side heavily to build critical mass. (3) Charge the side with the most to gain from the other's presence. (4) Manage cross-side network effects, more of one side should benefit the other. (5) Prevent disintermediation, keep both sides transacting on the platform.
-        \item \textbf{Examples}: Uber subsidising drivers and riders; gaming consoles subsidising hardware to attract developers; newspapers giving free content to attract advertisers.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify which side is the ``hard side'' to attract
+          \item Subsidise the hard side heavily to build critical mass
+          \item Charge the side with the most to gain from the other's presence
+          \item Manage cross-side network effects, more of one side should benefit the other
+          \item Prevent disintermediation, keep both sides transacting on the platform
+        \end{itemize}\item \textbf{Examples}: Uber subsidising drivers and riders; gaming consoles subsidising hardware to attract developers; newspapers giving free content to attract advertisers.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1196,8 +2506,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Make the resource excludable (property rights or licensing). (2) Introduce quotas or Pigouvian taxes on usage. (3) Build community norms and social monitoring. (4) Apply Ostrom's principles: local rules, graduated sanctions, collective governance. (5) Create long-term stakes in the resource's health.
-        \item \textbf{Examples}: Delhi's smog from uncurbed driving; global overfishing; groundwater depletion in agricultural regions; climate change as a global commons failure.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Make the resource excludable (property rights or licensing)
+          \item Introduce quotas or Pigouvian taxes on usage
+          \item Build community norms and social monitoring
+          \item Apply Ostrom's principles: local rules, graduated sanctions, collective governance
+          \item Create long-term stakes in the resource's health
+        \end{itemize}\item \textbf{Examples}: Delhi's smog from uncurbed driving; global overfishing; groundwater depletion in agricultural regions; climate change as a global commons failure.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1214,8 +2530,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Understand the voting mechanism and its incentives. (2) Identify potential spoiler effects and strategic voting incentives. (3) Consider alternative mechanisms (ranked-choice, approval voting). (4) Account for agenda-setting power, who controls the order of votes. (5) Design voting systems to minimise strategic manipulation given the context.
-        \item \textbf{Examples}: Spoiler candidates splitting the vote; gerrymandering; strategic ``lesser-evil'' voting; Condorcet cycles in committee decisions.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Understand the voting mechanism and its incentives
+          \item Identify potential spoiler effects and strategic voting incentives
+          \item Consider alternative mechanisms (ranked-choice, approval voting)
+          \item Account for agenda-setting power, who controls the order of votes
+          \item Design voting systems to minimise strategic manipulation given the context
+        \end{itemize}\item \textbf{Examples}: Spoiler candidates splitting the vote; gerrymandering; strategic ``lesser-evil'' voting; Condorcet cycles in committee decisions.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1232,8 +2554,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Assign explicit responsibility to a specific person, diffused responsibility equals paralysis. (2) Reward first-movers visibly and publicly. (3) Reduce the cost of volunteering (anonymity, indemnification). (4) Break large groups into smaller accountable units. (5) Build a culture where volunteering is the expected norm.
-        \item \textbf{Examples}: Bystander effect in the Kitty Genovese case; whistleblowers in corporations; group projects where no one starts; first protesters in social movements.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Assign explicit responsibility to a specific person, diffused responsibility equals paralysis
+          \item Reward first-movers visibly and publicly
+          \item Reduce the cost of volunteering (anonymity, indemnification)
+          \item Break large groups into smaller accountable units
+          \item Build a culture where volunteering is the expected norm
+        \end{itemize}\item \textbf{Examples}: Bystander effect in the Kitty Genovese case; whistleblowers in corporations; group projects where no one starts; first protesters in social movements.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1250,8 +2578,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify which options stand out as ``obvious'' in context. (2) Use round numbers and symmetric solutions as coordination anchors. (3) In design, make your desired outcome the salient focal point. (4) Use cultural and historical reference points to guide coordination. (5) Recognise that your opponents will also search for the same focal point.
-        \item \textbf{Examples}: Grand Central Station at noon as a meeting point; round-number salary anchors (Rs. 10 lakh, not Rs. 9.83 lakh); ceasefire lines at rivers; splitting bills equally.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify which options stand out as ``obvious'' in context
+          \item Use round numbers and symmetric solutions as coordination anchors
+          \item In design, make your desired outcome the salient focal point
+          \item Use cultural and historical reference points to guide coordination
+          \item Recognise that your opponents will also search for the same focal point
+        \end{itemize}\item \textbf{Examples}: Grand Central Station at noon as a meeting point; round-number salary anchors (Rs. 10 lakh, not Rs. 9.83 lakh); ceasefire lines at rivers; splitting bills equally.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1268,8 +2602,14 @@
     \end{column}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Know yourself and your enemy, assess strengths and weaknesses honestly. (2) Win without fighting: use perception, reputation, and deception before force. (3) Choose the battlefield, fight where you are strong, not where the enemy is. (4) Use spies and intelligence before commitment. (5) Strike at the opponent's strategy, not their army.
-        \item \textbf{Examples}: Corporate hostile takeover via proxy; soft power (Bollywood/Hollywood); guerrilla marketing; peace treaties as strategic positioning; cyber warfare.
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Know yourself and your enemy, assess strengths and weaknesses honestly
+          \item Win without fighting: use perception, reputation, and deception before force
+          \item Choose the battlefield, fight where you are strong, not where the enemy is
+          \item Use spies and intelligence before commitment
+          \item Strike at the opponent's strategy, not their army
+        \end{itemize}\item \textbf{Examples}: Corporate hostile takeover via proxy; soft power (Bollywood/Hollywood); guerrilla marketing; peace treaties as strategic positioning; cyber warfare.
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1287,16 +2627,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Prospect Theory: Loss Aversion Changes Everything}
 \begin{columns}
-    \begin{column}[T]{0.5\linewidth}
+    \begin{column}[T]{0.45\linewidth}
       \begin{itemize}
         \item \textbf{Introduction}: Kahneman and Tversky's theory shows humans evaluate outcomes relative to a reference point, not absolute wealth, and losses hurt roughly twice as much as equivalent gains feel good. This reshapes all strategic interaction.
         \item \textbf{Situation}: Investor behaviour, labour negotiations, political framing, consumer pricing, legal settlements, any context where framing around a reference point shifts decisions away from rational maximisation.
       \end{itemize}
     \end{column}
-    \begin{column}[T]{0.5\linewidth}
+    \begin{column}[T]{0.55\linewidth}
       \begin{itemize}
-        \item \textbf{Steps}: (1) Identify the reference point of your counterpart. (2) Frame your offer as avoiding a loss rather than achieving a gain. (3) Recognise the endowment effect, people overvalue what they already possess. (4) Avoid triggering loss aversion by anchoring to a favourable reference point early. (5) Exploit loss aversion in competitors while designing your own decisions around rational expected value.
-        \item \textbf{Examples}: Investors refusing to sell losing stocks; homeowners overpricing due to emotional attachment; unions rejecting wage cuts even to prevent layoffs; governments escalating losing wars to ``not lose face.''
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify the reference point of your counterpart
+          \item Frame your offer as avoiding a loss rather than achieving a gain
+          \item Recognise the endowment effect, people overvalue what they already possess
+          \item Avoid triggering loss aversion by anchoring to a favourable reference point early
+          \item Exploit loss aversion in competitors while designing your own decisions around rational expected value
+        \end{itemize}\item \textbf{Examples}: Investors refusing to sell losing stocks; homeowners overpricing due to emotional attachment; unions rejecting wage cuts even to prevent layoffs; governments escalating losing wars to ``not lose face.''
       \end{itemize}
     \end{column}
   \end{columns}
@@ -1328,7 +2674,7 @@
     \end{column}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{The Hierarchy of Strategic Wisdom}
-        \begin{enumerate}
+        \begin{itemize}
           \item Know which game you are in
           \item Know who the other players are
           \item Know their incentives
@@ -1336,7 +2682,7 @@
           \item Make credible commitments
           \item Build reputation relentlessly
           \item \textbf{Play to keep playing}
-        \end{enumerate}
+        \end{itemize}
       \end{block}
   \vspace{8pt}
   \begin{alertblock}{The Ultimate Lesson}
