@@ -1,0 +1,48 @@
+Create line art illustrations for a Marathi book on mental models. Each chapter requires one illustration based on:
+1. A Marathi description of the mental model.
+2. A hand-drawn sketch (attached as reference).
+
+---
+
+### Key Guidelines
+
+#### 1. Style and Aesthetics
+- Line Art Only: Strictly black-and-white line art. Ignore any color references in descriptions.
+- Background: Pure white (no shades of gray).
+- Human Figures: Replace stick figures with cartoonish or filled human figures (e.g., simple, expressive, and relatable).
+- Consistency: Maintain a 4x6-inch size for all illustrations.
+- Perspective:
+  - Preserve the original nature of the diagram (e.g., 2D chart, scientific diagram, 3D).
+  - For 3D illustrations, ensure realistic perspective and depth.
+
+#### 2. Content and Accuracy
+- Primary Reference: The hand-drawn sketch is the main guide. The description is secondary (to ensure all key elements are included).
+- Text:
+  - Title: Chapter number + mental model name in English (e.g., "Chapter 3: Inversion").
+  - Body Text: Use Marathi for all labels/annotations. Simple letters (e.g., "A," "B") can remain in English.
+- Clarity: The illustration should instantly convey the mental model to the reader. Avoid clutter; prioritize minimalism and effectiveness.
+
+#### 3. Workflow
+1. Understand the Mental Model: Study the description and sketch to grasp the core concept.
+2. Plan: Outline how to merge the sketch’s style with the description’s details.
+3. Clarify Doubts: Ask for input if:
+   - The sketch or description is ambiguous.
+   - The mental model’s visual representation is unclear.
+4. Execute: Create the refined line art, ensuring alignment with the sketch and description.
+
+---
+
+### Deliverables
+- One illustration per chapter, adhering to:
+  - Style (line art, B&W, 4x6 inches).
+  - Language (Marathi text + English title).
+  - Clarity (self-explanatory visual).
+
+---
+
+### Next Steps
+1. Share the Marathi description and hand-drawn sketch for the first chapter.
+2. I’ll:
+   - Analyze both inputs.
+   - Ask clarifying questions (if needed).
+   - Propose a draft for your feedback before finalizing.
