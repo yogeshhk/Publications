@@ -76,7 +76,7 @@
           \item \textbf{1944}, Von Neumann \& Morgenstern publish \textit{Theory of Games and Economic Behaviour}
           \item \textbf{1950}, John Nash introduces the \textit{Nash Equilibrium}
           \item \textbf{1994}, Nash, Harsanyi \& Selten win the Nobel Prize in Economics
-          \item \textbf{2005, 2012}, Further Nobel awards for Mechanism Design and Matching Theory
+          \item \textbf{2007, 2012}, Further Nobel awards for Mechanism Design (Hurwicz, Maskin, Myerson) and Matching Theory (Roth, Shapley)
         \end{itemize}
       \end{block}
     \end{column}
@@ -209,46 +209,6 @@
 \end{center}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{Understanding Payoff Matrices}
-% \begin{columns}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{What is a Payoff Matrix?}
-      % \begin{itemize}
-        % \item A table showing outcomes for all strategy combinations
-        % \item Rows represent Player 1's outcomes
-        % \item Columns represent Player 2's outcomes
-        % \item Helps visualize strategic interactions clearly
-      % \end{itemize}
-      
-      % \vspace{6pt}
-      % \textbf{Simple Example: Coffee Pricing}
-      % \begin{center}
-      % \begin{tabular}{|c|c|c|}
-        % \hline
-        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{High Price} & \textbf{Low Price} \\
-        % \hline
-        % \textbf{High Price} & (50, 50) & (20, 70) \\
-        % \hline
-        % \textbf{Low Price} & (70, 20) & (30, 30) \\
-        % \hline
-      % \end{tabular}
-      % \end{center}
-      % \small{Payoffs in Rs 1000s of profit}
-    % \end{column}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{How to Read the Matrix:}
-      % \begin{itemize}
-        % \item \textbf{Identify Players:} Row player (Ramesh) and Column player (Suresh)
-        % % \item \textbf{List Strategies:} Each row/column is one strategy option
-        % % \item \textbf{Find Outcomes:} Intersection shows what happens when both choose those strategies
-        % \item \textbf{Read Payoffs:} First number is always row player's payoff, second is column player's
-        % % \item \textbf{Compare:} Look across rows and down columns to find best responses
-      % \end{itemize}
-    % \end{column}
-  % \end{columns}
-% \end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Understanding Payoff Matrices}
 \begin{columns}
@@ -300,53 +260,6 @@
     \end{column}
   \end{columns}
 \end{frame}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
-% \begin{columns}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{What is a Dominant Strategy?}
-      % \begin{itemize}
-        % \item A strategy that gives you the best payoff \textit{no matter what} the opponent does
-        % \item If it exists, it simplifies decision-making dramatically
-        % \item You don't need to predict opponent's move
-        % \item It's your safest, most robust choice
-      % \end{itemize}
-      
-      % \vspace{6pt}
-      % \textbf{Example Matrix:}
-      % \begin{center}
-      % \begin{tabular}{|c|c|c|}
-        % \hline
-        % \textbf{You $\backslash$ Opponent} & \textbf{A} & \textbf{B} \\
-        % \hline
-        % \textbf{Option 1} & (3, 3) & (1, 4) \\
-        % \hline
-        % \textbf{\textbf{Option 2}} & \textbf{(4, 2)} & \textbf{(2, 3)} \\
-        % \hline
-      % \end{tabular}
-      % \end{center}
-    % \end{column}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{Steps to Find Dominant Strategy:}
-      % \begin{itemize}
-        % \item \textbf{Pick one of YOUR strategies} (e.g., Option 1)
-        % \item \textbf{Compare across ALL opponent strategies:} 
-        % \begin{itemize}
-          % \item If opponent plays A: You get 3
-          % \item If opponent plays B: You get 1
-        % \end{itemize}
-        % \item \textbf{Repeat for your other strategy} (Option 2):
-        % \begin{itemize}
-          % \item If opponent plays A: You get 4
-          % \item If opponent plays B: You get 2
-        % \end{itemize}
-        % \item \textbf{Compare:} Option 2 gives 4 vs 3 and 2 vs 1, Option 2 always wins!
-        % \item \textbf{Conclusion:} Option 2 is your dominant strategy (bold in matrix)
-      % \end{itemize}
-    % \end{column}
-  % \end{columns}
-% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
@@ -400,52 +313,6 @@
     \end{column}
   \end{columns}
 \end{frame}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{Finding Nash Equilibrium}
-% \begin{columns}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{What is Nash Equilibrium?}
-      % \begin{itemize}
-        % \item A situation where each player's strategy is the best response to the other's strategy
-        % \item No player can improve by changing alone
-        % \item The outcome "locks in" even if suboptimal
-        % \item May not be the best outcome for both!
-      % \end{itemize}
-      
-      % \vspace{8pt}
-      % \textbf{Example Matrix:}
-      % \begin{center}
-      % \begin{tabular}{|c|c|c|}
-        % \hline
-        % \textbf{Player 1 $\backslash$ Player 2} & \textbf{Left} & \textbf{Right} \\
-        % \hline
-        % \textbf{Up} & (5, 5) & (1, 4) \\
-        % \hline
-        % \textbf{Down} & (4, 1) & \textbf{(2, 2)} \\
-        % \hline
-      % \end{tabular}
-      % \end{center}
-    % \end{column}
-    % \begin{column}[T]{0.5\linewidth}
-      % \textbf{Steps to Find Nash Equilibrium:}
-      % \begin{itemize}
-        % \item \textbf{For Player 1:} Find best response to each of Player 2's strategies
-        % \begin{itemize}
-          % \item If P2 plays Left: Up (5) $>$ Down (4)
-          % \item If P2 plays Right: Down (2) $>$ Up (1)
-        % \end{itemize}
-        % \item \textbf{For Player 2:} Find best response to each of Player 1's strategies
-        % \begin{itemize}
-          % \item If P1 plays Up: Left (5) $>$ Right (4)
-          % \item If P1 plays Down: Right (2) $>$ Left (1)
-        % \end{itemize}
-        % \item \textbf{Find mutual best responses:} (Down, Right) is Nash Equilibrium, both are playing best responses to each other
-        % \item \textbf{Note:} Both would prefer (5,5) but can't coordinate!
-      % \end{itemize}
-    % \end{column}
-  % \end{columns}
-% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Finding Nash Equilibrium: Idea}
@@ -864,7 +731,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Popular Strategies}
+{\Large Foundational Strategies}
 \end{center}
 \end{frame}
 
@@ -1142,12 +1009,12 @@
 \end{frame}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Game Types and Structures}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Game Types and Structures}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Prisoner's Dilemma: The Trust Problem}
@@ -1194,7 +1061,7 @@
         \hline
         \textbf{Ramesh $\backslash$ Suresh} & \textbf{Cooperate} & \textbf{Defect} \\
         \hline
-        \textbf{Cooperate} & (50k, 5k0) & (20k, 70k) \\
+        \textbf{Cooperate} & (50k, 50k) & (20k, 70k) \\
         \hline
         \textbf{Defect} & (70k, 20k) & \textbf{(30k, 30k)} \\
         \hline
@@ -1713,12 +1580,12 @@
 \end{frame}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Decision-Making Approaches}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Decision-Making Approaches}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Backward Induction: Think Backwards, Act Forward}
@@ -2021,6 +1888,12 @@
       \end{itemize}
     \end{column}
   \end{columns}
+  \vspace{4pt}
+  \begin{alertblock}{Plain English}
+    A plan is subgame-perfect only if you would actually follow through at every
+    branch --- including ones you hope never to reach.
+    A threat you would abandon under pressure is not a plan; it is a bluff.
+  \end{alertblock}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2062,7 +1935,7 @@
         \begin{itemize}
           \item Assign prior probability distributions over opponent types
           \item Identify what signals or actions reveal information
-          \item Update beliefs using Bayes' Rule as evidence arrives
+          \item Update beliefs using Bayes' Rule as evidence arrives (posterior $\propto$ prior $\times$ likelihood of observed signal)
           \item Compute expected payoffs across opponent types
           \item Choose strategy maximising expected payoff; recognise your actions also signal your type
         \end{itemize}\item \textbf{Examples}: Employer updating beliefs about candidate quality through interview; used-car buyer reading seller signals; poker player updating hand estimate from betting patterns.
@@ -2071,12 +1944,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Credibility and Commitment}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Credibility and Commitment}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Strategic Commitment: Limiting Your Own Options}
@@ -2295,12 +2168,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Strategic Interaction in Relationships}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Strategic Interaction in Relationships}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Tit-for-Tat: Reciprocity Works}
@@ -2474,12 +2347,12 @@
 \end{frame}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Competitive Advantage and Market Strategy}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Competitive Advantage and Market Strategy}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{First-Mover Advantage: Being Early Pays}
@@ -2578,6 +2451,41 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Algorithmic Strategy: When Algorithms Play the Game}
+\begin{columns}
+    \begin{column}[T]{0.5\linewidth}
+      \begin{itemize}
+        \item \textbf{Introduction}: When competing firms deploy pricing or bidding
+          algorithms that observe and react to each other, Nash equilibria
+          emerge \textit{without} human intent or explicit coordination.
+          The result can resemble collusion but arises from independent
+          reactive machines.
+        \item \textbf{Situation}: E-commerce repricing, airline yield management,
+          digital ad auctions, ride-hailing surge pricing,
+          high-frequency trading.
+      \end{itemize}
+    \end{column}
+    \begin{column}[T]{0.5\linewidth}
+      \begin{itemize}
+        \item \textbf{Steps}:
+        \begin{itemize}
+          \item Identify whether competitors use reactive pricing systems
+          \item Audit your own algorithm's update frequency and reaction function
+          \item Anticipate that algorithms will converge to a Nash equilibrium,
+            possibly a price-war or supra-competitive outcome
+          \item Design algorithms with long-run profit as the objective,
+            not just short-run market share
+          \item Monitor for algorithmic tacit collusion --- regulators are catching up
+        \end{itemize}
+        \item \textbf{Examples}: Amazon third-party seller bots converging on
+          near-identical prices; airline revenue management systems; Google Ads
+          second-price auctions; Uber/Ola surge pricing under simultaneous peak demand.
+      \end{itemize}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Strategic Alliances: Temporary Partnerships}
 \begin{columns}
     \begin{column}[T]{0.5\linewidth}
@@ -2625,12 +2533,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Information and Uncertainty}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Information and Uncertainty}
+\end{center}
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2777,12 +2685,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Negotiation and Bargaining}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Negotiation and Bargaining}
+\end{center}
+\end{frame}
 
 
 
@@ -2882,12 +2790,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Market Design and Mechanisms}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Market Design and Mechanisms}
+\end{center}
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -3011,12 +2919,12 @@
 \end{frame}
 
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Collective Challenges and Social Dilemmas}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Collective Challenges and Social Dilemmas}
+\end{center}
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -3139,12 +3047,12 @@
   \end{columns}
 \end{frame}
 
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \begin{frame}[fragile]\frametitle{}
-% \begin{center}
-% {\Large Prospect Theory}
-% \end{center}
-% \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Prospect Theory}
+\end{center}
+\end{frame}
 
 
 
@@ -3218,7 +3126,7 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Applying Game Theory: Your Action Plan}
+\begin{frame}[fragile]\frametitle{Applying Game Theory: This Week \& This Month}
   \begin{columns}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{This Week}
@@ -3246,7 +3154,7 @@
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Applying Game Theory: Your Action Plan}
+\begin{frame}[fragile]\frametitle{Applying Game Theory: Ongoing Practice}
   \begin{columns}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{Ongoing Practice}
@@ -3311,7 +3219,7 @@
   \begin{itemize}
     \item ``The supreme art of war is to subdue the enemy 
       without fighting.'' - Sun Tzu, The Art of War
-	\item ``In the real world, the game isn't broken.   The players are human.'' - Kahneman / Tversky, Prospect Theory Reflection
+    \item ``In the real world, the game isn't broken. The players are human.'' --- Author's paraphrase of Kahneman \& Tversky
     \item Understand the incentives.
     \item Respect the players.
     \item May your equilibrium always be stable.
