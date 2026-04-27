@@ -895,54 +895,176 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Zero-Sum Games: Ramesh-Suresh Customer War}
-\begin{columns}
-    \begin{column}[T]{0.58\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both locked in war over same 50 factory workers who cross street every morning
-        \item Fixed customer pool, when one gains a customer, other loses one
-        \item Discounts, louder music, bigger signboards
-        \item Every move designed to steal, not to create
-        \item Victory for one = defeat for other
-        \item Classic zero-sum: customer pool is fixed
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Zero-Sum Games: Ramesh-Suresh Customer War}
+% \begin{columns}
+    % \begin{column}[T]{0.58\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both locked in war over same 50 visitors who cross street every morning
+        % \item Fixed customer pool, when one gains a customer, other loses one
+        % \item Discounts, louder music, bigger signboards
+        % \item Every move designed to steal, not to create
+        % % \item Victory for one = defeat for other
+        % % \item Classic zero-sum: customer pool is fixed
+      % \end{itemize}
       
-      \vspace{2pt}
-      \textbf{Payoff Matrix (Daily Customers):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal} & \textbf{Aggressive} \\
-        \hline
-        \textbf{Normal} & (25, 25) & (15, 35) \\
-        \hline
-        \textbf{Aggressive} & (35, 15) & (25, 25) \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.42\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Check Total:} Each cell sums to 50 customers (25+25, 15+35, etc.)
-        \item \textbf{Zero-Sum Property:} One's gain = Other's exact loss
-        \item \textbf{No Win-Win:} Cannot both gain customers simultaneously
-        \item \textbf{Pure Conflict:} Cooperation doesn't expand the pie
-        \item \textbf{Key Insight:} Verify game is truly zero-sum before treating it as one, many situations that seem zero-sum are actually positive-sum
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{2pt}
+      % \textbf{Payoff Matrix (Daily Customers):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal} & \textbf{Aggressive} \\
+        % \hline
+        % \textbf{Normal} & (25, 25) & (15, 35) \\
+        % \hline
+        % \textbf{Aggressive} & (35, 15) & (25, 25) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.42\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Check Total:} Each cell sums to 50 customers (25+25, 15+35, etc.)
+        % % \item \textbf{Zero-Sum Property:} One's gain = Other's exact loss
+        % % \item \textbf{No Win-Win:} Cannot both gain customers simultaneously
+        % % \item \textbf{Pure Conflict:} Cooperation doesn't expand the pie
+        % \item \textbf{Key Insight:} Verify game is truly zero-sum before treating it as one, many situations that seem zero-sum are actually positive-sum
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Zero-Sum Game: Ramesh-Suresh Customer War}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Ramesh and Suresh compete for the same 50 customers every morning
+  \item The customer pool is fixed
+  \item If one gains customers, the other loses customers
+  \item Their actions (discounts, louder music, signboards) only \textbf{shift customers}, not create new ones
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Customer Distribution Matrix:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal} & \textbf{Aggressive} \\
+  \hline
+  \textbf{Normal} & (25, 25) & (15, 35) \\
+  \hline
+  \textbf{Aggressive} & (35, 15) & (25, 25) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Why is this Zero-Sum?}
+\begin{itemize}
+  \item In every outcome, total customers remain 50:
+  \[
+  25+25=50,\quad 15+35=50,\quad 35+15=50
+  \]
+  \item One player's gain is exactly the other's loss
+\end{itemize}
+
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh plays Normal:
+  \begin{itemize}
+    \item Ramesh gets 25 with Normal
+    \item Ramesh gets 35 with Aggressive
+    \item $\Rightarrow$ \underline{Aggressive} is better
+  \end{itemize}
+
+  \item If Suresh plays Aggressive:
+  \begin{itemize}
+    \item Ramesh gets 15 with Normal
+    \item Ramesh gets 25 with Aggressive
+    \item $\Rightarrow$ \underline{Aggressive} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item Whether Ramesh plays Normal or Aggressive, Suresh also gets more customers by choosing \underline{Aggressive}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item \underline{Aggressive} is the dominant strategy for both players
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibrium and Strategic Insight}
+
+\textbf{Since both players have the dominant strategy \underline{Aggressive}, the Nash equilibrium is:}
+
+\[
+\textbf{(Aggressive,\ Aggressive)}
+\]
+
+\vspace{6pt}
+
+\textbf{Resulting Payoff Matrix:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Normal & Aggressive \\
+  \hline
+  Normal & (25, 25) & (15, 35) \\
+  \hline
+  Aggressive & (35, 15) & \textbf{(25, 25)} \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+
+\begin{itemize}
+  \item If one player stays Normal while the other becomes Aggressive, the aggressive player captures more customers
+  \item So both are pushed toward Aggressive behavior
+  \item But when both become Aggressive, each ends up with only 25 customers again
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Meaning:}
+\begin{itemize}
+  \item Both compete harder, but neither gains extra customers
+  \item This is the \textbf{competitive trap} in zero-sum games
+\end{itemize}
+
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Positive-Sum Games: Creating Mutual Benefit}
 \begin{columns}
     \begin{column}[T]{0.5\linewidth}
       \begin{itemize}
-        \item \textbf{Introduction}: Positive-sum games allow the total gains to grow, ``growing the pie'' rather than fighting over slices. Trade, collaboration, and innovation are classic examples where mutual gain is possible.
+        \item \textbf{Introduction}: Positive-sum games allow the total gains to grow, ``growing the pie'' rather than fighting over fixed pool. Trade, collaboration, and innovation are classic examples where mutual gain is possible.
         \item \textbf{Situation}: Most business partnerships, trade agreements, marriages, and open-source projects. When both parties gain from interaction, the strategic goal shifts from defeating to creating and coordinating.
       \end{itemize}
     \end{column}
@@ -955,66 +1077,185 @@
           \item Design a split of gains that both prefer over non-cooperation
           \item Build trust mechanisms to prevent defection
           \item Iterate, reputation and repeat interaction sustain positive-sum outcomes
-        \end{itemize}\item \textbf{Examples}: Bangalore's tech ecosystem where new firms benefit incumbents; open-source software; international trade agreements; ridesharing platforms benefiting both drivers and riders.
+        \end{itemize}\item \textbf{Examples}: Pune's tech ecosystem where new firms benefit incumbents (including auto sector, via CAD-CAM); open-source software; international trade agreements; ride-sharing platforms benefiting both drivers and riders.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Positive-Sum: Ramesh-Suresh Grow Together}
-\begin{columns}
-    \begin{column}[T]{0.6\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both improve coffee, seating, vibe
-        \item Street becomes destination
-        \item Office workers detour on purpose, weekend crowds arrive
-        \item Better beans from suppliers, local bakery partnerships
-        \item Each one's improvements lift expectations for both
-        \item Total customers increase instead of staying fixed
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Positive-Sum: Ramesh-Suresh Grow Together}
+% \begin{columns}
+    % \begin{column}[T]{0.6\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both improve coffee, seating, vibe
+        % \item Street becomes destination
+        % \item Office workers detour on purpose, weekend crowds arrive
+        % \item Better beans from suppliers, local bakery partnerships
+        % \item Each one's improvements lift expectations for both
+        % \item Total customers increase instead of staying fixed
+      % \end{itemize}
       
-      \vspace{6pt}
-      \textbf{Payoff Matrix (Daily Customers):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Low Quality} & \textbf{High Quality} \\
-        \hline
-        \textbf{Low Quality} & (25, 25) & (30, 40) \\
-        \hline
-        \textbf{High Quality} & (40, 30) & \textbf{(55, 55)} \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.38\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Check Totals:}
-        \begin{itemize}
-          \item Both Low: 50 total
-          \item Mixed: 70 total
-          \item Both High: 110 total!
-        \end{itemize}
-        \item \textbf{Positive-Sum Property:} Pie grows with cooperation
-        \item \textbf{Best Outcome:} Both High Quality (55, 55)
-        \item \textbf{Key Insight:} Real question isn't how to beat rival, it's how to grow the total market
-        \item \textbf{Biggest wins:} Come from making location a destination
-      \end{itemize}
-    \end{column}
-  \end{columns}
-\end{frame}
-
+      % \vspace{6pt}
+      % \textbf{Payoff Matrix (Daily Customers):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Low Quality} & \textbf{High Quality} \\
+        % \hline
+        % \textbf{Low Quality} & (25, 25) & (30, 40) \\
+        % \hline
+        % \textbf{High Quality} & (40, 30) & \textbf{(55, 55)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.38\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Check Totals:}
+        % \begin{itemize}
+          % \item Both Low: 50 total
+          % \item Mixed: 70 total
+          % \item Both High: 110 total!
+        % \end{itemize}
+        % \item \textbf{Positive-Sum Property:} Pie grows with cooperation
+        % \item \textbf{Best Outcome:} Both High Quality (55, 55)
+        % \item \textbf{Key Insight:} Real question isn't how to beat rival, it's how to grow the total market
+        % \item \textbf{Biggest wins:} Come from making location a destination
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
+\begin{frame}[fragile]\frametitle{Positive-Sum Game: Ramesh-Suresh Grow Together}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Both improve coffee quality, seating, and overall experience
+  \item The street becomes a destination, not just a pass-through
+  \item New customers arrive: office workers detour, weekend crowds grow
+  \item Suppliers improve, partnerships (e.g., bakery) emerge
+  \item Each player's improvement increases demand for both
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Customer Distribution Matrix:}
+
 \begin{center}
-{\Large Game Types and Structures}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Low Quality} & \textbf{High Quality} \\
+  \hline
+  \textbf{Low Quality} & (25, 25) & (30, 40) \\
+  \hline
+  \textbf{High Quality} & (40, 30) & (55, 55) \\
+  \hline
+\end{tabular}
 \end{center}
+
+\vspace{6pt}
+
+\textbf{Why is this Positive-Sum?}
+\begin{itemize}
+  \item Total customers increase when quality improves:
+  \[
+  25+25=50,\quad 30+40=70,\quad 55+55=110
+  \]
+  \item Both players can gain at the same time
+\end{itemize}
+
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh chooses Low Quality:
+  \begin{itemize}
+    \item Ramesh gets 25 (Low), 40 (High)
+    \item $\Rightarrow$ \underline{High Quality} is better
+  \end{itemize}
+  
+  \item If Suresh chooses High Quality:
+  \begin{itemize}
+    \item Ramesh gets 30 (Low), 55 (High)
+    \item $\Rightarrow$ \underline{High Quality} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item Whether Ramesh chooses Low or High, Suresh gets more customers with \underline{High Quality}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item \underline{High Quality} is the dominant strategy for both players
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibrium and Strategic Insight}
+
+\textbf{Since both players have dominant strategy \underline{High Quality}, the Nash equilibrium is:}
+
+\[
+\textbf{(High\ Quality,\ High\ Quality)}
+\]
+
+\vspace{6pt}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Low Quality & High Quality \\
+  \hline
+  Low Quality & (25, 25) & (30, 40) \\
+  \hline
+  High Quality & (40, 30) & \textbf{(55, 55)} \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+
+\begin{itemize}
+  \item When both invest in quality, total customers increase significantly
+  \item Each player's action creates value for the other
+  \item Competition here leads to \textbf{market expansion}, not just redistribution
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Meaning:}
+\begin{itemize}
+  \item Unlike zero-sum games, both players win together
+  \item The real goal is not to steal customers, but to \textbf{grow the market}
+\end{itemize}
+
+\end{frame}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Game Types and Structures}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Prisoner's Dilemma: The Trust Problem}
@@ -1040,50 +1281,183 @@
   \end{columns}
 \end{frame}
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Prisoner's Dilemma: Ramesh-Suresh Price War}
+% \begin{columns}
+    % \begin{column}[T]{0.6\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both shops initially charge fair prices and maintain quality
+        % \item Each can choose: \textit{Cooperate} (fair pricing) or \textit{Defect} (cut prices aggressively)
+        % \item If both cooperate: stable profits, good margins
+        % \item If one defects while other cooperates: defector gains market share
+        % \item If both defect: price war destroys profitability for both
+        % \item Fear of betrayal drives both to defect
+      % \end{itemize}
+      
+      % \vspace{2pt}
+      % \textbf{Payoff Matrix (Monthly Profit in Rs):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Cooperate} & \textbf{Defect} \\
+        % \hline
+        % \textbf{Cooperate} & (50k, 50k) & (20k, 70k) \\
+        % \hline
+        % \textbf{Defect} & (70k, 20k) & \textbf{(30k, 30k)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.38\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Check Incentives:}
+        % \begin{itemize}
+          % \item If Suresh cooperates: Defect (70K) $>$ Cooperate (50K)
+          % \item If Suresh defects: Defect (30K) $>$ Cooperate (20K)
+        % \end{itemize}
+        % \item \textbf{Dominant Strategy:} Defect for both players
+        % \item \textbf{Nash Equilibrium:} (Defect, Defect) : bold in matrix
+        % \item \textbf{The Paradox:} Both earn 30K instead of 50K
+        % \item \textbf{Escape Routes:} Repeated interaction, trust-building, contracts, tit-for-tat
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Prisoner's Dilemma: Ramesh-Suresh Price War}
-\begin{columns}
-    \begin{column}[T]{0.6\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both shops initially charge fair prices and maintain quality
-        \item Each can choose: \textit{Cooperate} (fair pricing) or \textit{Defect} (cut prices aggressively)
-        \item If both cooperate: stable profits, good margins
-        \item If one defects while other cooperates: defector gains market share
-        \item If both defect: price war destroys profitability for both
-        \item Fear of betrayal drives both to defect
-      \end{itemize}
-      
-      \vspace{2pt}
-      \textbf{Payoff Matrix (Monthly Profit in Rs):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Cooperate} & \textbf{Defect} \\
-        \hline
-        \textbf{Cooperate} & (50k, 50k) & (20k, 70k) \\
-        \hline
-        \textbf{Defect} & (70k, 20k) & \textbf{(30k, 30k)} \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.38\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Check Incentives:}
-        \begin{itemize}
-          \item If Suresh cooperates: Defect (70K) $>$ Cooperate (50K)
-          \item If Suresh defects: Defect (30K) $>$ Cooperate (20K)
-        \end{itemize}
-        \item \textbf{Dominant Strategy:} Defect for both players
-        \item \textbf{Nash Equilibrium:} (Defect, Defect) : bold in matrix
-        \item \textbf{The Paradox:} Both earn 30K instead of 50K
-        \item \textbf{Escape Routes:} Repeated interaction, trust-building, contracts, tit-for-tat
-      \end{itemize}
-    \end{column}
-  \end{columns}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Both shops charge fair prices and earn good profits
+  \item Each can choose:
+  \begin{itemize}
+    \item \textit{Cooperate} (maintain fair pricing)
+    \item \textit{Defect} (cut prices aggressively)
+  \end{itemize}
+  
+  \item If both cooperate: stable profits (50k, 50k)
+  \item If one defects: defector gains customers, other loses
+  \item If both defect: price war → low profits for both
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Payoff Matrix (Monthly Profit):}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Cooperate} & \textbf{Defect} \\
+  \hline
+  \textbf{Cooperate} & (50k, 50k) & (20k, 70k) \\
+  \hline
+  \textbf{Defect} & (70k, 20k) & (30k, 30k) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Tension:}
+\begin{itemize}
+  \item Cooperation gives higher joint profit
+  \item But fear of being undercut pushes players toward defection
+\end{itemize}
+
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh cooperates:
+  \begin{itemize}
+    \item Cooperate = 50k, Defect = 70k
+    \item $\Rightarrow$ \underline{Defect} is better
+  \end{itemize}
+  
+  \item If Suresh defects:
+  \begin{itemize}
+    \item Cooperate = 20k, Defect = 30k
+    \item $\Rightarrow$ \underline{Defect} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item Whether Ramesh cooperates or defects, Suresh earns more by choosing \underline{Defect}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item \underline{Defect} is the dominant strategy for both players
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibrium and the Paradox}
+
+\textbf{Since both players have dominant strategy \underline{Defect}, the Nash equilibrium is:}
+
+\[
+\textbf{(Defect,\ Defect)}
+\]
+
+\vspace{6pt}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Cooperate & Defect \\
+  \hline
+  Cooperate & (50k, 50k) & (20k, 70k) \\
+  \hline
+  Defect & (70k, 20k) & \textbf{(30k, 30k)} \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{The Paradox:}
+
+\begin{itemize}
+  \item Both players end up with (30k, 30k)
+  \item But (50k, 50k) is clearly better for both
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Why does this happen?}
+
+\begin{itemize}
+  \item Fear of being exploited:
+  \begin{itemize}
+    \item “If I cooperate and the other defects, I get only 20k”
+  \end{itemize}
+  \item So both choose to defect to protect themselves
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Final Insight:}
+\begin{itemize}
+  \item Individual rationality leads to a worse collective outcome
+  \item This is the core of the \textbf{Prisoner’s Dilemma}
+\end{itemize}
+
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Chicken Game: The Dangerous Standoff}
@@ -1110,6 +1484,180 @@
 \end{frame}
 
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Chicken Game: Ramesh-Suresh 24/7 Standoff}
+% \begin{columns}
+    % \begin{column}[T]{0.6\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both decide to stay open 24/7 to outlast each other
+        % \item Recklessly spending on electricity and overnight staff  
+        % \item Like two trucks heading toward each other
+        % \item Winner is whoever has bigger bank account to absorb losses
+        % \item But if neither blinks, both go bankrupt
+        % \item Worst outcome: mutual destruction
+      % \end{itemize}
+      
+      % \vspace{6pt}
+      % \textbf{Payoff Matrix (Monthly Net Profit/Loss in Rs):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal Hours} & \textbf{24/7} \\
+        % \hline
+        % \textbf{Normal Hours} & (40k, 40k) & (10k, 55k) \\
+        % \hline
+        % \textbf{24/7} & (55k, 10k) & (-20k, -20k) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.38\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Check Outcomes:}
+        % \begin{itemize}
+          % \item Both normal: Good for both (40K each)
+          % \item One blinks: Blinker loses badly (10K vs 55K)
+          % \item Neither blinks: Both lose (Rs 20K)
+        % \end{itemize}
+        % \item \textbf{Two Nash Equilibria:} (Normal, 24/7) and (24/7, Normal)
+        % \item \textbf{Key Difference:} Someone MUST yield
+        % \item \textbf{Winning Strategy:} Convince opponent you'll never back down
+        % \item \textbf{Real Danger:} Both commit and crash
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Chicken Game: Ramesh-Suresh 24/7 Standoff}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Both shops consider staying open 24/7 to outlast the other
+  \item High costs: electricity, staff, operations
+  \item Like two trucks heading toward each other
+  \item If one backs down, the other captures more customers
+  \item If neither backs down, both suffer heavy losses
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Payoff Matrix (Monthly Profit/Loss):}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal Hours} & \textbf{24/7} \\
+  \hline
+  \textbf{Normal Hours} & (40k, 40k) & (10k, 55k) \\
+  \hline
+  \textbf{24/7} & (55k, 10k) & (-20k, -20k) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Tension:}
+\begin{itemize}
+  \item You want to stay aggressive (24/7) if the other backs down
+  \item But if both stay aggressive → disaster (-20k, -20k)
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Best Responses (No Dominant Strategy)}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh chooses Normal:
+  \begin{itemize}
+    \item Normal = 40k, 24/7 = 55k
+    \item $\Rightarrow$ \underline{24/7} is better
+  \end{itemize}
+  
+  \item If Suresh chooses 24/7:
+  \begin{itemize}
+    \item Normal = 10k, 24/7 = -20k
+    \item $\Rightarrow$ \underline{Normal} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item If Ramesh chooses Normal → \underline{24/7} is better
+  \item If Ramesh chooses 24/7 → \underline{Normal} is better
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item No dominant strategy exists
+  \item Best action depends on what the other player does
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibria and Strategic Insight}
+
+\textbf{Marking best responses in the matrix:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Normal & 24/7 \\
+  \hline
+  Normal & (40k, 40k) & (\underline{10k}, \underline{55k}) \\
+  \hline
+  24/7 & (\underline{55k}, \underline{10k}) & (-20k, -20k) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Nash Equilibria:}
+\begin{itemize}
+  \item \textbf{(Normal, 24/7)}
+  \item \textbf{(24/7, Normal)}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Interpretation:}
+\begin{itemize}
+  \item In equilibrium, one player stays aggressive, the other backs down
+  \item Someone must “blink”
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Real Danger:}
+\begin{itemize}
+  \item If both choose 24/7 → (-20k, -20k)
+  \item This is the “crash” outcome
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item Success depends on convincing the other player to back down
+  \item But if both refuse → mutual destruction
+\end{itemize}
+
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Stag Hunt: Coordination Through Trust}
 \begin{columns}
@@ -1134,52 +1682,175 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Chicken Game: Ramesh-Suresh 24/7 Standoff}
-\begin{columns}
-    \begin{column}[T]{0.6\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both decide to stay open 24/7 to outlast each other
-        \item Recklessly spending on electricity and overnight staff  
-        \item Like two trucks heading toward each other
-        \item Winner is whoever has bigger bank account to absorb losses
-        \item But if neither blinks, both go bankrupt
-        \item Worst outcome: mutual destruction
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Stag Hunt: Ramesh-Suresh Quality Upgrade}
+% \begin{columns}
+    % \begin{column}[T]{0.59\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both invest in quality beans, train staff, fair prices: street becomes coffee destination (Stag)
+        % \item Or cut prices, save on quality, steal customers today (Hare)
+        % \item If one commits to quality while other defects, committed one bears higher costs
+        % \item Both hesitate, waiting for signal of trust
+        % \item Challenge: assurance, not conflict
+		% \item Quality (Stag), Cut Costs (Hare)
+      % \end{itemize}
       
-      \vspace{6pt}
-      \textbf{Payoff Matrix (Monthly Net Profit/Loss in Rs):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Normal Hours} & \textbf{24/7} \\
-        \hline
-        \textbf{Normal Hours} & (40k, 40k) & (10k, 55k) \\
-        \hline
-        \textbf{24/7} & (55k, 10k) & (-20k, -20k) \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.38\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Check Outcomes:}
-        \begin{itemize}
-          \item Both normal: Good for both (40K each)
-          \item One blinks: Blinker loses badly (10K vs 55K)
-          \item Neither blinks: Both lose (Rs 20K)
-        \end{itemize}
-        \item \textbf{Two Nash Equilibria:} (Normal, 24/7) and (24/7, Normal)
-        \item \textbf{Key Difference:} Someone MUST yield
-        \item \textbf{Winning Strategy:} Convince opponent you'll never back down
-        \item \textbf{Real Danger:} Both commit and crash
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{2pt}
+      % \textbf{Payoff Matrix (Monthly Profit in Rs):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Stag} & \textbf{Hare} \\
+        % \hline
+        % \textbf{Stag} & \textbf{(80k, 80k)} & (30k, 55k) \\
+        % \hline
+        % \textbf{Hare} & (55k, 30k) & \textbf{(45k, 45k)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.41\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Two Nash Equilibria:}
+        % \begin{itemize}
+          % \item (Quality, Quality): Superior outcome (80K each)
+          % \item (Cut Costs, Cut Costs): Safe but inferior (45K each)
+        % \end{itemize}
+        % \item \textbf{The Problem:} Quality only works if BOTH commit
+        % \item \textbf{Risk:} If you choose Quality and other defects, you get only 30K
+        % \item \textbf{Solution:} Build trust, pre-commitment, repeated interaction
+        % \item \textbf{Key Insight:} About mutual assurance, not defeating opponent
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Stag Hunt: Ramesh-Suresh Quality Upgrade}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Both can invest in high quality (Stag) → premium experience, more customers
+  \item Or cut costs (Hare) → safe, short-term profits
+  \item If both choose Stag → street becomes a destination (high payoff)
+  \item If one chooses Stag while other chooses Hare → the one investing suffers
+  \item Key challenge: \textbf{trust and assurance}, not competition
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Payoff Matrix (Monthly Profit):}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Stag} & \textbf{Hare} \\
+  \hline
+  \textbf{Stag} & (80k, 80k) & (30k, 55k) \\
+  \hline
+  \textbf{Hare} & (55k, 30k) & (45k, 45k) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Tension:}
+\begin{itemize}
+  \item Stag gives highest reward—but only if both choose it
+  \item Hare is safer—works even if the other doesn’t cooperate
+\end{itemize}
+
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Best Responses (No Dominant Strategy)}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh chooses Stag:
+  \begin{itemize}
+    \item Stag = 80k, Hare = 55k
+    \item $\Rightarrow$ \underline{Stag} is better
+  \end{itemize}
+  
+  \item If Suresh chooses Hare:
+  \begin{itemize}
+    \item Stag = 30k, Hare = 45k
+    \item $\Rightarrow$ \underline{Hare} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item If Ramesh chooses Stag → \underline{Stag} is better
+  \item If Ramesh chooses Hare → \underline{Hare} is better
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item No dominant strategy exists
+  \item Best action depends on what the other player does
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibria and Strategic Insight}
+
+\textbf{Marking best responses:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Stag & Hare \\
+  \hline
+  Stag & \textbf{(\underline{80k}, \underline{80k})} & (30k, 55k) \\
+  \hline
+  Hare & (55k, 30k) & \textbf{(\underline{45k}, \underline{45k})} \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Two Nash Equilibria:}
+\begin{itemize}
+  \item \textbf{(Stag, Stag)} → High payoff (80k, 80k)
+  \item \textbf{(Hare, Hare)} → Safer but lower payoff (45k, 45k)
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+
+\begin{itemize}
+  \item (Stag, Stag) is better—but risky
+  \begin{itemize}
+    \item If one deviates → other falls to 30k
+  \end{itemize}
+  
+  \item (Hare, Hare) is safe—but inferior
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Meaning:}
+\begin{itemize}
+  \item This is a problem of \textbf{trust and coordination}
+  \item Success requires confidence that the other will also commit
+\end{itemize}
+
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Battle of the Sexes: Preference Conflicts}
@@ -1205,49 +1876,176 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Stag Hunt: Ramesh-Suresh Quality Upgrade}
-\begin{columns}
-    \begin{column}[T]{0.59\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both invest in quality beans, train staff, fair prices: street becomes coffee destination (Stag)
-        \item Or cut prices, save on quality, steal customers today (Hare)
-        \item If one commits to quality while other defects, committed one bears higher costs
-        \item Both hesitate, waiting for signal of trust
-        \item Challenge: assurance, not conflict
-		\item Quality (Stag), Cut Costs (Hare)
-      \end{itemize}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Battle of the Sexes: Ramesh-Suresh Bakery Partnership}
+% \begin{columns}
+    % \begin{column}[T]{0.55\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Both want ``Breakfast \& Coffee'' combo with local bakery
+        % \item Ramesh wants bakery to use his premium beans for morning catering
+        % \item Suresh wants bakery to provide exclusive ``Suresh-branded'' croissants
+        % \item Both want partnership, both want cooperation
+        % \item Just can't agree on terms
+        % \item Struggle: who blinks first and accepts second-best choice?
+      % \end{itemize}
       
-      \vspace{2pt}
-      \textbf{Payoff Matrix (Monthly Profit in Rs):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Stag} & \textbf{Hare} \\
-        \hline
-        \textbf{Stag} & \textbf{(80k, 80k)} & (30k, 55k) \\
-        \hline
-        \textbf{Hare} & (55k, 30k) & \textbf{(45k, 45k)} \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.41\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Two Nash Equilibria:}
-        \begin{itemize}
-          \item (Quality, Quality): Superior outcome (80K each)
-          \item (Cut Costs, Cut Costs): Safe but inferior (45K each)
-        \end{itemize}
-        \item \textbf{The Problem:} Quality only works if BOTH commit
-        \item \textbf{Risk:} If you choose Quality and other defects, you get only 30K
-        \item \textbf{Solution:} Build trust, pre-commitment, repeated interaction
-        \item \textbf{Key Insight:} About mutual assurance, not defeating opponent
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{2pt}
+      % \textbf{Payoff Matrix (Monthly Additions):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Ramesh's Terms} & \textbf{Suresh's Terms} \\
+        % \hline
+        % \textbf{Ramesh's Terms} & (0, 0) & (30k, 50k) \\
+        % \hline
+        % \textbf{Suresh's Terms} & (50k, 30k) & (0, 0) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.45\linewidth}
+      % \textbf{Analysis Steps:}
+      % \begin{itemize}
+        % \item \textbf{Two Nash Equilibria:}
+        % \begin{itemize}
+          % \item (Suresh's, Ramesh's): Ramesh gets less but agrees
+          % \item (Ramesh's, Suresh's): Suresh gets less but agrees
+        % \end{itemize}
+        % \item \textbf{Key Feature:} Both prefer coordinating on EITHER outcome over no deal (0, 0)
+        % \item \textbf{But:} Each prefers different coordination point
+        % \item \textbf{Power:} With one who cares less, appears more stubborn, or commits first
+        % \item \textbf{Solutions:} Turn-taking, side payments, pre-commitment
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Battle of the Sexes: Bakery Partnership}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Both want to collaborate with a bakery (Breakfast \& Coffee combo)
+  \item Ramesh prefers his premium beans to be featured
+  \item Suresh prefers his branded croissants to be highlighted
+  \item Both want the partnership—but disagree on terms
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Payoff Matrix (Monthly Gains):}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & \textbf{Ramesh's Terms} & \textbf{Suresh's Terms} \\
+  \hline
+  \textbf{Ramesh's Terms} & (0, 0) & (30k, 50k) \\
+  \hline
+  \textbf{Suresh's Terms} & (50k, 30k) & (0, 0) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Tension:}
+\begin{itemize}
+  \item Coordinating gives positive payoff
+  \item But each prefers a different agreement
+  \item If they fail to agree → no deal (0,0)
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Best Responses (No Dominant Strategy)}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh chooses Ramesh's Terms:
+  \begin{itemize}
+    \item Ramesh's Terms = 0, Suresh's Terms = 50k
+    \item $\Rightarrow$ \underline{Suresh's Terms} is better
+  \end{itemize}
+  
+  \item If Suresh chooses Suresh's Terms:
+  \begin{itemize}
+    \item Ramesh's Terms = 30k, Suresh's Terms = 0
+    \item $\Rightarrow$ \underline{Ramesh's Terms} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item If Ramesh chooses Ramesh's Terms → \underline{Suresh's Terms} is better
+  \item If Ramesh chooses Suresh's Terms → \underline{Ramesh's Terms} is better
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item No dominant strategy exists
+  \item Best action depends on coordinating with the other player
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibria and Strategic Insight}
+
+\textbf{Marking best responses:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Ramesh's Terms & Suresh's Terms \\
+  \hline
+  Ramesh's Terms & (0, 0) & \textbf{(\underline{30k}, \underline{50k})} \\
+  \hline
+  Suresh's Terms & \textbf{(\underline{50k}, \underline{30k})} & (0, 0) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Two Nash Equilibria:}
+\begin{itemize}
+  \item \textbf{(Ramesh's Terms, Suresh's Terms)} → Suresh gets more
+  \item \textbf{(Suresh's Terms, Ramesh's Terms)} → Ramesh gets more
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+
+\begin{itemize}
+  \item Both equilibria are better than (0,0)
+  \item But each player prefers a different one
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Meaning:}
+\begin{itemize}
+  \item This is a \textbf{coordination problem with conflict of interest}
+  \item Success depends on:
+  \begin{itemize}
+    \item negotiation
+    \item commitment
+    \item or sharing gains over time
+  \end{itemize}
+\end{itemize}
+
 \end{frame}
 
 
@@ -1276,96 +2074,178 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Ultimatum Game: Ramesh-Suresh Profit Split}
-\begin{columns}
-    \begin{column}[T]{0.6\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Joint catering contract worth Rs 100,000
-        \item Ramesh (proposer) must split profit with Suresh (responder)
-        \item Ramesh offers a split
-        \item Suresh can accept (both get their shares) or reject (both get zero)
-        \item Rationally, any positive amount better than zero
-        \item But fairness matters, people reject unfair offers
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Ultimatum Game: Ramesh-Suresh Profit Split}
+% \begin{columns}
+    % \begin{column}[T]{0.6\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Joint catering contract worth Rs 100,000
+        % \item Ramesh (proposer) must split profit with Suresh (responder)
+        % \item Ramesh offers a split
+        % \item Suresh can accept (both get their shares) or reject (both get zero)
+        % \item Rationally, any positive amount better than zero
+        % \item But fairness matters, people reject unfair offers
+      % \end{itemize}
       
-      \vspace{2pt}
-      \textbf{Possible Outcomes:}
-      \begin{center}
-      \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Ramesh's Offer} & \textbf{If Accepted} & \textbf{If Rejected} \\
-        \hline
-        90K:10K split & (90k, 10k) & (0, 0) \\
-        \hline
-        70K:30K split & (70k, 30k) & (0, 0) \\
-        \hline
-        50K:50K split & (50k, 50k) & (0, 0) \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.4\linewidth}
-      \textbf{Analysis:}
-      \begin{itemize}
-        \item \textbf{Rational Prediction:} Suresh should accept any positive amount (even Rs 1)
-        \item \textbf{Reality:} People reject offers below 20-30\%
-        \item \textbf{Fairness Norm:} Most offers around 40-50\%
-        \item \textbf{Why:} Fairness valued over pure profit
-        \item \textbf{Key Insight:} Humans aren't purely profit-maximizing, social norms and emotions matter
-        \item \textbf{Strategic Lesson:} Leave enough on table for others
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{2pt}
+      % \textbf{Possible Outcomes:}
+      % \begin{center}
+      % \begin{tabular}{|l|c|c|}
+        % \hline
+        % \textbf{Ramesh's Offer} & \textbf{If Accepted} & \textbf{If Rejected} \\
+        % \hline
+        % 90K:10K split & (90k, 10k) & (0, 0) \\
+        % \hline
+        % 70K:30K split & (70k, 30k) & (0, 0) \\
+        % \hline
+        % 50K:50K split & (50k, 50k) & (0, 0) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.4\linewidth}
+      % \textbf{Analysis:}
+      % \begin{itemize}
+        % \item \textbf{Rational Prediction:} Suresh should accept any positive amount (even Rs 1)
+        % \item \textbf{Reality:} People reject offers below 20-30\%
+        % \item \textbf{Fairness Norm:} Most offers around 40-50\%
+        % \item \textbf{Why:} Fairness valued over pure profit
+        % \item \textbf{Key Insight:} Humans aren't purely profit-maximizing, social norms and emotions matter
+        % \item \textbf{Strategic Lesson:} Leave enough on table for others
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Ultimatum Game: Profit Split}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Joint catering contract worth Rs 100,000
+  \item Ramesh (Proposer) suggests how to split the money
+  \item Suresh (Responder) can:
+  \begin{itemize}
+    \item Accept → both get the proposed shares
+    \item Reject → both get (0,0)
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Possible Offers:}
+
+\begin{center}
+\begin{tabular}{|l|c|c|}
+  \hline
+  \textbf{Offer} & \textbf{If Accepted} & \textbf{If Rejected} \\
+  \hline
+  90K : 10K & (90k, 10k) & (0, 0) \\
+  \hline
+  70K : 30K & (70k, 30k) & (0, 0) \\
+  \hline
+  50K : 50K & (50k, 50k) & (0, 0) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Feature:}
+\begin{itemize}
+  \item Ramesh moves first, Suresh responds after seeing the offer
+\end{itemize}
+
 \end{frame}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Battle of the Sexes: Ramesh-Suresh Bakery Partnership}
-\begin{columns}
-    \begin{column}[T]{0.55\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Both want ``Breakfast \& Coffee'' combo with local bakery
-        \item Ramesh wants bakery to use his premium beans for morning catering
-        \item Suresh wants bakery to provide exclusive ``Suresh-branded'' croissants
-        \item Both want partnership, both want cooperation
-        \item Just can't agree on terms
-        \item Struggle: who blinks first and accepts second-best choice?
-      \end{itemize}
-      
-      \vspace{2pt}
-      \textbf{Payoff Matrix (Monthly Additions):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Ramesh's Terms} & \textbf{Suresh's Terms} \\
-        \hline
-        \textbf{Ramesh's Terms} & (0, 0) & (30k, 50k) \\
-        \hline
-        \textbf{Suresh's Terms} & (50k, 30k) & (0, 0) \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.45\linewidth}
-      \textbf{Analysis Steps:}
-      \begin{itemize}
-        \item \textbf{Two Nash Equilibria:}
-        \begin{itemize}
-          \item (Suresh's, Ramesh's): Ramesh gets less but agrees
-          \item (Ramesh's, Suresh's): Suresh gets less but agrees
-        \end{itemize}
-        \item \textbf{Key Feature:} Both prefer coordinating on EITHER outcome over no deal (0, 0)
-        \item \textbf{But:} Each prefers different coordination point
-        \item \textbf{Power:} With one who cares less, appears more stubborn, or commits first
-        \item \textbf{Solutions:} Turn-taking, side payments, pre-commitment
-      \end{itemize}
-    \end{column}
-  \end{columns}
+\begin{frame}[fragile]\frametitle{Step 1: What Will Suresh Do?}
+
+\textbf{Think from Suresh's perspective (Responder):}
+
+\begin{itemize}
+  \item If offered 10k:
+  \begin{itemize}
+    \item Accept = 10k, Reject = 0
+    \item $\Rightarrow$ \underline{Accept}
+  \end{itemize}
+  
+  \item If offered 30k:
+  \begin{itemize}
+    \item Accept = 30k, Reject = 0
+    \item $\Rightarrow$ \underline{Accept}
+  \end{itemize}
+  
+  \item If offered 50k:
+  \begin{itemize}
+    \item Accept = 50k, Reject = 0
+    \item $\Rightarrow$ \underline{Accept}
+  \end{itemize}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion (Purely Rational):}
+\begin{itemize}
+  \item Suresh should accept \textbf{any positive offer}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Now think as Ramesh:}
+\begin{itemize}
+  \item “If any offer is accepted, I should offer as little as possible”
+\end{itemize}
+
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Equilibrium vs Reality}
+
+\textbf{Theoretical Prediction:}
+
+\begin{itemize}
+  \item Ramesh offers the smallest possible amount (e.g., 1 rupee)
+  \item Suresh accepts
+\end{itemize}
+
+\vspace{6pt}
+
+\[
+\textbf{Outcome: (Almost\ all,\ Almost\ zero)}
+\]
+
+\vspace{10pt}
+
+\textbf{But in Reality:}
+
+\begin{itemize}
+  \item People reject “unfair” offers (below 20–30\%)
+  \item Common outcomes:
+  \[
+  \textbf{(50k,\ 50k)} \quad \text{or} \quad \textbf{(70k,\ 30k)}
+  \]
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Key Insight:}
+
+\begin{itemize}
+  \item Humans care about \textbf{fairness}, not just money
+  \item Rejecting unfair offers is a way to punish unfair behavior
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Strategic Lesson:}
+\begin{itemize}
+  \item To succeed, leave enough value for others
+  \item Purely “rational” strategies may fail in real life
+\end{itemize}
+
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Public Goods Game: The Free-Rider Problem}
@@ -1392,45 +2272,174 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Public Goods: Ramesh-Suresh Street Lighting}
-\begin{columns}
-    \begin{column}[T]{0.62\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Street needs better lighting, costs Rs 20,000
-        \item Each can contribute Rs 10,000 or nothing
-        \item If installed, BOTH benefit (Rs 15,000 value each)
-        \item If one contributes alone, they pay Rs 10K, get Rs 15K benefit = net Rs 5K
-        \item If both contribute, each pays Rs 10K, gets Rs 15K = net Rs 5K each
-        \item Temptation: let other pay, enjoy benefit for free
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Public Goods: Ramesh-Suresh Street Lighting}
+% \begin{columns}
+    % \begin{column}[T]{0.62\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Street needs better lighting, costs Rs 20,000
+        % \item Each can contribute Rs 10,000 or nothing
+        % \item If installed, BOTH benefit (Rs 15,000 value each)
+        % \item If one contributes alone, they pay Rs 10K, get Rs 15K benefit = net Rs 5K
+        % \item If both contribute, each pays Rs 10K, gets Rs 15K = net Rs 5K each
+        % \item Temptation: let other pay, enjoy benefit for free
+      % \end{itemize}
       
-      \vspace{2pt}
-      \textbf{Payoff Matrix (Net Benefit in Rs):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Contribute} & \textbf{Free-Ride} \\
-        \hline
-        \textbf{Contribute} & (5k, 5k) & (-10k, 15k) \\
-        \hline
-        \textbf{Free-Ride} & (15k, -10k) & \textbf{(0, 0)} \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.4\linewidth}
-      \textbf{Analysis:}
-      \begin{itemize}
-        \item \textbf{Dominant Strategy:} Free-ride for both
-        \item \textbf{Nash Equilibrium:} (Free-Ride, Free-Ride) = (0, 0)
-        \item \textbf{Best Outcome:} Both contribute = (5K, 5K)
-        \item \textbf{The Problem:} Individual rationality leads to no public good
-        \item \textbf{Solutions:} Mandatory contributions, reputation, repeated interaction, social norms
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{2pt}
+      % \textbf{Payoff Matrix (Net Benefit in Rs):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Contribute} & \textbf{Free-Ride} \\
+        % \hline
+        % \textbf{Contribute} & (5k, 5k) & (-10k, 15k) \\
+        % \hline
+        % \textbf{Free-Ride} & (15k, -10k) & \textbf{(0, 0)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.4\linewidth}
+      % \textbf{Analysis:}
+      % \begin{itemize}
+        % \item \textbf{Dominant Strategy:} Free-ride for both
+        % \item \textbf{Nash Equilibrium:} (Free-Ride, Free-Ride) = (0, 0)
+        % \item \textbf{Best Outcome:} Both contribute = (5K, 5K)
+        % \item \textbf{The Problem:} Individual rationality leads to no public good
+        % \item \textbf{Solutions:} Mandatory contributions, reputation, repeated interaction, social norms
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Public Goods: Street Lighting Problem}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Street lighting costs Rs 20,000 total
+  \item Each can contribute Rs 10,000 or nothing
+  \item If installed, both benefit (Rs 15,000 each)
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{What happens?}
+
+\begin{itemize}
+  \item If both contribute:
+  \begin{itemize}
+    \item Pay 10k, get 15k → net 5k each
+  \end{itemize}
+  
+  \item If only one contributes:
+  \begin{itemize}
+    \item Contributor: pays 10k, gets 0 benefit alone → -10k
+    \item Free-rider: pays 0, gets 15k → +15k
+  \end{itemize}
+  
+  \item If no one contributes:
+  \begin{itemize}
+    \item No lighting → (0,0)
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Tension:}
+\begin{itemize}
+  \item Everyone benefits from the public good
+  \item But each prefers that the other pays
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Dominant Strategy}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh contributes:
+  \begin{itemize}
+    \item Contribute = 5k, Free-ride = 15k
+    \item $\Rightarrow$ \underline{Free-Ride} is better
+  \end{itemize}
+  
+  \item If Suresh free-rides:
+  \begin{itemize}
+    \item Contribute = -10k, Free-ride = 0
+    \item $\Rightarrow$ \underline{Free-Ride} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Similarly for Suresh:}
+
+\begin{itemize}
+  \item Whether Ramesh contributes or not, Suresh is better off choosing \underline{Free-Ride}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item \underline{Free-Ride} is the dominant strategy for both players
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Nash Equilibrium and Public Goods Problem}
+
+\textbf{Since both choose dominant strategy \underline{Free-Ride}, the Nash equilibrium is:}
+
+\[
+\textbf{(Free\text{-}Ride,\ Free\text{-}Ride)} = (0, 0)
+\]
+
+\vspace{6pt}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Contribute & Free-Ride \\
+  \hline
+  Contribute & (5k, 5k) & (-10k, 15k) \\
+  \hline
+  Free-Ride & (15k, -10k) & \textbf{(0, 0)} \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{The Problem:}
+
+\begin{itemize}
+  \item Best collective outcome: (5k, 5k) when both contribute
+  \item But rational choices lead to (0,0)
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item Individuals avoid paying, hoping others will
+  \item Result: public good is not provided
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Real-World Solutions:}
+\begin{itemize}
+  \item Taxes / mandatory contributions
+  \item Social norms and reputation
+  \item Repeated interaction
+\end{itemize}
+
 \end{frame}
 
 
@@ -1459,46 +2468,163 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Matching Pennies: Ramesh-Suresh Timing Game}
-\begin{columns}
-    \begin{column}[T]{0.6\linewidth}
-      \textbf{The Scenario:}
-      \begin{itemize}
-        \item Ramesh and Suresh compete for morning rush customers
-        \item Each must choose: Open Early (6 AM) or Normal (8 AM)
-        \item Ramesh wins if choices match (both early or both normal)
-        \item Suresh wins if choices differ (one early, one normal)
-        \item Pure conflict, no cooperation possible
-        \item Predictability is dangerous
-      \end{itemize}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Matching Pennies: Ramesh-Suresh Timing Game}
+% \begin{columns}
+    % \begin{column}[T]{0.6\linewidth}
+      % \textbf{The Scenario:}
+      % \begin{itemize}
+        % \item Ramesh and Suresh compete for morning rush customers
+        % \item Each must choose: Open Early (6 AM) or Normal (8 AM)
+        % \item Ramesh wins if choices match (both early or both normal)
+        % \item Suresh wins if choices differ (one early, one normal)
+        % \item Pure conflict, no cooperation possible
+        % \item Predictability is dangerous
+      % \end{itemize}
       
-      \vspace{6pt}
-      \textbf{Payoff Matrix (Customer Advantage):}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Ramesh $\backslash$ Suresh} & \textbf{Early} & \textbf{Normal} \\
-        \hline
-        \textbf{Early} & (1, -1) & (-1, 1) \\
-        \hline
-        \textbf{Normal} & (-1, 1) & (1, -1) \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.38\linewidth}
-      \textbf{Analysis:}
-      \begin{itemize}
-        \item \textbf{No Pure Nash Equilibrium:} Always incentive to deviate
-        \item \textbf{Solution:} Mixed strategy, randomize choices
-        \item \textbf{Optimal:} Each plays Early 50\%, Normal 50\%
-        \item \textbf{Key Insight:} Unpredictability is strategic
-        \item \textbf{Examples:} Penalty kicks, rock-paper-scissors, military tactics
-        \item \textbf{Lesson:} When opponent can exploit patterns, randomize
-      \end{itemize}
-    \end{column}
-  \end{columns}
+      % \vspace{6pt}
+      % \textbf{Payoff Matrix (Customer Advantage):}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{Early} & \textbf{Normal} \\
+        % \hline
+        % \textbf{Early} & (1, -1) & (-1, 1) \\
+        % \hline
+        % \textbf{Normal} & (-1, 1) & (1, -1) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.38\linewidth}
+      % \textbf{Analysis:}
+      % \begin{itemize}
+        % \item \textbf{No Pure Nash Equilibrium:} Always incentive to deviate
+        % \item \textbf{Solution:} Mixed strategy, randomize choices
+        % \item \textbf{Optimal:} Each plays Early 50\%, Normal 50\%
+        % \item \textbf{Key Insight:} Unpredictability is strategic
+        % \item \textbf{Examples:} Penalty kicks, rock-paper-scissors, military tactics
+        % \item \textbf{Lesson:} When opponent can exploit patterns, randomize
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Matching Pennies: Timing Game Intuition}
+
+\textbf{The Scenario:}
+\begin{itemize}
+  \item Ramesh and Suresh compete for morning customers
+  \item Each chooses: Open Early (6 AM) or Normal (8 AM)
+  \item If choices match → Ramesh wins
+  \item If choices differ → Suresh wins
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Payoff Matrix:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Ramesh $\backslash$ Suresh} & Early & Normal \\
+  \hline
+  Early & (1, -1) & (-1, 1) \\
+  \hline
+  Normal & (-1, 1) & (1, -1) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item One player's gain is exactly the other's loss (zero-sum)
+  \item No possibility of cooperation or mutual benefit
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Best Responses (Why No Stable Choice)}
+
+\textbf{For Ramesh:}
+
+\begin{itemize}
+  \item If Suresh chooses Early:
+  \begin{itemize}
+    \item Early = 1, Normal = -1
+    \item $\Rightarrow$ \underline{Early} is better
+  \end{itemize}
+  
+  \item If Suresh chooses Normal:
+  \begin{itemize}
+    \item Early = -1, Normal = 1
+    \item $\Rightarrow$ \underline{Normal} is better
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{For Suresh:}
+
+\begin{itemize}
+  \item If Ramesh chooses Early → \underline{Normal} is better
+  \item If Ramesh chooses Normal → \underline{Early} is better
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item No dominant strategy for either player
+  \item Each player wants to \textbf{mismatch} the other
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{No Nash Equilibrium in Pure Strategies}
+
+\textbf{Check each outcome:}
+
+\begin{itemize}
+  \item (Early, Early): Suresh can switch → improves from -1 to 1
+  \item (Early, Normal): Ramesh can switch → improves from -1 to 1
+  \item (Normal, Early): Ramesh can switch → improves from -1 to 1
+  \item (Normal, Normal): Suresh can switch → improves from -1 to 1
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item No cell where both are best responding
+  \item \textbf{No pure Nash equilibrium exists}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Solution: Mixed Strategy}
+
+\begin{itemize}
+  \item Each player randomizes:
+  \begin{itemize}
+    \item Play Early with 50\%
+    \item Play Normal with 50\%
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item Being predictable makes you exploitable
+  \item Optimal strategy is to be \textbf{unpredictable}
+\end{itemize}
+
 \end{frame}
 
 
@@ -1580,12 +2706,12 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Decision-Making Approaches}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Decision-Making Approaches}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Backward Induction: Think Backwards, Act Forward}
@@ -1863,6 +2989,13 @@
       \end{itemize}
     \end{column}
   \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Advanced Concepts}
+\end{center}
 \end{frame}
 
 
@@ -2171,7 +3304,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Strategic Interaction in Relationships}
+{\Large Strategic Interaction}
 \end{center}
 \end{frame}
 
@@ -2350,7 +3483,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Competitive Advantage and Market Strategy}
+{\Large Competitive Advantage}
 \end{center}
 \end{frame}
 
@@ -2536,7 +3669,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Information and Uncertainty}
+{\Large Information}
 \end{center}
 \end{frame}
 
@@ -2922,7 +4055,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Collective Challenges and Social Dilemmas}
+{\Large Collective Challenges}
 \end{center}
 \end{frame}
 

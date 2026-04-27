@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python insert_diagram_slides.py)"
-    ]
-  }
-}
