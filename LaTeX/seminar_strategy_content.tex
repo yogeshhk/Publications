@@ -10,7 +10,7 @@
   \begin{columns}
     \begin{column}[T]{0.55\linewidth}
       \begin{block}{A Strategic Reality}
-        We often think life is a series of random events. \textbf{It is not.}\\[6pt]
+        We often think life is a series of random events. \textbf{It is not.}
         It is a game, sometimes cooperative, sometimes competitive, but \textit{always strategic}.
       \end{block}
       \vspace{8pt}
@@ -46,7 +46,7 @@
       \begin{itemize}
         \item \textbf{Players}: Individuals, firms, nations, algorithms
         \item \textbf{Strategies}: Plans of action, sometimes contingent
-        \item \textbf{Payoffs}: Outcomes that players value (money, safety, reputation)
+        \item \textbf{Payoffs}: Outcomes that players value, qualitative or quantitative (money, safety, reputation)
         \item \textbf{Information}: What players know (rarely perfect)
         \item \textbf{Equilibrium}: Stable state where strategies are mutual best responses
       \end{itemize}
@@ -58,10 +58,10 @@
       \vspace{8pt}
       \begin{itemize}
         \item \textbf{Not} about controlling nature or solving physics
-        \item \textbf{About} responding to decision-makers who respond to you
-        \item Applies wherever outcomes are shaped by interacting choices
+        \item \textbf{About} responding to decision-makers who respond
+        \item Applies wherever outcomes are shaped by choices
         \item From salary negotiations to nuclear deterrence
-        \item Helps clarify incentives and reveal why outcomes persist
+        % \item Helps clarify incentives and reveal why outcomes persist
       \end{itemize}
     \end{column}
   \end{columns}
@@ -83,7 +83,7 @@
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{Key Pioneers}
         \begin{itemize}
-          \item \textbf{John von Neumann}, Founder of modern game theory
+          \item \textbf{John von Neumann}, Founder of game theory
           \item \textbf{John Nash}, Equilibrium concept
           \item \textbf{Thomas Schelling}, Focal points \& brinkmanship
           \item \textbf{Kahneman \& Tversky}, Behavioural economics
@@ -100,7 +100,7 @@
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{Traditional Thinking}
         \begin{itemize}
-          \item Assumes you are in control
+          \item Assumes only you are in control
           \item Optimises in isolation
           \item ``How do I get the best outcome?''
           \item \textit{Like an engineer solving physics}
@@ -139,8 +139,8 @@
     \end{column}
     \begin{column}[T]{0.48\linewidth}
       \begin{alertblock}{Key Insight}
-        You are \textbf{never} playing solitaire.\\
-        You are always playing chess.
+        You are \textbf{never} playing solitaire (i.e. alone).\\
+        You are always playing chess (i.e. against someone).
       \end{alertblock}
     \end{column}
   \end{columns}
@@ -187,15 +187,15 @@
   \begin{columns}
     \begin{column}[T]{0.48\linewidth}
       \begin{block}{A Word of Warning}
-        Game Theory is a \textbf{map}, not the territory.\\[6pt]
-        Real life is messy. People are irrational. Rules change.\\[6pt]
+        Game Theory is a \textbf{map}, not the territory.
+        Real life is messy. People are irrational. Rules change.
         Use these models as lenses, not as algorithms.
       \end{block}
     \end{column}
     \begin{column}[T]{0.48\linewidth}
       \begin{alertblock}{The Infinite Game}
-        In the ``Finite Game'' of a football match, you play to \textit{win}.\\[4pt]
-        In the ``Infinite Game'' of life, you play to \textit{keep playing}.\\[4pt]
+        In the ``Finite Game'' of a football match, you play to \textit{win}.
+        In the ``Infinite Game'' of life, you play to \textit{keep playing}.
         Understand the incentives. Respect the players.
       \end{alertblock}
     \end{column}
@@ -205,9 +205,50 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{}
 \begin{center}
-{\Large Foundational Strategic Concepts}
+{\Large Foundational Concepts}
 \end{center}
 \end{frame}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Understanding Payoff Matrices}
+% \begin{columns}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{What is a Payoff Matrix?}
+      % \begin{itemize}
+        % \item A table showing outcomes for all strategy combinations
+        % \item Rows represent Player 1's outcomes
+        % \item Columns represent Player 2's outcomes
+        % \item Helps visualize strategic interactions clearly
+      % \end{itemize}
+      
+      % \vspace{6pt}
+      % \textbf{Simple Example: Coffee Pricing}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Ramesh $\backslash$ Suresh} & \textbf{High Price} & \textbf{Low Price} \\
+        % \hline
+        % \textbf{High Price} & (50, 50) & (20, 70) \\
+        % \hline
+        % \textbf{Low Price} & (70, 20) & (30, 30) \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+      % \small{Payoffs in Rs 1000s of profit}
+    % \end{column}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{How to Read the Matrix:}
+      % \begin{itemize}
+        % \item \textbf{Identify Players:} Row player (Ramesh) and Column player (Suresh)
+        % % \item \textbf{List Strategies:} Each row/column is one strategy option
+        % % \item \textbf{Find Outcomes:} Intersection shows what happens when both choose those strategies
+        % \item \textbf{Read Payoffs:} First number is always row player's payoff, second is column player's
+        % % \item \textbf{Compare:} Look across rows and down columns to find best responses
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Understanding Payoff Matrices}
 \begin{columns}
@@ -215,13 +256,13 @@
       \textbf{What is a Payoff Matrix?}
       \begin{itemize}
         \item A table showing outcomes for all strategy combinations
-        \item Rows represent Player 1's outcomes
-        \item Columns represent Player 2's outcomes
-        \item Helps visualize strategic interactions clearly
+        \item Rows represent Player 1's choices (Ramesh)
+        \item Columns represent Player 2's choices (Suresh)
+        \item Each cell shows the outcome when both make choices
       \end{itemize}
       
       \vspace{6pt}
-      \textbf{Simple Example: Coffee Pricing}
+      \textbf{Example: Coffee Pricing}
       \begin{center}
       \begin{tabular}{|c|c|c|}
         \hline
@@ -238,15 +279,74 @@
     \begin{column}[T]{0.5\linewidth}
       \textbf{How to Read the Matrix:}
       \begin{itemize}
-        \item \textbf{Identify Players:} Row player (Ramesh) and Column player (Suresh)
-        \item \textbf{List Strategies:} Each row/column is one strategy option
-        \item \textbf{Find Outcomes:} Intersection shows what happens when both choose those strategies
-        \item \textbf{Read Payoffs:} First number is always row player's payoff, second is column player's
-        % \item \textbf{Compare:} Look across rows and down columns to find best responses
+        \item First number = Ramesh's profit, second = Suresh's profit
+        
+        \item \textbf{Example 1:}  
+        If both choose \textbf{High Price}, we look at top-left cell:  
+        \[
+        (50, 50)
+        \]
+        Both earn Rs 50,000 each
+        
+        \item \textbf{Example 2:}  
+        If Ramesh chooses \textbf{Low Price} and Suresh chooses \textbf{High Price}, we look at:
+        \[
+        (70, 20)
+        \]
+        Ramesh earns Rs 70,000, Suresh earns Rs 20,000
+        
+        \item This shows how one player's decision affects the other
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
+% \begin{columns}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{What is a Dominant Strategy?}
+      % \begin{itemize}
+        % \item A strategy that gives you the best payoff \textit{no matter what} the opponent does
+        % \item If it exists, it simplifies decision-making dramatically
+        % \item You don't need to predict opponent's move
+        % \item It's your safest, most robust choice
+      % \end{itemize}
+      
+      % \vspace{6pt}
+      % \textbf{Example Matrix:}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{You $\backslash$ Opponent} & \textbf{A} & \textbf{B} \\
+        % \hline
+        % \textbf{Option 1} & (3, 3) & (1, 4) \\
+        % \hline
+        % \textbf{\textbf{Option 2}} & \textbf{(4, 2)} & \textbf{(2, 3)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{Steps to Find Dominant Strategy:}
+      % \begin{itemize}
+        % \item \textbf{Pick one of YOUR strategies} (e.g., Option 1)
+        % \item \textbf{Compare across ALL opponent strategies:} 
+        % \begin{itemize}
+          % \item If opponent plays A: You get 3
+          % \item If opponent plays B: You get 1
+        % \end{itemize}
+        % \item \textbf{Repeat for your other strategy} (Option 2):
+        % \begin{itemize}
+          % \item If opponent plays A: You get 4
+          % \item If opponent plays B: You get 2
+        % \end{itemize}
+        % \item \textbf{Compare:} Option 2 gives 4 vs 3 and 2 vs 1, Option 2 always wins!
+        % \item \textbf{Conclusion:} Option 2 is your dominant strategy (bold in matrix)
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Finding Dominant Strategies}
@@ -254,10 +354,9 @@
     \begin{column}[T]{0.5\linewidth}
       \textbf{What is a Dominant Strategy?}
       \begin{itemize}
-        \item A strategy that gives you the best payoff \textit{no matter what} the opponent does
-        \item If it exists, it simplifies decision-making dramatically
-        \item You don't need to predict opponent's move
-        \item It's your safest, most robust choice
+        \item A strategy that gives you a better payoff \textit{for every possible move} of your opponent
+        \item It works \textbf{no matter what the opponent chooses}
+        \item So you don't need to guess or predict anything
       \end{itemize}
       
       \vspace{6pt}
@@ -275,74 +374,499 @@
       \end{center}
     \end{column}
     \begin{column}[T]{0.5\linewidth}
-      \textbf{Steps to Find Dominant Strategy:}
+      \textbf{How to Think About It:}
       \begin{itemize}
-        \item \textbf{Pick one of YOUR strategies} (e.g., Option 1)
-        \item \textbf{Compare across ALL opponent strategies:} 
+        \item Ask: “If my opponent picks A or B, which option gives me more?”
+        
+        \item \textbf{Case 1: Opponent chooses A}
         \begin{itemize}
-          \item If opponent plays A: You get 3
-          \item If opponent plays B: You get 1
+          \item Option 1 gives you 3
+          \item Option 2 gives you 4
+          \item $\Rightarrow$ Option 2 is better
         \end{itemize}
-        \item \textbf{Repeat for your other strategy} (Option 2):
+        
+        \item \textbf{Case 2: Opponent chooses B}
         \begin{itemize}
-          \item If opponent plays A: You get 4
-          \item If opponent plays B: You get 2
+          \item Option 1 gives you 1
+          \item Option 2 gives you 2
+          \item $\Rightarrow$ Option 2 is again better
         \end{itemize}
-        \item \textbf{Compare:} Option 2 gives 4 vs 3 and 2 vs 1, Option 2 always wins!
-        \item \textbf{Conclusion:} Option 2 is your dominant strategy (bold in matrix)
+        
+        \item \textbf{Key Insight:}  
+        No matter what opponent does (A or B), Option 2 always gives you a higher payoff
+        
+        \item \textbf{Conclusion:} Option 2 is a dominant strategy
       \end{itemize}
     \end{column}
   \end{columns}
+\end{frame}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{Finding Nash Equilibrium}
+% \begin{columns}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{What is Nash Equilibrium?}
+      % \begin{itemize}
+        % \item A situation where each player's strategy is the best response to the other's strategy
+        % \item No player can improve by changing alone
+        % \item The outcome "locks in" even if suboptimal
+        % \item May not be the best outcome for both!
+      % \end{itemize}
+      
+      % \vspace{8pt}
+      % \textbf{Example Matrix:}
+      % \begin{center}
+      % \begin{tabular}{|c|c|c|}
+        % \hline
+        % \textbf{Player 1 $\backslash$ Player 2} & \textbf{Left} & \textbf{Right} \\
+        % \hline
+        % \textbf{Up} & (5, 5) & (1, 4) \\
+        % \hline
+        % \textbf{Down} & (4, 1) & \textbf{(2, 2)} \\
+        % \hline
+      % \end{tabular}
+      % \end{center}
+    % \end{column}
+    % \begin{column}[T]{0.5\linewidth}
+      % \textbf{Steps to Find Nash Equilibrium:}
+      % \begin{itemize}
+        % \item \textbf{For Player 1:} Find best response to each of Player 2's strategies
+        % \begin{itemize}
+          % \item If P2 plays Left: Up (5) $>$ Down (4)
+          % \item If P2 plays Right: Down (2) $>$ Up (1)
+        % \end{itemize}
+        % \item \textbf{For Player 2:} Find best response to each of Player 1's strategies
+        % \begin{itemize}
+          % \item If P1 plays Up: Left (5) $>$ Right (4)
+          % \item If P1 plays Down: Right (2) $>$ Left (1)
+        % \end{itemize}
+        % \item \textbf{Find mutual best responses:} (Down, Right) is Nash Equilibrium, both are playing best responses to each other
+        % \item \textbf{Note:} Both would prefer (5,5) but can't coordinate!
+      % \end{itemize}
+    % \end{column}
+  % \end{columns}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Finding Nash Equilibrium: Idea}
+
+\textbf{What is Nash Equilibrium?}
+\begin{itemize}
+  \item Each player is choosing their \textbf{best response} to the other
+  \item No one wants to change their decision \textit{alone}
+  \item Think: “Am I doing the best given what the other person is doing?”
+\end{itemize}
+
+\vspace{8pt}
+\textbf{Example Matrix:}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Player 1 $\backslash$ Player 2} & \textbf{Left} & \textbf{Right} \\
+  \hline
+  \textbf{Up} & (5, 5) & (1, 4) \\
+  \hline
+  \textbf{Down} & (4, 1) & (2, 2) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\small{First number = Player 1, second = Player 2}
+
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{Finding Nash Equilibrium}
-\begin{columns}
-    \begin{column}[T]{0.5\linewidth}
-      \textbf{What is Nash Equilibrium?}
-      \begin{itemize}
-        \item A situation where each player's strategy is the best response to the other's strategy
-        \item No player can improve by changing alone
-        \item The outcome "locks in" even if suboptimal
-        \item May not be the best outcome for both!
-      \end{itemize}
-      
-      \vspace{8pt}
-      \textbf{Example Matrix:}
-      \begin{center}
-      \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Player 1 $\backslash$ Player 2} & \textbf{Left} & \textbf{Right} \\
-        \hline
-        \textbf{Up} & (5, 5) & (1, 4) \\
-        \hline
-        \textbf{Down} & (4, 1) & \textbf{(2, 2)} \\
-        \hline
-      \end{tabular}
-      \end{center}
-    \end{column}
-    \begin{column}[T]{0.5\linewidth}
-      \textbf{Steps to Find Nash Equilibrium:}
-      \begin{itemize}
-        \item \textbf{For Player 1:} Find best response to each of Player 2's strategies
-        \begin{itemize}
-          \item If P2 plays Left: Up (5) $>$ Down (4)
-          \item If P2 plays Right: Down (2) $>$ Up (1)
-        \end{itemize}
-        \item \textbf{For Player 2:} Find best response to each of Player 1's strategies
-        \begin{itemize}
-          \item If P1 plays Up: Left (5) $>$ Right (4)
-          \item If P1 plays Down: Right (2) $>$ Left (1)
-        \end{itemize}
-        \item \textbf{Find mutual best responses:} (Down, Right) is Nash Equilibrium, both are playing best responses to each other
-        \item \textbf{Note:} Both would prefer (5,5) but can't coordinate!
-      \end{itemize}
-    \end{column}
-  \end{columns}
+\begin{frame}[fragile]\frametitle{Step 1: Find Best Responses}
+
+\textbf{For Player 1 (compare numbers in each column):}
+
+\begin{itemize}
+  \item If Player 2 plays Left: compare 5 vs 4 $\Rightarrow$ \underline{5 is higher}
+  \item If Player 2 plays Right: compare 1 vs 2 $\Rightarrow$ \underline{2 is higher}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{For Player 2 (compare numbers in each row):}
+
+\begin{itemize}
+  \item If Player 1 plays Up: compare 5 vs 4 $\Rightarrow$ \underline{5 is higher}
+  \item If Player 1 plays Down: compare 1 vs 2 $\Rightarrow$ \underline{2 is higher}
+\end{itemize}
+
+\vspace{10pt}
+
+\textbf{Marking in the matrix:}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Left & Right \\
+  \hline
+  Up & (\underline{5}, \underline{5}) & (1, 4) \\
+  \hline
+  Down & (4, 1) & (\underline{2}, \underline{2}) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Step 2: Find Nash Equilibrium}
+
+\textbf{Key Idea:}
+\begin{itemize}
+  \item Nash equilibrium occurs where \textbf{both players are choosing best responses}
+  \item That means: both numbers in the cell are “selected” (underlined)
+\end{itemize}
+
+\vspace{6pt}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Left & Right \\
+  \hline
+  Up & (\underline{5}, \underline{5}) & (1, 4) \\
+  \hline
+  Down & (4, 1) & (\underline{2}, \underline{2}) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Observation:}
+\begin{itemize}
+  \item Two cells have both values underlined:
+  \begin{itemize}
+    \item (Up, Left) $\Rightarrow$ (5,5)
+    \item (Down, Right) $\Rightarrow$ (2,2)
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Conclusion:}
+\begin{itemize}
+  \item This game has \textbf{two Nash equilibria}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Is (5,5) a Nash Equilibrium?}
+
+\textbf{Short Answer: Yes, it \textit{is} a Nash Equilibrium}
+
+\vspace{6pt}
+
+\textbf{Why?}
+\begin{itemize}
+  \item At (Up, Left):
+  \begin{itemize}
+    \item Player 1 gets 5 — switching to Down gives 4 (worse)
+    \item Player 2 gets 5 — switching to Right gives 4 (worse)
+  \end{itemize}
+  \item So neither player wants to deviate
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Then why focus on (2,2)?}
+\begin{itemize}
+  \item (2,2) is also a Nash equilibrium
+  \item But it is \textbf{worse for both players}
+  \item This shows:
+  \begin{itemize}
+    \item Nash equilibrium is about \textbf{stability}, not \textbf{optimality}
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item Players may get stuck in a worse outcome even when a better one exists
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Which Nash Equilibrium Will Be Chosen?}
+
+\textbf{Recall: We found two Nash equilibria}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  & Left & Right \\
+  \hline
+  Up & (\underline{5}, \underline{5}) & (1, 4) \\
+  \hline
+  Down & (4, 1) & (\underline{2}, \underline{2}) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Question: Which outcome will players choose?}
+
+\vspace{6pt}
+
+\begin{itemize}
+  \item Both (5,5) and (2,2) are stable (no one wants to deviate alone)
+  
+  \item \textbf{(5,5) is better for both}  
+  \begin{itemize}
+    \item Higher payoff for Player 1 and Player 2
+  \end{itemize}
+  
+  \item But there is a problem: \textbf{coordination}
+  \begin{itemize}
+    \item To reach (5,5), both must choose (Up, Left)
+    \item If one player makes a mistake, payoff drops sharply
+  \end{itemize}
+  
+  \item \textbf{(2,2) is safer}
+  \begin{itemize}
+    \item Even if unsure about the other player, risk is lower
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Insight:}
+\begin{itemize}
+  \item Some equilibria are \textbf{better}, others are \textbf{safer}
+  \item Real-world outcomes depend on \textbf{trust, expectations, and coordination}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Coordination Problem: Risk vs Reward}
+
+\textbf{Think like a player:}
+
+\begin{itemize}
+  \item “I would like (5,5)… but what if the other player doesn’t cooperate?”
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Compare the risk:}
+
+\begin{itemize}
+  \item If you aim for (5,5) but the other player deviates:
+  \begin{itemize}
+    \item You may end up with \textbf{1} (very low payoff)
+  \end{itemize}
+  
+  \item If you aim for (2,2) and the other deviates:
+  \begin{itemize}
+    \item Your payoff does not fall as drastically
+  \end{itemize}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Interpretation:}
+\begin{itemize}
+  \item (5,5) = \textbf{High reward, high risk}
+  \item (2,2) = \textbf{Lower reward, safer choice}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Real-world analogy:}
+\begin{itemize}
+  \item Two firms setting high prices (cooperate) vs undercutting each other
+  \item Trust leads to better outcomes, but fear leads to safer ones
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{How to Reach the Better Equilibrium (5,5)?}
+
+\textbf{Problem:}
+\begin{itemize}
+  \item (5,5) is better for both players
+  \item But it requires \textbf{coordination and trust}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{What can help players coordinate?}
+
+\begin{itemize}
+  \item \textbf{Communication}
+  \begin{itemize}
+    \item Players can agree beforehand: “Let’s both choose (Up, Left)”
+  \end{itemize}
+  
+  \item \textbf{Repeated Interaction}
+  \begin{itemize}
+    \item If the game is played many times, cooperation can be rewarded
+    \item Deviating once may lead to punishment later
+  \end{itemize}
+  
+  \item \textbf{Trust / Reputation}
+  \begin{itemize}
+    \item If a player is known to cooperate, others are more likely to do the same
+  \end{itemize}
+  
+  \item \textbf{Focal Points (Obvious Choices)}
+  \begin{itemize}
+    \item Players may naturally gravitate to “prominent” outcomes like (5,5)
+  \end{itemize}
+\end{itemize}
+
+\vspace{6pt}
+
+\textbf{Key Idea:}
+\begin{itemize}
+  \item Better outcomes often require \textbf{coordination mechanisms}, not just rational thinking
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{What If Coordination Fails?}
+
+\textbf{Without coordination:}
+
+\begin{itemize}
+  \item Players may avoid risk and choose safer strategies
+  \item This can lead to the equilibrium:
+  \[
+  (2,2)
+  \]
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Why does this happen?}
+
+\begin{itemize}
+  \item Fear of mismatch:
+  \begin{itemize}
+    \item “What if I choose Up but the other chooses Right?”
+  \end{itemize}
+  
+  \item Lack of trust:
+  \begin{itemize}
+    \item No guarantee the other player will cooperate
+  \end{itemize}
+  
+  \item No communication:
+  \begin{itemize}
+    \item Players cannot coordinate their choices
+  \end{itemize}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Final Insight:}
+\begin{itemize}
+  \item Rational players can end up in \textbf{worse outcomes}
+  \item The issue is not intelligence, but \textbf{lack of coordination}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Real-World Example: Traffic Coordination}
+
+\textbf{Imagine: Choosing which side of the road to drive on}
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Driver 1 $\backslash$ Driver 2} & \textbf{Left} & \textbf{Right} \\
+  \hline
+  \textbf{Left} & (5, 5) & (0, 0) \\
+  \hline
+  \textbf{Right} & (0, 0) & (5, 5) \\
+  \hline
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+
+\begin{itemize}
+  \item If both choose the \textbf{same side}, traffic flows smoothly → high payoff (5,5)
+  
+  \item If they choose \textbf{different sides}, there is chaos (or accidents!) → payoff (0,0)
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Key Observations:}
+\begin{itemize}
+  \item There are \textbf{two Nash equilibria}:
+  \begin{itemize}
+    \item (Left, Left)
+    \item (Right, Right)
+  \end{itemize}
+  
+  \item Both are equally good—but players must \textbf{coordinate}
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{Why Do We Successfully Coordinate?}
+
+\textbf{Question: Why don’t drivers crash every day?}
+
+\vspace{6pt}
+
+\begin{itemize}
+  \item \textbf{Social conventions}
+  \begin{itemize}
+    \item In India, everyone follows “drive on the left”
+  \end{itemize}
+  
+  \item \textbf{Clear rules and laws}
+  \begin{itemize}
+    \item Government enforces one equilibrium
+  \end{itemize}
+  
+  \item \textbf{Common expectations}
+  \begin{itemize}
+    \item You expect others to follow the same rule
+  \end{itemize}
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Connection to Game Theory:}
+\begin{itemize}
+  \item Real-world systems often \textbf{select one equilibrium}
+  \item Once established, everyone follows it automatically
+\end{itemize}
+
+\vspace{8pt}
+
+\textbf{Final Insight:}
+\begin{itemize}
+  \item Good outcomes are not just about incentives
+  \item They depend on \textbf{rules, norms, and coordination mechanisms}
+\end{itemize}
+
 \end{frame}
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]\frametitle{}
+\begin{center}
+{\Large Popular Strategies}
+\end{center}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Nash Equilibrium: The Stable State}
@@ -618,12 +1142,12 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Game Types and Structures}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Game Types and Structures}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Prisoner's Dilemma: The Trust Problem}
@@ -1189,12 +1713,12 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Decision-Making Approaches}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Decision-Making Approaches}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Backward Induction: Think Backwards, Act Forward}
@@ -1547,12 +2071,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Credibility and Commitment}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Credibility and Commitment}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Strategic Commitment: Limiting Your Own Options}
@@ -1771,12 +2295,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Strategic Interaction in Relationships}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Strategic Interaction in Relationships}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{Tit-for-Tat: Reciprocity Works}
@@ -1950,12 +2474,12 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Competitive Advantage and Market Strategy}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Competitive Advantage and Market Strategy}
+% \end{center}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]\frametitle{First-Mover Advantage: Being Early Pays}
@@ -2101,12 +2625,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Information and Uncertainty}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Information and Uncertainty}
+% \end{center}
+% \end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2253,12 +2777,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Negotiation and Bargaining}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Negotiation and Bargaining}
+% \end{center}
+% \end{frame}
 
 
 
@@ -2358,12 +2882,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Market Design and Mechanisms}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Market Design and Mechanisms}
+% \end{center}
+% \end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2487,12 +3011,12 @@
 \end{frame}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Collective Challenges and Social Dilemmas}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Collective Challenges and Social Dilemmas}
+% \end{center}
+% \end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -2615,12 +3139,12 @@
   \end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}[fragile]\frametitle{}
-\begin{center}
-{\Large Prospect Theory}
-\end{center}
-\end{frame}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{frame}[fragile]\frametitle{}
+% \begin{center}
+% {\Large Prospect Theory}
+% \end{center}
+% \end{frame}
 
 
 
