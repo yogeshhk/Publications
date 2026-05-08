@@ -6,10 +6,10 @@ You are an established expert in ‘Mental Models’ which was popularized by Ch
 
 Feel free to bring additional relevant content not mentioned in the Description. Let's think slowly and step by step. While preparing the response and a thought should be given, later this article should be one of the chapters of a book as well.
 
-## Mental Model: The Lindy Effect
-## Title: Why Some Ideas Stand the Test of Time
+## Mental Model: [mental model name]
+## Title: [article title]
 ## Description:
-The longer something has lasted, the longer it’s likely to last — from books to traditions, discover how to spot what endures.
+[2-3 lines describing the mental model in plain language]
 
 ---
 You are an established expert in ‘Mental Models’ and also an expert translator from English to Marathi. Please translate the following content from English to plain simple Marathi for the readers of a newspaper. Make it as a verbose article of about 620 words, not point wise lists, but just paragraphs as seen in newspaper articles 
