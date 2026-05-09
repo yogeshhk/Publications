@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX book template                           %%
+%% Author:  Amber Jain (http://amberj.devio.us/) %%
+%% License: ISC license                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+% \usepackage{geometry}
+
+\usepackage[paperwidth=6in, paperheight=9in, margin=0.75in]{geometry}
+
+% Color package for custom colors
+\usepackage[dvipsnames,table]{xcolor}
+
+% Packages to handle empty pages and page styles
+\usepackage{emptypage}
+\usepackage{fancyhdr}
+
+% Package for customizing chapter/section headings
+\usepackage{titlesec}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=blue,
+    citecolor=black,
+    pdfborder={0 0 0}
+}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Customize table of contents heading                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Method 1: Simple text replacement
+\addto\captionsenglish{\renewcommand{\contentsname}{अनुक्रमणिका}}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Color definitions for different elements                                    %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Define custom colors
+% \definecolor{titlecolor}{RGB}{0, 51, 102}        % Dark blue for main title
+% \definecolor{subtitlecolor}{RGB}{102, 51, 0}     % Brown for subtitle
+% \definecolor{authorcolor}{RGB}{51, 51, 51}       % Dark gray for author
+% \definecolor{chaptercolor}{RGB}{68, 142, 228}    % Dark Sky blue for chapters
+% \definecolor{sectioncolor}{RGB}{0, 102, 51}      % Dark green for sections
+% \definecolor{subsectioncolor}{RGB}{102, 0, 102}  % Purple for subsections
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Customize chapter and section headings with colors                          %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Chapter formatting
+% \titleformat{\chapter}[display]
+  % {\normalfont\huge\bfseries\color{chaptercolor}}
+  % {\chaptertitlename\ \thechapter}{20pt}{\Huge\color{chaptercolor}}
+
+% % Section formatting
+% \titleformat{\section}
+  % {\normalfont\Large\bfseries\color{sectioncolor}}
+  % {\thesection}{1em}{}
+
+% % Subsection formatting
+% \titleformat{\subsection}
+  % {\normalfont\large\bfseries\color{subsectioncolor}}
+  % {\thesubsection}{1em}{}
+
+% % Subsubsection formatting
+% \titleformat{\subsubsection}
+  % {\normalfont\normalsize\bfseries\color{subsectioncolor}}
+  % {\thesubsubsection}{1em}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 'dedication' environment: To add a dedication paragraph at the start of book %
+% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter quote at the start of chapter        %
+% Source: http://tex.stackexchange.com/a/53380 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+\renewcommand{\contentsname}{अनुक्रमणिका}
+
+%% Define watermark
+%\AddEverypageHook{%
+%  \begin{tikzpicture}[remember picture,overlay]
+%    \node[rotate=45, scale=6, text opacity=0.1, font=\sffamily\bfseries] 
+%      at (current page.center) {DRAFT};
+%  \end{tikzpicture}%
+%}

@@ -3,7 +3,10 @@
     "allow": [
       "PowerShell($files = Get-ChildItem -Path \"D:\\\\Yogesh\\\\GitHub\\\\Publications\\\\PostsBlogs\" -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"D:\\\\Yogesh\\\\GitHub\\\\Publications\\\\\", \"\"\\) }; $files | Select-Object -Skip 900)",
       "PowerShell(Get-ChildItem \"D:\\\\Yogesh\\\\GitHub\\\\Publications\\\\PostsBlogs\" -File | Where-Object { $_.Name -match \"TeachingDataScience|Teaching.Data.Science\" } | Select-Object Name)",
-      "PowerShell(Get-ChildItem \"D:\\\\Yogesh\\\\GitHub\\\\Publications\\\\PostsBlogs\" -File | Where-Object { $_.Name -match \"Teaching\" } | Select-Object Name)"
+      "PowerShell(Get-ChildItem \"D:\\\\Yogesh\\\\GitHub\\\\Publications\\\\PostsBlogs\" -File | Where-Object { $_.Name -match \"Teaching\" } | Select-Object Name)",
+      "WebFetch(domain:bhashini.gov.in)",
+      "WebFetch(domain:ai4bharat.iitm.ac.in)",
+      "WebSearch"
     ]
   }
 }
