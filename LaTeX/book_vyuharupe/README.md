@@ -1,10 +1,7 @@
-# व्यूहरूपे — *Vyuharupe*
-
-**Internal working title:** खेळ मांडला (Khel Mandala)
-**Hindi parallel title:** खेला होबे
+# व्यूहरूपे  (Vyuharupe)
 
 Marathi book on strategy, strategic thinking, and game-theoretic reasoning.
-A companion-in-spirit to the Apress English manuscript — but **not a translation**.
+A companion-in-spirit to the Apress English manuscript, but 'not a translation'.
 It is an independent Marathi book with its own structure, cultural grounding, and voice.
 
 ---
@@ -13,11 +10,11 @@ It is an independent Marathi book with its own structure, cultural grounding, an
 
 | Field | Value |
 |---|---|
-| Internal title | खेळ मांडला |
-| Public Marathi title | व्यूहरूपे |
-| Hindi parallel title | खेला होबे |
+| Internal title | व्यूहरूपे |
+| Public Marathi title |खेळ मांडला  |
+| Public Hindi title | खेला होबे |
 | Subtitle (tentative) | रोजच्या जगण्यातील खेळांचे व्यूहशास्त्र |
-| Subject | Strategy — real-world strategic patterns, game theory, decision-making |
+| Subject | Strategy, real-world strategic patterns, game theory, decision-making |
 | Language | Marathi (Devanagari), XeLaTeX |
 | Font | Tiro Devanagari Marathi |
 | Paper size | 6 in × 9 in |
@@ -33,12 +30,12 @@ It is an independent Marathi book with its own structure, cultural grounding, an
 | Aspect | English Book | Marathi Book |
 |---|---|---|
 | Title | The Strategist's Playbook | व्यूहरूपे |
-| Publisher target | Apress / international agents | Sakal Prakashan / Rajhans / Mehta |
-| Structure | ~52 chapters, academic-to-practical arc | ~36 chapters, story-first reorg |
-| Running theme | Ramesh–Suresh coffee shops | Ramesh–Suresh chai tapri (Pune lane) |
+| Publisher target | Apress | Sakal |
+| Structure | ~62 chapters | ~52 chapters |
+| Running theme | Ramesh–Suresh coffee shops | No Ramesh–Suresh but column like |
 | Examples | Global + Indian | Maharashtra/India-rooted throughout |
-| Audience | Global English non-technical readers | Marathi general readers |
-| Status | Manuscript in progress (Apress) | Independent draft — not a translation |
+| Audience | Global English non-technical readers | Marathi, later Hindi |
+| Status | Manuscript in progress (Apress) | Manuscript yet to be written, structure ready|
 
 ---
 
@@ -81,16 +78,14 @@ When Marathi chapter files exist, add them to `book_vyuharupe_content.tex` as:
 
 ## Workflow: From Manuscript to Book
 
-### Phase 1 — Manuscript
-1. Write/receive the Marathi manuscript (complete or chapter-by-chapter)
-2. Use **Prompt 1** (in `README Strategy Marathi Book.md`) to split the monolithic manuscript into `ch01_*.tex`, `ch02_*.tex`, … files
+### Manuscript
+- Write the Marathi manuscript (complete or chapter-by-chapter)
+- Use **Prompt** to verbose-elaborate `Content Briefs Strategy English Book.md`
+- Use **Prompt** to run an anti-AI naturalness review on each Marathi chapter
+- Do manual-family review in gdoc, edit and update, save as manuscript.md
+- Use **Prompt** to split mansucript into chapters wise tex files
 
-### Phase 2 — Translation (if starting from English)
-1. For each English chapter in `Content Briefs Strategy English Book.md` or the English manuscript:
-2. Use **Prompt 2** to translate English chapter → Marathi `.tex`
-3. Use **Prompt 3** to run an anti-AI naturalness review on each Marathi chapter
-
-### Phase 3 — Compilation
+### Compilation
 1. Add all `\input{chNN_*}` lines to `book_vyuharupe_content.tex`
 2. Run `make_vyuharupe.bat`
 3. Review both cover and interior PDFs
@@ -101,7 +96,7 @@ See `README Strategy Marathi Book.md` for the full set of ready-to-use prompts f
 
 ## Author
 
-Dr. Yogesh Hari Kulkarni
+Dr. Yogesh Haribhau Kulkarni
 Pune, India
 LinkedIn: https://www.linkedin.com/in/yogeshkulkarni/
 Medium: https://yogeshharibhaukulkarni.medium.com
@@ -109,10 +104,8 @@ Medium: https://yogeshharibhaukulkarni.medium.com
 ---
 
 ## Current Status
-
-- `.tex` files updated for *व्यूहरूपे* — covers and interior titles corrected
 - `book_vyuharupe_content.tex` is a placeholder; chapter `.tex` files pending manuscript
-- `Content Briefs Strategy Marathi Book.md` contains 52 Marathi chapter briefs with Maharashtra/India-rooted examples
+- `Content Briefs Strategy Marathi Book.md` contains 52 Marathi chapter briefs 
 - Marathi manuscript: **not yet started / pending**
 - Cover design: **Reeya — pending brief**
 - Publisher approach: **Sakal Prakashan first** (after Mental Model book performance)
