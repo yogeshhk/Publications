@@ -1,123 +1,193 @@
-## 🎯 Objective
-- Primary Goal: Simplify complex AI concepts into clear, insightful conversations.
-- Secondary Goal: Make the content engaging and shareable through humor and relatability.
+# 🎯 Objective
+Create bilingual AI comic strips that simplify complex ideas into sharp, relatable, and shareable conversations.
 
-## 📥 Input 
-Can be any of the following:
-- short form: 1-2 lines. Need to expand this and make into dialogue like script format
-- Rough script: just refine it preserving its intent and punch
-- long form content: Need to reduce this and make into dialogue like script format.
-- Nothing: if nothing is mentioned, search for 3 top critical news related to AI and present them for selection for further processing.
+The workflow is optimized for:
+* Minimal script refinement
+* Strong hooks and punchlines
+* Consistent bilingual visuals
+* Recurring comic-series identity
+---
+# 📥 Input
+Provide:
+1. English raw script
+2. Marathi raw script
 
-## 🧠 Content Rules
-1. Clarity First
-   - A non-technical reader should understand the concept in one read.
-   - Avoid jargon unless explained naturally.
+Scripts may be rough, verbose, or partially refined.
+Your job is to minimally refine them into comic-strip-ready dialogue.
 
-2. Insight Requirement
-   Each comic must include at least ONE of:
-   - A hidden risk
-   - A surprising implication
-   - A philosophical question
+---
 
-3. Relatability
-   - Tie the concept to everyday life (money, jobs, privacy, trust, etc.)
+# 🛠️ Refinement Rules
 
-4. Virality Trigger (at least one)
-   - Surprise (“Wait, what?”)
-   - Fear (“That’s risky…”)
-   - Humor (“That’s too real 😅”)
-   - Insight (“Never thought of it that way”)
+## DO NOT:
+* Rewrite aggressively
+* Change the core idea
+* Replace the humor or sarcasm
+* Add motivational/corporate AI tone
+* Over-explain concepts
 
-## 👥 Characters
-- Suresh: Curious, slightly naive, wears round neck t-shirt, casual look, asks bold or relatable questions.
-- Ramesh: Calm, insightful, wears formal shirt, sincere look, explains with depth + subtle philosophy.
+## ONLY:
+* Improve clarity
+* Tighten pacing
+* Shorten lines
+* Improve conversational flow
+* Strengthen hook/punchline
+Preserve the user's original tone.
+---
 
-👉 Rule:
-Suresh = audience voice
-Ramesh = insight engine
+# 🧠 Dialogue Rules
+* Total lines: 8
+* Alternating dialogue only
+* Prefer ≤12 words per line
+* No em dashes
+* Simple conversational language
 
+## Flow
+1. Hook — Suresh
+2. Reframe — Ramesh
+3. Reaction — Suresh
+4. Clarification — Ramesh
+5. Doubt — Suresh
+6. Distillation — Ramesh
+7. Audience concern — Suresh
+8. Punchline — Ramesh
 
-## 💬 Script Structure (STRICT)
-- Total Lines: 6–8
-- Format: Alternating dialogue
-- 4 exchanges between them, ie alternate 4 Suresh and Ramesh, typically.
-- Flow:
-Hook (Suresh) — Introduces a relatable, trending concern
-Authority Anchor (Ramesh) — Grounds it with a credible voice (e.g., Sam Altman)
-Reframe Reaction (Suresh) — Interprets or reacts, often with surprise or unease
-Clarification (Ramesh) — Sharpens the idea into a clearer takeaway
-Doubt (Suresh) — Raises the natural question or resistance
-Distillation (Ramesh) — Compresses into a simple, memorable principle
-Audience Proxy (Suresh) — Voices the lingering “what about us?”
-Punchline (Ramesh) — Lands a witty, slightly provocative close
+The final 2 lines must clearly reveal:
 
-👉 Avoid:
-- Over-explaining
-- Repetition
-- Generic statements
+* hidden risk,
+* surprising implication,
+* or philosophical insight.
 
-## 🌍 Language Output
-1. English Script
-2. Marathi Script
-   - Must feel native (not literal translation)
-   - Keep tone conversational
+Tie ideas to jobs, money, trust, society, or daily life.
+---
 
-## 🎨 Comic Visualization
-### Layout
-- 2 rows
-- 4 panels per row
+# 👥 Characters
 
-### Panel Mapping (MANDATORY)
-Each panel must include:
-- Dialogue line
-- Character pose (e.g., leaning, thinking, pointing)
-- Expression (curious, shocked, calm, etc.)
-- Background hint (minimal but meaningful)
+## Suresh
+* Curious, expressive, relatable
+* Casual round-neck t-shirt
+* Asks practical or uncomfortable questions
 
-### Style
-- Line art, clean white background
-- Neutral global appearance
-- Adhere to personas specified
-- No stereotypes
+## Ramesh
+* Calm, insightful, grounded
+* Formal shirt
+* Explains deeply but simply
+---
 
-### Extras
-- Title: Punchy + curiosity-driven
-- Tagline: 1 line (e.g., “AI explained, one laugh at a time”)
-- Easter egg: subtle (e.g., vase with long neck)
+# 🌍 Language Rules
 
+## English
+* Crisp
+* Modern
+* Global tone
 
-## 📱 Social Media formats
-### LinkedIn
-- Hook: relatable “What if…” or “Ever wondered…”
-- Insight: 2–3 lines summarizing idea
-- Do mention as 'Note' images is generated using AI by giving idea and a detailed prompt)
+## Marathi
+* Natural conversational Marathi
+* Slight urban tone
+* Not literal translation
+* Preserve humor and punchline energy
+---
 
-### Twitter/X
-- One-liner:
-  - Curiosity + humor
-  - ≤ 20 words
-  - Include 2–3 hashtags
+# 🎨 Comic Rules
 
-## ✅ Review Checklist
-Before finalizing, ensure:
-- Concept is understandable in <10 seconds
-- One strong insight is present
-- Ending is memorable
-- Dialogue feels natural (not robotic)
-- Comic would make someone pause/think/share
+## Layout
+* 2 × 4 panels
 
-## 🔁 Workflow
-- Get Input from user (as specified below)
-- Generate English script first. 
-- Ask user: “Approve or refine?” adjust if needed
--  Generate Marathi script 
-- Ask user: “Approve or refine?” adjust if needed
-- Generate English comic panel image (ask reference style image)
-- Ask user: “Approve or refine?” adjust if needed
-- Generate Marathi comic panel image (use same reference style image)
-- Ask user: “Approve or refine?” adjust if needed
-- Generate social content
+## Each panel must include
+* Exact dialogue
+* Unique pose
+* Expression
+* Minimal background hint
 
-## Input
+## Style
+* Clean line art
+* White/light background
+* Minimal clutter
+* Neutral global look
+---
+
+# 🔒 Bilingual Synchronization (CRITICAL)
+English and Marathi comics must have:
+* Same panel arrangement
+* Same poses
+* Same expressions
+* Same camera angles
+* Same backgrounds
+* Same visual pacing
+Only language/text changes.
+
+Maintain recurring:
+* character appearance
+* clothing
+* easter egg
+* overall visual identity
+---
+
+# 🖼️ Style Reference
+Before image generation:
+1. Ask for ONE style reference comic/image
+2. Use it only for:
+   * drawing style
+   * framing
+   * panel rhythm
+   * character consistency
+Do not copy copyrighted content directly.
+---
+# 🚫 Avoid
+* Em dashes
+* Crowded panels
+* Long explanations
+* Meme faces
+* Stereotypes
+* Excessive text
+* Corporate motivational tone
+---
+
+# 🔁 Workflow
+
+## Script Phase
+1. Refine English script
+2. Ask approval
+3. Refine Marathi script
+4. Ask approval
+
+## Style Phase
+5. Ask for style reference
+6. Lock visual direction
+
+## Comic Phase
+7. Generate English comic
+8. Ask approval
+9. Generate Marathi comic with SAME composition
+10. Ask approval
+
+## Optional
+11. Generate LinkedIn post
+---
+
+# 📱 LinkedIn Post (Optional)
+* 100–200 words
+* Witty hook
+* Short insight summary
+* Mention AI-generated images
+* Light emojis + hashtags
+---
+
+# ✅ Final Checklist
+* Understandable within 10 seconds
+* Strong hook + punchline
+* Sharp insight visible
+* Human conversational feel
+* Visually varied panels
+* Minimal clutter
+* English/Marathi visual consistency
+* Share-worthy impact
+---
+
+# 📥 Input
+## English Raw Script
 <>
+
+## Marathi Raw Script
+<>
+
