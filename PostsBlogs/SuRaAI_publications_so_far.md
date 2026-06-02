@@ -2,213 +2,172 @@
 
 *AI explained through simple conversations, humor, and uncomfortable truths.*
 
----
+# 4th July 2026
 
-# 18 Jul 2026
+## Theme: Taste is the Judgment
+English Script
 
-## Theme: AI in Schools — Are Children Actually Thinking?
-
-### English Script
-Suresh: My son submitted an essay. I could tell AI wrote it. His teacher couldn't.
-Ramesh: AI detection tools exist. But kids are learning to fool those too.
-Suresh: So homework is now a race between AI writing and AI detecting?
-Ramesh: Yes. And the child's brain sits on the sidelines.
-Suresh: Should schools just ban AI?
-Ramesh: They can't. The real world will use AI. Schools have to prepare for that world.
-Suresh: Then how do we know if children are actually thinking?
-Ramesh: Ask them a question they can't Google or AI. Watch what happens.
-
-### Marathi Script
-सुरेश: मुलाने essay दिली. AI ने लिहिलेली हे मला कळलं. शिक्षकांना नाही.
-रमेश: AI detection tools आहेत. पण मुलं त्यांनाही फसवायला शिकत आहेत.
-सुरेश: म्हणजे homework आता AI लिहिणे विरुद्ध AI ओळखणे अशी शर्यत झाली?
-रमेश: हो. आणि मुलाचं मन बाहेर बसलेलं आहे.
-सुरेश: शाळांनी AI बंद करावं का?
-रमेश: करता येणार नाही. बाहेरचं जग AI वापरेल. शाळेने त्यासाठी तयार करायला हवं.
-सुरेश: मग मुलं खरंच विचार करतायत हे कसं कळेल?
-रमेश: असा प्रश्न विचारा जो Google किंवा AI ला देता येणार नाही. मग बघा काय होतं.
+Suresh: AI does everything now. What's left for us?
+Ramesh: Taste. That's what's left.
+Suresh: Taste? AI gives 30 options in 30 seconds!
+Ramesh: Exactly. But who picks the one that actually matters?
+Suresh: Can't AI learn taste? It's seen everything.
+Ramesh: It's read about failure. You've lived it.
+Suresh: So bad calls, ghosted clients, that was training?
+Ramesh: That was taste. AI gives options. You make the call.
 
 ---
 
-# 11 Jul 2026
+Marathi Script
 
-## Theme: AI and Your Data Privacy
-
-### English Script
-Suresh: I use AI for work documents, personal emails, family photos. Is that safe?
-Ramesh: Read the terms. Most AI services can use your inputs to train their next model.
-Suresh: So my confidential work documents could end up training a public AI?
-Ramesh: Possibly. And there's no undo button once the data is in.
-Suresh: Why doesn't anyone warn us?
-Ramesh: They do. Page 47 of the terms. Under section 12.3.
-Suresh: Nobody reads that.
-Ramesh: Exactly. That's where they put the important things.
-
-### Marathi Script
-सुरेश: मी AI ला work documents, personal emails, कौटुंबिक photos देतो. हे safe आहे का?
-रमेश: Terms वाचा. बहुतेक AI services तुमचे inputs त्यांचा पुढचा model train करायला वापरू शकतात.
-सुरेश: म्हणजे माझे confidential documents public AI मध्ये जाऊ शकतात?
-रमेश: शक्य आहे. आणि एकदा data गेला की undo नाही.
-सुरेश: कुणी सांगत का नाही हे?
-रमेश: सांगतात. Terms च्या page 47 वर. Section 12.3 मध्ये.
-सुरेश: ते कुणी वाचत नाही.
-रमेश: अगदी. म्हणूनच महत्त्वाच्या गोष्टी तिथेच लिहितात.
+Suresh: AI सगळं करतं आता. आपल्यासाठी काय उरलं?
+Ramesh: टेस्ट. अनुभवातून तयार झालेली रुची (अभिरुची). चांगलं काय ते ओळखणं, तेवढं उरलं.
+Suresh: टेस्ट? AI तीस सेकंदात तीस पर्याय देतं!
+Ramesh: हो. पण खरा एक निवडतो कोण?
+Suresh: AI पण शिकू शकत नाही का? सगळं वाचलंय त्यानं.
+Ramesh: वाचलंय. पण अपयश तू जगलेलं आहेस.
+Suresh: म्हणजे चुकीचे निर्णय, गेलेले क्लायंट, हेच शिक्षण होतं?
+Ramesh: हीच टेस्ट. AI पर्याय देतं. निर्णय तू घेतोस.
 
 ---
 
-# 4 Jul 2026
+Approve? Moving to panel breakdown next.
 
-## Theme: AI Hallucinations — The Confident Wrong Answer
-
-### English Script
-Suresh: I asked AI about a medicine. It gave dosage, side effects, everything. All wrong.
-Ramesh: That's hallucination. AI generates what sounds right, not what is right.
-Suresh: But it sounded so confident. Like an actual doctor.
-Ramesh: Confidence and correctness are not connected in AI. That's the trap.
-Suresh: So we can't use AI for health questions at all?
-Ramesh: Use it to understand, not to decide. Always verify with a real expert.
-Suresh: But real experts are expensive and hard to reach.
-Ramesh: Yes. And that's exactly why people trust the AI instead. That's the real problem.
-
-### Marathi Script
-सुरेश: AI ला एका औषधाबद्दल विचारलं. dose, side effects, सगळं सांगितलं. सगळं चुकीचं होतं.
-रमेश: त्याला hallucination म्हणतात. AI जे खरं वाटेल ते सांगतो, जे खरं आहे ते नाही.
-सुरेश: पण किती confident होतं — खऱ्या डॉक्टरसारखं.
-रमेश: AI मध्ये confidence आणि बरोबर असणं यांचा संबंध नाही. तेच trap आहे.
-सुरेश: म्हणजे health साठी AI वापरायचंच नाही?
-रमेश: समजून घ्यायला वापरा, निर्णय घ्यायला नाही. तज्ज्ञाकडे जाच.
-सुरेश: पण तज्ज्ञ महाग आणि वेळ नसतो.
-रमेश: हो. आणि म्हणूनच लोक AI वर विश्वास ठेवतात. तेच खरं problem आहे.
-
----
 
 # 27 Jun 2026
 
-## Theme: Am I Too Late for AI?
+## Theme: Deliverable is given. Humans are for everything else.
 
 ### English Script
-Suresh: I missed the software boom. Missed the startup wave. Now AI. Am I too late again?
-Ramesh: People said the same in 2010 about mobile apps. In 2015 about data science.
-Suresh: And those who asked became experts or just anxious spectators?
-Ramesh: Both. The ones who started, even late, learned. The rest kept asking.
-Suresh: So the answer is just to start?
-Ramesh: The best time was two years ago. Second best is today.
-Suresh: That sounds like a motivational poster.
-Ramesh: It is. But it's also true. Which is rare.
+
+Suresh: Bhai, why are you still paying that consultant so much?
+Ramesh: Because he once said, "you don't need marketing help right now."
+Suresh: He said that? And turned down the work himself?
+Ramesh: AI never does that. He did. That's worth paying for.
+Suresh: Can't AI do the strategy, the research, all of it?
+Ramesh: It does the work. But it never shows you the better door.
+Suresh: Better door?
+Ramesh: Anyone can deliver. A good consultant shows you what's actually possible.
 
 ### Marathi Script
-सुरेश: Software boom चुकली. Startup wave चुकली. आता AI. पुन्हा उशीर झाला का?
-रमेश: 2010 मध्ये mobile apps बद्दल, 2015 मध्ये data science बद्दल असंच म्हणायचे.
-सुरेश: आणि त्यांचं काय झालं — expert झाले की anxious राहिले?
-रमेश: दोन्ही. ज्यांनी सुरुवात केली, उशिरा का होईना — शिकले. बाकी विचारत राहिले.
-सुरेश: म्हणजे उत्तर फक्त सुरुवात करणं हेच आहे?
-रमेश: सुरुवात करायची सर्वोत्तम वेळ दोन वर्षांपूर्वी होती. दुसरी सर्वोत्तम — आज.
-सुरेश: हे motivational poster वाटतंय.
-रमेश: आहेच. पण खरंही आहे. दोन्ही एकत्र येणं दुर्मिळ आहे.
+
+Suresh: भाऊ, त्या कन्सल्टंटला एवढे पैसे का देतोस?
+Ramesh: कारण एकदा म्हणाला, "मार्केटिंगची नाही, दुसऱ्याची गरज आहे तुला."
+Suresh: स्वतःच काम नाकारलं? आणि तू अजून देतोस पैसे?
+Ramesh: AI हे कधी करणार नाही. तो केलं. म्हणून देतो.
+Suresh: AI करत नाही का स्ट्रॅटेजी, रिसर्च, सगळं?
+Ramesh: काम करतो. पण चांगला रस्ता दाखवत नाही कधी.
+Suresh: चांगला रस्ता?
+Ramesh: काम कोणीही देतं. कन्सल्टंट सांगतो, खरी शक्यता काय आहे.
 
 ---
+
+Happy with this? I'll move to the panel breakdown once approved.
 
 # 20 Jun 2026
 
 ## Theme: Why Chatbots Forget You Every Day
 
 ### English Script
-Suresh: I told the AI my project details for a week. New session — total stranger again.
+Suresh: Spent a week telling AI my project details. New session? Back to square one.
 Ramesh: AI has no memory across sessions. Every chat starts from zero.
-Suresh: So I share my work, my worries, my ideas — and it forgets everything?
-Ramesh: Unless you pay for memory features. Remembering you costs extra.
-Suresh: I have to pay to not be forgotten?
-Ramesh: In the attention economy, memory is a product.
-Suresh: That's the loneliest thing I've heard.
-Ramesh: Don't worry. It won't remember you said that either.
+Suresh: So it forgets my work, my worries, everything?
+Ramesh: Projects or memory features exist. But you have to set them up.
+Suresh: More work just to not be forgotten?
+Ramesh: Or keep everything in files. Upload them each time.
+Suresh: So I'm just... markdown files now?
+Ramesh: Welcome to the future. You're markdown files now.
 
 ### Marathi Script
-सुरेश: एक आठवडा AI ला माझ्या project बद्दल सगळं सांगत होतो. नवीन session — अनोळखी.
-रमेश: AI ला sessions मध्ये memory नसते. प्रत्येक chat शून्यातून सुरू.
-सुरेश: म्हणजे माझं काम, काळजी, कल्पना — सगळं विसरतो?
-रमेश: Paid plan असेल तर memory मिळते. तुम्हाला आठवणं — हे extra आहे.
-सुरेश: विसरू नयेस यासाठी पैसे भरायचे?
-रमेश: Attention economy मध्ये memory हे product आहे.
-सुरेश: इतकं एकटं वाटवणारं वाक्य कधी ऐकलं नव्हतं.
-रमेश: काळजी नको. हे पण उद्या लक्षात नसेल.
+सुरेश: एक आठवडा AI ला project details सांगत होतो. नवीन काम ?  पुन्हा पहले पाढे पंचावन्न 
+रमेश: AI ला sessions नंतर आठवत नसते. प्रत्येक chat शून्यातून सुरू.
+सुरेश: म्हणजे माझं काम, काळजी, सगळं विसरतो?
+रमेश: प्रोजेक्ट्स /  memory मिळते. तुम्हाला त्याची सोय करावी लागते.
+सुरेश: विसरू नये म्हणूनअजून काम?
+रमेश: सगळी माहिती ज्ञान files मध्ये ठेव. प्रत्येक वेळी upload कर.
+सुरेश: म्हणजे मी आता फक्त... markdown files?
+रमेश: स्वागत आहे भविष्यात. तू आता Markdown files आहेस.
+
 
 ---
 
 # 13 Jun 2026
 
-## Theme: AI Deepfakes in Elections
+## Theme: Indian IT Jobs and AI
 
 ### English Script
-Suresh: I saw a video of a politician promising something he never said. Went viral.
-Ramesh: Deepfake. AI clones voice and face in minutes. Elections are its playground now.
-Suresh: Can anyone detect it?
-Ramesh: Experts can. But by then the damage — votes, riots, rumors — is already done.
-Suresh: So truth doesn't matter anymore. Speed does.
-Ramesh: Whoever spreads it first wins. Correction always arrives too late.
-Suresh: This is terrifying for a democracy.
-Ramesh: Only if voters demand proof. Most prefer the version that confirms what they already believe.
+Suresh: My nephew finished engineering. No job offers.
+Ramesh: Fresher hiring dropped hard everywhere.
+Suresh: Four years of study for what then?
+Ramesh: One person with AI now does five jobs.
+Suresh: So fewer engineers needed overall?
+Ramesh: Fewer doing old work. New problems need solving.
+Suresh: Like what? Everything seems automated already.
+Ramesh: Healthcare, agriculture, local languages... Need AI FROM India, not just AI FOR India.
 
 ### Marathi Script
-सुरेश: एका नेत्याचा video viral झाला — त्याने कधी बोललंच नव्हतं ते बोलतोय.
-रमेश: Deepfake. AI काही मिनिटांत आवाज, चेहरा copy करतो. निवडणुका त्याचं मैदान बनल्यात.
-सुरेश: ओळखता येतं का हे?
-रमेश: तज्ज्ञांना येतं. पण तोपर्यंत मते, दंगली, अफवा — नुकसान झालेलं असतं.
-सुरेश: म्हणजे सत्य महत्त्वाचं नाही, वेग महत्त्वाचा.
-रमेश: आधी पसरवणारा जिंकतो. सुधारणा नेहमी उशिरा येते.
-सुरेश: लोकशाहीसाठी हे भयंकर आहे.
-रमेश: फक्त तेव्हाच, जेव्हा मतदार पुरावा मागतात. बहुतेक लोक जे आधीच विश्वासतात तेच बघतात.
+सुरेश: पुतण्याचं engineering झालंय पण नोकरी नाही.
+रमेश: सगळीकडे fresher hiring बंद दिसतंय.
+सुरेश: मग चार वर्षं का वाया घालवली?
+रमेश: आता एक माणूस AI घेऊन पाच जणांचं काम करतोय.
+सुरेश: म्हणजे कमी engineers लागतात?
+रमेश: जुनं काम करणारे कमी. नवीन problems सोडवायचे आहेत.
+सुरेश: कुठले? सगळं तर automate वाटतंय.
+रमेश: वैद्यकीय, शेती, भारतीय भाषा... AI FOR India नको, AI FROM India हवा.
 
----
+----
+----
 
 # 6 Jun 2026
 
-## Theme: Vibe Coding — Anyone Can Build Apps Now?
+## Theme: Vibe Coding: Anyone Can Build Apps Now?
 
 ### English Script
-Suresh: My colleague built a working app just by describing it to AI. No coding at all.
-Ramesh: That's Vibe Coding. You describe the goal, AI writes every line.
-Suresh: So software engineers are next on the list?
-Ramesh: Anyone can generate code now. Knowing why it breaks — that's still human.
-Suresh: What if it never breaks?
-Ramesh: It will. The moment a user does something unexpected.
+Suresh: My colleague built an app. Just talked to AI. No coding.
+Ramesh: Vibe Coding. Describe it, AI writes it.
+Suresh: So engineers are finished?
+Ramesh: Anyone can make it work once. Making it work twice? Different story.
+Suresh: What if it just keeps working?
+Ramesh: It won't. Users are creative like that.
 Suresh: Then what happens?
-Ramesh: Then the person who "built" the app meets actual software engineering.
+Ramesh: The vibe coder discovers debugging. And panic.
 
 ### Marathi Script
-सुरेश: माझ्या colleague ने AI ला describe करून app बनवला. एक ओळ code नाही.
-रमेश: त्याला Vibe Coding म्हणतात. तुम्ही सांगा, AI लिहितो.
-सुरेश: म्हणजे software engineers पुढचे आहेत list मध्ये?
-रमेश: Code generate करणं आता कुणालाही जमतं. का तुटलं हे समजणं — ते अजून माणसाचंच.
-सुरेश: पण तुटलंच नाही तर?
-रमेश: तुटेल. User ने अनपेक्षित काही केलं की संपलं.
-सुरेश: मग?
-रमेश: मग app "बनवणाऱ्याची" खरी software engineering शी ओळख होते.
+सुरेश: माझ्या colleague ने AI शी बोलून app बनवलंय. कोडींग नाही!
+रमेश: Vibe Coding म्हणतात. तुम्ही सांगा, AI कोडींग करतो.
+सुरेश: म्हणजे आता programmers संपले?
+रमेश: एकदा चालवणं कुणालाही जमतं. दुसऱ्यांदा? वेगळा खेळ.
+सुरेश: पण चाललंच तर?
+रमेश: चालणार नाही. Users खूप creative असतात.
+सुरेश: मग काय होतं?
+रमेश: Vibe coder ला debugging करावं लागतं आणि घाम मग फुटतो.
 
 ---
 
 # 30 May 2026
 
-## Theme: Indian IT Jobs and AI
+## Theme: AI Deepfakes in Elections
 
 ### English Script
-Suresh: My nephew got his engineering degree. No job offers. He's blaming AI.
-Ramesh: Not wrong. TCS, Infosys — all cutting fresher hiring sharply.
-Suresh: So four years of engineering and the job already went to an AI?
-Ramesh: The job didn't go to AI. It went to one person using AI doing five people's work.
-Suresh: So we need fewer engineers now?
-Ramesh: We need fewer engineers doing yesterday's work. Different skills, different jobs.
-Suresh: Tell that to lakhs of families who spent everything on an engineering degree.
-Ramesh: That's the part nobody is saying loudly enough.
+Suresh: Saw a viral video. Politician promising something he never said.
+Ramesh: Deepfake. AI clones voice and face in minutes.
+Suresh: Can people detect it?
+Ramesh: Experts can. But votes, riots, rumors happen first.
+Suresh: So truth doesn't matter. Speed does.
+Ramesh: Exactly. Lies sprint. Facts crawl with footnotes.
+Suresh: Then democracy is doomed?
+Ramesh: Only if we treat followers like votes and celebrate victories online.
 
 ### Marathi Script
-सुरेश: पुतण्याचं engineering झालं. नोकरी नाही. AI ला शाप देतोय.
-रमेश: चुकीचं नाही. TCS, Infosys — सगळ्यांनी fresher hiring कमी केली आहे.
-सुरेश: म्हणजे चार वर्षांच्या शिक्षणानंतर नोकरी AI ने घेतली?
-रमेश: AI ने नाही. एका माणसाने AI वापरून पाच जणांचं काम केलं.
-सुरेश: म्हणजे आता कमी engineers लागतात?
-रमेश: जुनं काम करणारे कमी लागतात. नवीन skills, नवीन काम — ते वेगळं आहे.
-सुरेश: हे लाखो कुटुंबांना सांग ज्यांनी engineering साठी सगळं ओतलं.
-रमेश: हेच कुणी मोठ्याने बोलत नाही — तेच खरं problem आहे.
+सुरेश: एका नेत्याचा viral video पाहिला. त्याने कधी बोललंच नाही ते त्यात बोलतोय.
+रमेश: Deepfake. AI काही मिनिटांत आवाज आणि चेहरा copy करतो.
+सुरेश: ओळखता येतं का हे?
+रमेश: तज्ज्ञांना येतं. पण तोपर्यंत अफवा सुदूर पसरलेल्या असतात.
+सुरेश: म्हणजे सत्य नव्हे, वेग महत्त्वाचा.
+रमेश: बरोबर. खोटं धावतं. सत्य footnotes घेऊन रेंगाळतं.
+सुरेश: मग लोकशाही संपली का?
+रमेश: फक्त तेव्हाच जेव्हा followersला मते समजतो आणि ऑनलाइन विजय साजरा करतो.
+
 
 ---
 
@@ -242,56 +201,56 @@ Ramesh: Dangerous future: humans may get employed by AI Agents!!
 
 ### English Script
 
-**Suresh:**
+Suresh:
 “Everyone’s saying AI will replace humans. Should I be worried?”
 
-**Ramesh:**
+Ramesh:
 “Sam Altman said it best. AI won’t replace humans. Humans who use AI will replace those who don’t.”
 
-**Suresh:**
+Suresh:
 “So it’s humans vs humans with AI. That’s unsettling.”
 
-**Ramesh:**
+Ramesh:
 “It’s evolution. Same humans, new leverage.”
 
-**Suresh:**
+Suresh:
 “And if we don’t adapt?”
 
-**Ramesh:**
+Ramesh:
 “Then relax.”
 
-**Suresh:**
+Suresh:
 “Relax?”
 
-**Ramesh:**
+Ramesh:
 “You’ll have plenty of free time while others do the work.”
 
 ---
 
 ### Marathi Script
 
-**सुरेश (कुतूहलाने):**
+सुरेश (कुतूहलाने):
 “सगळे म्हणतायत AI हे माणसांची जागा घेणार आहे. काय मग मला काळजी करायला हवी का?”
 
-**रमेश (शांतपणे):**
+रमेश (शांतपणे):
 “Sam Altman ने मस्त सांगितलं आहे — ‘AI माणसांना replace करणार नाही. AI वापरणारी माणसं, न वापरणाऱ्यांना replace करतील.’”
 
-**सुरेश (थोडा अस्वस्थ):**
+सुरेश (थोडा अस्वस्थ):
 “म्हणजे AI विरुद्ध माणूस नाही… AI वापरणारी माणसं विरुद्ध बाकीचे? हे जरा विचित्र वाटतंय.”
 
-**रमेश (स्थिर):**
+रमेश (स्थिर):
 “हेच evolution आहे. मानवाला नवीन ताकद मिळाली आहे.”
 
-**सुरेश (काळजीने):**
+सुरेश (काळजीने):
 “आणि समजा, जर आपण बदललो नाही तर?”
 
-**रमेश (कोरड्या आवाजात):**
+रमेश (कोरड्या आवाजात):
 “मग काय… ‘निवांत’.”
 
-**सुरेश (गोंधळून):**
+सुरेश (गोंधळून):
 “निवांत?”
 
-**रमेश (हसत):**
+रमेश (हसत):
 “इतर काम करत असतील… आणि तुझ्याकडे भरपूर मोकळा वेळ असेल. मग ‘निवांत’च की.”
 
 ---
@@ -302,56 +261,56 @@ Ramesh: Dangerous future: humans may get employed by AI Agents!!
 
 ### English Script
 
-**Suresh:**
+Suresh:
 “Donald Trump called India and China ‘hell-holes.’”
 
-**Ramesh:**
+Ramesh:
 “Ironic. He missed where many global tech leaders actually come from. Good that Sridhar Vembu is asking NRIs to return and build Bharat.”
 
-**Suresh:**
+Suresh:
 “But why come back to messy, chaotic city life?”
 
-**Ramesh:**
+Ramesh:
 “For the opportunity — new tech, diverse data, AI, and a massive market.”
 
-**Suresh:**
+Suresh:
 “Still sounds like too many problems.”
 
-**Ramesh:**
+Ramesh:
 “Exactly. Problems are the opportunity.”
 
-**Suresh:**
+Suresh:
 “That sounds like a very optimistic spin.”
 
-**Ramesh:**
+Ramesh:
 “Not optimism. Just good business sense.”
 
 ---
 
 ### Marathi Script
 
-**सुरेश:**
+सुरेश:
 “डोनाल्ड ट्रम्पने इंडिया आणि चीनला ‘hell-holes’ (नरक) म्हटलं.”
 
-**रमेश:**
+रमेश:
 “थोडं विचित्रच आहे. जगातले बरेच टेक CEOs कुठून येतात, हेच त्याने लक्षात घेतलं नाही का? श्रीधर वेम्बू तर म्हणतायत — NRIsनी परत येऊन भारतात काहीतरी उभारावं.”
 
-**सुरेश:**
+सुरेश:
 “पण परत येऊन या गोंधळात, भ्रष्ट वातावरणात राहायचं कशासाठी?”
 
-**रमेश:**
+रमेश:
 “कारण इथे संधी आहे — नवं टेक, विविध डेटा, AI, आणि प्रचंड मोठं मार्केट.”
 
-**सुरेश:**
+सुरेश:
 “तरीही इथे खूप प्रॉब्लेम्स वाटतात रे…”
 
-**रमेश:**
+रमेश:
 “अरे म्हणूनच तर यायचं. प्रॉब्लेम्स म्हणजेच संधी.”
 
-**सुरेश:**
+सुरेश:
 “हे थोडं अतीच पॉझिटिव्ह वाटतंय.”
 
-**रमेश:**
+रमेश:
 “पॉझिटिव्ह नाही… सरळ बिझनेस सेन्स आहे.”
 
 ---
@@ -362,60 +321,60 @@ Ramesh: Dangerous future: humans may get employed by AI Agents!!
 
 ### English Script
 
-**Title:**
+Title:
 *“The AI That Finds What You Missed”*
 
-**Tagline:**
+Tagline:
 *AI explained, one uncomfortable truth at a time*
 
 ---
 
-**Suresh (curious):**
+Suresh (curious):
 “Hey Ramesh, what’s this buzz about Claude Mythos?”
 
-**Ramesh (calm):**
+Ramesh (calm):
 “It’s an AI from Anthropic that can find very old hidden bugs in software.”
 
-**Suresh (interested):**
+Suresh (interested):
 “That sounds great… so why are Indian banks worried?”
 
-**Ramesh (serious):**
+Ramesh (serious):
 “If a bad actor gets access, they could find a flaw in software and exploit it fast.”
 
-**Suresh (concerned):**
+Suresh (concerned):
 “But aren’t we good enough to get access to it?”
 
-**Ramesh (subtle, sharp):**
+Ramesh (subtle, sharp):
 “Hmm… maybe not good enough. Yet.”
 
 ---
 
 ### Marathi Script
 
-**Title:**
+Title:
 *“तुमच्या सॉफ्टवेअरमधलं लपलेलं कोण आधी शोधणार?”*
 
-**Tagline:**
+Tagline:
 *AI समजून घ्या… थोडं हसत, थोडं विचार करत*
 
 ---
 
-**सुरेश (कुतूहलाने):**
+सुरेश (कुतूहलाने):
 “अरे रमेश, हा Claude Mythos काय प्रकार आहे?”
 
-**रमेश (शांत):**
+रमेश (शांत):
 “Anthropic चा AI आहे. सॉफ्टवेअर मधले जुने, लपलेले bugs शोधतो.”
 
-**सुरेश (उत्सुक):**
+सुरेश (उत्सुक):
 “छानच आहे ना मग… पण बँका घाबरल्या का?”
 
-**रमेश (गंभीर):**
+रमेश (गंभीर):
 “चुकीच्या माणसाकडे गेला तर, तो bug शोधून गैरफायदा घेऊ शकतो.”
 
-**सुरेश (चिंतेत):**
+सुरेश (चिंतेत):
 “आपण इतके चांगले नाही का की आपल्याला access मिळेल?”
 
-**रमेश (हलकी स्मित, अर्थपूर्ण):**
+रमेश (हलकी स्मित, अर्थपूर्ण):
 “हं… कदाचित अजून नाही.”
 
 ---
@@ -426,54 +385,54 @@ Ramesh: Dangerous future: humans may get employed by AI Agents!!
 
 ### English Script
 
-**Suresh:**
+Suresh:
 “Ramesh, AI news is everywhere… but why is it always so confusing?”
 
-**Ramesh:**
+Ramesh:
 “Because it’s written for experts, not for everyday people like you.”
 
-**Suresh:**
+Suresh:
 “So what do we do… just nod and pretend we understood? 😅”
 
-**Ramesh:**
+Ramesh:
 “Or… we turn it into something you’d actually enjoy reading.”
 
-**Suresh:**
+Suresh:
 “Like what, memes?”
 
-**Ramesh:**
+Ramesh:
 “Better. Conversations that make you laugh… and think.”
 
-**Suresh:**
+Suresh:
 “Wait… learning AI without getting bored?”
 
-**Ramesh:**
+Ramesh:
 “That’s the experiment. Let’s see if it works.”
 
 ---
 
 ### Marathi Script
 
-**सुरेश:**
+सुरेश:
 “अरे रमेश, सगळीकडे AI बद्दल बोलतात… पण काही कळतच नाही!”
 
-**रमेश:**
+रमेश:
 “कारण ते एक्स्पर्ट लोकांसाठी लिहिलेलं असतं, आपल्यासाठी नाही.”
 
-**सुरेश:**
+सुरेश:
 “मग आपण काय करायचं? फक्त समजल्यासारखं दाखवायचं? 😅”
 
-**रमेश:**
+रमेश:
 “नाही… तेच मजेशीर पद्धतीने समजावून सांगायचं.”
 
-**सुरेश:**
+सुरेश:
 “म्हणजे memes वगैरे?”
 
-**रमेश:**
+रमेश:
 “त्याहून चांगलं — गप्पा, ज्या हसवतील… आणि विचार करायला लावतील.”
 
-**सुरेश:**
+सुरेश:
 “म्हणजे कंटाळा न येता AI शिकायचं?”
 
-**रमेश:**
+रमेश:
 “हो… आणि तेच SuRaAI करून दाखवणार आहे.”

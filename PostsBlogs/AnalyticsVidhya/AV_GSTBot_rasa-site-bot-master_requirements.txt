@@ -1,0 +1,10 @@
+Flask==3.1.3
+Flask-Admin==1.5.3
+Flask-Migrate==2.0.3
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.2
+gevent==23.9.0
+git+https://github.com/mit-nlp/MITIE.git
+numpy==1.22.0
+rasa-nlu==0.7.2
+requests==2.33.0
