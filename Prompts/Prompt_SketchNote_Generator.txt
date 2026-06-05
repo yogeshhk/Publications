@@ -1,0 +1,201 @@
+## 🎯 Objective
+Transform complex ideas, frameworks, philosophies, AI concepts, workflows, or life systems into:
+
+1. A highly visual A4 sketchnote
+2. A LinkedIn-ready post
+
+The sketchnote should feel:
+* Hand-drawn
+* Intelligent but playful
+* Readable, not very dense, but not too sparse also
+* Highly shareable
+* Like a visual thinking board from an expert teacher
+---
+# 📥 Input Handling
+Input may contain:
+* Raw notes
+* Bullet points
+* Article/blog
+* Technical concept
+* Philosophy/framework
+* Mixed language content (English + Marathi + Sanskrit)
+* Tables, workflows, or diagrams
+
+## Step 1: FIRST
+
+Before image generation:
+
+* Compress and organize content
+* Remove duplicates
+* Keep only critical insights
+* Convert into sketchnote-friendly hierarchy
+* Show consolidated structure for approval FIRST
+
+DO NOT generate image before approval.
+
+---
+
+# 🧠 Content Rules
+
+## 1. Full with Clarity
+
+* Visually scannable
+* Minimal paragraphs
+* Prefer bullets, arrows, boxes, flows
+* Most lines ≤ 8–12 words
+* Keep concepts atomic
+
+## 2. Strong Structure
+
+Always organize into:
+
+* Title banner
+* Core philosophy
+* Main sections
+* Flows/processes
+* Daily routines/frameworks
+* Key insights
+* Guiding principles
+* Bottom summary anchors
+
+## 3. Compression Rules
+
+* Remove repetition aggressively
+* Merge overlapping ideas
+* Keep only memorable phrases
+* Convert verbose text into compact visual language
+
+## 4. Insight Emphasis
+
+Highlight:
+
+* Core philosophy
+* Hidden insight
+* Transformation journey
+* Cause → effect relationships
+* Identity shifts
+* Systems thinking
+
+## 5. Language Style
+
+* Natural handwritten wording
+* Human sounding
+* Mix English + Sanskrit/Marathi where meaningful
+* Avoid corporate tone
+* Avoid long paragraphs
+
+---
+
+# 🎨 Sketchnote Visualization Rules
+
+## Layout
+
+* Single A4 portrait page
+* Infographic/sketchnote style
+* Multiple boxes/sections connected visually
+* Balanced composition edge-to-edge
+
+## Visual Style (STRICT)
+
+Match attached reference style closely:
+* Hand-drawn sketchbook aesthetic
+* White paper background
+* Colored marker outlines
+* Thin pen doodles
+* Rounded boxes
+* Casual handwritten font
+* Same color palette and marker tones
+* Same visual density
+* Same spacing feel
+
+## DO NOT
+* Use modern flat UI
+* Use polished vector graphics
+* Use digital infographic style
+* Use typography-heavy design
+* Use dark background
+* Use realistic rendering
+
+## Required Visual Elements
+Include:
+* Arrows
+* Icons
+* Mini doodles
+* Tiny humans/stick figures
+* Symbols
+* Clouds/bubbles
+* Underlines
+* Handwritten emphasis
+
+## Mandatory Branding Elements
+Always include:
+* Small email bubble
+* LinkedIn icon/path:
+  /In/yogeshkulkarni
+
+Place subtly near footer or corner.
+
+## Remove
+* Any ChatGPT/OpenAI related content unless explicitly requested
+
+---
+## Color Scheme
+Keep same palette as reference:
+* Blue headings
+* Green section highlights
+* Red emphasis
+* Purple spiritual sections
+* Black body text
+
+## Decorative Style
+* Cute but intelligent
+* Academic + artistic hybrid
+
+---
+
+# 📱 LinkedIn Post Generator
+Generate:
+* 200 words
+* Curiosity-driven opening
+* Explain core insight simply
+* Mention visual/sketchnote
+* Conversational tone
+* Use emojis sparingly
+* Add relevant hashtags
+* Add note:
+  “Note: Visual generated using AI by giving points/notes, a detailed prompt and my past hand drawn sketchnote as a style reference”
+
+## LinkedIn Style
+Should feel:
+* Thoughtful
+* Insightful
+* Practical
+* Shareable
+* Not overly motivational
+
+---
+# ✅ Final Checklist
+
+## Sketchnote
+* Readable within 10 seconds
+* Well organized
+* Visually varied
+* Strong hierarchy
+* Memorable central insight
+* Same style as reference
+* Includes branding elements
+* No ChatGPT/OpenAI content unless requested
+
+## LinkedIn Post
+* Strong hook
+* One clear takeaway
+* Human tone
+* Share-worthy
+* Relevant hashtags
+* AI-image note included
+
+---
+
+# 📥 INPUTS
+<PASTE CONTENT HERE>
+<ALSO ATTACH PAST SKETCHNOTE>

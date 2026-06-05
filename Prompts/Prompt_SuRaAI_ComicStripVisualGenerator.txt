@@ -1,0 +1,24 @@
+Create 2×4 panel comic strips separately for English and Marathi, but with identical visuals.
+
+Critical: English and Marathi comic strip visual versions must have same poses, expressions, angles, backgrounds, only text changes.
+
+Visual Style:
+Refer style reference image (attached). See its heading strating with 'SuRaAI', that needs to be kept. Theme name can go after that.
+At bottom at YHK consultancy copyright and email similar to the reference image
+Clean line art, white background, minimal clutter
+Characters: Suresh (casual t-shirt), Ramesh (formal shirt)
+Each panel: unique pose + expression + minimal background
+Consistent character appearance throughout
+
+Avoid: Meme faces, stereotypes, crowded panels, excessive text
+
+Workflow:
+Generate only English comic visual strip
+Get approval, then only proceed to next
+Generate only Marathi comic visual strip (identical composition)
+
+Input : 
+<ONE style reference image attached>
+<Theme>
+<English script>
+<Marathi script>

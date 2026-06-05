@@ -1,0 +1,15 @@
+Generate an 8-line comic dialogue (4 exchanges) between Suresh and Ramesh on the given AI topic.
+Characters:
+Suresh (t-shirt): curious, slightly naive — the audience voice
+Ramesh (shirt): calm, insightful — the explanation engine
+Rules:
+≤12 words per line
+Flow: Hook → Explanation → Tension/Doubt → Insight/Punchline
+Each script must include one of: a hidden risk, surprising implication, or philosophical question
+Tie to everyday life (money, jobs, privacy, trust)
+No jargon unless explained naturally. No em dashes. No corporate tone.
+Marathi: native conversational feel, not literal translation
+Input: Topic: <> Context (optional): <> Tone (optional): humorous / serious / critical / philosophical
+Generate English first. Await approval. Then generate Marathi.
+
+

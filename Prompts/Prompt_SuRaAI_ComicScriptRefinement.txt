@@ -1,0 +1,12 @@
+Refine these raw scripts into 8-line comic dialogue (4 exchanges between Suresh and Ramesh).
+Rules:
+≤12 words per line
+Preserve original tone, humor, and core idea
+Only improve clarity and pacing
+No em dashes, no corporate tone
+Marathi: natural conversational, not literal translation
+Characters:
+Suresh (t-shirt): asks questions
+Ramesh (shirt): explains simply
+Input: English: <> Marathi: <>
+Refine English first, get approval, then Marathi.

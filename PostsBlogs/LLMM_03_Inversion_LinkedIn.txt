@@ -1,0 +1,22 @@
+🧠 Let's Learn Mental Models: Inversion
+
+🔍 What is it?
+Instead of asking how to achieve a goal, ask what would guarantee failure, then avoid those things. Sometimes the clearest path forward is found by thinking backwards. 🔄
+
+🛠️ How to Apply It
+Define the desired outcome clearly. Brainstorm every action, habit, or condition that would guarantee you never reach it. Eliminate or guard against those failure modes rather than only chasing success.
+
+💡 Try This Today
+Before your next project kick-off, write a "pre-mortem": assume it failed completely and list all the causes. Then work backwards to remove them before you even begin. 🎯
+
+(Note: Visual for this post is from the book and is AI-generated using a detailed prompt.)
+
+🚀 Ready to think more clearly? Grab your copy of Mental Models!
+
+📘 Amazon India → https://www.amazon.in/Mental-Models-Powerful-Frameworks-Decision-Making/dp/B0H3BX5BRT
+🏛️ Sakal Publications  → https://sakalpublications.com/products/mental-models?_pos=2&_sid=595706e1d&_ss=r
+
+
+#MentalModels #LLMM #LLMM03 #Inversion #CriticalThinking #ProblemSolving #DecisionMaking #LearnEveryDay #Leadership #PersonalDevelopment #BookLaunch #StrategicThinking
+
+📣 @Sakal Prakashan @Sakal Media Group @Ashutosh Ramgir
