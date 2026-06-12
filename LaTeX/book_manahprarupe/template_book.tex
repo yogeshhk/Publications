@@ -1,28 +1,53 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% LaTeX book template                           %%
-%% Author:  Amber Jain (http://amberj.devio.us/) %%
-%% License: ISC license                          %%
+%% Book template — मेन्टल मॉडेल्स              %%
+%% XeLaTeX + Tiro Devanagari Marathi            %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage{lmodern}
-% \usepackage{geometry}
 
-\usepackage[paperwidth=6in, paperheight=9in, margin=0.75in]{geometry}
+% ----- Page geometry: 6×9 trade book, asymmetric margins for binding -----
+\usepackage[paperwidth=6in, paperheight=9in,
+            inner=0.9in, outer=0.65in,
+            top=0.85in, bottom=0.85in]{geometry}
 
-% Color package for custom colors
+% ----- Colors -----
 \usepackage[dvipsnames,table]{xcolor}
+\colorlet{mmblue}{blue!40!black}
+\colorlet{mmintro}{blue!60!black}
+\colorlet{mmboxbg}{blue!5!white}
 
-% Packages to handle empty pages and page styles
+% ----- Empty pages and running headers -----
 \usepackage{emptypage}
 \usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
 
-% Package for customizing chapter/section headings
+% Running headers — suppress "Chapter N." prefix in header text
+% \pagestyle{fancy} is activated in Main_Book_ManahPrarupe_interior.tex at \mainmatter
+% so frontmatter (title, TOC, initialpages) uses LaTeX's default plain style.
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+\fancyhf{}
+\fancyhead[LE]{\small\textit{मेन्टल मॉडेल्स}}
+\fancyhead[RO]{\small\itshape\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Chapter-opening pages: page number only, no running head
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[LE,RO]{\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
+
+% ----- Chapter heading design -----
 \usepackage{titlesec}
+% Format: blue chapter number | title, thin blue rule below
+\titleformat{\chapter}[block]
+  {\normalfont\bfseries}
+  {\textcolor{mmblue}{\normalsize\thechapter\ |\ }}
+  {0pt}
+  {\LARGE}
+  [\vspace{3pt}{\color{mmblue}\titlerule[0.8pt]}]
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ----- Hyperlinks -----
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -32,54 +57,40 @@
     citecolor=black,
     pdfborder={0 0 0}
 }
+
+% ----- Math symbols (needed for \blacktriangleright in tcolorbox Try This) -----
+\usepackage{amssymb}
+
+% ----- Graphics and floats -----
 \usepackage{graphicx}
+\usepackage{float}
+
+% ----- tcolorbox with named style -----
+% Individual chapter files use inline styles (which match these colors exactly).
+% New boxes can use: \begin{tcolorbox}[mmbox, title={N | Topic}]
 \usepackage{tcolorbox}
-\usepackage[english]{babel}
+\tcbset{mmbox/.style={
+  colback=mmboxbg,
+  colframe=mmblue,
+  fonttitle=\bfseries\small,
+  boxrule=0.5pt,
+  left=6pt, right=6pt, top=4pt, bottom=4pt
+}}
+
+% ----- Devanagari readability -----
+% 10% extra leading — prevents diacritic clashing between lines
+\linespread{1.1}
+
+% Looser justification — avoids overfull hboxes in Devanagari word spacing
+\tolerance=800
+\emergencystretch=2em
+\hbadness=10000
+
+% ----- Table of contents heading -----
+\renewcommand{\contentsname}{अनुक्रमणिका}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Customize table of contents heading                                         %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Method 1: Simple text replacement
-\addto\captionsenglish{\renewcommand{\contentsname}{अनुक्रमणिका}}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % Color definitions for different elements                                    %
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % Define custom colors
-% \definecolor{titlecolor}{RGB}{0, 51, 102}        % Dark blue for main title
-% \definecolor{subtitlecolor}{RGB}{102, 51, 0}     % Brown for subtitle
-% \definecolor{authorcolor}{RGB}{51, 51, 51}       % Dark gray for author
-% \definecolor{chaptercolor}{RGB}{68, 142, 228}    % Dark Sky blue for chapters
-% \definecolor{sectioncolor}{RGB}{0, 102, 51}      % Dark green for sections
-% \definecolor{subsectioncolor}{RGB}{102, 0, 102}  % Purple for subsections
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % Customize chapter and section headings with colors                          %
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% % Chapter formatting
-% \titleformat{\chapter}[display]
-  % {\normalfont\huge\bfseries\color{chaptercolor}}
-  % {\chaptertitlename\ \thechapter}{20pt}{\Huge\color{chaptercolor}}
-
-% % Section formatting
-% \titleformat{\section}
-  % {\normalfont\Large\bfseries\color{sectioncolor}}
-  % {\thesection}{1em}{}
-
-% % Subsection formatting
-% \titleformat{\subsection}
-  % {\normalfont\large\bfseries\color{subsectioncolor}}
-  % {\thesubsection}{1em}{}
-
-% % Subsubsection formatting
-% \titleformat{\subsubsection}
-  % {\normalfont\normalsize\bfseries\color{subsectioncolor}}
-  % {\thesubsubsection}{1em}{}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 'dedication' environment: To add a dedication paragraph at the start of book %
-% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+% 'dedication' environment                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newenvironment{dedication}
 {
@@ -96,11 +107,10 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter quote at the start of chapter        %
-% Source: http://tex.stackexchange.com/a/53380 %
+% Chapter quote environment                    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
-\renewcommand{\@chapapp}{}% Not necessary...
+\renewcommand{\@chapapp}{}
 \newenvironment{chapquote}[2][2em]
   {\setlength{\@tempdima}{#1}%
    \def\chapquote@author{#2}%
@@ -109,12 +119,10 @@
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
 \makeatother
 
-\renewcommand{\contentsname}{अनुक्रमणिका}
-
-%% Define watermark
+%% Watermark — enable for draft review copies
 %\AddEverypageHook{%
 %  \begin{tikzpicture}[remember picture,overlay]
-%    \node[rotate=45, scale=6, text opacity=0.1, font=\sffamily\bfseries] 
+%    \node[rotate=45, scale=6, text opacity=0.1, font=\sffamily\bfseries]
 %      at (current page.center) {DRAFT};
 %  \end{tikzpicture}%
 %}

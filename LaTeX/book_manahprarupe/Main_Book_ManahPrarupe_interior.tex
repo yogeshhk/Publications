@@ -12,6 +12,16 @@
 % \setmainfont[Script=Devanagari]{Noto Serif Devanagari}
 % \newfontfamily\devanagarifont[Scale=MatchUppercase]{Noto Serif Devanagari}
 \newfontfamily\devtransl[Mapping=DevRom]{Segoe UI}
+
+% English/Latin font for tcolorbox summary-box bodies.
+% Georgia is a Windows system font with good readability at body sizes.
+% For a more scholarly look, install EB Garamond (free, Google Fonts) and swap:
+% \newfontfamily\englishfont[Scale=1.0]{EB Garamond}
+\newfontfamily\englishfont[Scale=1.0]{Georgia}
+
+% Apply English font to the body of every tcolorbox (all boxes in this book are English)
+\tcbset{fontupper=\englishfont}
+
 \graphicspath{{images/}{LLMM/}}
 
 
@@ -19,7 +29,7 @@
 
 
 \title{
-    {\Huge \textbf{मन:प्रारूपे}} \\ 
+    {\Huge \textbf{मेन्टल मॉडेल्स}} \\
     \vspace{0.5em}
     {\large (विविध क्षेत्रातील `मेंटल मॉडेल्स'ची तोंडओळख)}
 }
@@ -33,6 +43,7 @@
 \tableofcontents
 
 \mainmatter
+\pagestyle{fancy}
 \input{book_manahprarupe_content}
 
 \end{document}
